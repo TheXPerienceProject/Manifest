@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="https://github.com/" />         
            
- <remote name="omni"
+ <remote name="omnirom"
           fetch="https://github.com/OmniROM" />
            
   <remote  name="aosp"
