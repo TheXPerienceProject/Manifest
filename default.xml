@@ -4,6 +4,9 @@
   <remote  name="xpe"
            fetch="http://github.com/" />
            
+ <remote name="omni"
+          fetch="https://github.com/OmniROM" />
+           
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
            
