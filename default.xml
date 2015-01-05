@@ -219,7 +219,7 @@
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
-  <project path="external/libvterm" name="XPerience-AOSP-Lollipop/android_external_libvterm" />
+  <project path="external/libvterm" name="CyanogenMod/android_external_libvterm" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" groups="pdk-cw-fs" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
@@ -449,7 +449,7 @@
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
-  <project path="packages/apps/terminal" name="XPerience-AOSP-Lollipop/android_packages_apps_Terminal" />
+  <project path="packages/apps/terminal" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <!-- <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" /> -->
   <!--<project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />-->
