@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aosp"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-5.0.2_r1" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          review="android-review.googlesource.com"
+          revision="refs/tags/android-5.0.2_r1" />
 
   <remote  name="github"
            fetch=".."
