@@ -3,6 +3,7 @@
 
   <remote  name="aosp"
            review="android-review.googlesource.com"
+           revision="refs/tags/android-5.0.2_r1" />
            />
 
   <remote  name="github"
