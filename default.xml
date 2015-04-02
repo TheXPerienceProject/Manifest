@@ -14,8 +14,9 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="XPe"
+  	   fetch=".."
+  	   review="github.com/XPerience-AOSP-Lollipop"
   	   revision="refs/heads/xpe-9.1"
-	   remote="github"
 	   sync-c="true"
 	   sync-j="4" />
 
