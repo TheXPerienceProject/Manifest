@@ -378,7 +378,7 @@
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
-  <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
+  <project path="frameworks/webview" name="XPerience-AOSP-Lollipop/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
