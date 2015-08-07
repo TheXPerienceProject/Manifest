@@ -98,3 +98,7 @@ They do a lot for the community
 
 Developers:
 TeamMEX
+
+bibliography:
+http://tryge.com/2013/06/15/build-android-from-source-macosx/
+https://source.android.com/source/initializing.html
