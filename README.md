@@ -84,6 +84,15 @@ Downloading the source
      repo sync
 
 
+NOTE:
+=====
+if you are old linux user and nano are familiar for you (like me xD) you need change this to
+
+     git config --global core.editor nano
+     
+and you can use like linux commands :)
+
+
 Credits to:
 =============
 
