@@ -92,6 +92,24 @@ if you are old linux user and nano are familiar for you (like me xD) you need ch
      
 and you can use like linux commands :)
 
+NOTE 2
+======
+
+if you have problems related to gnu-sed ("GNU sed is required for Darwin builds, please install and add 'gsed' to the path")
+
+
+install brew and follow this
+tap in terminal:
+
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+ow, we need to run a few commands through Brew, just to make sure everything is installed correctly. Enter the following into the Terminal:
+Code:
+     brew outdated && brew update && brew upgrade && brew doctor
+
+now you can use brew
+
+     brew install gnu-sed gnupg pngcrush
 
 Credits to:
 =============
