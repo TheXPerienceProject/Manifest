@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <remote  name="github"
+           fetch="https://github.com" />
+           
   <remote  name="aosp"
            fetch=".." />
+           
   <default revision="refs/tags/android-m-preview-2"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+           
+  <project path="build" name="XPerience-AOSP-Lollipop/android_build" groups="pdk,tradefed" remote="github" revision="xpe-10.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
