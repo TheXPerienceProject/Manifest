@@ -12,7 +12,7 @@
            fetch=".."
             />
            
-   <default revision="xpe-10.0"
+   <default
            remote="github2"
            sync-c="true"
            sync-j="4" />
