@@ -135,7 +135,7 @@
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
-  <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" remote="aosp" /revision="refs/tags/android-6.0.0_r1" >
+  <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
