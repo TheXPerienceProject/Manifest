@@ -18,19 +18,24 @@
            sync-j="4" />
 
 <!-- BEGIN XPerience Sause -->
-  <project path="build" name="XPerience-AOSP-Lollipop/android_build" groups="pdk" >
+  <project path="build" name="XPerience-AOSP-Lollipop/android_build" groups="pdk" revision="xpe-10.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="XPerience-AOSP-Lollipop/bionic" groups="pdk" />
-  <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" groups="pdk-fs" />
-  <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="bionic" name="XPerience-AOSP-Lollipop/bionic" groups="pdk" revision="xpe-10.0"/>
+  <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" groups="pdk-fs" revision="xpe-10.0"/>
+  <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="xpe-10.0"/>
 <!--Finish XPerience Sauce-->
 <!-- BEGIN cyanogenmod -->
-<project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" revision="refs/heads/cm-13.0" />
+<project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="refs/heads/cm-13.0" />
+<project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="refs/heads/cm-13.0" />
+<project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="github" revision="refs/heads/cm-13.0" />
+  <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" groups="pdk-cw-fs" remote="github" revision="refs/heads/cm-13.0" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="refs/heads/cm-13.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="refs/heads/cm-13.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="refs/heads/cm-13.0" />
 <!--Start AOSP source-->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"  remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
