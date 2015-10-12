@@ -15,13 +15,13 @@
            sync-j="4" />
            
 
-<--Start XPerience Sauce-->
+<!--Start XPerience Sauce-->
   <project path="build" name="XPerience-AOSP-Lollipop/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="XPerience-AOSP-Lollipop/bionic" groups="pdk" />
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" groups="pdk-fs" />
-<--!Finish! XPerience Sauce-->
+<!--Finish XPerience Sauce-->
 
 <!--Start AOSP source-->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"  remote="aosp" revision="refs/tags/android-6.0.0_r1" />
@@ -463,5 +463,5 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools"  remote="aosp" revision="refs/tags/android-6.0.0_r1"  />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools"  remote="aosp" revision="refs/tags/android-6.0.0_r1"  />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed"  remote="aosp" revision="refs/tags/android-6.0.0_r1"  />
-<--!Finished AOSP source-->
+<!--Finished AOSP source-->
 </manifest>
