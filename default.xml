@@ -7,7 +7,7 @@
  <remote  name="aosp"
         fetch="https://android.googlesource.com"
         review="android-review.googlesource.com"
-        revision="refs/tags/android-6.0_r1" />
+        revision="refs/tags/android-6.0.0_r1" />
            
   <default revision="refs/tags/xpe-10.0“
            remote=“github”
@@ -24,7 +24,7 @@
 <--!Finish! XPerience Sauce-->
 
 <!--Start AOSP source-->
-  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"  remote="aosp" />
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk"  remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
