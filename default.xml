@@ -8,8 +8,12 @@
         fetch="https://android.googlesource.com"
         review="android-review.googlesource.com" />
            
-  <default revision="refs/heads/xpe-10.0"
-           remote="github"
+  <remote  name="github2"
+           fetch=".."
+            />
+           
+   <default revision="refs/heads/xpe-10.0"
+           remote="github2"
            sync-c="true"
            sync-j="4" />
 
