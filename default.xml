@@ -168,7 +168,7 @@
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
-  <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" remote="aosp" /revision="refs/tags/android-6.0.0_r1" >
+  <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk-cw-fs,pdk-fs" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" revision="refs/tags/android-6.0.0_r1" />
