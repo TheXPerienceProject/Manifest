@@ -6,16 +6,14 @@
        
  <remote  name="aosp"
         fetch="https://android.googlesource.com"
-        review="android-review.googlesource.com"
-        />
+        review="android-review.googlesource.com" />
            
-  <default revision="refs/tags/xpe-10.0“
-           remote=“github”
+  <default revision="refs/tags/xpe-10.0"
+           remote="github"
            sync-c="true"
            sync-j="4" />
-           
 
-<!--Start XPerience Sauce-->
+<!-- BEGIN XPerience Sause -->
   <project path="build" name="XPerience-AOSP-Lollipop/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
