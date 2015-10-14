@@ -245,7 +245,7 @@
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning"  remote="cm" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf"  remote="cm" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc"  remote="cm" />
-  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp"  remote="cm" />
+  <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller"  remote="cm" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon"  remote="cm" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles"  remote="cm" />
