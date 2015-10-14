@@ -30,7 +30,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" />
-  <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" />
+  <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" remote="github" revision="xpe-10.0"/>
 <!--Finish XPerience Sauce-->
 
 <!-- BEGIN CYANOGENMOD -->
