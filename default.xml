@@ -40,7 +40,7 @@
  <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="cm" revision="refs/heads/xpe-10.0">
    <copyfile src="build.sh" dest="rom-build.sh" />
  </project>
- <project path="android" name="XPerience-AOSP-Lollipop/Manifest" revision="refs/heads/xpe-10.0" revision="refs/heads/xpe-10.0"/>
+ <project path="android" name="XPerience-AOSP-Lollipop/Manifest" revision="refs/heads/xpe-10.0" />
  <project path="frameworks/webview" name="XPerience-AOSP-Lollipop/android_frameworks_webview" remote="cm" revision="refs/heads/xpe-10.0"/>
  <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="cm" revision="refs/heads/xpe-10.0" />
 <!--Finish XPerience Sauce-->
