@@ -1,4 +1,4 @@
-XPerience 9
+XPerience 10
 ============
 This Rom Actually is based on AOSP , 
 But contain alot of commits from CM and CAF , So I need say this roms is a hybrid rom
@@ -6,7 +6,7 @@ But contain alot of commits from CM and CAF , So I need say this roms is a hybri
 How to fetch and build
 ======================
 
- repo init -u https://github.com/XPerience-AOSP-Lollipop/Manifest -b xpe-9.1
+ repo init -u https://github.com/XPerience-AOSP-Lollipop/Manifest -b xpe-10.0
  
 
 <b>to build:</b>
