@@ -6,39 +6,45 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.0_r1" />
 
-  <remote  name="cm"
-           fetch=".."
-           review="review.cyanogenmod.org" 
-	      revision="cm-13.0"/>
+<remote  name="github"
+         fetch=".."
+         review="review.cyanogenmod.org" />
+         
+<remote  name="cm"
+         fetch=".."
+         review="review.cyanogenmod.org" />
 
-  <remote  name="github"
-		 fetch=".." />
+<remote  name="private"
+         fetch="ssh://git@github.com" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+<remote  name="XPe"
+         fetch=".."
+         review="github.com/XPerience-AOSP-Lollipop"
+         revision="refs/heads/xpe-10.0"
+         sync-c="true"
+         sync-j="4" />
 
-
-  <default revision="refs/heads/xpe-10.0"
-           remote="github"
-           sync-c="true"
-           sync-j="4" />
+<default revision="refs/heads/cm-13.0"
+         remote="cm"
+         sync-c="true"
+         sync-j="4" />
 
 
 
 <!-- BEGIN XPerience Sause -->
-<project path="build" name="XPerience-AOSP-Lollipop/android_build" groups="pdk" revision="xpe-10.0">
+<project path="build" name="XPerience-AOSP-Lollipop/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
- <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" revision="xpe-10.0"/>
- <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" revision="xpe-10.0"/>
- <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" revision="xpe-10.0"/>
- <project path="android" name="XPerience-AOSP-Lollipop/Manifest" revision="xpe-10.0"/>
- <project path="frameworks/webview" name="XPerience-AOSP-Lollipop/android_frameworks_webview" revision="xpe-9.1"/>
- <project path="packages/apps/Eleven" name="XPerience-AOSP-Lollipop/android_packages_apps_Eleven" revision="xpe-9.1" />
- <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" revision="xpe-9.1"/>
+ <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="cm"/>
+ <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" remote="cm"/>
+ <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="cm"/>
+ <project path="android" name="XPerience-AOSP-Lollipop/Manifest" revision="refs/heads/xpe-10.0"/>
+ <project path="frameworks/webview" name="XPerience-AOSP-Lollipop/android_frameworks_webview" remote="cm"/>
+ <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="cm" />
 <!--Finish XPerience Sauce-->
 
 <!-- BEGIN CYANOGENMOD -->
+ <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="cm" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cm"/>
   <project path="art" name="CyanogenMod/android_art" groups="pdk"  remote="cm" />
     <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" />
