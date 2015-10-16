@@ -37,7 +37,7 @@
 
 
 <!-- BEGIN XPerience Sause -->
-<project path="build" name="XPerience-AOSP-Lollipop/android_build" groups="pdk" >
+<project path="build" name="XPerience-AOSP-Lollipop/android_build" groups="pdk" remote="cm" revision="refs/heads/xpe-10.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
  <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="cm" revision="refs/heads/xpe-10.0"/>
