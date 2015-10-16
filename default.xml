@@ -46,11 +46,11 @@
    <copyfile src="build.sh" dest="rom-build.sh" />
  </project>
  <project path="android" name="XPerience-AOSP-Lollipop/Manifest" revision="refs/heads/xpe-10.0" />
- <project path="frameworks/webview" name="XPerience-AOSP-Lollipop/android_frameworks_webview" remote="cm" revision="refs/heads/xpe-10.0"/>
  <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="cm" revision="refs/heads/xpe-10.0" />
 <!--Finish XPerience Sauce-->
 
 <!-- BEGIN CYANOGENMOD -->
+ <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="cm" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="cm"/>
   <project path="art" name="CyanogenMod/android_art" groups="pdk"  remote="cm" />
