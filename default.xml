@@ -222,6 +222,7 @@
   <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8974"  remote="cm" />
   <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8994"  remote="cm" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan"  remote="cm" />
+  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-13.0-caf" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk"  remote="cm" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf"  remote="cm" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5"  remote="cm" />
@@ -259,7 +260,7 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain"  remote="cm" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock"  remote="cm" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning"  remote="cm" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf"  remote="cm" />
+  <!--<project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf"  remote="cm" />-->
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc"  remote="cm" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller"  remote="cm" />
