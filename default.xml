@@ -127,6 +127,7 @@
   <project path="external/lzma" name="CyanogenMod/android_external_lzma"  remote="cm" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo"  remote="cm" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk"  remote="cm" />
+  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" />
   <project path="external/nano" name="CyanogenMod/android_external_nano"  remote="cm" />
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" groups="pdk-cw-fs"  remote="cm" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g"  remote="cm" />
@@ -206,6 +207,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8974"  remote="cm" />
   <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8994"  remote="cm" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom"  remote="cm" />
+  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="cm-13.0-caf" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom"  remote="cm" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display"  remote="cm" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-13.0-caf-8084"  remote="cm" />
