@@ -50,7 +50,7 @@
  <project path="external/sepolicy" name="XPerience-AOSP-Lollipop/android_external_sepolicy" groups="pdk" remote="cm" revision="xpe-10.0" />
  <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk"  remote="cm" revision="xpe-10.0" />
  <!--<project path="frameworks/av" name="XPerience-AOSP-Lollipop/android_frameworks_av" groups="pdk"  remote="cm" revision="xpe-10.0" />-->
- <project path="frameworks/av" name="cyanogenmod/android_frameworks_av" groups="pdk remote="cm" />
+ <project path="frameworks/av" name="cyanogenmod/android_frameworks_av" groups="pdk" remote="cm" />
  <!--<project path="external/stagefright-plugins" name="XPerience-AOSP-Lollipop/android_external_stagefright-plugins" remote="cm" revision="xpe-10.0" />-->
  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm" />
 <!--Finish XPerience Sauce-->
