@@ -48,6 +48,7 @@
   <project path="external/sepolicy" name="XPerience-AOSP-Lollipop/android_external_sepolicy" groups="pdk" remote="cm" revision="xpe-10.0" />
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk"  remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/OpenDelta" name="XPerience-AOSP-Lollipop/android_packages_apps_OpenDelta" remote="cm" revision="xpe-10.0" />
+  <project path="packages/apps/DeskClock" name="XPerience-AOSP-Lollipop/android_packages_apps_DeskClock" remote="cm" revision="xpe-10.0" groups="pdk-fs" />
   <!--Finish XPerience Sauce-->
 
 <!-- BEGIN CYANOGENMOD -->
@@ -259,7 +260,6 @@
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
-  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" groups="pdk-fs" />
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
