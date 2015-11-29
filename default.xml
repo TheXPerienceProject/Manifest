@@ -47,6 +47,7 @@
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="cm" revision="refs/heads/xpe-10.0" />
   <project path="external/sepolicy" name="XPerience-AOSP-Lollipop/android_external_sepolicy" groups="pdk" remote="cm" revision="xpe-10.0" />
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk"  remote="cm" revision="xpe-10.0" />
+  <project path="packages/apps/OpenDelta" name="XPerience-AOSP-Lollipop/android_packages_apps_OpenDelta" remote="cm" revision="xpe-10.0" />
   <!--Finish XPerience Sauce-->
 
 <!-- BEGIN CYANOGENMOD -->
