@@ -42,12 +42,11 @@
   <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="refs/heads/xpe-10.0"/>
   <project path="packages/apps/Apollo" name="XPerience-AOSP-Lollipop/android_packages_apps_Apollo" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/DeskClock" name="XPerience-AOSP-Lollipop/android_packages_apps_DeskClock" remote="cm" revision="xpe-10.0" groups="pdk-fs" />
-  <project path="packages/apps/OpenDelta" name="XPerience-AOSP-Lollipop/android_packages_apps_OpenDelta" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="cm" groups="pdk-fs" revision="refs/heads/xpe-10.0"/>
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="cm" revision="refs/heads/xpe-10.0" />
   <project path="external/sepolicy" name="XPerience-AOSP-Lollipop/android_external_sepolicy" groups="pdk" remote="cm" revision="xpe-10.0" />
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk"  remote="cm" revision="xpe-10.0" />
-    <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="cm" revision="refs/heads/xpe-10.0">
+  <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="cm" revision="refs/heads/xpe-10.0">
       <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="ArchiDroid/Toolchain" groups="pdk,linux,arm" remote="github" revision="architoolchain-5.2-arm-linux-gnueabihf" />
