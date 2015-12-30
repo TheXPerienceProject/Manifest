@@ -40,12 +40,13 @@
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="refs/heads/xpe-10.0"/>
+  <project path="external/sepolicy" name="XPerience-AOSP-Lollipop/android_external_sepolicy" groups="pdk" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/Apollo" name="XPerience-AOSP-Lollipop/android_packages_apps_Apollo" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/DeskClock" name="XPerience-AOSP-Lollipop/android_packages_apps_DeskClock" remote="cm" revision="xpe-10.0" groups="pdk-fs" />
-  <project path="packages/apps/ThemeChooser" name="XPerience-AOSP-Lollipop/android_packages_apps_ThemeChooser" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="cm" groups="pdk-fs" revision="refs/heads/xpe-10.0"/>
+  <project path="packages/apps/SetupWizard" name="XPerience-AOSP-Lollipop/android_packages_apps_SetupWizard" remote="cm" revision="xpe-10.0" />
+  <project path="packages/apps/ThemeChooser" name="XPerience-AOSP-Lollipop/android_packages_apps_ThemeChooser" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="cm" revision="refs/heads/xpe-10.0" />
-  <project path="external/sepolicy" name="XPerience-AOSP-Lollipop/android_external_sepolicy" groups="pdk" remote="cm" revision="xpe-10.0" />
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk"  remote="cm" revision="xpe-10.0" />
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="cm" revision="refs/heads/xpe-10.0">
       <copyfile src="build.sh" dest="rom-build.sh" />
@@ -280,7 +281,6 @@
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
-  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" groups="pdk-fs" />
