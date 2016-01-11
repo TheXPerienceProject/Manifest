@@ -44,6 +44,7 @@
   <project path="packages/apps/DeskClock" name="XPerience-AOSP-Lollipop/android_packages_apps_DeskClock" remote="cm" revision="xpe-10.0" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="cm" groups="pdk-fs" revision="refs/heads/xpe-10.0"/>
   <project path="packages/apps/SetupWizard" name="XPerience-AOSP-Lollipop/android_packages_apps_SetupWizard" remote="cm" revision="xpe-10.0" />
+  <project path="packages/apps/Snap" name="XPerience/android_packages_apps_Snap" remote="cm" revision="xpe-10.0"/>
   <project path="packages/apps/ThemeChooser" name="XPerience-AOSP-Lollipop/android_packages_apps_ThemeChooser" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="cm" revision="refs/heads/xpe-10.0" />
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk"  remote="cm" revision="xpe-10.0" />
