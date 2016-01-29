@@ -47,7 +47,7 @@
   <project path="packages/apps/Snap" name="XPerience-AOSP-Lollipop/android_packages_apps_Snap" remote="cm" revision="xpe-10.0"/>
   <project path="packages/apps/ThemeChooser" name="XPerience-AOSP-Lollipop/android_packages_apps_ThemeChooser" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="cm" revision="refs/heads/xpe-10.0" />
-  <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk"  remote="cm" revision="xpe-10.0" />
+  <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk"  remote="cm" revision="xpe-10.0-tes" />
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="cm" revision="refs/heads/xpe-10.0">
       <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
