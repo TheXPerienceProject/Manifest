@@ -17,6 +17,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
   <remote  name="XPe"
            fetch=".."
            review="github.com/XPerience-AOSP-Lollipop"
@@ -56,13 +60,13 @@
   <project path="frameworks/opt/telephony" name="XPerience-AOSP-Lollipop/android_frameworks_opt_telephony" groups="pdk" remote="cm" revision="xpe-10.0" />
   <project path="packages/services/Telecomm" name="XPerience-AOSP-Lollipop/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="xpe-10.0" />
   <project path="packages/services/Telephony" name="XPerience-AOSP-Lollipop/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="xpe-10.0" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs"/>
   <!--Finish XPerience Sauce-->
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs,pdk-fs" />
