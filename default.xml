@@ -55,6 +55,7 @@
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="cm" revision="refs/heads/xpe-10.0">
       <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+  <project path="vendor/cmsdk" name="XPerience-AOSP-Lollipop/cm_platform_sdk" remote="cm" revision="xpe-10.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="ArchiDroid/Toolchain" groups="pdk,linux,arm" remote="github" revision="architoolchain-5.2-arm-linux-gnueabihf" clone-depth="1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs"/>
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -329,7 +330,6 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
