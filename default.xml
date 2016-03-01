@@ -55,7 +55,7 @@
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="cm" revision="refs/heads/xpe-10.0">
       <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
-  <project path="vendor/cmsdk" name="XPerience-AOSP-Lollipop/cm_platform_sdk" remote="cm" revision="xpe-10.0" />
+  <project path="vendor/cmsdk" name="XPerience-AOSP-Lollipop/xpe_platform_sdk" remote="cm" revision="xpe-10.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="ArchiDroid/Toolchain" groups="pdk,linux,arm" remote="github" revision="architoolchain-5.2-arm-linux-gnueabihf" clone-depth="1" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs"/>
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
