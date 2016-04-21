@@ -66,6 +66,9 @@
 <!-- BEGIN CYANOGENMOD -->
   <include name="snippets/hal_cm_all.xml" />
   <include name="snippets/core_cm_all.xml" />
+<!-- CMSDK SAMPLES -->
+  <project path="vendor/cmsdk/samples/weatherproviderservice" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+<!-- END CMSDK SAMPLES -->
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
