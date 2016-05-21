@@ -80,7 +80,7 @@ Downloading the source
      curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
      chmod a+x ~/bin/repo
 
-     repo init -u https://github.com/XPerience-AOSP-Lollipop/Manifest -b xpe-9.1
+     repo init -u https://github.com/XPerience-AOSP-Lollipop/Manifest -b xpe-10.0
      repo sync
 
 
