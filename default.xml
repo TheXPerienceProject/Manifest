@@ -44,6 +44,7 @@
       <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="refs/heads/xpe-10.0"/>
+  <project path="frameworks/native" name="XPerience-AOSP-Lollipop//android_frameworks_native" groups="pdk" remote="cm" revision="refs/heads/xpe-10.0"/>
   <project path="external/sepolicy" name="XPerience-AOSP-Lollipop/android_external_sepolicy" groups="pdk" remote="cm" revision="xpe-10.0" />
   <project path="packages/apps/DeskClock" name="XPerience-AOSP-Lollipop/android_packages_apps_DeskClock" remote="cm" revision="xpe-10.0" groups="pdk-fs" />
   <project path="packages/apps/Gallery3" name="XPerience-AOSP-Lollipop/android_packages_apps_Gallery3" groups="pdk-fs" remote="cm" revision="xpe-10.0"/>
