@@ -20,7 +20,7 @@
     <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="aosp" />
   
   <!-- Vendor -->
-  <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPe" remote="xpe" groups="xpe" >
+  <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="xpe" groups="xpe" >
     <copyfile src="rom-build.sh" dest="rom-xpe.sh" />
   </project>
   
