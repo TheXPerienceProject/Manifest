@@ -4,7 +4,7 @@
   <project path="manifest" name="XPerience-AOSP-Lollipop/manifest" remote="xpe" groups="xpe" />
   
   <!-- xpe repositories -->
-  <project path="xpe" name="XPerience-AOSP-Lollipop/android_build" remote="xpe" groups="xpe" >
+  <project path="build" name="XPerience-AOSP-Lollipop/android_build" remote="xpe" groups="xpe" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
@@ -14,9 +14,14 @@
   <!--PAckages
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="xpe" groups="xpe" />-->
   
+  
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="aosp" />
+    <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="aosp" />
+  
   <!-- Vendor -->
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPe" remote="xpe" groups="xpe" >
-    <copyfile src="rom-xpe.sh" dest="rom-xpe.sh" />
+    <copyfile src="rom-build.sh" dest="rom-xpe.sh" />
   </project>
   
 </manifest>
