@@ -8,14 +8,12 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <!--Frameworks
-  <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" remote="xpe" groups="pdk-cw-fs,xpe" />-->
+  <!--Frameworks -->
+  <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" remote="xpe" groups="pdk-cw-fs,xpe" />
   
   <!--PAckages
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="xpe" groups="xpe" />-->
   
-  
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="aosp" />
     <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="aosp" />
   
