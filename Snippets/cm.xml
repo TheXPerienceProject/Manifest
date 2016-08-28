@@ -167,6 +167,7 @@
 <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" remote="cm" />
 <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" remote="cm" />
 <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="cm" />
+<project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" groups="pdk" remote="cm" />
 <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="cm" />
 <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="cm" />
 <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
