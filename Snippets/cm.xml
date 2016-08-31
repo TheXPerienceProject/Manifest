@@ -3,7 +3,6 @@
 <!--blank for now!-->
 
 <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" remote="cm" />
-<project path="android" name="CyanogenMod/android" remote="cm" />
 <project path="art" name="CyanogenMod/android_art" groups="pdk" remote="cm" />
 <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" />
 <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" />
