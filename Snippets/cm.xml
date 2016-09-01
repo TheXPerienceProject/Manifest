@@ -8,7 +8,6 @@
 <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" />
 <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="cm" />
 <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs,pdk-fs" remote="cm" />
-<project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="cm" />
 <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" remote="cm" />
 <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="cm" />
 <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="cm" />
