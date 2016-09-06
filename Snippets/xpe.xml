@@ -9,7 +9,7 @@
   </project>
   
   <!--device-->
-  <project path="device/qcom/sepolicy" name="XPerience-AOSP-Lollipop/android_device_qcom_sepolicy" remote="xpe" />
+  <!--<project path="device/qcom/sepolicy" name="XPerience-AOSP-Lollipop/android_device_qcom_sepolicy" remote="xpe" />-->
   
   <!--Frameworks -->
   <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" remote="xpe" groups="pdk-cw-fs,pdk-fs,xpe" />
