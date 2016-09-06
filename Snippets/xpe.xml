@@ -18,6 +18,7 @@
   <!--PAckages-->
  <!-- <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="xpe" groups="xpe" />-->
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/SetupWizard" name="XPerience-AOSP-lollipop/android_packages_apps_SetupWizard" remote="xpe" />
   
   <!--System-->
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk" remote="xpe" />
@@ -27,4 +28,6 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   
+  <!--CM SDK-->
+  <project path="vendor/cmsdk" name="XPerience-AOSP-Lollipop/xpe_platform_sdk" remote="xpe" />
 </manifest>

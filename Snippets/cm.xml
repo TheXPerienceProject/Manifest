@@ -95,5 +95,85 @@
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="cm" />
   <project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" groups="pdk" remote="cm" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
-  
+  <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" remote="cm" />
+  <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="cm" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" />
+  <project path="external/cmsdk-api-coverage" name="CyanogenMod/android_external_cmsdk-api-coverage" remote="cm" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="cm" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" />
+  <project path="external/gello-build" name="CyanogenMod/android_external_gello_build" remote="cm" />
+  <project path="external/google" name="CyanogenMod/android_external_google" remote="cm" />
+  <project path="external/htop" name="CyanogenMod/android_external_htop" remote="cm" />
+  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="cm" />
+  <project path="external/koush/ion" name="CyanogenMod/ion" remote="cm" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" />
+  <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="cm" />
+  <project path="external/libtar" name="CyanogenMod/android_external_libtar" remote="cm" />
+  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="cm" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="cm" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="cm" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" remote="cm" />
+  <project path="external/p7zip" name="CyanogenMod/android_external_p7zip" remote="cm" />
+  <project path="external/pigz" name="CyanogenMod/android_external_pigz" remote="cm" />
+  <project path="external/rsync" name="CyanogenMod/android_external_rsync" remote="cm" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="cm" />
+  <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" remote="cm" />
+  <project path="external/unrar" name="CyanogenMod/android_external_unrar" remote="cm" />
+  <project path="external/unzip" name="CyanogenMod/android_external_unzip" remote="cm" />
+  <project path="external/vim" name="CyanogenMod/android_external_vim" remote="cm" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" />
+  <project path="external/zip" name="CyanogenMod/android_external_zip" remote="cm" />
+  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" remote="cm" />
+  <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="cm" />
+  <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" remote="cm" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" />
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="cm" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="cm" />
+  <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" remote="cm" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" />
+  <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" remote="cm" />
+  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="cm" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="cm" />
+  <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" remote="cm" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" />
+  <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" remote="cm" />
+  <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" remote="cm" />
+  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="cm" />
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" />
+  <project path="packages/apps/WallpaperPicker" name="CyanogenMod/android_packages_apps_WallpaperPicker" remote="cm" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="cm" />
+  <project path="packages/providers/WeatherProvider" name="CyanogenMod/android_packages_providers_WeatherProvider" remote="cm" />
+  <project path="packages/services/CMAudioService" name="CyanogenMod/android_packages_services_CMAudioService" remote="cm" />
+  <project path="packages/services/LiveLockScreenService" name="CyanogenMod/android_packages_services_LiveLockScreenService" remote="cm" />
+  <project path="packages/services/ThemeManagerService" name="CyanogenMod/android_packages_services_ThemeManagerService" remote="cm" />
+  <project path="packages/services/WeatherService" name="CyanogenMod/android_packages_services_WeatherService" remote="cm" />
+  <project path="packages/themes/HexoLibre" name="CyanogenMod/android_packages_themes_HexoLibre" groups="themes" remote="cm" />
+  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" remote="cm" />
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="cm" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" remote="cm" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" remote="cm" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="CyanogenMod/android_packages_apps_YahooWeatherProvider" remote="cm" />
+
+  <!-- CodeAurora additions -->
+  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="cm" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="cm" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="cm" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="cm" />
+  <project path="external/brctl" name="CyanogenMod/android_external_brctl" remote="cm" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="cm" />
+  <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="cm" />
+  <project path="external/gson" name="CyanogenMod/android_external_gson" remote="cm" />
+  <project path="external/json-c" name="CyanogenMod/android_external_json-c" remote="cm" />
+  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" remote="cm" />
+  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" remote="cm" />
+  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" remote="cm" />
+  <project path="external/powertop" name="CyanogenMod/android_external_powertop" remote="cm" />
+  <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" remote="cm" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="cm" />
+  <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" remote="cm" />
+  <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="cm" />
 </manifest>
