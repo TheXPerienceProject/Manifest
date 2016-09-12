@@ -21,6 +21,7 @@
   
   <!--System-->
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk" remote="xpe" />
+  <project path="system/vold" name="XPerience-AOSP-Lollipop/android_system_vold" groups="pdk" remote="xpe" />
 
   <!-- Vendor -->
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="xpe" groups="xpe" >
