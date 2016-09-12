@@ -3,7 +3,7 @@
 <!--blank for now!-->
 
 
-<project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" remote="cm" />
+  <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" remote="cm" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" remote="cm" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="cm" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="cm" />
@@ -96,7 +96,6 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="cm" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="cm" />
   <project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" groups="pdk" remote="cm" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
   <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" remote="cm" />
   <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="cm" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" />
