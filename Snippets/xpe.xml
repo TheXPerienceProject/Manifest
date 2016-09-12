@@ -16,8 +16,7 @@
   <project path="frameworks/native" name="XPerience-AOSP-Lollipop/android_frameworks_native" groups="pdk" remote="xpe" />
  
   <!--PAckages-->
- <!-- <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="xpe" groups="xpe" />-->
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="xpe" groups="xpe,pdk-fs" />
   <project path="packages/apps/SetupWizard" name="XPerience-AOSP-lollipop/android_packages_apps_SetupWizard" remote="xpe" />
   
   <!--System-->
