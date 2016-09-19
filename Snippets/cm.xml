@@ -153,7 +153,7 @@
   <project path="packages/services/ThemeManagerService" name="CyanogenMod/android_packages_services_ThemeManagerService" remote="cm" />
   <project path="packages/services/WeatherService" name="CyanogenMod/android_packages_services_WeatherService" remote="cm" />
   <project path="packages/themes/HexoLibre" name="CyanogenMod/android_packages_themes_HexoLibre" groups="themes" remote="cm" />
-  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" remote="cm" />
+  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="cm" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" remote="cm" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" remote="cm" />
