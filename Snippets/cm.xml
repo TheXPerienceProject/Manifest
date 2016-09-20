@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     
-    <!-- Device-specific HALs -->
-    <include name="snippets/hal_cm_all.xml" />
-    
     <!-- CyanogenMod additions -->
     <project path="external/ahbottomnavigation" name="CyanogenMod/android_external_ahbottomnavigation" remote="cm" />
     <project path="external/android-visualizer" name="CyanogenMod/android_external_android-visualizer" remote="cm" />
