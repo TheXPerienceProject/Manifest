@@ -10,6 +10,11 @@
            review="review.cyanogenmod.org"
            revision="refs/heads/staging/cm-14.0"/>
 
+  <remote  name="cyan"
+           fetch="https://github.com/cyanogenmod"
+           review="review.cyanogenmod.org"
+           revision="refs/heads/staging/cm-14.0"/>
+           
   <remote  name="xpe"
            fetch=".." />
 
