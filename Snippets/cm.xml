@@ -49,7 +49,6 @@
     <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" />
     <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" remote="cm" />
     <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" remote="cm" />
-    <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="cm" />
     <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" />
     <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" />
     <project path="packages/apps/WallpaperPicker" name="CyanogenMod/android_packages_apps_WallpaperPicker" remote="cm" />
