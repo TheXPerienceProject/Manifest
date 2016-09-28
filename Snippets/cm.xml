@@ -43,6 +43,7 @@
     <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" />
     <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="cm" />
     <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="cm" />
+    <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" />
     <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" />
     <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" remote="cm" />
     <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" />
