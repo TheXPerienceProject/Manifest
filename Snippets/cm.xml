@@ -38,23 +38,36 @@
     <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" />
     <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" remote="cm" />
     <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="cm" />
+    <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="cm" />
     <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" remote="cm" />
     <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" />
     <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" remote="cm" />
     <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" remote="cm" />
+	<project path="packages/apps/EmergencyInfo" name="CyanogenMod/android_packages_apps_EmergencyInfo" remote="cm" />
     <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" />
     <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" />
+    <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" remote="cm" />
+    <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" remote="cm" />
     <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" />
-    <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" remote="cm" />
+	<project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="cm" />
+    <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" groups="pdk-fs" remote="cm" />
+	<project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" remote="cm" />
     <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" remote="cm" />
-    <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" />
+    <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" groups="pdk-fs" remote="cm" />
+	<project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="cm" />
     <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" />
     <project path="packages/apps/WallpaperPicker" name="CyanogenMod/android_packages_apps_WallpaperPicker" remote="cm" />
-    <project path="packages/providers/DataUsageProvider" name="CyanogenMod/android_packages_providers_DataUsageProvider" remote="cm" />
+    <project path="packages/providers/BlockedNumberProvider" name="CyanogenMod/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="cm" />
+    <project path="packages/providers/BookmarkProvider" name="CyanogenMod/android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="cm" />
+	<project path="packages/providers/DataUsageProvider" name="CyanogenMod/android_packages_providers_DataUsageProvider" remote="cm" />
+	<project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" remote="cm" />
 	<project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="cm" />
+	<project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" groups="pdk-fs" remote="cm" />
     <project path="packages/providers/WeatherProvider" name="CyanogenMod/android_packages_providers_WeatherProvider" remote="cm" />
-    <project path="packages/services/CMAudioService" name="CyanogenMod/android_packages_services_CMAudioService" remote="cm" />
+    <project path="packages/services/Car" name="CyanogenMod/android_packages_services_Car" groups="adp8064,pdk-cw-fs,pdk-fs" remote="cm" />
+  	<project path="packages/services/CMAudioService" name="CyanogenMod/android_packages_services_CMAudioService" remote="cm" />
     <project path="packages/services/LiveLockScreenService" name="CyanogenMod/android_packages_services_LiveLockScreenService" remote="cm" />
+    <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="cm" />  
     <project path="packages/services/ThemeManagerService" name="CyanogenMod/android_packages_services_ThemeManagerService" remote="cm" />
     <project path="packages/services/WeatherService" name="CyanogenMod/android_packages_services_WeatherService" remote="cm" />
     <project path="packages/themes/HexoLibre" name="CyanogenMod/android_packages_themes_HexoLibre" groups="themes" remote="cm" />
