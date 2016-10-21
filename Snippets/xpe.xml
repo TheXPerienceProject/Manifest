@@ -7,24 +7,32 @@
   <project path="build" name="XPerience-AOSP-Lollipop/android_build" remote="xpe" groups="xpe" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  
+  <project path="bootable/recovery" name="XPerience-AOSP-Lollipop/android_bootable_recovery" groups="pdk" />  
   <!--device-->
   <!--<project path="device/qcom/sepolicy" name="XPerience-AOSP-Lollipop/android_device_qcom_sepolicy" remote="xpe" />-->
   
   <!--Frameworks -->
   <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" remote="xpe" groups="pdk-cw-fs,pdk-fs,xpe" />
- 
-  <!--PAckages-->
+  <project path="frameworks/native" name="XPerience-AOSP-Lollipop/android_frameworks_native" groups="pdk" />
+
+  <!--Packages-->
+  <project path="packages/apps/Contacts" name="XPerience-AOSP-Lollipop/android_packages_apps_Contacts" groups="pdk-fs" />
+  <project path="packages/apps/ContactsCommon" name="XPerience-AOSP-Lollipop/android_packages_apps_ContactsCommon" groups="pdk-fs" />
+  <project path="packages/apps/PhoneCommon" name="XPerience-AOSP-Lollipop/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="xpe" groups="xpe,pdk-fs" />
   <project path="packages/apps/SetupWizard" name="XPerience-AOSP-lollipop/android_packages_apps_SetupWizard" remote="xpe" />
   <project path="packages/apps/CMParts" name="XPerience-AOSP-lollipop/android_packages_apps_CMParts" remote="xpe" />
   <project path="packages/apps/Snap" name="XPerience-AOSP-lollipop/android_packages_apps_Snap" remote="xpe" />
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="xpe" />
 
+  <!--hardware-->
+  <project path="hardware/qcom/audio-caf/msm8960" name="XPerience-AOSP-Lollipop/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.0-caf-8960" remote="xpe" />
+
   <!--System-->
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk" remote="xpe" />
-  <project path="system/vold" name="XPerience-AOSP-Lollipop/android_system_vold" groups="pdk" remote="xpe" />
   <project path="system/extras" name="XPerience-AOSP-Lollipop/android_system_extras" groups="pdk" remote="xpe" />
+  <project path="system/sepolicy" name="XPerience-AOSP-Lollipop/android_system_sepolicy" groups="pdk" />
+  <project path="system/vold" name="XPerience-AOSP-Lollipop/android_system_vold" groups="pdk" remote="xpe" />
 
   <!-- Vendor -->
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="xpe" groups="xpe" >
