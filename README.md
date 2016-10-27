@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/XPerience-AOSP-Lollipop/manifest -b xpe-11.0
+$ repo init -u https://github.com/XPerience-AOSP-Lollipop/manifest -b xpe-11.1
 ```
 
 ### LINUX ###
