@@ -11,7 +11,6 @@
     <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" />
     <project path="external/google" name="CyanogenMod/android_external_google" remote="cm" />
     <project path="external/htop" name="CyanogenMod/android_external_htop" remote="cm" />
-    <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="cm" />
     <project path="external/koush/ion" name="CyanogenMod/ion" remote="cm" />
     <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" />
     <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="cm" />
