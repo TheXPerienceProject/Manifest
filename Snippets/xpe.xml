@@ -24,6 +24,7 @@
   <project path="packages/apps/CMParts" name="XPerience-AOSP-lollipop/android_packages_apps_CMParts" remote="xpe" />
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="cm" />
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="xpe" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
   <!--hardware-->
   <project path="hardware/qcom/audio-caf/msm8960" name="XPerience-AOSP-Lollipop/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" remote="xpe" />
