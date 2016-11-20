@@ -9,6 +9,7 @@
     <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="cm" />
     <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="cm" />
     <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="cm" />
+    <project path="external/gello-build" name="CyanogenMod/android_external_gello_build" remote="cm" />
     <project path="external/google" name="CyanogenMod/android_external_google" remote="cm" />
     <project path="external/htop" name="CyanogenMod/android_external_htop" remote="cm" />
     <project path="external/koush/ion" name="CyanogenMod/ion" remote="cm" />
@@ -46,6 +47,7 @@
 	<project path="packages/apps/EmergencyInfo" name="CyanogenMod/android_packages_apps_EmergencyInfo" remote="cm" />
     <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" />
     <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="cm" />
+    <project path="packages/apps/Gello" name="CyanogenMod/android_packages_apps_Gello" remote="cm" />
     <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" remote="cm" />
     <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" remote="cm" />
     <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" />
