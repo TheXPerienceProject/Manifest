@@ -27,7 +27,7 @@
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
   <!--Omni-->
-  <project path="android_packages_apps_OmniClock" remote="omnirom" revision="android-7.1" />
+  <project path="omnirom/android_packages_apps_OmniClock" remote="github" revision="android-7.1" />
     
   <!--hardware-->
   <project path="hardware/qcom/audio-caf/msm8960" name="XPerience-AOSP-Lollipop/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" remote="xpe" />
