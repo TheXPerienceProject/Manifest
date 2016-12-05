@@ -25,7 +25,7 @@
   <project path="packages/apps/CMParts" name="XPerience-AOSP-lollipop/android_packages_apps_CMParts" remote="xpe" />
   <project path="packages/apps/Snap" name="XPerience-AOSP-Lollipop/android_packages_apps_Snap" />
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="xpe" />
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
   <!--Prebuilts-->
   <project path="prebuilts/clang/host/linux-x86/" name="XPerience-AOSP-Lollipop/android_prebuilts_clang_linux-x86_host" groups="pdk" remote="xpe" />
