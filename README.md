@@ -54,6 +54,9 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential \
   libsdl1.2-dev libwxgtk3.0-dev libxml2  lzop maven pngcrush \
   schedtool squashfs-tools xsltproc zip zlib1g-dev lib32readline6-dev \
   g++-multilib gcc-multilib lib32ncurses5-dev lib32z1-dev openjdk-8-jdk
+  
+#maybe in some servers you need bc so do
+sudo aptitude install bc
 ```
 
 ### LINUX ###
