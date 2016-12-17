@@ -106,13 +106,7 @@ For those of you who are having jack issues (like saying you ran out of memory),
 
 Type this into your terminal, substituting the # with how many GBs of RAM you have:
 ```bash
-$ export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx#g"
-```
-
-Then go into the root of the source folder and type the following:
-```bash
-$ ./prebuilts/sdk/tools/jack-admin kill-server
-$ ./prebuilts/sdk/tools/jack-admin start-server
+$ ./jack.sh #
 ```
 
 This will restart the jack server to reflect your new heap limit.
