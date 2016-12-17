@@ -53,7 +53,7 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential \
   curl flex git  libesd0-dev liblz4-tool libncurses5-dev \
   libsdl1.2-dev libwxgtk3.0-dev libxml2  lzop maven pngcrush \
   schedtool squashfs-tools xsltproc zip zlib1g-dev lib32readline6-dev \
-  g++-multilib gcc-multilib lib32ncurses5-dev lib32z1-dev
+  g++-multilib gcc-multilib lib32ncurses5-dev lib32z1-dev openjdk-8-jdk
 ```
 
 ### LINUX ###
