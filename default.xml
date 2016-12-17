@@ -33,11 +33,14 @@
            sync-j="4" />
 
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch=".." />
            
 <!--For Propietary files-->
   <remote  name="Unicorn"
-           fetch="https://github.com/RainbowUnicornXPe" />
+           fetch="https://github.com/RainbowUnicornXPe/" />
+
+  <remote  name="Muppet"
+           fetch="https://github.com/TheMuppets/" />
 
   <default revision="refs/heads/xpe-11.1"
            remote="xpe"
