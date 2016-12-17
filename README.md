@@ -100,6 +100,22 @@ $ cd WORKSPACE
 # ...and run the builder tool.
 $ ./rom-build.sh DEVICE
 ```
+###    Jack issues    ###
+
+For those of you who are having jack issues (like saying you ran out of memory), follow these steps.
+
+Type this into your terminal, substituting the # with how many GBs of RAM you have:
+```bash
+$ export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx#g"
+```
+
+Then go into the root of the source folder and type the following:
+```bash
+$ ./prebuilts/sdk/tools/jack-admin kill-server
+$ ./prebuilts/sdk/tools/jack-admin start-server
+```
+
+This will restart the jack server to reflect your new heap limit.
 
 ### Mac OS X ###
 # Special tutorial How to build on MAC OS (for example Mac OS yosemite 10.10.4) #
