@@ -7,7 +7,8 @@
   <project path="build" name="XPerience-AOSP-Lollipop/android_build" remote="xpe" groups="xpe" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/recovery" name="cyanogenmod/android_bootable_recovery" groups="pdk" remote="cm" /> 
+  <!--<project path="bootable/recovery" name="cyanogenmod/android_bootable_recovery" groups="pdk" remote="cm" /> -->
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="omnirom" revision="android-7.1" />
   <!--device-->
   <!--<project path="device/qcom/sepolicy" name="XPerience-AOSP-Lollipop/android_device_qcom_sepolicy" remote="xpe" />-->
   
@@ -23,7 +24,7 @@
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="xpe" groups="xpe,pdk-fs" />
   <project path="packages/apps/SetupWizard" name="XPerience-AOSP-lollipop/android_packages_apps_SetupWizard" remote="xpe" />
   <project path="packages/apps/CMParts" name="XPerience-AOSP-lollipop/android_packages_apps_CMParts" remote="xpe" />
-  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="cm" revision="cm-14.1-wip" />
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="cm" revision="cm-14.1-wip" />
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="xpe" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
@@ -38,9 +39,9 @@
 
   <!--System-->
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk" remote="xpe" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="cm" />
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="cm" />
   <project path="system/sepolicy" name="XPerience-AOSP-Lollipop/android_system_sepolicy" groups="pdk" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="cm" />
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="cm" />
 
   <!-- Vendor -->
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="xpe" groups="xpe" >
