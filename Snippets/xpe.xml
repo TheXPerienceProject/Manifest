@@ -29,9 +29,6 @@
   <project path="packages/apps/XPerienceCenter" name="XPerience-AOSP-Lollipop/android_packages_XPerienceCenter" remote="xpe" />
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
 
-  <!--Prebuilts-->
-  <project path="prebuilts/clang/host/linux-x86/" name="XPerience-AOSP-Lollipop/android_prebuilts_clang_linux-x86_host" groups="pdk" remote="xpe" />
-
   <!--Omni-->
   <project path="packages/apps/OmniClock" name="android_packages_apps_OmniClock" remote="omnirom" revision="android-7.1" />
     
