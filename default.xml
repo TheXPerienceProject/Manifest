@@ -37,7 +37,8 @@
            
 <!--For Propietary files-->
   <remote  name="Unicorn"
-           fetch="https://github.com/RainbowUnicornXPe/" />
+           fetch="https://github.com/RainbowUnicornXPe/" 
+           revision="refs/heads/xpe-11.1" />
 
   <remote  name="Muppet"
            fetch="https://github.com/TheMuppets/" />
