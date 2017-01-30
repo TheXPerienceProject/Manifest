@@ -53,7 +53,7 @@
 	<project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="cm" />
     <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-fs" remote="cm" />
 	<project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" remote="cm" />
-    <project path="packages/apps/Screencast" name="LineageOS/android_packages_apps_Screencast" remote="cm" />
+    <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="cm" />
     <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" remote="cm" />
 	<project path="packages/apps/ThemeChooser" name="LineageOS/android_packages_apps_ThemeChooser" remote="cm" />
     <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" remote="cm" />
