@@ -15,6 +15,7 @@
   <!--Frameworks -->
   <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" remote="xpe" groups="pdk-cw-fs,pdk-fs,xpe" />
   <project path="frameworks/native" name="XPerience-AOSP-Lollipop/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/av" name="XPerience-AOSP-Lollipop/android_frameworks_av" groups="pdk" />
   <project path="frameworks/rs" name="XPerience-AOSP-Lollipop/android_frameworks_rs" groups="pdk" remote="xpe" />
 
   <!--Packages-->
