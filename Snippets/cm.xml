@@ -2,15 +2,12 @@
 <manifest>
     
     <!-- LineageOS additions -->
-    <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" remote="cm" />
-    <project path="external/android-visualizer" name="LineageOS/android_external_android-visualizer" remote="cm" />
     <project path="external/bash" name="LineageOS/android_external_bash" remote="cm" />
     <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" remote="cm" />
     <project path="external/exfat" name="LineageOS/android_external_exfat" remote="cm" />
     <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="cm" />
     <project path="external/fuse" name="LineageOS/android_external_fuse" remote="cm" />
     <project path="external/gello-build" name="LineageOS/android_external_gello_build" remote="cm" />
-    <project path="external/google" name="LineageOS/android_external_google" remote="cm" />
     <project path="external/htop" name="LineageOS/android_external_htop" remote="cm" />
     <project path="external/koush/ion" name="LineageOS/ion" remote="cm" />
     <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="cm" />
