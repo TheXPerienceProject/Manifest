@@ -28,7 +28,7 @@
     <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" remote="cm" />
     <project path="external/zip" name="LineageOS/android_external_zip" remote="cm" />
     <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" remote="cm" />
-	<project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" remote="cm" />
+    <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" remote="cm" />
     <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" remote="cm" />
     <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" remote="cm" />
     <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" remote="cm" />
@@ -38,37 +38,33 @@
     <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="cm" />
     <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" remote="cm" />
     <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" remote="cm" revision="cm-14.1" />
-    <project path="packages/apps/CMWallpapers" name="LineageOS/android_packages_apps_CMWallpapers" remote="cm" />
     <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="cm" />
-	<project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" remote="cm" />
+    <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" remote="cm" />
     <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" remote="cm" />
     <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="cm" />
     <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" remote="cm" />
     <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" remote="cm" />
     <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="cm" />
     <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" remote="cm" />
-	<project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="cm" />
+    <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="cm" />
     <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-fs" remote="cm" />
-	<project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" remote="cm" />
+    <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" remote="cm" />
     <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="cm" />
     <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" remote="cm" />
-	<project path="packages/apps/ThemeChooser" name="LineageOS/android_packages_apps_ThemeChooser" remote="cm" />
     <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" remote="cm" />
     <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" remote="cm" />
     <project path="packages/providers/BlockedNumberProvider" name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="cm" />
     <project path="packages/providers/BookmarkProvider" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="cm" />
-	<project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" remote="cm" />
-	<project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" remote="cm" />
-	<project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" remote="cm" />
-	<project path="packages/providers/TvProvider" name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" remote="cm" />
+    <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" remote="cm" />
+    <project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" remote="cm" />
+    <project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" remote="cm" />
+    <project path="packages/providers/TvProvider" name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" remote="cm" />
     <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" remote="cm" />
     <project path="packages/services/Car" name="LineageOS/android_packages_services_Car" groups="adp8064,pdk-cw-fs,pdk-fs" remote="cm" />
-  	<project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" remote="cm" />
+     <project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" remote="cm" />
     <project path="packages/services/LiveLockScreenService" name="LineageOS/android_packages_services_LiveLockScreenService" remote="cm" />
     <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="cm" />  
-    <project path="packages/services/ThemeManagerService" name="LineageOS/android_packages_services_ThemeManagerService" remote="cm" />
     <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" remote="cm" />
-    <project path="packages/themes/HexoLibre" name="LineageOS/android_packages_themes_HexoLibre" groups="themes" remote="cm" />
     <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" remote="cm" />
     <project path="system/extras/su" name="LineageOS/android_system_extras_su" remote="cm" />
     <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" remote="cm" />
