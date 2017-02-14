@@ -57,7 +57,6 @@
     <project path="packages/providers/BookmarkProvider" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="cm" />
     <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" remote="cm" />
     <project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" remote="cm" />
-    <project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" remote="cm" />
     <project path="packages/providers/TvProvider" name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" remote="cm" />
     <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" remote="cm" />
     <project path="packages/services/Car" name="LineageOS/android_packages_services_Car" groups="adp8064,pdk-cw-fs,pdk-fs" remote="cm" />
