@@ -7,7 +7,7 @@
   <project path="build" name="XPerience-AOSP-Lollipop/android_build" remote="xpe" groups="xpe" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/recovery" name="cyanogenmod/android_bootable_recovery" groups="pdk" remote="cm" />
+  <project path="bootable/recovery" name="lineageOS/android_bootable_recovery" groups="pdk" remote="cm" />
   <!--<project path="bootable/recovery" name="XPerience-AOSP-Lollipop/android_bootable_recovery" groups="pdk" remote="xpe" />-->
   <!--device-->
   <!--<project path="device/qcom/sepolicy" name="XPerience-AOSP-Lollipop/android_device_qcom_sepolicy" remote="xpe" />-->
