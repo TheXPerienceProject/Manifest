@@ -23,7 +23,7 @@
   <project path="packages/apps/ContactsCommon" name="XPerience-AOSP-Lollipop/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/CMParts" name="XPerience-AOSP-lollipop/android_packages_apps_CMParts" remote="xpe" />
   <project path="packages/apps/Genesis" name="XPerience-AOSP-lollipop/android_packages_apps_Genesis" remote="xpe" />
-  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n" />
+  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="packages/apps/PhoneCommon" name="XPerience-AOSP-Lollipop/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/RainbowUnicorn" name="XPerience-AOSP-Lollipop/android_packages_apps_RainbowUnicorn" remote="xpe" />
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="xpe" groups="xpe,pdk-fs" />
