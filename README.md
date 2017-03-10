@@ -95,13 +95,20 @@ $ repo sync PROJECT
 
 The bundled builder tool `./rom-build.sh` handles all the building steps for the specified device
 automatically. As the device value, you just feed it with the device codename (for example,
-'hammerhead' for the Nexus 5).
+'Addison' for the Moto Z Play).
 
 ```bash
 # Go to the root of the source tree...
 $ cd WORKSPACE
 # ...and run the builder tool.
 $ ./rom-build.sh DEVICE
+```
+OR Manually
+
+```bash
+$ . build/envsetup.sh
+$ lunch device-userdebug
+$ make bacon -j8
 ```
 ###    Jack issues    ###
 
