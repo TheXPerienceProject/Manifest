@@ -37,6 +37,7 @@
     <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" remote="cm" />
     <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="cm" />
     <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" remote="cm" />
+    <project path="packages/apps/CustomTiles" name="LineageOS/android_packages_apps_CustomTiles" remote="cm" />
     <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="cm" />
     <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" remote="cm" />
     <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" remote="cm" />
