@@ -29,6 +29,7 @@
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" remote="xpe" groups="xpe,pdk-fs" />
   <project path="packages/apps/SetupWizard" name="XPerience-AOSP-lollipop/android_packages_apps_SetupWizard" remote="xpe" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="cm" revision="cm-14.1" />
+  <project path="packages/apps/SnapdragonLauncher" name="XPerience-AOSP-Lolliop/android_packages_apps_SnapdragonLauncher" remote="xpe" />
   <project path="packages/apps/XPeUpdater" name="XPerience-AOSP-Lollipop/android_packages_apps_XPeUpdater" remote="xpe" />
 
   <!--Omni-->
