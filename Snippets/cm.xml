@@ -2,6 +2,7 @@
 <manifest>
     
     <!-- LineageOS additions -->
+    <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" remote="cm" />
     <project path="external/bash" name="LineageOS/android_external_bash" remote="cm" />
     <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" remote="cm" />
     <project path="external/exfat" name="LineageOS/android_external_exfat" remote="cm" />
@@ -17,7 +18,7 @@
     <project path="external/lzo" name="LineageOS/android_external_lzo" remote="cm" />
     <project path="external/nano" name="LineageOS/android_external_nano" remote="cm" />
     <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="cm" />
-    <project path="external/openssh" name="LineageOS/android_external_openssh" remote="cm" />
+    <project path="external/openssh" name="LineageOS/android_external_openssh" remote="cm"  revision="staging/cm-14.1_android-7.1.2_r2" />
     <project path="external/pigz" name="LineageOS/android_external_pigz" remote="cm" />
     <project path="external/rsync" name="LineageOS/android_external_rsync" remote="cm" />
     <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="cm" />
@@ -28,30 +29,30 @@
     <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" remote="cm" />
     <project path="external/zip" name="LineageOS/android_external_zip" remote="cm" />
     <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" remote="cm" />
-    <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" remote="cm" />
+    <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense,pdk" remote="cm" />
     <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" remote="cm" />
     <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" remote="cm" />
     <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" remote="cm" />
     <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" remote="cm" />
     <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" remote="cm" />
     <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" remote="cm" />
-    <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="cm" />
+    <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="staging/cm-14.1_android-7.1.2_r2" />
     <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" remote="cm" />
     <project path="packages/apps/CustomTiles" name="LineageOS/android_packages_apps_CustomTiles" remote="cm" />
     <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="cm" />
-    <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" remote="cm" />
+    <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" remote="cm"  revision="staging/cm-14.1_android-7.1.2_r2" />
     <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" remote="cm" />
     <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="cm" />
     <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" remote="cm" />
     <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" remote="cm" />
-    <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="cm" />
+    <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="cm" revision="staging/cm-14.1_android-7.1.2_r2" />
     <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" remote="cm" />
-    <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="cm" />
-    <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-fs" remote="cm" />
+    <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="cm" revision="staging/cm-14.1_android-7.1.2_r2" />
+    <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="cm" />
     <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" remote="cm" />
     <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="cm" />
     <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" remote="cm" />
-    <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" remote="cm" />
+    <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" remote="cm"  revision="staging/cm-14.1_android-7.1.2_r2" />
     <project path="packages/providers/BlockedNumberProvider" name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="cm" />
     <project path="packages/providers/BookmarkProvider" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="cm" />
     <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" remote="cm" />
@@ -61,7 +62,7 @@
     <project path="packages/services/Car" name="LineageOS/android_packages_services_Car" groups="adp8064,pdk-cw-fs,pdk-fs" remote="cm" />
      <project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" remote="cm" />
     <project path="packages/services/LiveLockScreenService" name="LineageOS/android_packages_services_LiveLockScreenService" remote="cm" />
-    <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="cm" />  
+    <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="cm" revision="staging/cm-14.1_android-7.1.2_r2" />  
     <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" remote="cm" />
     <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" remote="cm" />
     <project path="system/extras/su" name="LineageOS/android_system_extras_su" remote="cm" />

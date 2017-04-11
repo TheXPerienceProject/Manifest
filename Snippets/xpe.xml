@@ -18,7 +18,11 @@
   <project path="frameworks/av" name="XPerience-AOSP-Lollipop/android_frameworks_av" groups="pdk" />
   <project path="frameworks/rs" name="XPerience-AOSP-Lollipop/android_frameworks_rs" groups="pdk" remote="xpe" />
 
+  <!--External-->
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-7.0" />
+
   <!--Packages-->
+  <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" remote="aosp" />
   <project path="packages/apps/Contacts" name="XPerience-AOSP-Lollipop/android_packages_apps_Contacts" groups="pdk-fs"/>
   <project path="packages/apps/ContactsCommon" name="XPerience-AOSP-Lollipop/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/CMParts" name="XPerience-AOSP-lollipop/android_packages_apps_CMParts" remote="xpe" />
@@ -41,9 +45,9 @@
 
   <!--System-->
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk" remote="xpe" />
-  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="cm" />
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="cm" revision="staging/cm-14.1_android-7.1.2_r2" />
   <project path="system/sepolicy" name="XPerience-AOSP-Lollipop/android_system_sepolicy" groups="pdk" />
-  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="cm" />
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="cm" revision="staging/cm-14.1_android-7.1.2_r2" />
 
   <!-- Vendor -->
   <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="xpe" groups="xpe" >
