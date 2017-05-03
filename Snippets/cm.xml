@@ -35,7 +35,6 @@
     <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" remote="cm" />
     <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" remote="cm" />
     <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" remote="cm" />
-    <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" remote="cm" />
     <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="cm"  />
     <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" remote="cm" />
     <project path="packages/apps/CustomTiles" name="LineageOS/android_packages_apps_CustomTiles" remote="cm" />
@@ -44,6 +43,7 @@
     <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" remote="cm" />
     <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="cm" />
     <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" remote="cm" />
+    <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="cm" />
     <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" remote="cm" />
     <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="cm"  />
     <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" remote="cm" />
