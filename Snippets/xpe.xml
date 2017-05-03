@@ -19,7 +19,7 @@
   <project path="frameworks/rs" name="XPerience-AOSP-Lollipop/android_frameworks_rs" groups="pdk" remote="xpe" />
 
   <!--External-->
-  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-7.0" />
+  <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-7.1" />
 
   <!--Packages-->
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" remote="aosp" />
