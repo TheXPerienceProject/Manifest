@@ -22,7 +22,6 @@
   <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-7.1" />
 
   <!--Packages-->
-  <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" remote="aosp" />
   <project path="packages/apps/Contacts" name="XPerience-AOSP-Lollipop/android_packages_apps_Contacts" groups="pdk-fs"/>
   <project path="packages/apps/ContactsCommon" name="XPerience-AOSP-Lollipop/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/CMParts" name="XPerience-AOSP-lollipop/android_packages_apps_CMParts" remote="xpe" />
