@@ -8,7 +8,6 @@
     <project path="external/exfat" name="LineageOS/android_external_exfat" remote="cm" />
     <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="cm" />
     <project path="external/fuse" name="LineageOS/android_external_fuse" remote="cm" />
-    <project path="external/gello-build" name="LineageOS/android_external_gello_build" remote="cm" />
     <project path="external/htop" name="LineageOS/android_external_htop" remote="cm" />
     <project path="external/koush/ion" name="LineageOS/ion" remote="cm" />
     <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="cm" />
@@ -42,7 +41,6 @@
     <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" remote="cm"   />
     <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" remote="cm" />
     <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="cm" />
-    <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" remote="cm" />
     <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="cm" />
     <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" remote="cm" />
     <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="cm"  />
