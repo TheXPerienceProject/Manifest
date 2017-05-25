@@ -20,6 +20,7 @@
 
   <!--External-->
   <project path="external/busybox" name="android_external_busybox" remote="omnirom" revision="android-7.1" />
+  <project path="external/vulkan-validation-layers" name="android_external_vulkan-validation-layers" remote="xpe" />
 
   <!--Packages-->
   <project path="packages/apps/Contacts" name="XPerience-AOSP-Lollipop/android_packages_apps_Contacts" groups="pdk-fs"/>
