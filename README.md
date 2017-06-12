@@ -107,8 +107,10 @@ OR Manually
 
 ```bash
 $ . build/envsetup.sh
-$ lunch device-userdebug
-$ make bacon -j8
+$ lunch device-userdebug #only if we support your device if not clone manually and do
+$ lunch xpe_device-userdebug or
+$ breakfast device
+$ mka bacon -j$numberofsupportedthreads
 ```
 ###    Jack issues    ###
 
@@ -290,7 +292,7 @@ you are free to share the originals and/or the modified work. However, you are n
 to use the assets for commercial purposes and you must provide attribution at all times which
 means you have to include a short note about the license used (CC BY-NC 4.0), the original
 author/authors (The XPerience Project Project or XPe) and inform about any changes that have been
-made. A link to the [website](http://klozz.github.io/git.klozz.personal/) should usually be included as well.
+made. A link to the [website](http://TheXPerienceProject.com) should usually be included as well.
 
 You can reach the full legal text at http://creativecommons.org/licenses/by-nc/4.0/
 
@@ -301,7 +303,11 @@ Android Open Source Project.
 
 Cyanogenmod Team.
 
+LineageOS
+
 CodeAurora Forum
+
+ParanoidAndroid (AOSPA)
 
 And too much other's devs 
 They do a lot for the community
