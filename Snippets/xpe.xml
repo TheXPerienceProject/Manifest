@@ -35,6 +35,7 @@
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="cm" revision="cm-14.1" />
   <project path="packages/apps/SnapdragonLauncher" name="XPerience-AOSP-Lollipop/android_packages_apps_SnapdragonLauncher" remote="xpe" />
   <project path="packages/apps/XPeUpdater" name="XPerience-AOSP-Lollipop/android_packages_apps_XPeUpdater" remote="xpe" />
+  <project path="packages/services/CMAudioService" name="XPerience-AOSP-Lollipop/android_packages_services_CMAudioService" remote="xpe" />
 
   <!--Omni-->
   <project path="packages/apps/OmniClock" name="android_packages_apps_OmniClock" remote="omnirom" revision="android-7.1" />
