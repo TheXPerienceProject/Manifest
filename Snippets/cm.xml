@@ -58,7 +58,6 @@
     <project path="packages/providers/TvProvider" name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" remote="cm" />
     <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" remote="cm" />
     <project path="packages/services/Car" name="LineageOS/android_packages_services_Car" groups="adp8064,pdk-cw-fs,pdk-fs" remote="cm" />
-     <project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" remote="cm" />
     <project path="packages/services/LiveLockScreenService" name="LineageOS/android_packages_services_LiveLockScreenService" remote="cm" />
     <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="cm"  />  
     <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" remote="cm" />
