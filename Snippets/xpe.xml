@@ -56,7 +56,7 @@
     <copyfile src="jack.sh" dest="jack.sh" />
   </project>
   
-  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" path="vendor/qcom/sdclang-3.8/linux-x86" revision="nougat-caf" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" path="vendor/qcom/sdclang-3.8/linux-x86" revision="nougat-mr2" />
   
   <!--CM SDK-->
   <project path="vendor/cmsdk" name="XPerience-AOSP-Lollipop/xpe_platform_sdk" remote="xpe" />
