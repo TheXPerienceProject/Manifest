@@ -82,7 +82,6 @@
     <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" remote="cm" />
     <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8084" remote="cm" />
     <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8916" remote="cm" />
-    <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8937" remote="cm" />
     <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8952" remote="cm" />
     <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8974" remote="cm" />
     <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8994" remote="cm" />
