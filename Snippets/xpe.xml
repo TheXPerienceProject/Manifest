@@ -43,6 +43,7 @@
   <!--hardware-->
   <!--<project path="hardware/qcom/audio-caf/msm8960" name="XPerience-AOSP-Lollipop/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" remote="xpe" />-->
   <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8960" remote="cm" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="XPerience-AOSP-Lollipop/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="xpe-11.1-caf-8937" remote="xpe" />
 
   <!--System-->
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk" remote="xpe" />
