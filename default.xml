@@ -29,7 +29,7 @@
            sync-j="4" />
 
   <!--#include manifest-->
-  <project path="android" name="XPerience-AOSP-Lollipop/Manifest" groups="pdk" >
+  <project path="android" name="XPerience-AOSP-Lollipop/Manifest" groups="pdk" />
   <project path="build/make" name="XPerience-AOSP-Lollipop/android_build_make" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
