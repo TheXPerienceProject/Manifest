@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/XPerience-AOSP-Lollipop/manifest -b xpe-11.1
+$ repo init -u https://github.com/XPerience-AOSP-Lollipop/manifest -b xpe-12.0
 ```
 ### Download all required files for build ###
 ```bash
@@ -180,7 +180,7 @@ ulimit -S -n 1024
      curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
      chmod a+x ~/bin/repo
 
-     repo init -u https://github.com/XPerience-AOSP-Lollipop/Manifest -b xpe-11.0
+     repo init -u https://github.com/XPerience-AOSP-Lollipop/Manifest -b xpe-12.0
      repo sync
 
 ## Generating the keys
@@ -311,9 +311,6 @@ ParanoidAndroid (AOSPA)
 
 And too much other's devs 
 They do a lot for the community
-
-Developers:
-TeamMEX
 
 bibliography:
 http://tryge.com/2013/06/15/build-android-from-source-macosx/
