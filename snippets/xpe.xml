@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="build/make" name="XPerience-AOSP-Lollipop/android_build_make" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <!--art bionic-->
+  <project path="art" name="XPerience-AOSP-Lollipop/android_art" groups="pdk" />
+  <project path="bionic" name="XPerience-AOSP-Lollipop/android_bionic" groups="pdk" />
+  
+  <!--device-->
+  <project path="device/xperience/sepolicy" name="XPerience-AOSP-Lollipop/android_device_xperience_sepolicy" />
+
+  <!--frameworks-->
+  <project path="frameworks/av" name="XPerience-AOSP-Lollipop/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="XPerience-AOSP-Lollipop/android_frameworks_native" groups="pdk" />
+
+  <!--packages-->
+  <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" groups="pdk-fs" />
+
+  <!--system-->
+  <project path="system/sepolicy" name="XPerience-AOSP-Lollipop/android_system_sepolicy" groups="pdk" />
+  <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk" />
+
+  <!-- Vendor -->
+  <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="xpe" groups="xpe" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+    <copyfile src="jack.sh" dest="jack.sh" />
+  </project>
+
+  <!--Vendor qcom sdclang  -->
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86" remote="github" path="vendor/qcom/sdclang-3.8/linux-x86" revision="nougat-mr2" />
+
+</manifest>
