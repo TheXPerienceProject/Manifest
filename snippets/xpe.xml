@@ -35,7 +35,7 @@
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk" />
 
   <!-- Vendor -->
-  <project path="vendor/XPe" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="xpe" groups="xpe" >
+  <project path="vendor/xperience" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="xpe" groups="xpe" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     <copyfile src="jack.sh" dest="jack.sh" />
   </project>
