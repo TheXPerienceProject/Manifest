@@ -27,6 +27,10 @@
   <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="XPerience-AOSP-Lollipop/android_frameworks_native" groups="pdk" />
 
+  <!-- HALS-->
+  <project path="hardware/qcom/display-caf/msm8937" name="XPerience-AOSP-Lollipop/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="xpe-12.0-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8937" name="XPerience-AOSP-Lollipop/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="xpe-12.0-caf-8937" />
+
   <!--packages-->
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" groups="pdk-fs" />
 
