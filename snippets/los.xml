@@ -145,6 +145,5 @@
   <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="github" revision="lineage-15.0" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-15.0" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="lineage-15.0" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="lineage-15.0" />
 
 </manifest>
