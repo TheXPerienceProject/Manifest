@@ -22,6 +22,9 @@
   <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-15.0" />
   <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-15.0" />
 
+  <!--frameworks-->
+  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lineage-15.0" />
+  
   <!--Hardware-->
   <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0" />
@@ -99,6 +102,7 @@
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="github" revision="lineage-15.0" />
+  <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" remote="github" revision="lineage-15.0" />
 
  <!--Qualcomm HALS-->
   <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0-caf-8084" />
@@ -143,4 +147,8 @@
   <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-15.0" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="lineage-15.0" />
 
+  <!--vendor-->
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-15.0" >
+     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
 </manifest>
