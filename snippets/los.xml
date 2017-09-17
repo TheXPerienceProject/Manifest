@@ -7,20 +7,28 @@
   <project path="development" name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.0" />
 
   <!--External-->
+  <project path="external/bash" name="LineageOS/android_external_bash" remote="github" revision="lineage-15.0" />
+  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="external/elfutils" name="LineageOS/android_external_elfutils" groups="pdk" remote="github" revision="lineage-15.0" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="lineage-15.0" />
+  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="github" revision="lineage-15.0" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="lineage-15.0" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="github" revision="lineage-15.0" />
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-15.0" />
   <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="github" revision="lineage-15.0" />
-  <project path="external/selinux" name="LineageOS/android_external_selinux" groups="pdk" remote="github" revision="lineage-15.0" />
-  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" revision="lineage-15.0" />
-  <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" remote="github" revision="lineage-15.0" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-15.0" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-15.0" />
+  <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-15.0" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="github" revision="lineage-15.0" />
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" groups="pdk" remote="github" revision="lineage-15.0" />
-  <project path="external/bash" name="LineageOS/android_external_bash" remote="github" revision="lineage-15.0" />
-  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="lineage-15.0" />
-  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="lineage-15.0" />
-  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-15.0" />
-  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-15.0" />
+  <project path="external/libtar" name="LineageOS/android_external_libtar" remote="github" revision="lineage-15.0" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-15.0" />
+  <project path="external/selinux" name="LineageOS/android_external_selinux" groups="pdk" remote="github" revision="lineage-15.0" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" revision="lineage-15.0" />
+  <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" remote="github" revision="lineage-15.0" />
+  <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" remote="github" revision="lineage-15.0" />
 
   <!--frameworks-->
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lineage-15.0" />
