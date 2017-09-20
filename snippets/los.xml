@@ -111,7 +111,6 @@
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" remote="github" revision="lineage-15.0" />
-  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" remote="github" revision="lineage-15.0" />
 
