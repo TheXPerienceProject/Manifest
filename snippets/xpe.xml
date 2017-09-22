@@ -33,6 +33,7 @@
 
   <!--packages-->
   <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/RainbowUnicorn" name="XPerience-AOSP-Lollipop/android_packages_apps_RainbowUnicorn" />
 
   <!--system-->
   <project path="system/sepolicy" name="XPerience-AOSP-Lollipop/android_system_sepolicy" groups="pdk" />
