@@ -14,6 +14,7 @@
    <linkfile src="root.bp" dest="Android.bp" />
    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
  </project>
+  <project path="bootable/recovery" name="XPerience-AOSP-Lollipop/android_bootable_recovery" groups="pdk" />
 
   <!--art bionic-->
   <project path="art" name="XPerience-AOSP-Lollipop/android_art" groups="pdk" />
@@ -21,6 +22,9 @@
   
   <!--device-->
   <project path="device/xperience/sepolicy" name="XPerience-AOSP-Lollipop/android_device_xperience_sepolicy" />
+
+  <!--external-->
+  <project path="external/e2fsprogs" name="XPerience-AOSP-Lollipop/android_external_e2fsprogs" groups="pdk" />
 
   <!--frameworks-->
   <project path="frameworks/av" name="XPerience-AOSP-Lollipop/android_frameworks_av" groups="pdk" />
