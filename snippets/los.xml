@@ -35,10 +35,10 @@
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lineage-15.0" />
   
   <!--Hardware-->
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" revision="lineage-15.0" />
+  <!--<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-15.0" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
-  </project>
+  </project>-->
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="lineage-15.0" />
   <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0" />
@@ -119,7 +119,7 @@
  <!--Qualcomm HALS-->
   <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="cm-14.1-caf-8937" />
+   <!--<project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="cm-14.1-caf-8937" />-->
   <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0-caf-8974" />
