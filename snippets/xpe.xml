@@ -22,6 +22,8 @@
   
   <!--device-->
   <project path="device/xperience/sepolicy" name="XPerience-AOSP-Lollipop/android_device_xperience_sepolicy" />
+  <project path="device/qcom/sepolicy" name="XPerience-AOSP-Lollipop/android_device_qcom_sepolicy" />
+ 
 
   <!--external-->
   <project path="external/e2fsprogs" name="XPerience-AOSP-Lollipop/android_external_e2fsprogs" groups="pdk" />
