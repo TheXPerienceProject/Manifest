@@ -6,8 +6,7 @@
   <project path="development" name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.0" />
 
   <!--device-->
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-15.0" />
-  
+
   <!--External-->
   <project path="external/bash" name="LineageOS/android_external_bash" remote="github" revision="lineage-15.0" />
   <project path="external/elfutils" name="LineageOS/android_external_elfutils" groups="pdk" remote="github" revision="lineage-15.0" />
