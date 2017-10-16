@@ -57,6 +57,9 @@
     <copyfile src="jack.sh" dest="jack.sh" />
   </project>
 
+  <!-- Vendor CodeAurora -->
+  <project path="vendor/codeaurora/telephony" name="XPerience-AOSP-Lollipop/android_vendor_codeaurora_telephony" />
+
   <!--vendor qcom-->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="XPerience-AOSP-Lollipop/android_vendor_qcom_opensource_cryptfs_hw" />
 
