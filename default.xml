@@ -12,6 +12,9 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="gitlabs"
+           fetch="https://gitlab.com/" />
+
   <remote  name="github"
            fetch=".." />
 
