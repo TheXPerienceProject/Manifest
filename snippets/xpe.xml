@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!--Build-->
   <project path="build/make" name="XPerience-AOSP-Lollipop/android_build_make" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -15,6 +16,7 @@
    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
  </project>
   <project path="bootable/recovery" name="XPerience-AOSP-Lollipop/android_bootable_recovery" groups="pdk" />
+  <project path="development" name="XPerience-AOSP-Lollipop/android_development" groups="pdk-cw-fs,pdk-fs" />
 
   <!--art bionic-->
   <project path="art" name="XPerience-AOSP-Lollipop/android_art" groups="pdk" />

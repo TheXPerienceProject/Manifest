@@ -3,7 +3,6 @@
 
   <!--Build-->
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" remote="github" revision="lineage-15.0" />
-  <project path="development" name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.0" />
 
   <!--device-->
 
