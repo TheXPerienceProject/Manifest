@@ -16,7 +16,7 @@
    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
  </project>
   <project path="bootable/recovery" name="XPerience-AOSP-Lollipop/android_bootable_recovery" groups="pdk" />
-  <project path="development" name="XPerience-AOSP-Lollipop/android_development" groups="pdk-cw-fs,pdk-fs" />
+  <project path="development" name="XPerience-AOSP-Lollipop/android_development" groups="developers,pdk-cw-fs,pdk-fs" />
 
   <!--art bionic-->
   <project path="art" name="XPerience-AOSP-Lollipop/android_art" groups="pdk" />

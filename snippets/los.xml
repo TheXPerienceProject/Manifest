@@ -20,8 +20,6 @@
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-15.0" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="github" revision="lineage-15.0" />
-  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" groups="pdk" remote="github" revision="lineage-15.0" />
-  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" remote="github" revision="lineage-15.0" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-15.0" />
   <project path="external/selinux" name="LineageOS/android_external_selinux" groups="pdk" remote="github" revision="lineage-15.0" />
