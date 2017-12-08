@@ -8,7 +8,7 @@
   <remote  name="xpe"
            fetch=".."
            review="https://github.com/XPerience-AOSP-Lollipop"
-           revision="refs/heads/Inicial-12.1"
+           revision="refs/heads/xpe-12.1"
            sync-c="true"
            sync-j="4" />
 
@@ -21,12 +21,12 @@
 <!--For Propietary files-->
   <remote  name="Unicorn"
            fetch="https://github.com/RainbowUnicornXPe/" 
-           revision="refs/heads/xpe-12.0" />
+           revision="refs/heads/xpe-12.1" />
 
   <remote  name="Muppet"
            fetch="https://github.com/TheMuppets/" />
 
-  <default revision="refs/tags/Inicial-12.1"
+  <default revision="refs/tags/xpe-12.1"
            remote="xpe"
            sync-c="true"
            sync-j="4" />
