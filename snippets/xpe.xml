@@ -40,7 +40,7 @@
   <project path="hardware/xperience/interfaces" name="XPerience-AOSP-Lollipop/android_hardware_xperience_interfaces" >
     <copyfile dest="hardware/xperience/Android.bp" src="Android.bp"/>
   </project>
-  <project path="hardware/qcom/keymaster" name="/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" />
+  <project path="hardware/qcom/keymaster" name="XPerience-AOSP-Lollipop/android_hardware_qcom_keymaster" groups="pdk" />  
   <project path="hardware/ril-caf" name="XPerience-AOSP-Lollipop/android_hardware_ril-caf" groups="pdk" />
   
   <!--HALS-->
