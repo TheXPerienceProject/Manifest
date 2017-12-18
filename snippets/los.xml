@@ -29,12 +29,16 @@
 
   <!--frameworks-->
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="staging/lineage-15.1" />
+  <project path="frameworks/support" name="LineageOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
   
   <!--Hardware-->
   <!--<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" revision="lineage-15.0" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-15.0" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>-->
+  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="staging/lineage-15.1" />
+  <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="staging/lineage-15.1" />
+  <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="github" revision="staging/lineage-15.1" />
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="staging/lineage-15.1" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="staging/lineage-15.1" />
   <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/lineage-15.1" />
