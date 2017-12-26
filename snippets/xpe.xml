@@ -67,6 +67,7 @@
   <project path="system/sepolicy" name="XPerience-AOSP-Lollipop/android_system_sepolicy" groups="pdk" />
   <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk" />
   <project path="system/vold" name="XPerience-AOSP-Lollipop/android_system_vold" groups="pdk" />
+  <project path="system/keymaster" name="XPerience-AOSP-Lollipop/android_system_keymaster" groups="pdk" />
 
   <!-- Vendor -->
   <project path="vendor/xperience" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="xpe" groups="xpe" >
