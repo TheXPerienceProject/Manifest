@@ -29,6 +29,7 @@
 
   <!--external-->
   <project path="external/e2fsprogs" name="XPerience-AOSP-Lollipop/android_external_e2fsprogs" groups="pdk" />
+  <project path="external/selinux" name="XPerience-AOSP-Lollipop/android_external_selinux" groups="pdk" />
 
   <!--frameworks-->
   <project path="frameworks/av" name="XPerience-AOSP-Lollipop/android_frameworks_av" groups="pdk" />
