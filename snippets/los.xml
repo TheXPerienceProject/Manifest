@@ -22,7 +22,6 @@
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="github" revision="staging/lineage-15.1" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" remote="github" revision="staging/lineage-15.1" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/selinux" name="LineageOS/android_external_selinux" groups="pdk" remote="github" revision="staging/lineage-15.1" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" revision="staging/lineage-15.1" />
   <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" remote="github" revision="staging/lineage-15.1" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" remote="github" revision="staging/lineage-15.1" />
