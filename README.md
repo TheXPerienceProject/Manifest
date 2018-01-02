@@ -64,7 +64,6 @@ automatically. As the device value, you just feed it with the device codename (f
       $ make bacon -j<number_of_threads>
 
 #### Credits to:
-=============
 
       * Android Open Source Project.
       * Cyanogenmod Team.
