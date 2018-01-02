@@ -2,7 +2,7 @@
 <manifest>
 
   <!--Build-->
-  <project path="build/make" name="XPerience-AOSP-Lollipop/android_build_make" groups="pdk" >
+  <project path="build/make" name="TheXPerienceProject/android_build_make" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -11,76 +11,76 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="XPerience-AOSP-Lollipop/android_build_soong" groups="pdk,tradefed" >
+  <project path="build/soong" name="TheXPerienceProject/android_build_soong" groups="pdk,tradefed" >
    <linkfile src="root.bp" dest="Android.bp" />
    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
  </project>
-  <project path="bootable/recovery" name="XPerience-AOSP-Lollipop/android_bootable_recovery" groups="pdk" />
-  <project path="development" name="XPerience-AOSP-Lollipop/android_development" groups="developers,pdk-cw-fs,pdk-fs" />
+  <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" />
+  <project path="development" name="TheXPerienceProject/android_development" groups="developers,pdk-cw-fs,pdk-fs" />
 
   <!--art bionic-->
-  <project path="art" name="XPerience-AOSP-Lollipop/android_art" groups="pdk" />
-  <project path="bionic" name="XPerience-AOSP-Lollipop/android_bionic" groups="pdk" />
+  <project path="art" name="TheXPerienceProject/android_art" groups="pdk" />
+  <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" />
   
   <!--device-->
-  <project path="device/xperience/sepolicy" name="XPerience-AOSP-Lollipop/android_device_xperience_sepolicy" />
-  <project path="device/qcom/sepolicy" name="XPerience-AOSP-Lollipop/android_device_qcom_sepolicy" />
+  <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" />
+  <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" />
  
 
   <!--external-->
-  <project path="external/e2fsprogs" name="XPerience-AOSP-Lollipop/android_external_e2fsprogs" groups="pdk" />
-  <project path="external/selinux" name="XPerience-AOSP-Lollipop/android_external_selinux" groups="pdk" />
+  <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" />
+  <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" />
 
   <!--frameworks-->
-  <project path="frameworks/av" name="XPerience-AOSP-Lollipop/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="XPerience-AOSP-Lollipop/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="XPerience-AOSP-Lollipop/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" />
 
   <!--Hardware-->
-  <project path="hardware/libhardware" name="XPerience-AOSP-Lollipop/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/xperience/interfaces" name="XPerience-AOSP-Lollipop/android_hardware_xperience_interfaces" >
+  <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" >
     <copyfile dest="hardware/xperience/Android.bp" src="Android.bp"/>
   </project>
-  <project path="hardware/qcom/keymaster" name="XPerience-AOSP-Lollipop/android_hardware_qcom_keymaster" groups="pdk" />  
-  <project path="hardware/ril-caf" name="XPerience-AOSP-Lollipop/android_hardware_ril-caf" groups="pdk" />
+  <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="pdk" />  
+  <project path="hardware/ril-caf" name="TheXPerienceProject/android_hardware_ril-caf" groups="pdk" />
   
   <!--HALS-->
-  <project path="hardware/qcom/audio-caf/msm8952" name="XPerience-AOSP-Lollipop/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="xpe-12.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="XPerience-AOSP-Lollipop/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="xpe-12.1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="XPerience-AOSP-Lollipop/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="xpe-12.1-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="xpe-12.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="xpe-12.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="xpe-12.1-caf-8996" />
 
-  <project path="hardware/qcom/display-caf/msm8952" name="XPerience-AOSP-Lollipop/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-12.1-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8974" name="XPerience-AOSP-Lollipop/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-12.1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8996" name="XPerience-AOSP-Lollipop/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-12.1-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8952" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-12.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8974" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-12.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8996" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-12.1-caf-8996" />
 
-  <project path="hardware/qcom/media-caf/msm8996" name="XPerience-AOSP-Lollipop/android_hardware_qcom_media" groups="qcom,pdk" revision="xpe-12.1-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8996" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,pdk" revision="xpe-12.1-caf-8996" />
   
   <!--packages-->
-  <project path="packages/apps/Gallery2" name="XPerience-AOSP-Lollipop/android_packages_apps_Gallery2" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="XPerience-AOSP-Lollipop/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
-  <project path="packages/apps/Settings" name="XPerience-AOSP-Lollipop/android_packages_apps_Settings" groups="pdk-fs" />
-  <project path="packages/apps/RainbowUnicorn" name="XPerience-AOSP-Lollipop/android_packages_apps_RainbowUnicorn" />
-  <project path="packages/services/Telephony" name="XPerience-AOSP-Lollipop/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Updater" name="XPerience-AOSP-Lollipop/android_packages_apps_XPeUpdater" remote="xpe" />
+  <project path="packages/apps/Gallery2" name="TheXPerienceProject/android_packages_apps_Gallery2" groups="pdk-fs" />
+  <project path="packages/apps/Nfc" name="TheXPerienceProject/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
+  <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/RainbowUnicorn" name="TheXPerienceProject/android_packages_apps_RainbowUnicorn" />
+  <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" />
 
   <!--system-->
-  <project path="system/qcom" name="XPerience-AOSP-Lollipop/android_system_qcom" groups="qcom" />
-  <project path="system/sepolicy" name="XPerience-AOSP-Lollipop/android_system_sepolicy" groups="pdk" />
-  <project path="system/core" name="XPerience-AOSP-Lollipop/android_system_core" groups="pdk" />
-  <project path="system/vold" name="XPerience-AOSP-Lollipop/android_system_vold" groups="pdk" />
-  <project path="system/keymaster" name="XPerience-AOSP-Lollipop/android_system_keymaster" groups="pdk" />
+  <project path="system/qcom" name="TheXPerienceProject/android_system_qcom" groups="qcom" />
+  <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" />
+  <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" />
+  <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" />
+  <project path="system/keymaster" name="TheXPerienceProject/android_system_keymaster" groups="pdk" />
 
   <!-- Vendor -->
-  <project path="vendor/xperience" name="XPerience-AOSP-Lollipop/android_vendor_XPerience" remote="xpe" groups="xpe" >
+  <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_XPerience" remote="xpe" groups="xpe" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     <copyfile src="jack.sh" dest="jack.sh" />
   </project>
 
   <!-- Vendor CodeAurora -->
-  <project path="vendor/codeaurora/telephony" name="XPerience-AOSP-Lollipop/android_vendor_codeaurora_telephony" />
+  <project path="vendor/codeaurora/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" />
 
   <!--vendor qcom-->
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="XPerience-AOSP-Lollipop/android_vendor_qcom_opensource_cryptfs_hw" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" />
 
   <!--Vendor qcom sdclang  -->
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="github" path="vendor/qcom/sdclang-4.0/linux-x86" revision="oreo" />
