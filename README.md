@@ -11,7 +11,7 @@ To initialize your local repository using the XOSP trees, use a command like thi
 
       $ mkdir XPe
       $ cd XPe
-      $ repo init -u git://github.com/XPerience-AOSP-Lollipop/Manifest.git -b xpe-12.1
+      $ repo init -u git://github.com/TheXPerienceProject/Manifest.git -b xpe-12.1
     
 Then to sync up:
 
@@ -30,7 +30,7 @@ Then to sync up:
 - A storage unit of any kind (minimum 100 GB). It would be better to use SSD because is more fast during the compliation process
 - Some dependencies that should be installed
 
-### [Dependencies for Linux](https://github.com/XPerience-AOSP-Lollipop/Manifest/wiki/Dependencies-for-Linux) or [Dependencies for Mac](https://github.com/XPerience-AOSP-Lollipop/Manifest/wiki/Dependencies-for-Mac)
+### [Dependencies for Linux](https://github.com/TheXPerienceProject/Manifest/wiki/Dependencies-for-Linux) or [Dependencies for Mac](https://github.com/TheXPerienceProject/Manifest/wiki/Dependencies-for-Mac)
 
 ### Building The XPerience Project ROM for your device
 - Preparing Required Binaries and Device Drivers
