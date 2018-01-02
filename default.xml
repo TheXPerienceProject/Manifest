@@ -7,7 +7,7 @@
 
   <remote  name="xpe"
            fetch=".."
-           review="https://github.com/XPerience-AOSP-Lollipop"
+           review="https://github.com/TheXPerienceProject"
            revision="refs/heads/xpe-12.1"
            sync-c="true"
            sync-j="4" />
@@ -32,7 +32,7 @@
            sync-j="4" />
 
   <!--#include manifest-->
-  <project path="android" name="XPerience-AOSP-Lollipop/Manifest" groups="pdk" />
+  <project path="android" name="TheXPerienceProject/Manifest" groups="pdk" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
