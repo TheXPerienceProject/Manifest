@@ -11,7 +11,7 @@ To initialize your local repository using the XOSP trees, use a command like thi
 
       $ mkdir XPe
       $ cd XPe
-      $ repo init -u git://github.com/TheXPerienceProject/Manifest.git -b xpe-12.1
+      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-12.1
     
 Then to sync up:
 
