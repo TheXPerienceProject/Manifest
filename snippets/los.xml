@@ -27,6 +27,7 @@
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" remote="github" revision="lineage-15.1" />
 
   <!--frameworks-->
+  <project path="frameworks/opt/datetimepicker" name="LineageOS/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
   <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="frameworks/support" name="LineageOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
   
