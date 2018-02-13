@@ -2,140 +2,140 @@
 <manifest>
 
   <!--Build-->
-  <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" remote="github" revision="staging/lineage-15.1" />
+  <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" remote="github" revision="lineage-15.1" />
 
   <!--device-->
 
   <!--External-->
-  <project path="external/bash" name="LineageOS/android_external_bash" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/elfutils" name="LineageOS/android_external_elfutils" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="staging/lineage-15.1" />
-  <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/libtar" name="LineageOS/android_external_libtar" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" remote="github" revision="staging/lineage-15.1" />
+  <project path="external/bash" name="LineageOS/android_external_bash" remote="github" revision="lineage-15.1" />
+  <project path="external/elfutils" name="LineageOS/android_external_elfutils" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="lineage-15.1" />
+  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="lineage-15.1" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-15.1" />
+  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-15.1" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-15.1" />
+  <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-15.1" />
+  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="github" revision="lineage-15.1" />
+  <project path="external/libtar" name="LineageOS/android_external_libtar" remote="github" revision="lineage-15.1" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-15.1" />
+  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" remote="github" revision="lineage-15.1" />
 
   <!--frameworks-->
-  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="frameworks/support" name="LineageOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
+  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="frameworks/support" name="LineageOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
   
   <!--Hardware-->
-  <!--<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" revision="lineage-15.0" />
-  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-15.0" >
+  <!--<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-15.1" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>-->
-  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="staging/lineage-15.1" />
+  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="lineage-15.1" />
 
 
   <!--packages-->
-  <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/TV" name="LineageOS/android_packages_apps_TV" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/providers/BlockedNumberProvider" name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/providers/BookmarkProvider" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/providers/CalendarProvider" name="LineageOS/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/providers/CallLogProvider" name="LineageOS/android_packages_providers_CallLogProvider" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/providers/TvProvider" name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/providers/UserDictionaryProvider" name="LineageOS/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/screensavers/WebView" name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/services/BuiltInPrintService" name="LineageOS/android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/lineage-15.1" />
-  <project path="packages/wallpapers/LivePicker" name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" remote="github" revision="staging/lineage-15.1" />
+  <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/EmergencyInfo" name="LineageOS/android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/TV" name="LineageOS/android_packages_apps_TV" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/providers/BlockedNumberProvider" name="LineageOS/android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/providers/BookmarkProvider" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/providers/CalendarProvider" name="LineageOS/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/providers/CallLogProvider" name="LineageOS/android_packages_providers_CallLogProvider" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/providers/TvProvider" name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/providers/UserDictionaryProvider" name="LineageOS/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/screensavers/WebView" name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/services/BuiltInPrintService" name="LineageOS/android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
+  <project path="packages/wallpapers/LivePicker" name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" remote="github" revision="lineage-15.1" />
 
   <!--system-->
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="system/hardware/interfaces" name="LineageOS/android_system_hardware_interfaces" groups="pdk" remote="github" revision="lineage-15.0" />
-  <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="github" revision="staging/lineage-15.1" />
-  <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" remote="github" revision="staging/lineage-15.1" 	/>
-  <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" remote="github" revision="staging/lineage-15.1" />
+  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="system/hardware/interfaces" name="LineageOS/android_system_hardware_interfaces" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" remote="github" revision="lineage-15.1" 	/>
+  <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" remote="github" revision="lineage-15.1" />
 
  <!--Qualcomm HALS-->
-  <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.0-caf-8998" />
-  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="lineage-15.0-caf" />
-  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.0-caf-8998" />
-  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="staging/lineage-15.1" />
-  <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.0-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.0-caf-8998" />
-  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="lineage-15.0-caf" />
-  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="staging/lineage-15.1" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf" />
+  <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" remote="github" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="lineage-15.1-caf" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="lineage-15.1" />
 
   <!--CAF-->
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="staging/lineage-15.1"  />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/brctl" name="LineageOS/android_external_brctl" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="staging/lineage-15.1" />
-  <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="staging/lineage-15.1" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-15.1"  />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-15.1" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-15.1" />
+  <project path="external/brctl" name="LineageOS/android_external_brctl" remote="github" revision="lineage-15.1" />
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="lineage-15.1" />
+  <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="github" revision="lineage-15.1" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="github" revision="lineage-15.1" />
+  <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="lineage-15.1" />
 
   <!--vendor-->
-  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="staging/lineage-15.1" >
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="lineage-15.1" >
      <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
 </manifest>
