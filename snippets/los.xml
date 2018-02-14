@@ -100,7 +100,6 @@
   <!--system-->
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" remote="github" revision="lineage-15.1" />
-  <project path="system/media" name="LineageOS/android_system_media" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" remote="github" revision="lineage-15.1" 	/>
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" remote="github" revision="lineage-15.1" />
