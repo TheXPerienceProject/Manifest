@@ -83,6 +83,7 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
     <copyfile src="jack.sh" dest="jack.sh" />
   </project>
+  <project path="vendor/ambientmusic" name="TheXPerienceProject/vendor_ambientmusic" remote="xpe" />
 
   <!-- Vendor CodeAurora -->
   <project path="vendor/codeaurora/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" />
