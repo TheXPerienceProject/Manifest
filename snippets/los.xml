@@ -48,6 +48,9 @@
   <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="github" revision="lineage-15.1" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="lineage-15.1" />
+  <project path="hardware/qcom/neuralnetworks/hvxservice" name="LineageOS/android_hardware_qcom_neuralnetworks_hvxservice" remote="github" revision="lineage-15.1" >
+    <copyfile dest="hardware/qcom/Android.bp" src="Android.bp"/>
+  </project>
 
 
   <!--packages-->
