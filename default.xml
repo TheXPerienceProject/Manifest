@@ -12,6 +12,10 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="ctr"
+           fetch="https://github.com/Citrus-CAF"
+           revision="o8x" />
+
   <remote  name="gitlabs"
            fetch="https://gitlab.com/" />
 
