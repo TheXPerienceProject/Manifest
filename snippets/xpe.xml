@@ -58,9 +58,9 @@
   
    <!--HAL for KENZO from citrus caf thanks to TheStrechh -->
    <!-- MSM8952 -->
-   <project name="hardware_qcom_audio" path="hardware/qcom/audio/msm8952" revision="o8x-8952" remote="ctr" />
-   <project name="hardware_qcom_display" path="hardware/qcom/display/msm8952" revision="o8x-8952" remote="ctr" />
-   <project name="hardware_qcom_media" path="hardware/qcom/media/msm8952" revision="o8x-8952" remote="ctr" />
+   <project name="hardware_qcom_audio-caf" path="hardware/qcom/audio/msm8952" revision="o8x-8952" remote="ctr" />
+   <project name="hardware_qcom_display-caf" path="hardware/qcom/display/msm8952" revision="o8x-8952" remote="ctr" />
+   <project name="hardware_qcom_media-caf" path="hardware/qcom/media/msm8952" revision="o8x-8952" remote="ctr" />
 
   <!--packages-->
   <project path="packages/apps/Camera2" name="TheXPerienceProject/android_packages_apps_Camera2" groups="pdk-fs" />
