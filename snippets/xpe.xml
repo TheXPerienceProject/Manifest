@@ -33,6 +33,7 @@
   <!--frameworks-->
   <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/telephony" name="TheXPerienceProject/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" />
 
   <!--Hardware-->
@@ -42,6 +43,7 @@
     <copyfile dest="hardware/xperience/Android.bp" src="Android.bp"/>
   </project>
   <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="pdk" />  
+  <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="TheXPerienceProject/android_hardware_ril-caf" groups="pdk" />
   <project path="hardware/qcom/power" name="TheXPerienceProject/android_hardware_qcom_power" groups="qcom,pdk" />
   
@@ -74,6 +76,7 @@
   <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
 
   <!--system-->
+  <project path="system/bt" name="TheXPerienceProject/android_system_bt" groups="pdk" />
   <project path="system/qcom" name="TheXPerienceProject/android_system_qcom" groups="qcom" />
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" />
   <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" />
