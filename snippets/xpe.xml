@@ -42,6 +42,7 @@
   <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" >
     <copyfile dest="hardware/xperience/Android.bp" src="Android.bp"/>
   </project>
+  <project path="hardware/qcom/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="pdk" />
   <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="pdk" />  
   <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="TheXPerienceProject/android_hardware_ril-caf" groups="pdk" />
