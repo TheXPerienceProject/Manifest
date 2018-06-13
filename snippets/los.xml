@@ -22,6 +22,7 @@
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-15.1" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" remote="github" revision="lineage-15.1" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" remote="github" revision="lineage-15.1" />
+  <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-15.1" />
   <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" remote="github" revision="lineage-15.1" />
@@ -31,7 +32,7 @@
   <project path="frameworks/opt/datetimepicker" name="LineageOS/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
   <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="frameworks/support" name="LineageOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="github" revision="lineage-15.1" />
-  
+
   <!--Hardware-->
   <!--<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="github" revision="lineage-15.1" />
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-15.1" >
