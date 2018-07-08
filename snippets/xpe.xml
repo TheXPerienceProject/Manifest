@@ -85,6 +85,7 @@
   <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" />
   <project path="system/netd" name="TheXPerienceProject/android_system_netd" groups="pdk" />
   <project path="system/keymaster" name="TheXPerienceProject/android_system_keymaster" groups="pdk" />
+  <project path="system/libvintf" name="TheXPerienceProject/android_system_libvintf" groups="pdk" />
 
   <!-- Vendor -->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_XPerience" remote="xpe" groups="xpe" >
