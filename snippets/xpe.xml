@@ -72,6 +72,7 @@
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SnapdragonCamera" name="TheXPerienceProject/android_packages_apps_SnapdragonCamera" />
   <project path="packages/apps/RainbowUnicorn" name="TheXPerienceProject/android_packages_apps_RainbowUnicorn" />
+  <project path="packages/apps/TvSettings" name="TheXPerienceProject/android_packages_apps_TvSettings" groups="pdk-fs" />
   <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" />
   <project path="packages/providers/DownloadProvider" name="TheXPerienceProject/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />

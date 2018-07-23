@@ -77,7 +77,6 @@
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" remote="github" revision="lineage-15.1" />
   <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" remote="github" revision="lineage-15.1" />
   <project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" remote="github" revision="lineage-15.1" />
-  <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" remote="github" revision="lineage-15.1" />
   <project path="packages/apps/TV" name="LineageOS/android_packages_apps_TV" remote="github" revision="lineage-15.1" />
   <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" remote="github" revision="lineage-15.1" />
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="github" revision="lineage-15.1" />
