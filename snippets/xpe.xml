@@ -21,11 +21,11 @@
   <!--art bionic-->
   <project path="art" name="TheXPerienceProject/android_art" groups="pdk" />
   <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" />
-  
+
   <!--device-->
   <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" />
   <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" />
- 
+
   <!--external-->
   <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" />
   <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" />
@@ -44,11 +44,11 @@
   </project>
   <project path="hardware/qcom/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="TheXPerienceProject/android_hardware_qcom_bt" groups="qcom,pdk"/>
-  <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="pdk" />  
+  <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="pdk" />
   <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="TheXPerienceProject/android_hardware_ril-caf" groups="pdk" />
   <project path="hardware/qcom/power" name="TheXPerienceProject/android_hardware_qcom_power" groups="qcom,pdk" />
-  
+
   <!--HALS-->
   <project path="hardware/qcom/audio-caf/msm8916" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="xpe-12.1-caf-8916" />
   <project path="hardware/qcom/audio-caf/msm8952" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="xpe-12.1-caf-8952" />
@@ -101,6 +101,6 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" />
 
   <!--Vendor qcom sdclang  -->
-  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="github" path="vendor/qcom/sdclang-4.0/linux-x86" revision="oreo" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="github" path="vendor/qcom/sdclang-4.0/linux-x86" revision="oreo-mr1" />
 
 </manifest>
