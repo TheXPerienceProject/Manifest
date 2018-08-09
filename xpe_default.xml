@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+    <!-- The XPerience Project Repos -->
+
+    <!-- Build-->
+    <project path="art" name="TheXPerienceProject/android_art" groups="pdk" remote="xpe" />
+    <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
+
+    <!-- Bootable -->
+    <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
+
+    <!-- Build-->
+    <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe" >
+      <copyfile src="core/root.mk" dest="Makefile" />
+      <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+      <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+      <linkfile src="core" dest="build/core" />
+      <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+      <linkfile src="target" dest="build/target" />
+      <linkfile src="tools" dest="build/tools" />
+    </project>
+
+    <project path="build/soong" name="TheXPerienceProject/android_build_soong" groups="pdk,tradefed" remote="xpe" >
+      <linkfile src="root.bp" dest="Android.bp" />
+      <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+    <!--device-->
+    <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" />
+
+
+    <!-- External -->
+    <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk"  remote="xpe" />
+
+
+    <!-- Prebuilts -->
+    <project path="prebuilts/build-tools" name="TheXPerienceProject/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="xpe" />
+
+
+    <!-- System -->
+    <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
+    <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
+
+    <!-- Vendor -->
+    <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_XPerience" remote="xpe" groups="xpe" >
+      <copyfile src="build.sh" dest="rom-build.sh" />
+      <copyfile src="jack.sh" dest="jack.sh" />
+    </project>
+
+    <!-- Vendor CodeAurora -->
+    <project path="vendor/codeaurora/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" remote="xpe" />
+
+    <!--vendor qcom-->
+    <project path="vendor/qcom/opensource/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" remote="xpe" />
+
+</manifest>
