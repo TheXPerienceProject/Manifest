@@ -4,10 +4,20 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com" />
-  <default revision="refs/tags/android-9.0.0_r1"
-           remote="aosp"
+  
+    <remote  name="xpe"
+           fetch=".."
+           review="https://github.com/TheXPerienceProject"
+           revision="refs/heads/xpe-13.0"
+           sync-c="true"
            sync-j="4" />
 
+  <default revision="refs/tags/android-9.0.0_r1"
+           remote="aosp"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="android" name="TheXPerienceProject/Manifest" remote="xpe" />
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -697,5 +707,11 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Remove unused AOSP repos -->
+  <include name="remove.xml" />
+
+  <!-- Add all tracked XPe/AOSP repos -->
+  <include name="xpe_default.xml" />
 
 </manifest>
