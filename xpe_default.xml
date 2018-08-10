@@ -37,6 +37,9 @@
     <!-- External -->
     <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk"  remote="xpe" />
 
+    <!--Frameworks -->
+	<project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="xpe"  />
 
     <!-- Hardware -->
     <project path="hardware/qcom/keymaster"           name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="xpe" />
