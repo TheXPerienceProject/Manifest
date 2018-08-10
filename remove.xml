@@ -63,6 +63,12 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
 
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/media" />
+
   <!--Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
 
