@@ -51,6 +51,7 @@
   <remove-project name="device/sample" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework repos -->
@@ -58,6 +59,7 @@
   <remove-project name="platform/frameworks/base" />
 
   <!-- Hardware -->
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
