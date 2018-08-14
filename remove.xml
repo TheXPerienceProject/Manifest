@@ -53,6 +53,7 @@
   <!-- External repos -->
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/perfetto" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
@@ -69,7 +70,8 @@
   <remove-project name="platform/prebuilts/build-tools" />
 
   <!-- System -->
-  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/vold" />
 
 </manifest>
