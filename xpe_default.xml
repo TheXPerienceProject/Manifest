@@ -46,6 +46,7 @@
 
     <!-- Hardware -->
     <project path="hardware/libhardware"              name="TheXPerienceProject/android_hardware_libhardware"  groups="pdk" remote="xpe" />
+    <project path="hardware/libhardware_legacy"       name="TheXPerienceProject/android_hardware_libhardware_legacy"  groups="pdk" remote="xpe" />
     <project path="hardware/qcom/keymaster"           name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="xpe" />
     <project path="hardware/qcom/audio"               name="TheXPerienceProject/android_hardware_qcom_audio"  groups="pdk-qcom,qcom,qcom_audio" remote="xpe" />
     <project path="hardware/qcom/audio-caf/msm8952"   name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
