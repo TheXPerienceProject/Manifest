@@ -45,15 +45,18 @@
     <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="xpe"  />
 
     <!-- Hardware -->
-	<project path="hardware/libhardware"              name="TheXPerienceProject/android_hardware_libhardware"  groups="pdk" remote="xpe" />
+    <project path="hardware/libhardware"              name="TheXPerienceProject/android_hardware_libhardware"  groups="pdk" remote="xpe" />
     <project path="hardware/qcom/keymaster"           name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="xpe" />
-	<project path="hardware/qcom/audio"               name="TheXPerienceProject/android_hardware_qcom_audio"  groups="pdk-qcom,qcom,qcom_audio" remote="xpe" />
+    <project path="hardware/qcom/audio"               name="TheXPerienceProject/android_hardware_qcom_audio"  groups="pdk-qcom,qcom,qcom_audio" remote="xpe" />
+    <project path="hardware/qcom/audio-caf/msm8952"   name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/audio-caf/msm8974"   name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/audio-caf/msm8996"   name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8996" remote="xpe" />
-	<project path="hardware/qcom/display"             name="TheXPerienceProject/android_hardware_qcom_display"  groups="pdk-qcom,qcom,qcom_display" remote="xpe" />
-	<project path="hardware/qcom/display-caf/msm8974" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />
+    <project path="hardware/qcom/display"             name="TheXPerienceProject/android_hardware_qcom_display"  groups="pdk-qcom,qcom,qcom_display" remote="xpe" />
+    <project path="hardware/qcom/display-caf/msm8952" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />
+    <project path="hardware/qcom/display-caf/msm8974" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/display-caf/msm8996" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8996" remote="xpe" />
-	<project path="hardware/qcom/media"               name="TheXPerienceProject/android_hardware_qcom_media"  groups="pdk-qcom,qcom,qcom_media" remote="xpe" />
+    <project path="hardware/qcom/media"               name="TheXPerienceProject/android_hardware_qcom_media"  groups="pdk-qcom,qcom,qcom_media" remote="xpe" />
+    <project path="hardware/qcom/media-caf/msm8952"   name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/media-caf/msm8974"   name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/media-caf/msm8996"   name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8996" remote="xpe" />
 
