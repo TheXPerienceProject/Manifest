@@ -75,6 +75,7 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
 
   <!--Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
