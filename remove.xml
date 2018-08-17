@@ -59,6 +59,7 @@
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
 
   <!-- Hardware -->
@@ -71,6 +72,10 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Launcher2" />
+  <remove-project name="platform/packages/apps/Settings" />
+
   <!--Prebuilts -->
   <remove-project name="platform/prebuilts/build-tools" />
 
@@ -78,5 +83,6 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/update_engine" />
 
 </manifest>
