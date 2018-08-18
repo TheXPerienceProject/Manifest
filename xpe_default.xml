@@ -64,6 +64,8 @@
     <project path="hardware/qcom/wlan-caf" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="xpe-13.0-caf" remote="xpe" />
     <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-13.0" remote="xpe" />
     <project path="hardware/ril-caf" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-13.0-caf" remote="xpe" />
+    <project path="hardware/qcom/bt" name="TheXPerienceProject/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="xpe" />
+    <project path="hardware/qcom/bt-caf" name="TheXPerienceProject/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="xpe" revision="xpe-13.0-caf" />
 
     <!-- Packages -->
     <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_settings" groups="pdk-fs" remote="xpe" />
