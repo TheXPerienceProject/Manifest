@@ -17,7 +17,7 @@
            fetch="https://source.codeaurora.org/quic/la/"
            review="codeaurora.org" />
 
-  <default revision="LA.UM.7.2.r1-04000-sdm660.0"
+  <default revision="refs/tags/LA.UM.7.2.r1-04000-sdm660.0"
            remote="caf"
            sync-c="true"
            sync-j="4" />
@@ -49,7 +49,7 @@
     <project groups="p-fs-release,pdk" name="device/google/vrservices" />
     <project groups="device,p-fs-release,pdk,wahoo" name="device/google/wahoo" />
     <project groups="device,p-fs-release,pdk,wahoo" name="device/google/wahoo-kernel" />
-    <project name="device/qcom/common" >
+    <project name="device/qcom/common" path="device/qcom/common" >
       <copyfile dest="build.sh" src="build.sh"/>
       <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
     </project>
