@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com"
            revision="refs/tags/android-9.0.0_r1" />
   
-    <remote  name="xpe"
+    <remote name="xpe"
            fetch=".."
            review="https://github.com/TheXPerienceProject"
            revision="refs/heads/xpe-13.0"
@@ -55,7 +55,7 @@
     <project name="device/qcom/common" >
       <copyfile dest="build.sh" src="build.sh"/>
       <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-</project>
+    </project>
     <project name="device/qcom/qssi" />
     <project name="device/qcom/sepolicy" />
     <project groups="p-fs-release,pdk" name="device/sample" />
@@ -64,7 +64,7 @@
     <project groups="p-fs-release,pdk" name="platform/art" path="art" />
     <project groups="p-fs-release,pdk" name="platform/bionic" path="bionic" />
     <project groups="p-fs-release,pdk" name="platform/bootable/recovery" path="bootable/recovery" />
-    <project groups="p-fs-release,pdk" name="platform/build" path="build/make" />
+    <project groups="p-fs-release,pdk" name="platform/build" path="build/make" >
       <copyfile dest="Makefile" src="core/root.mk"/>
       <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
       <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -72,13 +72,13 @@
       <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
       <linkfile dest="build/target" src="target"/>
       <linkfile dest="build/tools" src="tools"/>
-</project>
+    </project>
     <project groups="p-fs-release,pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" />
     <project groups="p-fs-release,pdk,tradefed" name="platform/build/kati" path="build/kati" />
-    <project groups="p-fs-release,pdk,tradefed" name="platform/build/soong" path="build/soong" />
+    <project groups="p-fs-release,pdk,tradefed" name="platform/build/soong" path="build/soong" >
       <linkfile dest="Android.bp" src="root.bp"/>
       <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
-</project>
+     </project>
     <project groups="p-fs-release,pdk" name="platform/compatibility/cdd" path="compatibility/cdd" />
     <project groups="cts,p-fs-release,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" />
     <project groups="p-fs-release,pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" />
