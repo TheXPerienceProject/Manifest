@@ -53,8 +53,8 @@
       <copyfile dest="build.sh" src="build.sh"/>
       <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
     </project>
-    <project name="device/qcom/qssi" />
-    <project name="device/qcom/sepolicy" />
+    <project name="device/qcom/qssi" path="device/qcom/qssi" />
+    <project name="device/qcom/sepolicy" path="device/qcom/sepolicy" />
     <project groups="p-fs-release,pdk" name="device/sample" />
     <project groups="p-fs-release,pdk,vts" name="kernel/configs" />
     <project name="kernel/msm-4.4" />
@@ -96,7 +96,7 @@
     <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" />
     <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" />
     <project groups="p-fs-release,pdk" name="platform/external/antlr" path="external/antlr" />
-    <project groups="p-fs-release,pdk" name="platform/external/apache-commons-math" />
+    <project groups="p-fs-release,pdk" name="platform/external/apache-commons-math" path="external/apache-commons-math" />
     <project groups="p-fs-release,pdk" name="platform/external/apache-harmony" path="external/apache-harmony" />
     <project groups="p-fs-release,pdk" name="platform/external/apache-http" path="external/apache-http" />
     <project groups="p-fs-release,pdk" name="platform/external/apache-xml" path="external/apache-xml" />
@@ -202,7 +202,7 @@
     <project groups="p-fs-release,pdk" name="platform/external/jsmn" path="external/jsmn" />
     <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/json-c" path="external/json-c" />
     <project groups="p-fs-release,pdk" name="platform/external/jsoncpp" path="external/jsoncpp" />
-    <project groups="p-fs-release,pdk" name="platform/external/jsr330" path="external/jsr330" revision="ef3a2d74af63d90085bb3cbb2898ad3586dcac6c" upstream="refs/heads/ks-aosp.lnx.1.0.r2-rel"/>
+    <project groups="p-fs-release,pdk" name="platform/external/jsr330" path="external/jsr330" />
     <project groups="p-fs-release,pdk" name="platform/external/jsr305" path="external/jsr305" />
     <project groups="p-fs-release,pdk" name="platform/external/junit" path="external/junit" />
     <project groups="p-fs-release,pdk" name="platform/external/junit-params" path="external/junit-params" />
@@ -341,7 +341,7 @@
     <project groups="p-fs-release,pdk,vts" name="platform/external/python/packaging" path="external/python/packaging" />
     <project groups="p-fs-release,pdk,vts" name="platform/external/python/parse" path="external/python/parse" />
     <project groups="p-fs-release,pdk,vts" name="platform/external/python/ply" path="external/python/ply" />
-    <project groups="p-fs-release,pdk,vts" name="platform/external/python/proto-google-cloud-pubsub-v1" />
+    <project groups="p-fs-release,pdk,vts" name="platform/external/python/proto-google-cloud-pubsub-v1" path="external/python/proto-google-cloud-pubsub-v1" />
     <project groups="p-fs-release,pdk,vts" name="platform/external/python/protobuf" path="external/python/protobuf" />
     <project groups="p-fs-release,pdk,vts" name="platform/external/python/pyasn1" path="external/python/pyasn1" />
     <project groups="p-fs-release,pdk,vts" name="platform/external/python/pyasn1-modules" path="external/python/pyasn1-modules" />
@@ -397,7 +397,7 @@
     <project groups="p-fs-release,pdk" name="platform/external/tremolo" path="external/tremolo" />
     <project groups="p-fs-release,pdk" name="platform/external/turbine" path="external/turbine" />
     <project groups="p-fs-release,pdk" name="platform/external/unicode" path="external/unicode" />
-    <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/universal-tween-engine" />
+    <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/universal-tween-engine" path="external/universal-tween-engine" />
     <project groups="p-fs-release,pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2" />
     <project groups="p-fs-release,pdk" name="platform/external/v8" path="external/v8" />
     <project groups="p-fs-release,pdk" name="platform/external/valgrind" path="external/valgrind"  />
@@ -411,7 +411,7 @@
     <project groups="p-fs-release,pdk" name="platform/external/wayland-protocols" path="external/wayland-protocols" />
     <project groups="p-fs-release,pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" />
     <project groups="p-fs-release,pdk" name="platform/external/webrtc" path="external/webrtc" />
-    <project groups="p-fs-release,pdk" name="platform/external/webview_support_interfaces" />
+    <project groups="p-fs-release,pdk" name="platform/external/webview_support_interfaces" path="external/webview_support_interfaces" />
     <project groups="p-fs-release,pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" />
     <project groups="p-fs-release,pdk" name="platform/external/wycheproof" path="external/wycheproof"  />
     <project groups="p-fs-release,pdk" name="platform/external/x264" path="external/x264" />
@@ -466,7 +466,7 @@
     <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/hardware/invensense" path="hardware/invensense" />
     <project groups="p-fs-release,pdk" name="platform/hardware/libhardware" path="hardware/libhardware" />
     <project groups="p-fs-release,pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" />
-    <project name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" revision="c8c0e443171096c643bacb820546395d8a5c52ec" />
+    <project name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" />
     <project name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element" />
     <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" />
     <project name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" />
@@ -514,8 +514,8 @@
     <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" />
     <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator"  />
     <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" />
-    <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/Gallery"  />
-    <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/Gallery2" />
+    <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/Gallery"  path="packages/apps/Gallery" />
+    <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2"/>
     <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" />
     <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" />
     <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" />
@@ -523,7 +523,7 @@
     <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" />
     <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" />
     <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" />
-    <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="f870bb79f7a43c9f02e32b7e1ccab4f9e1c0378c" />
+    <project name="platform/packages/apps/Mms" path="packages/apps/Mms" />
     <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" />
     <project groups="p-fs-release,pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" />
     <project groups="apps_nfc,p-fs-release,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" />
@@ -601,7 +601,7 @@
     <project groups="linux,p-fs-release,pdk,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
     <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" />
     <project groups="linux,p-fs-release,pdk,tradefed" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" />
-    <project groups="p-fs-release,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" />
+    <project groups="p-fs-release,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin"/>
     <project groups="p-fs-release,pdk" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" />
     <project groups="p-fs-release,pdk" name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" />
     <project groups="p-fs-release,pdk-cw-fs,pdk-fs" name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" />

@@ -91,4 +91,5 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
+  <remove-project name="platform/system/qcom" />
 </manifest>
