@@ -86,7 +86,7 @@
     <project groups="p-fs-release,pdk" name="platform/external/ImageMagick" path="external/ImageMagick" />
     <project groups="p-fs-release,pdk" name="platform/external/Microsoft-GSL" path="external/Microsoft-GSL" />
     <project groups="p-fs-release,pdk" name="platform/external/aac" path="external/aac" />
-    <project groups="p-fs-release,pdk" name="platform/external/abi-compliance-checker" />
+    <project groups="p-fs-release,pdk" name="platform/external/abi-compliance-checker" path="external/abi-compliance-checker" />
     <project groups="p-fs-release,pdk" name="platform/external/abi-dumper" path="external/abi-dumper" />
     <project groups="p-fs-release,pdk" name="platform/external/adhd" path="external/adhd" />
     <project groups="p-fs-release,pdk" name="platform/external/android-clat" path="external/android-clat" />
