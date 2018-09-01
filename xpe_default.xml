@@ -36,6 +36,7 @@
     <project path="external/connectivity" name="TheXPerienceProject/android_external_connectivity" remote="xpe" />
     <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" remote="xpe" />
     <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
+	<project path="external/tremolo" name="TheXPerienceProject/android_external_tremolo" groups="pdk" remote="xpe" />
     <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk"  remote="xpe" />
     <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto" groups="pdk" remote="xpe" />
 
@@ -83,6 +84,8 @@
     <!-- System -->
     <project path="system/bt" name="TheXPerienceProject/android_system_bt" groups="pdk" remote="xpe" />
     <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
+    <project path="system/extras" name="TheXPerienceProject/android_system_extras" groups="pdk" remote="xpe" />
+    <project path="system/nfc" name="TheXPerienceProject/android_system_nfc" groups="pdk" remote="xpe" />
     <project path="system/qcom" name="TheXPerienceProject/android_system_qcom" groups="qcom" remote="xpe" />
 	<project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
     <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
