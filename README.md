@@ -1,4 +1,4 @@
-![xperience](https://i.imgur.com/vMPAFVW.png)
+![xperience](https://i.imgur.com/h4CgRmp.png)
 
 Getting Started The XPerience Project
 ---------------
