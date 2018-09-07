@@ -31,6 +31,8 @@
 
     <!--device-->
     <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe" />
+    <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-13.0-caf" />
+    <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" />
 
     <!-- External -->
     <project path="external/connectivity" name="TheXPerienceProject/android_external_connectivity" remote="xpe" />
