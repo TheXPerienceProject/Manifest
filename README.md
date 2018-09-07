@@ -1,4 +1,4 @@
-![xperience](https://i.imgur.com/D6p8pUs.png)
+![xperience](https://i.imgur.com/vMPAFVW.png)
 
 Getting Started The XPerience Project
 ---------------
@@ -7,10 +7,10 @@ The XPerience Project. Google recommends using [Ubuntu](http://www.ubuntu.com/do
 this and provides instructions for setting up the system (with Ubuntu-specific commands) on
 [the Android Open Source Project website](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
 
-To initialize your local repository using the XOSP trees, use a command like this:
+To initialize your local repository using the XPerience trees, use a command like this:
 
-      $ mkdir XPe
-      $ cd XPe
+      $ mkdir xperience
+      $ cd xperience
       $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-13.0
     
 Then to sync up:
@@ -27,7 +27,7 @@ Then to sync up:
 - Any other distribution based of the Ubuntu Distro such as Lubuntu, Xubuntu and etc.
 - A Terminal window
 - A Good specs of hardware like 8 GB of RAM and an Intel I3 dual core (Minimum)
-- A storage unit of any kind (minimum 100 GB). It would be better to use SSD because is more fast during the compliation process
+- A storage unit of any kind (minimum 200 GB). It would be better to use SSD because is more fast during the compliation process
 - Some dependencies that should be installed
 
 ### [Dependencies for Linux](https://github.com/TheXPerienceProject/Manifest/wiki/Dependencies-for-Linux) or [Dependencies for Mac](https://github.com/TheXPerienceProject/Manifest/wiki/Dependencies-for-Mac)
