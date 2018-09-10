@@ -75,7 +75,7 @@
     </project>
 
     <!-- Packages -->
-	<android path="packages/apps/RainbowUnicorn" name="TheXPerienceProject/android_packages_apps_RainbowUnicorn" remote="xpe" />
+    <project path="packages/apps/RainbowUnicorn" name="TheXPerienceProject/android_packages_apps_RainbowUnicorn" remote="xpe" />
     <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_settings" groups="pdk-fs" remote="xpe" />
     <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" groups="pdk-fs" remote="xpe" />
     <project path="packages/providers/DownloadProvider" name="TheXPerienceProject/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
@@ -89,7 +89,7 @@
     <project path="system/extras" name="TheXPerienceProject/android_system_extras" groups="pdk" remote="xpe" />
     <project path="system/nfc" name="TheXPerienceProject/android_system_nfc" groups="pdk" remote="xpe" />
     <project path="system/qcom" name="TheXPerienceProject/android_system_qcom" groups="qcom" remote="xpe" />
-	<project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
+    <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
     <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
     <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" groups="pdk" remote="xpe" />
     <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
@@ -104,6 +104,7 @@
     <project path="vendor/codeaurora/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" remote="xpe" />
 
     <!--vendor qcom-->
+    <project path="vendor/qcom/opensource/audio" name="TheXPerienceProject/android_vendor_qcom_opensource_audio" remote="xpe" />
     <project path="vendor/qcom/opensource/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" remote="xpe" />
     <project path="vendor/qcom/opensource/dataservices" name="TheXPerienceProject/android_vendor_qcom_opensource_dataservices" remote="xpe" />
     <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_android_vendor_qcom_opensource_interfaces" remote="xpe" >
