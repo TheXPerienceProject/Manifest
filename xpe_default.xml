@@ -79,6 +79,7 @@
     <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_settings" groups="pdk-fs" remote="xpe" />
     <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" groups="pdk-fs" remote="xpe" />
     <project path="packages/providers/DownloadProvider" name="TheXPerienceProject/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <project path="packages/providers/MediaProvider" name="TheXPerienceProject/packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/build-tools" name="TheXPerienceProject/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="xpe" />
