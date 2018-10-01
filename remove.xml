@@ -41,6 +41,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/perfetto" />
+  <remove-project name="platform/external/ant-wireless/ant_native" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
