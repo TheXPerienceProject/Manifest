@@ -22,7 +22,7 @@
            sync-c="true"
            sync-j="4" />
 
-    <project path="android" name="TheXPerienceProject/Manifest" remote="xpe" />
+    <project path="android" name="TheXPerienceProject/Manifest" remote="xpe" revision="xpe-13.0-caf" />
     <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" />
     <project groups="p-fs-release,pdk,pdk-cw-fs" name="device/common" />
     <project groups="p-fs-release,pdk" name="device/generic/arm64" />
