@@ -17,6 +17,7 @@ Then to sync up:
 
       repo sync -j<number_of_threads>
 OR:
+
       repo sync --no-tags --no-clone-bundle --force-sync -c
 
 --------
