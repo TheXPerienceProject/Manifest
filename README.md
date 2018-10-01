@@ -1,4 +1,4 @@
-![xperience](https://i.imgur.com/D6p8pUs.png)
+![xperience](https://i.imgur.com/h4CgRmp.png)
 
 Getting Started The XPerience Project
 ---------------
@@ -11,11 +11,14 @@ To initialize your local repository using the XOSP trees, use a command like thi
 
       $ mkdir XPe
       $ cd XPe
-      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-13.0
+      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-13.0-caf
     
 Then to sync up:
 
       repo sync -j<number_of_threads>
+OR:
+
+      repo sync --no-tags --no-clone-bundle --force-sync -c
 
 --------
 
