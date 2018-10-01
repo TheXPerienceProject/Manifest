@@ -16,6 +16,8 @@ To initialize your local repository using the XPerience trees, use a command lik
 Then to sync up:
 
       repo sync -j<number_of_threads>
+OR:
+      repo sync --no-tags --no-clone-bundle --force-sync -c
 
 --------
 
