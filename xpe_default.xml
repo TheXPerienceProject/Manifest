@@ -9,13 +9,13 @@
 
     <!-- Build-->
     <project path="art" name="TheXPerienceProject/android_art" groups="pdk" remote="xpe" />
-    <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
+    <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
 
     <!-- Bootable -->
     <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
 
     <!-- Build-->
-    <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe" >
+    <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe" revision="xpe-13.0-caf" >
       <copyfile src="core/root.mk" dest="Makefile" />
       <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
       <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -24,7 +24,7 @@
       <linkfile src="target" dest="build/target" />
       <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="build/soong" name="TheXPerienceProject/android_build_soong" groups="pdk,tradefed" remote="xpe" >
+    <project path="build/soong" name="TheXPerienceProject/android_build_soong" groups="pdk,tradefed" remote="xpe" revision="xpe-13.0-caf" >
       <linkfile src="root.bp" dest="Android.bp" />
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
@@ -47,6 +47,7 @@
     <project path="frameworks/opt/telephony" name="TheXPerienceProject/android_frameworks_opt_telephony" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
 
     <!-- Hardware -->
+    <project path="hardware/interfaces"  name="TheXPerienceProject/android_hardware_interfaces" remote="xpe" revision="xpe-13.0-caf" />
     <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
     <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
     <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="xpe" />
@@ -112,5 +113,6 @@
     </project>-->
     <project path="vendor/qcom/opensource/rcs-service" name="TheXPerienceProject/android_vendor_qcom_opensource_rcs-service" remote="xpe" />
     <project path="vendor/qcom/opensource/softap" name="TheXPerienceProject/android_system_qcom" groups="qcom" remote="xpe" />
+	<project path="vendor/qcom/opensource/commonsys/system/bt" name="TheXPerienceProject/android_vendor_qcom_opensource_commonsys_system_bt" remote="xpe" />
 
 </manifest>
