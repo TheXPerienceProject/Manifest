@@ -81,6 +81,7 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tpm" />
 
   <!--vendor-->
   <remove-project name="platform/vendor/qcom/cobalt"/>
