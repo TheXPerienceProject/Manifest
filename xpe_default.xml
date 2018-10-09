@@ -34,8 +34,8 @@
 
     <!-- External -->
     <project path="external/ant-wireless/ant_native" name="TheXPerienceProject/android_external_ant-wireless_ant_native" remote="xpe" />
-    <project path="external/connectivity" name="TheXPerienceProject/android_external_connectivity" remote="xpe" />
-    <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" remote="xpe" />
+    <project path="external/connectivity" name="TheXPerienceProject/android_external_connectivity" remote="xpe" revision="xpe-13.0-caf" />
+    <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" remote="xpe"revision="xpe-13.0-caf"  />
     <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
     <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk"  remote="xpe" />
     <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto" groups="pdk" remote="xpe" />
@@ -49,8 +49,8 @@
 
     <!-- Hardware -->
     <project path="hardware/interfaces"  name="TheXPerienceProject/android_hardware_interfaces" remote="xpe" revision="xpe-13.0-caf" />
-    <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
-    <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
+    <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
+    <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
     <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="xpe" />
     <project path="hardware/qcom/audio-caf/msm8952" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/audio-caf/msm8974" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
@@ -92,11 +92,11 @@
     <project path="system/extras" name="TheXPerienceProject/android_system_extras" groups="pdk" remote="xpe" />
     <project path="system/nfc" name="TheXPerienceProject/android_system_nfc" groups="pdk" remote="xpe" />
     <project path="system/qcom" name="TheXPerienceProject/android_system_qcom" groups="qcom" remote="xpe" />
-    <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
-    <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
+    <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
+    <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
     <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" groups="pdk" remote="xpe" />
     <project path="system/tpm" name="TheXPerienceProject/android_system_tpm" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
-    <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
+    <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
 
     <!-- Vendor -->
     <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_XPerience" remote="xpe" groups="xpe" revision="xpe-13.0-caf" >
