@@ -8,7 +8,7 @@
     <!-- The XPerience Project Repos -->
 
     <!-- Build-->
-    <project path="art" name="TheXPerienceProject/android_art" groups="pdk" remote="xpe" />
+    <project path="art" name="TheXPerienceProject/android_art" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
     <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
 
     <!-- Bootable -->
