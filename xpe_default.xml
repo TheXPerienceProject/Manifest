@@ -69,7 +69,7 @@
     <project path="hardware/qcom/media-caf/msm8974" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/media-caf/msm8996" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8996" remote="xpe" />
     <project path="hardware/qcom/power" name="TheXPerienceProject/android_hardware_qcom_power" groups="qcom,pdk-qcom" remote="xpe" />
-    <project path="hardware/qcom/thermal" name="TheXPerienceProject/android_hardware_qcom_thermal" groups=qcom,pdk-qcom" remote="xpe" />
+    <project path="hardware/qcom/thermal" name="TheXPerienceProject/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="xpe" />
     <project path="hardware/qcom/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="xpe-13.0" remote="xpe" />
     <project path="hardware/qcom/wlan-caf" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="xpe-13.0-caf" remote="xpe" />
     <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-13.0" remote="xpe" />
