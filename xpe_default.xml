@@ -119,4 +119,6 @@
     </project>
     <project path="vendor/qcom/opensource/rcs-service" name="TheXPerienceProject/android_vendor_qcom_opensource_rcs-service" remote="xpe" />
 
+  <!--Vendor qcom sdclang  -->
+  <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" remote="github" path="vendor/qcom/sdclang-4.0/linux-x86" revision="pie" />
 </manifest>
