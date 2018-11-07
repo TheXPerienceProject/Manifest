@@ -77,6 +77,8 @@
   <remove-project name="platform/hardware/ril" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/Gallery2" />
   <remove-project name="platform/packages/apps/Launcher2" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/services/Telecomm" />
