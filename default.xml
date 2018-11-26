@@ -17,7 +17,7 @@
            fetch="https://source.codeaurora.org/quic/la/"
            review="codeaurora.org" />
 
-  <default revision="refs/tags/LA.UM.7.2.r1-05200-sdm660.0"
+  <default revision="refs/tags/LA.UM.7.2.r1-05400-sdm660.0"
            remote="caf"
            sync-c="true"
            sync-j="4" />
