@@ -35,6 +35,7 @@
     <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" />
 
     <!-- External -->
+    <project  path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines"  groups="qcom-LA.UM.7.3-incoming" remote="xpe" />
     <project path="external/connectivity" name="TheXPerienceProject/android_external_connectivity" remote="xpe" />
     <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" remote="xpe" />
     <project path="external/json-c" name="TheXPerienceProject/android_external_json-c" remote="xpe" />
