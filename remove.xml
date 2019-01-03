@@ -59,7 +59,6 @@
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
 
@@ -89,11 +88,6 @@
   <remove-project name="platform/vendor/qcom/msm8909go"/>
   <remove-project name="platform/vendor/qcom/skunk"/>
   <remove-project name="platform/vendor/qcom/thulium"/>
-  <remove-project name="platform/vendor/qcom/wlan"/>
-  <remove-project name="platform/hardware/qcom/audio"/>
-  <remove-project name="platform/hardware/qcom/display"/>
-  <remove-project name="platform/hardware/qcom/gps"/>
-  <remove-project name="platform/hardware/qcom/media"/>
   <remove-project name="platform/vendor/qcom-opensource/location"/>
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
@@ -108,9 +102,5 @@
   <remove-project name="platform/packages/apps/Gallery"/>
   <remove-project name="kernel/msm-4.9"/>
   <remove-project name="device/qcom/common" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
   <remove-project name="platform/system/qcom" />
 </manifest>
