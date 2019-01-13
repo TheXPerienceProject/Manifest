@@ -162,6 +162,9 @@
   <remove-project name="device/google/taimen"/>
   <remove-project name="device/google/wahoo"/>
   <remove-project name="device/google/wahoo-kernel"/>
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/vendor/opensource/audio-kernel"/><!--4.9 kernels only so call them from those devices -->
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn"/>
