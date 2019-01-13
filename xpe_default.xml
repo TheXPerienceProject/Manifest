@@ -103,7 +103,7 @@
 
     <!-- System -->
     <remove-project name="platform/system/bt" />
-    <project path="system/bt" name="TheXPerienceProject/android_system_bt" groups="pdk" remote="xpe" revision="xpe-13.0-caf" revision="xpe-13.0-caf" />
+    <project path="system/bt" name="TheXPerienceProject/android_system_bt" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
     <remove-project name="platform/system/core" />
     <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
     <!--<project path="system/qcom" name="TheXPerienceProject/android_system_qcom" groups="qcom" remote="xpe" />-->
