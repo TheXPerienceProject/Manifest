@@ -730,10 +730,7 @@
   <project name="toolchain/binutils"/>
   <project name="toolchain/pgo-profiles"/>
 
-  <!-- Remove unused AOSP repos -->
-  <include name="remove.xml" />
-
-  <!-- Add all tracked XPe/AOSP repos -->
+  <!-- Add all tracked repos -->
   <include name="xpe_default.xml" />
 
 </manifest>
