@@ -37,6 +37,9 @@
     <!--device-->
     <remove-project name="device/qcom/common" />
     <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe" revision="xpe-13.0-caf" />
+    <remove-project name="device/qcom/sepolicy" />
+    <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-13.0-caf" />
+    <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" />
 
     <!-- External -->
     <!--<project path="external/ant-wireless/ant_native" name="TheXPerienceProject/android_external_ant-wireless_ant_native" remote="xpe" />-->
