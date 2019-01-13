@@ -37,9 +37,6 @@
     <!--device-->
     <remove-project name="device/qcom/common" />
     <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe" revision="xpe-13.0-caf" />
-    <remove-project name="device/qcom/sepolicy" />
-    <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-13.0-caf" />
-    <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" />
 
     <!-- External -->
     <!--<project path="external/ant-wireless/ant_native" name="TheXPerienceProject/android_external_ant-wireless_ant_native" remote="xpe" />-->
@@ -48,8 +45,9 @@
     <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" remote="xpe" revision="xpe-13.0-caf"  />
 	<remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
-    <!--<project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk"  remote="xpe" />
-    <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto" groups="pdk" remote="xpe" />-->
+    <!--<project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk"  remote="xpe" />-->
+	<remove-project name="platform/external/perfetto" />
+    <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
 
     <!--Frameworks -->
     <remove-project name="platform/frameworks/base" />
@@ -89,7 +87,7 @@
     <project path="hardware/qcom/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="xpe-13.0-caf-2" remote="xpe" />
     <remove-project name="platform/hardware/ril" />
     <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-13.0-caf-2" remote="xpe" />
-    <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
+    <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
 
     <!-- Packages -->
     <project path="packages/apps/RainbowUnicorn" name="TheXPerienceProject/android_packages_apps_RainbowUnicorn" remote="xpe" />
