@@ -116,6 +116,8 @@
     <!--<project path="system/qcom" name="TheXPerienceProject/android_system_qcom" groups="qcom" remote="xpe" />-->
     <remove-project name="platform/system/sepolicy" />
     <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
+    <remove-project name="platform/system/tpm" />
+    <project path="system/sepolicy" name="TheXPerienceProject/android_system_tpm" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
     <remove-project name="platform/system/update_engine" />
     <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
     <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" groups="pdk" remote="xpe" />
@@ -130,6 +132,8 @@
 
     <!-- Vendor CodeAurora -->
     <!--<project path="vendor/codeaurora/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" remote="xpe" />-->
+    <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" revision="xpe-13.0-caf"/>
 
     <!--those does not exist under aosp branch so we can merge under xpe-13-->
     <project path="vendor/qcom/opensource/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" remote="xpe" revision="xpe-13.0-caf"/>
@@ -183,7 +187,6 @@
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-4.9"/>
   <remove-project name="device/generic/x86_64"/>
-  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/> <!--Call it from SDM845 devices only -->
   <remove-project name="platform/vendor/qcom-opensource/location"/>
   <remove-project name="platform/packages/apps/CMFileManager"/>
   <remove-project name="device/generic/goldfish-opengl"/>
