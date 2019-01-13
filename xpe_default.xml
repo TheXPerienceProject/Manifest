@@ -72,7 +72,7 @@
     <project path="hardware/qcom/audio/msm8974" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/audio/msm8996" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8996" remote="xpe" />
     <project path="hardware/qcom/audio/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="lineage-16.0-caf-8998" remote="github" />
-    <remove-project name="platform/hardware/qcom/bt" />
+    <remove-project name="platform/hardware/qcom/bt"/>
     <project path="hardware/qcom/bt" name="TheXPerienceProject/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="xpe" revision="xpe-13.0-caf-2" />
     <project path="hardware/qcom/displayf/msm8952" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/display/msm8974" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />
@@ -163,9 +163,6 @@
   <remove-project name="device/google/taimen"/>
   <remove-project name="device/google/wahoo"/>
   <remove-project name="device/google/wahoo-kernel"/>
-  <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/vendor/opensource/audio-kernel"/><!--4.9 kernels only so call them from those devices -->
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn"/>
