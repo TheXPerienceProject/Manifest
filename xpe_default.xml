@@ -146,7 +146,9 @@
     <remove-project name="platform/vendor/codeaurora/telephony" />
     <project path="vendor/codeaurora/commonsys/telephony" name="TheXPerienceProject/android_vendor_codeaurora_commonsys_telephony" remote="xpe" revision="xpe-13.0"/>
     <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
-    <project path="vendor/qcom/opensource/commonsys/fm" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys remote="xpe" revision="xpe-13.0-caf"/>
+    <project path="vendor/qcom/opensource/commonsys/fm" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" remote="xpe" revision="xpe-13.0-caf"/>
+    <remove-project name="platform/vendor/qcom-opensource/fm" />
+    <project path="vendor/qcom/opensource/fm" name="TheXPerienceProject/vendor_qcom-opensource_fm" remote="xpe" revision="xpe-13.0-caf"/>
 
     <!--Blob from AOSPA-->
     <project path="vendor/qcom/sdclang-3.9/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" remote="github" revision="pie" />
