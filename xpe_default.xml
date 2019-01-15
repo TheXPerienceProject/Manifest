@@ -39,14 +39,16 @@
     <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe" revision="xpe-13.0-caf" />
 
     <!-- External -->
-    <!--<project path="external/ant-wireless/ant_native" name="TheXPerienceProject/android_external_ant-wireless_ant_native" remote="xpe" />-->
+    <remove-project name="platform/external/ant-wireless/ant_native" />
+    <project path="external/ant-wireless/ant_native" name="TheXPerienceProject/android_external_ant-wireless_ant_native" remote="xpe" revision="xpe-13.0-caf" />
+    <project path="external/ant-wireless/antradio-library" name="TheXPerienceProject/android_external_ant-wireless_antradio-library" remote="xpe" revision="xpe-13.0" />
     <project path="external/connectivity" name="TheXPerienceProject/android_external_connectivity" remote="xpe" revision="xpe-13.0-caf" />
     <remove-project name="platform/external/e2fsprogs" />
     <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" remote="xpe" revision="xpe-13.0-caf"  />
-	<remove-project name="platform/external/selinux" />
+    <remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
     <!--<project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk"  remote="xpe" />-->
-	<remove-project name="platform/external/perfetto" />
+    <remove-project name="platform/external/perfetto" />
     <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
 
     <!--Frameworks -->
@@ -143,7 +145,8 @@
     <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="TheXPerienceProject/android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="xpe" revision="xpe-13.0"/>
     <remove-project name="platform/vendor/codeaurora/telephony" />
     <project path="vendor/codeaurora/commonsys/telephony" name="TheXPerienceProject/android_vendor_codeaurora_commonsys_telephony" remote="xpe" revision="xpe-13.0"/>
-    
+    <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+    <project path="vendor/qcom/opensource/commonsys/fm" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys remote="xpe" revision="xpe-13.0-caf"/>
 
     <!--Blob from AOSPA-->
     <project path="vendor/qcom/sdclang-3.9/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" remote="github" revision="pie" />
