@@ -15,7 +15,7 @@
 
     <!-- Bootable -->
     <remove-project name="platform/bootable/recovery" />
-    <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
+    <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
 
     <!-- Build-->
     <remove-project name="platform/build" />
