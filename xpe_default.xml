@@ -138,7 +138,8 @@
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" revision="xpe-13.0-caf"/>
 
     <!--those does not exist under aosp branch so we can merge under xpe-13-->
-    <project path="vendor/qcom/opensource/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" remote="xpe" revision="xpe-13.0-caf"/>
+    <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
+    <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" remote="xpe" revision="xpe-13.0-caf"/>
     <remove-project name="platform/vendor/qcom-opensource/system/bt" />
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="TheXPerienceProject/android_vendor_qcom_opensource_commonsys_system_bt" remote="xpe" revision="xpe-13.0" />
     <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
