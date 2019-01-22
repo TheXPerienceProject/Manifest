@@ -74,10 +74,7 @@
     <project path="hardware/qcom/wlan-caf" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="xpe-13.0-caf" remote="xpe" />
     <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-13.0" remote="xpe" />
     <project path="hardware/ril-caf" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-13.0-caf" remote="xpe" />
-    <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" >
-          <copyfile dest="hardware/xperience/Android.bp" src="Android.bp"/>
-    </project>
-
+    <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
     <!-- Packages -->
     <project path="packages/apps/Camera2" name="TheXPerienceProject/android_packages_apps_Camera2" remote="xpe" />
     <project path="packages/apps/Gallery2" name="TheXPerienceProject/android_packages_apps_Gallery2" remote="xpe" />
