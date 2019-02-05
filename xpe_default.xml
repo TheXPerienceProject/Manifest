@@ -39,6 +39,7 @@
     <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe" revision="xpe-13.0-caf" />
     <remove-project name="device/qcom/sepolicy" />
     <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-13.0-caf" />
+    <project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy-legacy" remote="xpe" revision="xpe-13.0" />
     <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" />
 
     <!-- External -->
