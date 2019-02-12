@@ -141,7 +141,7 @@
     <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" revision="xpe-13.0-caf"/>
 
-    <!--those does not exist under aosp branch so we can merge under xpe-13-->
+    <!-- vendor qcom-opensource -->
     <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
     <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" remote="xpe" revision="xpe-13.0-caf"/>
     <remove-project name="platform/vendor/qcom-opensource/system/bt" />
@@ -160,6 +160,8 @@
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" remote="xpe" revision="xpe-13.0"/>
     <remove-project name="platform/vendor/qcom-opensource/core-utils" />
     <project path="vendor/qcom/opensource/core-utils" name="TheXPerienceProject/vendor_qcom_opensource_core-utils" remote="xpe" revision="xpe-13.0-caf" />
+    <remove-project name="platform/vendor/qcom-opensource/power" />
+    <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" revision="xpe-13.0-caf" />
  
     <!--Blob from AOSPA-->
     <project path="vendor/qcom/sdclang-3.9/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" remote="github" revision="pie" />
