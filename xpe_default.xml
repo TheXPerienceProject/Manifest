@@ -129,6 +129,8 @@
     <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/tools/hidl" />
     <project path="system/tools/hidl" name="TheXPerienceProject/android_system_tools_hidl" remote="xpe" revision="xpe-13.0-caf" />
+    <remove-project name="platform/system/timezone" />
+    <project path="system/timezone" name="TheXPerienceProject/android_system_timezone" remote="xpe" revision="xpe-13.0-caf" />
     <remove-project name="platform/system/vold" />
     <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
 
