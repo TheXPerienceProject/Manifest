@@ -66,6 +66,8 @@
     <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="xpe"  revision="xpe-13.0-caf" />
     <remove-project name="platform/frameworks/native" />
     <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe"  revision="xpe-13.0-caf" />
+    <remove-project name="platform/frameworks/opt/net/voip" />
+    <project path="frameworks/opt/net/voip" name="TheXPerienceProject/android_frameworks_opt_net_voip" remote="xpe"  revision="xpe-13.0-caf" />
     <remove-project name="platform/frameworks/opt/net/wifi" />
     <project path="frameworks/opt/net/wifi" name="TheXPerienceProject/android_frameworks_opt_net_wifi" groups="pdk" remote="xpe"  revision="xpe-13.0-caf" />
     <remove-project name="platform/frameworks/opt/telephony" />
