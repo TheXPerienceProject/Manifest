@@ -34,6 +34,10 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!--Development -->
+    <remove-project name="platform/development" />
+    <project path="development" name="TheXPerienceProject/android_development" remote="xpe" revision="xpe-13.0-caf" />
+
     <!--device-->
     <remove-project name="device/qcom/common" />
     <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe" revision="xpe-13.0-caf" />
