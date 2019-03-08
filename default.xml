@@ -47,7 +47,6 @@
   <project name="device/google/taimen"/>
   <project name="device/google/vrservices"/>
   <project name="device/google/wahoo"/>
-  <project name="device/google/wahoo-kernel"/>
   <project name="device/qcom/common">
     <copyfile dest="build.sh" src="build.sh"/>
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
