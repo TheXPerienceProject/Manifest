@@ -108,8 +108,9 @@
     <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_settings" groups="pdk-fs" remote="xpe" revision="xpe-13.0-caf" />
     <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" groups="pdk-fs" remote="xpe" />
     <project path="packages/services/OmniJaws" name="TheXPerienceProject/android_packages_services_OmniJaws" remote="xpe" />
-    <remove-project name="platform/packages/services/Telecomm" />
+    <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" />
+    <remove-project name="platform/packages/services/Telecomm" />
     <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" remote="xpe" revision="xpe-13.0-caf" />
     <remove-project name="platform/packages/services/Telephony" />
     <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" remote="xpe" revision="xpe-13.0-caf" />
@@ -219,7 +220,6 @@
   <remove-project name="device/generic/goldfish-opengl"/>
   <remove-project name="platform/packages/apps/Gallery"/>
   <remove-project name="platform/packages/apps/Launcher2"/>
-  <remove-project name="platform/packages/apps/Launcher3"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera"/>
   <!--<remove-project name="platform/hardware/qcom/thermal"/>-->
 </manifest>
