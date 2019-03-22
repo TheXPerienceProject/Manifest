@@ -103,6 +103,8 @@
     <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
 
     <!-- Packages -->
+    <remove-project name="platform/packages/apps/CarrierConfig" />
+    <project path="packages/apps/CarrierConfig" name="TheXPerienceProject/android_packages_apps_CarrierConfig" remote="xpe" revision="xpe-13.0-caf" />
     <project path="packages/apps/RainbowUnicorn" name="TheXPerienceProject/android_packages_apps_RainbowUnicorn" remote="xpe" />
     <remove-project name="platform/packages/apps/Settings" />
     <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_settings" groups="pdk-fs" remote="xpe" revision="xpe-13.0-caf" />
