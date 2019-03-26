@@ -9,9 +9,7 @@
     <remote name="xpe"
            fetch=".."
            review="https://github.com/TheXPerienceProject"
-           revision="refs/heads/xpe-13.0"
-           sync-c="true"
-           sync-j="4" />
+           revision="refs/heads/xpe-13.0" />
 
     <remote  name="caf"
            fetch="https://source.codeaurora.org/quic/la/"
