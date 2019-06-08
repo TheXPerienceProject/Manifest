@@ -5,6 +5,10 @@
     <remote  name="github"
              fetch="https://github.com/" />
 
+    <!-- Github remote -->
+    <remote  name="klab"
+             fetch="https://gitlab.com/klozz_/" />
+
     <!-- The XPerience Project Repos -->
 
     <!-- Build-->
@@ -66,6 +70,7 @@
     <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" revision="xpe-13.0-caf" />
     <remove-project name="platform/frameworks/av" />
     <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="xpe"  revision="xpe-13.0-caf" />
+    <project path="frameworks/support/lottie" name="android_frameworks_support_lottie" remote="klab"  revision="xpe-13.0-caf" />
     <remove-project name="platform/frameworks/native" />
     <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe"  revision="xpe-13.0-caf" />
     <remove-project name="platform/frameworks/opt/net/voip" />
@@ -102,6 +107,9 @@
     <remove-project name="platform/hardware/ril" />
     <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-13.0-caf-2" remote="xpe" />
     <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
+
+    <!--LIBS-->
+    <project path="libcore" name="TheXPerienceProject/android_libcore" remote="xpe" revision="xpe-13.0-caf" />
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/CarrierConfig" />
@@ -215,6 +223,7 @@
   <remove-project name="platform/hardware/qcom/display"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
+  <remove-project name="platform/libcore" />
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-4.9"/>
   <remove-project name="device/generic/x86_64"/>
