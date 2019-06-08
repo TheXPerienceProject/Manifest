@@ -109,6 +109,7 @@
     <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" revision="xpe-13.0-caf" />
 
     <!--LIBS-->
+    <remove-project name="platform/libcore" />
     <project path="libcore" name="TheXPerienceProject/android_libcore" remote="xpe" revision="xpe-13.0-caf" />
 
     <!-- Packages -->
@@ -222,7 +223,6 @@
   <remove-project name="platform/hardware/qcom/display"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
-  <remove-project name="platform/libcore" />
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-4.9"/>
   <remove-project name="device/generic/x86_64"/>
