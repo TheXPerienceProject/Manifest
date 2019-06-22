@@ -195,7 +195,13 @@
     <project path="vendor/qcom/sdclang-6.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" remote="github" revision="pie" />
 
 
-   
+    <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
+    <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" revision="xpe-13.0-caf" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
+    <project path="external/libiio" name="TheXPerienceProject/android_external_libiio" remote="xpe" revision="xpe-13.0" />
+    <project path="hardware/moto/sensors" name="TheXPerienceProject/android_hardware_moto_sensors" remote="xpe" revision="xpe-13.0" />
+
+
     <!--Cleanups -->
     <!-- Obsolete Packages -->
     <remove-project name="abl/tianocore/edk2"/>
