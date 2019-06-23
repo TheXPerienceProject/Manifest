@@ -161,6 +161,7 @@
       <!--<copyfile src="build.sh" dest="rom-build.sh" />-->
       <copyfile src="jack.sh" dest="jack.sh" />
     </project>
+    <project path="vendor/interfaces" name="TheXPerienceProject/android_vendor_interfaces" remote="xpe" revision="android-9.0" />
 
     <!-- Vendor CodeAurora -->
     <!--<project path="vendor/codeaurora/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" remote="xpe" />-->
