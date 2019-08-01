@@ -7,7 +7,7 @@ The XPerience Project. Google recommends using [Ubuntu](http://www.ubuntu.com/do
 this and provides instructions for setting up the system (with Ubuntu-specific commands) on
 [the Android Open Source Project website](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment).
 
-To initialize your local repository using the XOSP trees, use a command like this:
+To initialize your local repository using the XPerience CAF trees, use a command like this:
 
       $ mkdir XPe
       $ cd XPe
@@ -41,9 +41,11 @@ OR:
 - Build phase
 
 ### Set CCache
-
+ 
+      $ sudo apt-get install ccache
       $ export USE_CCACHE=1
-      $ prebuilts/misc/linux-x86/ccache/ccache -M 50G
+      $ export CCACHE_DIR=~/.ccache
+      $ ccache -M 50G
 
 Congratulations,the sources are initialized! 
 	  
@@ -64,7 +66,7 @@ automatically. As the device value, you just feed it with the device codename (f
       $ . build/envsetup.sh
       $ lunch codename-userdebug #only if we support your device if not clone manually and do
       $ lunch xpe_codename-userdebug or breakfast codename
-      $ make bacon -j<number_of_threads>
+      $ make bacon -j$(nproc --all)
 
 #### Credits to:
 
