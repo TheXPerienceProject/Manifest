@@ -187,7 +187,8 @@
     <project path="vendor/qcom/opensource/core-utils" name="TheXPerienceProject/vendor_qcom_opensource_core-utils" remote="xpe" revision="xpe-13.0-caf" />
     <remove-project name="platform/vendor/qcom-opensource/power" />
     <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" revision="xpe-13.0-caf" />
- 
+    <project path="vendor/qcom/opensource/commonsys/kernel-headers" name="TheXPerienceProject/vendor_qcom-opensource_kernel-headers-commonys" remote="xpe" revision="xpe-13.0-caf" />
+
     <!--Blob from AOSPA-->
     <project path="vendor/qcom/sdclang-3.9/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" remote="github" revision="pie" />
     <project path="vendor/qcom/sdclang-4.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="github" revision="pie" />
