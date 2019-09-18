@@ -117,11 +117,11 @@
     <project path="packages/apps/RainbowUnicorn" name="TheXPerienceProject/android_packages_apps_RainbowUnicorn" remote="xpe" />-->
     <remove-project name="platform/packages/apps/Settings" />
     <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_settings" groups="pdk-fs" remote="xpe" />
-    <!--<project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" groups="pdk-fs" remote="xpe" />
+    <!--<project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" groups="pdk-fs" remote="xpe" />-->
     <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" />
     <project path="packages/apps/Yunikon" name="TheXPerienceProject/android_packages_apps_Yunikon" remote="xpe" />
-    <remove-project name="platform/packages/services/Telecomm" />
+    <!--<remove-project name="platform/packages/services/Telecomm" />
     <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" remote="xpe" />-->
     <remove-project name="platform/packages/services/Telephony" />
     <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" remote="xpe" />
@@ -147,9 +147,9 @@
     <remove-project name="platform/system/tpm" />
     <project path="system/tpm" name="TheXPerienceProject/android_system_tpm" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/update_engine" />
-    <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
+    <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />-->
     <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" groups="pdk" remote="xpe" />
-    <remove-project name="platform/system/tools/hidl" />
+    <!--<remove-project name="platform/system/tools/hidl" />
     <project path="system/tools/hidl" name="TheXPerienceProject/android_system_tools_hidl" remote="xpe" />
     <remove-project name="platform/system/timezone" />
     <project path="system/timezone" name="TheXPerienceProject/android_system_timezone" remote="xpe" />
