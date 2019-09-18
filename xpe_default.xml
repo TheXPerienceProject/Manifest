@@ -164,8 +164,8 @@
 
     <!-- Vendor CodeAurora -->
     <!--<project path="vendor/codeaurora/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" remote="xpe" />-->
-    <!--<remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" />-->
+    <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" />
 
     <!-- vendor qcom-opensource -->
     <!--<remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
