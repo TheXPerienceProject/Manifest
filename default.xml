@@ -8,7 +8,7 @@
   
     <remote name="xpe"
            fetch=".."
-           review="https://github.com/TheXPerienceProject"
+           review="https://github.com/TheXPerienceProject/"
            revision="refs/heads/xpe-14.0" />
 
     <remote  name="caf"
