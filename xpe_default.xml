@@ -87,21 +87,21 @@
     <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="xpe" />
     <project path="hardware/qcom/audio/msm8952" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/audio/msm8974" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
-    <project path="hardware/qcom/audio/msm8996" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8996" remote="xpe" />
-    <project path="hardware/qcom/audio/msm8998" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8998" remote="github" />
-    <remove-project name="platform/hardware/qcom/bootctrl" />
+    <project path="hardware/qcom/audio/msm8996" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8996" remote="xpe" />-->
+    <project path="hardware/qcom/audio/msm8998" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-14.0-caf-msm8998" remote="github" />
+    <!--<remove-project name="platform/hardware/qcom/bootctrl" />
     <project path="hardware/qcom/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" remote="xpe" />
     <remove-project name="platform/hardware/qcom/bt"/>
     <project path="hardware/qcom/bt" name="TheXPerienceProject/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="xpe" revision="xpe-13.0-caf-2" />
     <project path="hardware/qcom/display/msm8952" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/display/msm8974" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />
-    <project path="hardware/qcom/display/msm8996" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8996" remote="xpe" />
-    <project path="hardware/qcom/display/msm8998" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8998" remote="github" />
-    <project path="hardware/qcom/media/msm8952" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8974" remote="xpe" />
+    <project path="hardware/qcom/display/msm8996" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8996" remote="xpe" />-->
+    <project path="hardware/qcom/display/msm8998" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-14.0-caf-msm8998" remote="github" />
+    <!--<project path="hardware/qcom/media/msm8952" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/media/msm8974" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8974" remote="xpe" />
-    <project path="hardware/qcom/media/msm8996" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8996" remote="xpe" />
-    <project path="hardware/qcom/media/msm8998" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8998" remote="github" />
-    <remove-project name="platform/hardware/qcom/wlan" />
+    <project path="hardware/qcom/media/msm8996" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8996" remote="xpe" />-->
+    <project path="hardware/qcom/media/msm8998" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-14.0-caf-msm8998" remote="github" />
+    <!--<remove-project name="platform/hardware/qcom/wlan" />
     <project path="hardware/qcom/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="xpe-13.0-caf-2" remote="xpe" />
     <remove-project name="platform/hardware/ril" />
     <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-13.0-caf-2" remote="xpe" />
@@ -193,7 +193,7 @@
 
     <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
     <!--project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />-->
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-16.0" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.0" />
     <!--<project path="external/libiio" name="TheXPerienceProject/android_external_libiio" remote="xpe" revision="xpe-13.0" />
     <project path="hardware/moto/sensors" name="TheXPerienceProject/android_hardware_moto_sensors" remote="xpe" revision="xpe-13.0" />-->
 
