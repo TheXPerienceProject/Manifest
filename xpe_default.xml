@@ -41,9 +41,9 @@
     <!--device-->
     <remove-project name="device/generic/goldfish" />
     <project path="device/generic/goldfish" name="TheXPerienceProject/android_device_generic_goldfish" remote="xpe" groups="xpe" />
-    <!--<remove-project name="device/qcom/common" />
+    <remove-project name="device/qcom/common" />
     <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe" />
-    <remove-project name="device/qcom/sepolicy" />
+    <!--<remove-project name="device/qcom/sepolicy" />
     <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" />
     <project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy-legacy" remote="xpe" revision="xpe-13.0" />
     <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" />-->
@@ -87,21 +87,21 @@
     <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="xpe" />
     <project path="hardware/qcom/audio/msm8952" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/audio/msm8974" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
-    <project path="hardware/qcom/audio/msm8996" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8996" remote="xpe" />-->
-    <project path="hardware/qcom/audio/msm8998" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-14.0-caf-msm8998" remote="github" />
-    <!--<remove-project name="platform/hardware/qcom/bootctrl" />
+    <project path="hardware/qcom/audio/msm8996" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8996" remote="xpe" />
+    <project path="hardware/qcom/audio/msm8998" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8998" remote="github" />
+    <remove-project name="platform/hardware/qcom/bootctrl" />
     <project path="hardware/qcom/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" remote="xpe" />
     <remove-project name="platform/hardware/qcom/bt"/>
     <project path="hardware/qcom/bt" name="TheXPerienceProject/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="xpe" revision="xpe-13.0-caf-2" />
     <project path="hardware/qcom/display/msm8952" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/display/msm8974" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />
-    <project path="hardware/qcom/display/msm8996" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8996" remote="xpe" />-->
-    <project path="hardware/qcom/display/msm8998" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-14.0-caf-msm8998" remote="github" />
-    <!--<project path="hardware/qcom/media/msm8952" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8974" remote="xpe" />
+    <project path="hardware/qcom/display/msm8996" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8996" remote="xpe" />
+    <project path="hardware/qcom/display/msm8998" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8998" remote="github" />
+    <project path="hardware/qcom/media/msm8952" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/media/msm8974" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8974" remote="xpe" />
-    <project path="hardware/qcom/media/msm8996" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8996" remote="xpe" />-->
-    <project path="hardware/qcom/media/msm8998" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-14.0-caf-msm8998" remote="github" />
-    <!--<remove-project name="platform/hardware/qcom/wlan" />
+    <project path="hardware/qcom/media/msm8996" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8996" remote="xpe" />
+    <project path="hardware/qcom/media/msm8998" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-13.0-caf-8998" remote="github" />
+    <remove-project name="platform/hardware/qcom/wlan" />
     <project path="hardware/qcom/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="xpe-13.0-caf-2" remote="xpe" />
     <remove-project name="platform/hardware/ril" />
     <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-13.0-caf-2" remote="xpe" />
@@ -188,9 +188,7 @@
     <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" />-->
  
     <!--Blob from AOSPA-->
-    <!--<project path="vendor/qcom/sdclang-3.9/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-3.9_linux-x86" remote="github" revision="pie" />
-    <project path="vendor/qcom/sdclang-4.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="github" revision="pie" />-->
-    <project path="vendor/qcom/sdclang-6.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" remote="github" revision="pie" />
+    <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" revision="quartz" remote="github" />
 
 
     <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
