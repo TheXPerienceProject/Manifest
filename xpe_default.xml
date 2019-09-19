@@ -43,9 +43,9 @@
     <project path="device/generic/goldfish" name="TheXPerienceProject/android_device_generic_goldfish" remote="xpe" groups="xpe" />
     <remove-project name="device/qcom/common" />
     <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe" />
-    <!--<remove-project name="device/qcom/sepolicy" />
+    <remove-project name="device/qcom/sepolicy" />
     <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" />
-    <project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy-legacy" remote="xpe" revision="xpe-13.0" />
+    <!--<project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy-legacy" remote="xpe" revision="xpe-13.0" />
     <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" />-->
 
     <!-- External -->
