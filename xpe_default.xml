@@ -164,28 +164,28 @@
 
     <!-- Vendor CodeAurora -->
     <!--<project path="vendor/codeaurora/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" remote="xpe" />-->
-    <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" />
-    <remove-project name="platform/vendor/qcom-opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" remote="xpe" />
-	<project path="vendor/qcom/opensource/interfaces" name />
-    <!--<remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
-    <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" remote="xpe" />-->
-    <remove-project name="platform/vendor/qcom-opensource/system/bt" />
-    <project path="vendor/qcom/opensource/commonsys/system/bt" name="TheXPerienceProject/android_vendor_qcom_opensource_commonsys_system_bt" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
     <project path="vendor/qcom/opensource/commonsys/bluetooth" name="TheXPerienceProject/android_vendor_qcom_opensource_commonsys_bluetooth" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
     <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="TheXPerienceProject/android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="xpe" />
-    <!--<remove-project name="platform/vendor/codeaurora/telephony" />
-    <project path="vendor/codeaurora/commonsys/telephony" name="TheXPerienceProject/android_vendor_codeaurora_commonsys_telephony" remote="xpe" revision="xpe-13.0"/>
-    <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+    <!--<remove-project name="platform/vendor/qcom-opensource/core-utils" />
+    <project path="vendor/qcom/opensource/core-utils" name="TheXPerienceProject/vendor_qcom_opensource_core-utils" remote="xpe" />
+    <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
+    <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" remote="xpe" />-->
+    <!--<remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" remote="xpe" revision="xpe-13.0"/>-->
+    <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" />
+    <!--<remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
     <project path="vendor/qcom/opensource/commonsys/fm" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" remote="xpe" />-->
     <remove-project name="platform/vendor/qcom-opensource/fst-manager" />
     <project name="TheXPerienceProject/android_vendor_qcom-opensource_fst-manager" path="vendor/qcom/opensource/fst-manager" remote="xpe" />
-    <!--<remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" remote="xpe" revision="xpe-13.0"/>
-    <remove-project name="platform/vendor/qcom-opensource/core-utils" />
-    <project path="vendor/qcom/opensource/core-utils" name="TheXPerienceProject/vendor_qcom_opensource_core-utils" remote="xpe" />
+    <remove-project name="platform/vendor/qcom-opensource/interfaces" />
+	<project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" remote="xpe" />
+    <remove-project name="platform/vendor/qcom-opensource/system/bt" />
+    <project path="vendor/qcom/opensource/commonsys/system/bt" name="TheXPerienceProject/android_vendor_qcom_opensource_commonsys_system_bt" remote="xpe" />
+    <!--<remove-project name="platform/vendor/codeaurora/telephony" />
+    <project path="vendor/codeaurora/commonsys/telephony" name="TheXPerienceProject/android_vendor_codeaurora_commonsys_telephony" remote="xpe" revision="xpe-13.0"/>  
     <remove-project name="platform/vendor/qcom-opensource/power" />
     <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" />-->
  
