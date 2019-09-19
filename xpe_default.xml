@@ -51,8 +51,8 @@
     <!-- External -->
     <remove-project name="platform/external/ant-wireless/ant_native" />
     <project path="external/ant-wireless/ant_native" name="TheXPerienceProject/android_external_ant-wireless_ant_native" remote="xpe" />
-    <!--<project path="external/ant-wireless/antradio-library" name="TheXPerienceProject/android_external_ant-wireless_antradio-library" remote="xpe" revision="xpe-13.0" />
-    <project path="external/connectivity" name="TheXPerienceProject/android_external_connectivity" remote="xpe" revision="xpe-13.0" />
+    <project path="external/ant-wireless/antradio-library" name="TheXPerienceProject/android_external_ant-wireless_antradio-library" remote="xpe" />
+    <!--<project path="external/connectivity" name="TheXPerienceProject/android_external_connectivity" remote="xpe" revision="xpe-13.0" />
     <remove-project name="platform/external/e2fsprogs" />
     <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" remote="xpe"  />
     <project path="external/exfat" name="TheXPerienceProject/android_external_exfat" groups="pdk" remote="xpe"  />-->
