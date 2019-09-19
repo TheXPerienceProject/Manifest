@@ -78,9 +78,9 @@
     <project path="frameworks/opt/telephony" name="TheXPerienceProject/android_frameworks_opt_telephony" groups="pdk" remote="xpe" />-->
 
     <!-- Hardware -->
-    <!--<remove-project name="platform/hardware/interfaces" />
+    <remove-project name="platform/hardware/interfaces" />
     <project path="hardware/interfaces"  name="TheXPerienceProject/android_hardware_interfaces" remote="xpe" />
-    <remove-project name="platform/hardware/libhardware" />
+    <!--<remove-project name="platform/hardware/libhardware" />
     <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
     <remove-project name="platform/hardware/libhardware_legacy" />
     <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
@@ -179,8 +179,10 @@
     <!--<remove-project name="platform/vendor/codeaurora/telephony" />
     <project path="vendor/codeaurora/commonsys/telephony" name="TheXPerienceProject/android_vendor_codeaurora_commonsys_telephony" remote="xpe" revision="xpe-13.0"/>
     <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
-    <project path="vendor/qcom/opensource/commonsys/fm" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" remote="xpe" />
-    <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+    <project path="vendor/qcom/opensource/commonsys/fm" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" remote="xpe" />-->
+    <remove-project name="platform/vendor/qcom-opensource/fst-manager" />
+    <project name="TheXPerienceProject/android_vendor_qcom-opensource_fst-manager" path="vendor/qcom/opensource/fst-manager" remote="xpe" />
+    <!--<remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" remote="xpe" revision="xpe-13.0"/>
     <remove-project name="platform/vendor/qcom-opensource/core-utils" />
     <project path="vendor/qcom/opensource/core-utils" name="TheXPerienceProject/vendor_qcom_opensource_core-utils" remote="xpe" />
