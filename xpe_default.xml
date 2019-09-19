@@ -152,9 +152,9 @@
     <!--<remove-project name="platform/system/tools/hidl" />
     <project path="system/tools/hidl" name="TheXPerienceProject/android_system_tools_hidl" remote="xpe" />
     <remove-project name="platform/system/timezone" />
-    <project path="system/timezone" name="TheXPerienceProject/android_system_timezone" remote="xpe" />
+    <project path="system/timezone" name="TheXPerienceProject/android_system_timezone" remote="xpe" />-->
     <remove-project name="platform/system/vold" />
-    <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />-->
+    <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/libhidl" />
     <project path="system/libhidl" name="TheXPerienceProject/android_system_libhidl" remote="xpe" groups="xpe" />
 
