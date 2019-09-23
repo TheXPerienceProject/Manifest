@@ -135,6 +135,8 @@
     <project path="prebuilts/build-tools" name="TheXPerienceProject/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="xpe" />-->
     <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" clone-depth="1" remote="github" revision="lineage-17.0"/>
     <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="github" revision="lineage-17.0"/>
+    <remove-project name="platform/prebuilts/r8"/>
+    <project name="TheXPerienceProject/android_prebuilts_r8" path="prebuilts/r8" clone-depth="1" remote="xpe" />
 
     <!-- System -->
     <!--<remove-project name="platform/system/bt" />
