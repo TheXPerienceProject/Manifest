@@ -189,7 +189,7 @@
     <remove-project name="platform/vendor/qcom-opensource/power" />
     <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" />-->
     <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
-    <project TheXPerienceProject/android_vendor_qcom-opensource_recovery-ext path="vendor/qcom/opensource/recovery-ext" remote="xpe" />
+    <project name="TheXPerienceProject/android_vendor_qcom-opensource_recovery-ext" path="vendor/qcom/opensource/recovery-ext" remote="xpe" />
  
     <!--Blob from AOSPA-->
     <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" revision="quartz" remote="github" />
