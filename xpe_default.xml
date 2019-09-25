@@ -103,10 +103,10 @@
     <project path="hardware/qcom/media/msm8996" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-14.0-caf-msm8996" remote="xpe" />
     <project path="hardware/qcom/media/msm8998" name="TheXPerienceProject/android_hardware_qcom_media" groups="pdk,qcom,qcom_media" revision="xpe-14.0-caf-msm8998" remote="xpe" />
     <!--<remove-project name="platform/hardware/qcom/wlan" />
-    <project path="hardware/qcom/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="xpe-13.0-caf-2" remote="xpe" />
+    <project path="hardware/qcom/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="xpe-14.0" remote="xpe" />-->
     <remove-project name="platform/hardware/ril" />
-    <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-13.0-caf-2" remote="xpe" />
-    <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />-->
+    <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" revision="xpe-14.0" remote="xpe" />
+    <!--<project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />-->
 
     <!--LIBS-->
     <!--<remove-project name="platform/libcore" />
