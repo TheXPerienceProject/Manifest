@@ -122,6 +122,8 @@
     <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" />
     <project path="packages/apps/Yunikon" name="TheXPerienceProject/android_packages_apps_Yunikon" remote="xpe" />
+    <remove-project name="platform/packages/inputmethods/LatinIME"/>
+    <project path="packages/inputmethods/LatinIME" name="TheXPerienceProject/android_packages_inputmethods_LatinIME" remote="xpe" />
     <!--<remove-project name="platform/packages/services/Telecomm" />
     <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" remote="xpe" />-->
     <remove-project name="platform/packages/services/Telephony" />
