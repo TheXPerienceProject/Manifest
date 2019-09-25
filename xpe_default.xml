@@ -54,8 +54,9 @@
     <project path="external/ant-wireless/antradio-library" name="TheXPerienceProject/android_external_ant-wireless_antradio-library" remote="xpe" />
     <!--<project path="external/connectivity" name="TheXPerienceProject/android_external_connectivity" remote="xpe" revision="xpe-13.0" />
     <remove-project name="platform/external/e2fsprogs" />
-    <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" remote="xpe"  />
-    <project path="external/exfat" name="TheXPerienceProject/android_external_exfat" groups="pdk" remote="xpe"  />-->
+    <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" remote="xpe"  />-->
+    <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="lineage-17.0" />
+    <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-17.0" />
     <remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
     <!--<project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk"  remote="xpe" />
