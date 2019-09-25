@@ -86,7 +86,7 @@
     <remove-project name="platform/hardware/libhardware_legacy" />
     <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
     <!--<project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="xpe" />
-    <!--<project path="hardware/qcom/audio/msm8952" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
+    <project path="hardware/qcom/audio/msm8952" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/audio/msm8974" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-13.0-caf-8974" remote="xpe" />-->
     <project path="hardware/qcom/audio/msm8996" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-14.0-caf-msm8996" remote="xpe" />
     <project path="hardware/qcom/audio/msm8998" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-14.0-caf-msm8998" remote="xpe" />
