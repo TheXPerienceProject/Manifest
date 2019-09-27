@@ -152,9 +152,9 @@
     <!--<remove-project name="platform/system/sepolicy" />
     <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/tpm" />
-    <project path="system/tpm" name="TheXPerienceProject/android_system_tpm" groups="pdk" remote="xpe" />
+    <project path="system/tpm" name="TheXPerienceProject/android_system_tpm" groups="pdk" remote="xpe" />-->
     <remove-project name="platform/system/update_engine" />
-    <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />-->
+    <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
     <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" groups="pdk" remote="xpe" />
     <!--<remove-project name="platform/system/tools/hidl" />
     <project path="system/tools/hidl" name="TheXPerienceProject/android_system_tools_hidl" remote="xpe" />
@@ -191,10 +191,10 @@
     <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/system/bt" />
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="TheXPerienceProject/android_vendor_qcom_opensource_commonsys_system_bt" remote="xpe" />
-    <!--<remove-project name="platform/vendor/codeaurora/telephony" />
-    <project path="vendor/codeaurora/commonsys/telephony" name="TheXPerienceProject/android_vendor_codeaurora_commonsys_telephony" remote="xpe" revision="xpe-13.0"/>  
+    <remove-project name="platform/vendor/codeaurora/telephony" />
+    <project path="vendor/codeaurora/commonsys/telephony" name="TheXPerienceProject/android_vendor_codeaurora_commonsys_telephony" remote="xpe"/>
     <remove-project name="platform/vendor/qcom-opensource/power" />
-    <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" />-->
+    <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
     <project name="TheXPerienceProject/android_vendor_qcom-opensource_recovery-ext" path="vendor/qcom/opensource/recovery-ext" remote="xpe" />
  
