@@ -256,5 +256,6 @@
     <remove-project name="platform/packages/apps/Gallery"/>
     <remove-project name="platform/packages/apps/SnapdragonCamera"/>
     <remove-project name="platform/packages/apps/Browser2" />
+    <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
 
 </manifest>
