@@ -126,8 +126,8 @@
     <project path="packages/inputmethods/LatinIME" name="TheXPerienceProject/android_packages_inputmethods_LatinIME" remote="xpe" />
     <remove-project name="platform/packages/apps/PackageInstaller"/>
     <project name="TheXPerienceProject/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="xpe" />
-    <!--<remove-project name="platform/packages/services/Telecomm" />
-    <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" remote="xpe" />-->
+    <remove-project name="platform/packages/services/Telecomm" />
+    <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" remote="xpe" />
     <remove-project name="platform/packages/services/Telephony" />
     <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" remote="xpe" />
     <!--<remove-project name="platform/packages/providers/DownloadProvider" />
