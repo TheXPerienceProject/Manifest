@@ -175,6 +175,12 @@
     <project path="vendor/qcom/opensource/commonsys/bluetooth" name="TheXPerienceProject/android_vendor_qcom_opensource_commonsys_bluetooth" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/bluetooth_ext" />
     <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="TheXPerienceProject/android_vendor_qcom_opensource_commonsys_bluetooth_ext" remote="xpe" />
+    <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
+    <project name="TheXPerienceProject/vendor_qcom_opensource_commonsys-intf_bluetooth" path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="xpe" >
+      <linkfile dest="vendor/qcom/defs/board-defs/system/bt-commonsys-intf-board.mk" src="bt-commonsys-intf-board.mk"/>
+      <linkfile dest="vendor/qcom/defs/board-defs/vendor/bt-commonsys-intf-board.mk" src="bt-commonsys-intf-board.mk"/>
+      <linkfile dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
+    </project>
     <remove-project name="platform/vendor/qcom-opensource/core-utils" />
     <project path="vendor/qcom/opensource/core-utils" name="TheXPerienceProject/vendor_qcom_opensource_core-utils" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
