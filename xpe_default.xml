@@ -119,7 +119,7 @@
     <project path="packages/apps/RainbowUnicorn" name="TheXPerienceProject/android_packages_apps_RainbowUnicorn" remote="xpe" />-->
     <remove-project name="platform/packages/apps/Settings" />
     <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_settings" groups="pdk-fs" remote="xpe" />
-    <!--<project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" groups="pdk-fs" remote="xpe" />-->
+    <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" groups="pdk-fs" remote="xpe" />
     <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" />
     <project path="packages/apps/Yunikon" name="TheXPerienceProject/android_packages_apps_Yunikon" remote="xpe" />
@@ -133,10 +133,10 @@
     <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" remote="xpe" />
     <remove-project name="platform/packages/services/Telephony" />
     <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" remote="xpe" />
-    <!--<remove-project name="platform/packages/providers/DownloadProvider" />
+    <remove-project name="platform/packages/providers/DownloadProvider" />
     <project path="packages/providers/DownloadProvider" name="TheXPerienceProject/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
     <remove-project name="platform/packages/providers/MediaProvider" />
-    <project path="packages/providers/MediaProvider" name="TheXPerienceProject/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />-->
+    <project path="packages/providers/MediaProvider" name="TheXPerienceProject/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
     <!-- Prebuilts -->
     <!--<remove-project name="platform/prebuilts/build-tools" />
