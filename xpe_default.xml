@@ -120,8 +120,8 @@
     <remove-project name="platform/packages/apps/Settings" />
     <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_settings" groups="pdk-fs" remote="xpe" />
     <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" groups="pdk-fs" remote="xpe" />
-    <remove-project name="platform/packages/apps/Launcher3"/>
-    <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" />
+    <!--<remove-project name="platform/packages/apps/Launcher3"/>
+    <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" />-->
     <project path="packages/apps/Yunikon" name="TheXPerienceProject/android_packages_apps_Yunikon" remote="xpe" />
     <remove-project name="platform/packages/inputmethods/LatinIME"/>
     <project path="packages/inputmethods/LatinIME" name="TheXPerienceProject/android_packages_inputmethods_LatinIME" remote="xpe" />
