@@ -126,6 +126,8 @@
     </project>
     <remove-project name="platform/packages/apps/Settings" />
     <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_settings" groups="pdk-fs" remote="xpe" />
+    <remove-project name="platform/packages/apps/SettingsIntelligence" />
+    <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" remote="xpe" />
     <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" groups="pdk-fs" remote="xpe" />
     <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" />
