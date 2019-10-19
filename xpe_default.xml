@@ -115,7 +115,7 @@
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Music" />
-    <project path="path="packages/apps/XMusic" name="TheXPerienceProject/android_packages_apps_XMusic" remote="xpe" />
+    <project path="packages/apps/XMusic" name="TheXPerienceProject/android_packages_apps_XMusic" remote="xpe" />
     <remove-project name="platform/packages/apps/Camera2"/>
     <project path="packages/apps/Camera2" name="TheXPerienceProject/android_packages_apps_Camera2" remote="xpe" />
     <!--<remove-project name="platform/packages/apps/CarrierConfig" />
