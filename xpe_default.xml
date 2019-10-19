@@ -121,6 +121,7 @@
     <!--<remove-project name="platform/packages/apps/CarrierConfig" />
     <project path="packages/apps/CarrierConfig" name="TheXPerienceProject/android_packages_apps_CarrierConfig" remote="xpe" />
     <project path="packages/apps/RainbowUnicorn" name="TheXPerienceProject/android_packages_apps_RainbowUnicorn" remote="xpe" />-->
+    <remove-project name="platform/packages/apps/SnapdragonCamera"/>
     <project path="packages/apps/SnapdragonCamera" name="TheXPerienceProject/android_packages_apps_SnapdragonCamera" >
       <linkfile dest="vendor/qcom/defs/product-defs/system/app_snapcam_system_product.mk" src="app_snapcam_system_product.mk"/>
     </project>
@@ -272,7 +273,6 @@
     <remove-project name="kernel/msm-4.14"/>
     <remove-project name="platform/vendor/qcom-opensource/location"/>
     <remove-project name="platform/packages/apps/Gallery"/>
-    <remove-project name="platform/packages/apps/SnapdragonCamera"/>
     <remove-project name="platform/packages/apps/Browser2" />
     <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer"/>
 
