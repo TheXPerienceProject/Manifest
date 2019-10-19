@@ -122,7 +122,7 @@
     <project path="packages/apps/CarrierConfig" name="TheXPerienceProject/android_packages_apps_CarrierConfig" remote="xpe" />
     <project path="packages/apps/RainbowUnicorn" name="TheXPerienceProject/android_packages_apps_RainbowUnicorn" remote="xpe" />-->
     <remove-project name="platform/packages/apps/SnapdragonCamera"/>
-    <project path="packages/apps/SnapdragonCamera" name="TheXPerienceProject/android_packages_apps_SnapdragonCamera" >
+    <project path="packages/apps/SnapdragonCamera" name="TheXPerienceProject/android_packages_apps_SnapdragonCamera" remote="xpe" >
       <linkfile dest="vendor/qcom/defs/product-defs/system/app_snapcam_system_product.mk" src="app_snapcam_system_product.mk"/>
     </project>
     <remove-project name="platform/packages/apps/Settings" />
