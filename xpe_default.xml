@@ -162,9 +162,9 @@
     <remove-project name="platform/system/core" />
     <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
     <!--<project path="system/qcom" name="TheXPerienceProject/android_system_qcom" groups="qcom" remote="xpe" />-->
-    <!--<remove-project name="platform/system/sepolicy" />
+    <remove-project name="platform/system/sepolicy" />
     <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
-    <remove-project name="platform/system/tpm" />
+    <!--<remove-project name="platform/system/tpm" />
     <project path="system/tpm" name="TheXPerienceProject/android_system_tpm" groups="pdk" remote="xpe" />-->
     <remove-project name="platform/system/update_engine" />
     <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
