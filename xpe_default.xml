@@ -196,13 +196,21 @@
       <linkfile dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
     </project>
     <remove-project name="platform/vendor/qcom-opensource/core-utils" />
-    <project path="vendor/qcom/opensource/core-utils" name="TheXPerienceProject/vendor_qcom_opensource_core-utils" remote="xpe" />
+    <project path="vendor/qcom/opensource/core-utils" name="TheXPerienceProject/vendor_qcom_opensource_core-utils" remote="xpe">
+        <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
+        <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
+        <linkfile dest="build.sh" src="build/build.sh"/>
+    </project>
     <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
     <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="TheXPerienceProject/android_vendor_qcom_opensource_cryptfs_hw" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" remote="xpe" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" remote="xpe" >
+        <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
+    </project>
     <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" >
+        <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
+    </project>
     <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
     <project path="vendor/qcom/opensource/commonsys/fm" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/fst-manager" />
@@ -214,7 +222,10 @@
     <remove-project name="platform/vendor/codeaurora/telephony" />
     <project path="vendor/codeaurora/commonsys/telephony" name="TheXPerienceProject/android_vendor_codeaurora_commonsys_telephony" remote="xpe"/>
     <remove-project name="platform/vendor/qcom-opensource/power" />
-    <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" />
+    <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" >
+       <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
+       <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
+    </project>
     <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
     <project name="TheXPerienceProject/android_vendor_qcom-opensource_recovery-ext" path="vendor/qcom/opensource/recovery-ext" remote="xpe" />
  
