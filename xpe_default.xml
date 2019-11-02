@@ -12,6 +12,8 @@
     <project path="art" name="TheXPerienceProject/android_art" groups="pdk" remote="xpe" />
     <remove-project name="platform/bionic" />
     <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
+    <remove-project name="platform/build/blueprint" />
+    <project name="TheXPerienceProject/android_build_blueprint" path="build/blueprint" remote="xpe" />
 
     <!-- Bootable -->
     <remove-project name="platform/bootable/recovery" />
