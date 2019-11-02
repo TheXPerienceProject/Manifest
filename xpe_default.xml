@@ -112,8 +112,8 @@
     <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
 
     <!--LIBS-->
-    <!--<remove-project name="platform/libcore" />
-    <project path="libcore" name="TheXPerienceProject/android_libcore" remote="xpe" />-->
+    <remove-project name="platform/libcore" />
+    <project path="libcore" name="TheXPerienceProject/android_libcore" remote="xpe" />
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Music" />
