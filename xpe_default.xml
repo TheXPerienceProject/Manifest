@@ -42,7 +42,7 @@
 
     <!--device-->
     <remove-project name="device/generic/goldfish" />
-    <project path="device/generic/goldfish" name="TheXPerienceProject/android_device_generic_goldfish" remote="xpe" groups="xpe" />
+    <!--<project path="device/generic/goldfish" name="TheXPerienceProject/android_device_generic_goldfish" remote="xpe" groups="xpe" />-->
     <remove-project name="device/qcom/common" />
     <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe" />
     <remove-project name="device/qcom/sepolicy" />
