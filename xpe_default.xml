@@ -64,6 +64,8 @@
     <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-17.0" />
     <remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
+    <remote-project name="platform/external/skia"/>
+    <project name="TheXPerienceProject/android_external_skia" path="external/skia" remote="xpe"/>
     <!--<project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk"  remote="xpe" />
     <remove-project name="platform/external/perfetto" />
     <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto" groups="pdk" remote="xpe" />-->
