@@ -149,6 +149,7 @@
     <remove-project name="platform/packages/apps/WallpaperPicker2" />
     <project path="packages/apps/WallpaperPicker2" name="TheXPerienceProject/android_packages_apps_WallpaperPicker2" remote="xpe" />
     <remove-project name="platform/packages/services/Telecomm" />
+    <project path="packages/overlay/XPerience" name="TheXPerienceProject/android_packages_overlay_XPerience" remote="xpe" />
     <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" remote="xpe" />
     <remove-project name="platform/packages/services/Telephony" />
     <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" remote="xpe" />
