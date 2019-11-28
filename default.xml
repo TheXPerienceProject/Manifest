@@ -96,7 +96,6 @@
   <project name="platform/external/aac" path="external/aac"/>
   <project name="platform/external/adeb" path="external/adeb"/>
   <project name="platform/external/adhd" path="external/adhd"/>
-  <project name="platform/external/adt-infra" path="external/adt-infra"/>
   <project name="platform/external/android-clat" path="external/android-clat"/>
   <project name="platform/external/androidplot" path="external/androidplot"/>
   <project name="platform/external/ant-glob" path="external/ant-glob"/>
