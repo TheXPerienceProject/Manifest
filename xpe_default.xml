@@ -80,9 +80,9 @@
     <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe"  />
     <!--<project path="frameworks/support/lottie" name="android_frameworks_support_lottie" remote="klab"  />
     <remove-project name="platform/frameworks/opt/net/voip" />
-    <project path="frameworks/opt/net/voip" name="TheXPerienceProject/android_frameworks_opt_net_voip" remote="xpe"  />
+    <project path="frameworks/opt/net/voip" name="TheXPerienceProject/android_frameworks_opt_net_voip" remote="xpe"  />-->
     <remove-project name="platform/frameworks/opt/net/wifi" />
-    <project path="frameworks/opt/net/wifi" name="TheXPerienceProject/android_frameworks_opt_net_wifi" groups="pdk" remote="xpe"  />-->
+    <project path="frameworks/opt/net/wifi" name="TheXPerienceProject/android_frameworks_opt_net_wifi" groups="pdk" remote="xpe"  />
     <remove-project name="platform/frameworks/opt/telephony" />
     <project path="frameworks/opt/telephony" name="TheXPerienceProject/android_frameworks_opt_telephony" groups="pdk" remote="xpe" />
 
