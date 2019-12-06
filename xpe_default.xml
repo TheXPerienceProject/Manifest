@@ -100,7 +100,6 @@
     <project path="hardware/qcom/audio/msm8998" name="TheXPerienceProject/android_hardware_qcom_audio" groups="pdk,qcom,qcom_audio" revision="xpe-14.0-caf-msm8998" remote="xpe" />
     <remove-project name="platform/hardware/qcom/bootctrl" />
     <project path="hardware/qcom/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" remote="xpe" />
-    <remove-project name="platform/hardware/qcom/bt"/>
     <project path="hardware/qcom/bt" name="TheXPerienceProject/android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="xpe" revision="xpe-14.0" />
     <!--    <project path="hardware/qcom/display/msm8952" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />
     <project path="hardware/qcom/display/msm8974" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="xpe-13.0-caf-8974" remote="xpe" />-->
