@@ -70,6 +70,7 @@
     <!--<project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk"  remote="xpe" />
     <remove-project name="platform/external/perfetto" />
     <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto" groups="pdk" remote="xpe" />-->
+    <project name="TheXPerienceProject/android_external_zlib" path="external/zlib" remote="xpe" /> 
 
     <!--Frameworks -->
     <remove-project name="platform/frameworks/base" />
