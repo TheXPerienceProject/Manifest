@@ -244,8 +244,8 @@
     <!--Blob from AOSPA-->
     <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" revision="quartz" remote="github" />
     <!-- GCC -->
-    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="aospa" groups="aospa" revision="master" clone-depth="1" />
-    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="aospa" groups="aospa" revision="master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" groups="aospa" revision="master" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="github" groups="aospa" revision="master" clone-depth="1" />
 
 
     <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
