@@ -73,7 +73,7 @@
     <remove-project name="platform/external/perfetto" />
     <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto" groups="pdk" remote="xpe" />-->
     <remove-project name="platform/external/zlib" />
-    <project name="TheXPerienceProject/android_external_zlib" path="external/zlib" remote="xpe" /> 
+    <project name="TheXPerienceProject/android_external_zlib" path="external/zlib" remote="xpe" />
 
     <!--Frameworks -->
     <remove-project name="platform/frameworks/base" />
@@ -153,8 +153,6 @@
     <project name="TheXPerienceProject/android_packages_apps_PackageInstaller" path="packages/apps/PermissionController" remote="xpe" />
     <remove-project name="platform/packages/apps/ThemePicker"/>
     <project path="packages/apps/ThemePicker" name="TheXPerienceProject/android_packages_apps_ThemePicker" remote="xpe" />
-    <remove-project name="platform/packages/apps/WallpaperPicker2" />
-    <project path="packages/apps/WallpaperPicker2" name="TheXPerienceProject/android_packages_apps_WallpaperPicker2" remote="xpe" />
     <remove-project name="platform/packages/services/Telecomm" />
     <project path="packages/overlay/XPerience" name="TheXPerienceProject/android_packages_overlay_XPerience" remote="xpe" />
     <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" remote="xpe" />
@@ -246,7 +244,7 @@
     </project>
     <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
     <project name="TheXPerienceProject/android_vendor_qcom-opensource_recovery-ext" path="vendor/qcom/opensource/recovery-ext" remote="xpe" />
- 
+
     <!--Blob from AOSPA-->
     <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" revision="quartz" remote="github" />
     <!-- GCC -->

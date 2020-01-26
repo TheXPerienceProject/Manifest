@@ -4,8 +4,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com"
-           revision="refs/tags/android-10.0.0_r11" />
-  
+           revision="refs/tags/android-10.0.0_r16" />
+
     <remote name="xpe"
            fetch=".."
            review="https://github.com/TheXPerienceProject/"
@@ -589,7 +589,7 @@
   <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings"/>
   <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"/>
   <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker"/>
-  <project name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2"/>
+  <project name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="aosp" />
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/modules/CaptivePortalLogin" path="packages/modules/CaptivePortalLogin"/>
   <project name="platform/packages/modules/ExtServices" path="packages/modules/ExtServices"/>
