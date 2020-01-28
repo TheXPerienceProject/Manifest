@@ -223,6 +223,8 @@
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" remote="xpe" >
         <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
     </project>
+    <remove-project name="platform/vendor/qcom-opensource/dataservices" />
+    <project name="TheXPerienceProject/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" >
         <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
