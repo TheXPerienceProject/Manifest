@@ -61,10 +61,10 @@
     <!--<project path="external/connectivity" name="TheXPerienceProject/android_external_connectivity" remote="xpe" revision="xpe-13.0" />-->
     <remove-project name="platform/external/e2fsprogs" />
     <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" groups="pdk" remote="xpe"  />
-    <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="lineage-17.0" />
+    <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="lineage-17.1" />
     <remove-project name="platform/external/libjpeg-turbo" />
     <project name="TheXPerienceProject/android_external_libjpeg-turbo" path="external/libjpeg-turbo" remote="xpe" />
-    <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-17.0" />
+    <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-17.1" />
     <remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
     <remove-project name="platform/external/skia"/>
@@ -77,7 +77,7 @@
 
     <!--Frameworks -->
     <remove-project name="platform/frameworks/base" />
-    <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" revision="xpe-14.0-nextrebase" />
     <remove-project name="platform/frameworks/av" />
     <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="xpe"  />
     <remove-project name="platform/frameworks/native" />
@@ -166,8 +166,8 @@
     <!-- Prebuilts -->
     <!--<remove-project name="platform/prebuilts/build-tools" />
     <project path="prebuilts/build-tools" name="TheXPerienceProject/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="xpe" />-->
-    <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" clone-depth="1" remote="github" revision="lineage-17.0"/>
-    <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="github" revision="lineage-17.0"/>
+    <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" clone-depth="1" remote="github" revision="lineage-17.1"/>
+    <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="github" revision="lineage-17.1"/>
     <remove-project name="platform/prebuilts/r8"/>
     <project name="TheXPerienceProject/android_prebuilts_r8" path="prebuilts/r8" clone-depth="1" remote="xpe" />
 
@@ -256,7 +256,7 @@
 
     <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
     <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.0" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
     <!--<project path="external/libiio" name="TheXPerienceProject/android_external_libiio" remote="xpe" revision="xpe-13.0" />
     <project path="hardware/moto/sensors" name="TheXPerienceProject/android_hardware_moto_sensors" remote="xpe" revision="xpe-13.0" />-->
 
