@@ -293,6 +293,7 @@
     <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
     <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
     <remove-project name="platform/vendor/qcom/ferrum"/>
+    <remove-project name="platform/vendor/qcom/atoll"/>
     <remove-project name="platform/vendor/qcom/msm8909go"/>
     <remove-project name="platform/vendor/qcom/msmnile"/>
     <remove-project name="platform/vendor/qcom/skunk"/>
