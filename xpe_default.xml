@@ -232,7 +232,7 @@
     <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
     <project path="vendor/qcom/opensource/commonsys/fm" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/fst-manager" />
-    <project name="TheXPerienceProject/android_vendor_qcom-opensource_fst-manager" path="vendor/qcom/opensource/fst-manager" remote="xpe" />
+    <!--<project name="TheXPerienceProject/android_vendor_qcom-opensource_fst-manager" path="vendor/qcom/opensource/fst-manager" remote="xpe" />-->
     <remove-project name="platform/vendor/qcom-opensource/interfaces" />
     <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" remote="xpe" />
     <remove-project name="platform/vendor/qcom-opensource/system/bt" />
