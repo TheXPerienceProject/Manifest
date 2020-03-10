@@ -77,7 +77,7 @@
 
     <!--Frameworks -->
     <remove-project name="platform/frameworks/base" />
-    <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" revision="xpe-14.0-nextrebase" />
+    <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" revision="xpe-14.0" />
     <remove-project name="platform/frameworks/av" />
     <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="xpe"  />
     <remove-project name="platform/frameworks/native" />
