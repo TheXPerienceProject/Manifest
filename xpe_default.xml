@@ -170,6 +170,7 @@
     <project path="prebuilts/tools-lineage" name="TheXPerienceProject/android_prebuilts_tools-lineage" clone-depth="1" remote="xpe"/>
     <remove-project name="platform/prebuilts/r8"/>
     <project name="TheXPerienceProject/android_prebuilts_r8" path="prebuilts/r8" clone-depth="1" remote="xpe" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r377782c" name="TheXPerienceProject/android_prebuilts_clang_host_linux-x86_clang-r377782c" clone-depth="1" remote="xpe"/>
 
     <!-- System -->
     <remove-project name="platform/system/bt" />
