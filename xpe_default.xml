@@ -166,6 +166,8 @@
     <project path="packages/providers/DownloadProvider" name="TheXPerienceProject/packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
     <remove-project name="platform/packages/providers/MediaProvider" />
     <project path="packages/providers/MediaProvider" name="TheXPerienceProject/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <remove-project name="platform/packages/providers/TelephonyProvider" />
+    <project path="packages/providers/TelephonyProvider" name="TheXPerienceProject/android_packages_providers_TelephonyProvider" remote="xpe" />
 
     <!-- Prebuilts -->
     <!--<remove-project name="platform/prebuilts/build-tools" />
