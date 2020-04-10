@@ -61,6 +61,7 @@
     <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="lineage-17.1" />
     <remove-project name="platform/external/libjpeg-turbo" />
     <project name="TheXPerienceProject/android_external_libjpeg-turbo" path="external/libjpeg-turbo" remote="xpe" />
+    <project path="external/motorola/faceunlock" name="TheXPerienceProject/android_external_motorola_faceunlock" remote="xpe" />
     <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-17.1" />
     <remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
