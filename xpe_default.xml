@@ -123,6 +123,8 @@
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Camera2"/>
     <project path="packages/apps/Camera2" name="TheXPerienceProject/android_packages_apps_Camera2" remote="xpe" />
+    <remove-project name="platform/packages/apps/Dialer" />
+    <project name="TheXPerienceProject/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="xpe" />
     <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" />
     <remove-project name="platform/packages/apps/Music" />
