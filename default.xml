@@ -19,7 +19,7 @@
     <remote  name="github"
              fetch="https://github.com/" />
 
-    <default revision="refs/tags/LA.UM.8.2.1.r1-04200-sdm660.0"
+    <default revision="refs/tags/LA.UM.8.1.r1-14700-sm8150.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
@@ -816,7 +816,7 @@
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools"/>
   <project name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb"/>
   <project name="platform/vendor/qcom-opensource/vibrator" path="vendor/qcom/opensource/vibrator"/>
-  <project name="platform/vendor/qcom-opensource/wfd-commonsys" path="vendor/qcom/opensource/commonsys-intf/wfd" revision="refs/tags/LA.UM.8.3.r1-07600-sdm845.0" />
+  <project name="platform/vendor/qcom-opensource/wfd-commonsys" path="vendor/qcom/opensource/commonsys-intf/wfd" />
   <project name="platform/vendor/qcom-opensource/wigig" path="vendor/qcom/opensource/wigig"/>
   <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api"/>
   <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn"/>
