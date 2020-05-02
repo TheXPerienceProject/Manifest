@@ -72,9 +72,9 @@
 
     <!--Frameworks -->
     <remove-project name="platform/frameworks/av" />
-    <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="xpe"  />
+    <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
     <remove-project name="platform/frameworks/base" />
-    <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" revision="xpe-14.0_rebase" />
     <remove-project name="platform/frameworks/native" />
     <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe"  />
     <remove-project name="platform/frameworks/opt/net/wifi" />
@@ -128,7 +128,7 @@
     <remove-project name="platform/packages/apps/Dialer" />
     <project name="TheXPerienceProject/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="xpe" />
     <remove-project name="platform/packages/apps/Launcher3"/>
-    <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" />
+    <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" revision="xpe-14.0_rebase" />
     <remove-project name="platform/packages/apps/Music" />
     <project path="packages/apps/XMusic" name="TheXPerienceProject/android_packages_apps_XMusic" remote="xpe" />
     <project path="packages/apps/OmniStyle" name="TheXPerienceProject/android_packages_apps_omnistyle" remote="xpe" />
