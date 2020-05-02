@@ -19,7 +19,7 @@
     <remote  name="github"
              fetch="https://github.com/" />
 
-    <default revision="refs/tags/LA.UM.8.1.r1-14700-sm8150.0"
+    <default revision="refs/tags/LA.UM.8.12.r1-10600-sm8250.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
@@ -65,7 +65,9 @@
   <project name="device/qcom/sepolicy"/>
   <project name="device/sample"/>
   <project name="kernel/configs"/>
+  <project name="kernel/build"/>
   <project name="kernel/msm-4.14"/>
+  <project name="kernel/msm-4.19" />
   <project name="kernel/tests"/>
   <project name="platform/art" path="art"/>
   <project name="platform/bionic" path="bionic"/>
@@ -734,6 +736,7 @@
   <project name="platform/test/vts-testcase/security" path="test/vts-testcase/security"/>
   <project name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk"/>
   <project name="platform/tools/acloud" path="tools/acloud"/>
+  <project name="platform/tools/apifinder" path="tools/apifinder"/>
   <project name="platform/tools/apksig" path="tools/apksig"/>
   <project name="platform/tools/apkzlib" path="tools/apkzlib"/>
   <project name="platform/tools/asuite" path="tools/asuite"/>
@@ -768,6 +771,9 @@
     <linkfile dest="vendor/qcom/defs/product-defs/system/nfc-system-product.mk" src="nfc_system_product.mk"/>
   </project>
   <project name="platform/vendor/opensource/audio-kernel" path="vendor/qcom/opensource/audio-kernel"/>
+  <project name="platform/vendor/opensource/camera-kernel" path="vendor/qcom/opensource/camera-kernel"/>
+  <project name="platform/vendor/opensource/display-drivers" path="vendor/qcom/opensource/display-drivers"/>
+  <project name="platform/vendor/opensource/video-driver" path="vendor/qcom/opensource/video-driver"/>
   <project name="platform/vendor/qcom-opensource/audio" path="vendor/qcom/opensource/audio"/>
   <project name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal"/>
   <project name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth"/>
@@ -824,6 +830,7 @@
   <project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut"/>
   <project name="platform/vendor/qcom/atoll" path="device/qcom/atoll"/>
   <project name="platform/vendor/qcom/ferrum" path="device/qcom/msm8909"/>
+  <project name="platform/vendor/qcom/kona" path="device/qcom/kona"/>
   <project name="platform/vendor/qcom/msm8909go" path="device/qcom/msm8909go"/>
   <project name="platform/vendor/qcom/msmnile" path="device/qcom/msmnile"/>
   <project name="platform/vendor/qcom/skunk" path="device/qcom/sdm845"/>
