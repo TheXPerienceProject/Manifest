@@ -605,7 +605,7 @@
   <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail"/>
   <project name="platform/packages/apps/UniversalMediaPlayer" path="packages/apps/UniversalMediaPlayer"/>
   <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker"/>
-  <project name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="aosp" />
+  <project name="platform/packages/apps/WallpaperPicker2" path="packages/apps/WallpaperPicker2" />
   <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
   <project name="platform/packages/modules/CaptivePortalLogin" path="packages/modules/CaptivePortalLogin"/>
   <project name="platform/packages/modules/ExtServices" path="packages/modules/ExtServices"/>
