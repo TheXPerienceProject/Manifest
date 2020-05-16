@@ -168,9 +168,11 @@
     <remove-project name="platform/prebuilts/r8"/>
     <project name="TheXPerienceProject/android_prebuilts_r8" path="prebuilts/r8" clone-depth="1" remote="xpe" />
     <project path="prebuilts/clang/host/linux-x86/clang-r377782c" name="TheXPerienceProject/android_prebuilts_clang_host_linux-x86_clang-r377782c" clone-depth="1" remote="xpe"/>
-
+    <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+    <project clone-depth="1" name="TheXPerienceProject/android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk"/>
+	
     <!-- System -->
-	<remove-project name="platform/system/bt" />
+    <remove-project name="platform/system/bt" />
     <project path="system/bt" name="TheXPerienceProject/android_system_bt" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/core" />
     <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
@@ -185,7 +187,6 @@
     <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/vold" />
     <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
-	
 
     <!-- Vendor -->
     <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" clone-depth="1" remote="xpe" />
@@ -238,18 +239,15 @@
     <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
     <project name="TheXPerienceProject/android_vendor_qcom-opensource_recovery-ext" path="vendor/qcom/opensource/recovery-ext" remote="xpe" />
 
-
     <!--Blob from AOSPA-->
     <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" revision="quartz" remote="github" />
     <!-- GCC elf-->
     <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="AOSPA/android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="github" groups="aospa" revision="master" clone-depth="1" />
     <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="AOSPA/android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="github" groups="aospa" revision="master" clone-depth="1" />
 
-
     <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
     <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
-
 
     <!--Cleanups -->
     <!-- Obsolete Packages -->
