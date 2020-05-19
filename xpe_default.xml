@@ -121,6 +121,8 @@
     <project path="libcore" name="TheXPerienceProject/android_libcore" remote="xpe" />
 
     <!-- Packages -->
+    <remove-project name="platform/packages/apps/Bluetooth" />
+    <project name="TheXPerienceProject/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="xpe" />
     <remove-project name="platform/packages/apps/Camera2"/>
     <project path="packages/apps/Camera2" name="TheXPerienceProject/android_packages_apps_Camera2" remote="xpe" />
     <remove-project name="platform/packages/apps/Contacts"/>
