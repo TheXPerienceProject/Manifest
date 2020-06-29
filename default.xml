@@ -19,7 +19,7 @@
     <remote  name="github"
              fetch="https://github.com/" />
 
-    <default revision="refs/tags/LA.UM.8.13.r1-08800-SAIPAN.0"
+    <default revision="refs/tags/LA.UM.8.12.r1-12500-sm8250.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
