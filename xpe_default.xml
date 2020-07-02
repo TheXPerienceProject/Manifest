@@ -129,6 +129,7 @@
     <project name="TheXPerienceProject/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="xpe" />
     <remove-project name="platform/packages/apps/Dialer" />
     <project name="TheXPerienceProject/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="xpe" />
+    <project name="LineageOS/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="github" revision="lineage-17.1" />
     <remove-project name="platform/packages/apps/Launcher3"/>
     <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" remote="xpe" revision="xpe-14.0" />
     <remove-project name="platform/packages/apps/Music" />
