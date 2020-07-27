@@ -19,7 +19,7 @@
     <remote  name="github"
              fetch="https://github.com/" />
 
-    <default revision="refs/tags/LA.UM.8.2.r2-02300-sdm660.0"
+    <default revision="refs/tags/LA.UM.8.8.r1-07900-SDM710.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
