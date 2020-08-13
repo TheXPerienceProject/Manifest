@@ -19,7 +19,7 @@
     <remote  name="github"
              fetch="https://github.com/" />
 
-    <default revision="refs/tags/LA.UM.8.1.r1-15600-sm8150.0"
+    <default revision="refs/tags/ LA.UM.8.2.r2-02500-sdm660.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
@@ -821,8 +821,8 @@
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
   <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools"/>
   <project name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb"/>
-  <project name="platform/vendor/qcom-opensource/vibrator" path="vendor/qcom/opensource/vibrator"/>
-  <project name="platform/vendor/qcom-opensource/wfd-commonsys" path="vendor/qcom/opensource/commonsys-intf/wfd" />
+  <project name="platform/vendor/qcom-opensource/vibrator" path="vendor/qcom/opensource/vibrator" revision="refs/tags/LA.UM.8.1.r1-15600-sm8150.0"/>
+  <project name="platform/vendor/qcom-opensource/wfd-commonsys" path="vendor/qcom/opensource/commonsys-intf/wfd" revision="refs/tags/LA.UM.8.1.r1-15600-sm8150.0" />
   <project name="platform/vendor/qcom-opensource/wigig" path="vendor/qcom/opensource/wigig"/>
   <project name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api"/>
   <project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn"/>
@@ -837,7 +837,7 @@
   <project name="platform/vendor/qcom/steppe" path="device/qcom/sm6150"/>
   <project name="platform/vendor/qcom/thulium" path="device/qcom/msm8996"/>
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan"/>
-	<project name="toolchain/benchmark"/>
+  <project name="toolchain/benchmark"/>
   <project name="toolchain/pgo-profiles"/>
 
   <!-- Add all tracked repos -->
