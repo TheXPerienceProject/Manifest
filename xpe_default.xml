@@ -167,6 +167,8 @@
     <project path="packages/providers/TelephonyProvider" name="TheXPerienceProject/android_packages_providers_TelephonyProvider" remote="xpe" />
 
     <!-- Prebuilts -->
+    <remove-project name="platform/prebuilts/build-tools" />
+    <project clone-depth="1" name="TheXPerienceProject/android_prebuilts_build-tools" path="prebuilts/build-tools" remote="xpe" />
     <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" clone-depth="1" remote="github" revision="lineage-17.0"/>
     <project path="prebuilts/tools-lineage" name="TheXPerienceProject/android_prebuilts_tools-lineage" clone-depth="1" remote="xpe"/>
     <remove-project name="platform/prebuilts/r8"/>
@@ -174,7 +176,7 @@
     <project path="prebuilts/clang/host/linux-x86/clang-r377782c" name="TheXPerienceProject/android_prebuilts_clang_host_linux-x86_clang-r377782c" clone-depth="1" remote="xpe"/>
     <remove-project name="platform/prebuilts/abi-dumps/vndk" />
     <project clone-depth="1" name="TheXPerienceProject/android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" remote="xpe" />
-	
+
     <!-- System -->
     <remove-project name="platform/system/bt" />
     <project path="system/bt" name="TheXPerienceProject/android_system_bt" groups="pdk" remote="xpe" />
