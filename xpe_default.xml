@@ -184,6 +184,8 @@
     <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/libhidl" />
     <project path="system/libhidl" name="TheXPerienceProject/android_system_libhidl" remote="xpe" groups="xpe" />
+    <remove-project name="platform/system/libufdt"/>
+    <project name="TheXPerienceProject/android_system_libufdt" path="system/libufdt" remote="xpe"/>
     <remove-project name="platform/system/qcom" />
     <project path="vendor/qcom/opensource/softap" name="TheXPerienceProject/android_system_qcom" groups="qcom" remote="xpe" />
     <remove-project name="platform/system/sepolicy" />
