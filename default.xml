@@ -2,9 +2,9 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-
+           fetch="https://android.googlesource.com"
+           review="https://android-review.googlesource.com" />
+  
     <!-- Github remote -->
     <remote  name="github"
              fetch="https://github.com/" />
@@ -12,11 +12,14 @@
     <remote name="xpe"
            fetch=".."
            review="https://github.com/TheXPerienceProject/"
-           revision="refs/heads/xpe-15.0" />
+           revision="refs/heads/xpe-15.0"
+           sync-c="true"
+           sync-j="4" />
 
   <default revision="refs/tags/android-11.0.0_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-c="true"
+           sync-j="4"/>
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
