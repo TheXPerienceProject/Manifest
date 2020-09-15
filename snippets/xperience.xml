@@ -1,0 +1,43 @@
+<manifest>
+
+  <!--Build-->
+  <remove-project name="platform/build"/>
+  <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="platform/build/blueprint"/>
+  <project path="build/blueprint" name="TheXPerienceProject/android_build_blueprint" groups="pdk,tradefed" remote="xpe" />
+  <remove-project path="build/soong" name="platform/build/soong" />
+  <project path="build/soong" name="TheXPerienceProject/android_build_soong" groups="pdk,tradefed" remote="xpe" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
+
+  <!--bionic-->
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
+  
+  <!--Hardware-->
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_libhardware_legacy" groups="pdk" remote="xpe" />
+  
+  <!--Tools-->
+  <remove-project name="platform/tools/metalava" />
+  <project path="tools/metalava" name="TheXPerienceProject/android_tools_metalava" groups="pdk,tools" remote="xpe" />
+  <project path="prebuilts/tools-xperience" name="TheXPerienceProject/android_prebuilts_tools-lineage" remote="xpe" />
+  
+  <!--System-->
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
+
+  <!--Vendor-->
+  <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
+</manifest>

@@ -12,7 +12,7 @@
     <remote name="xpe"
            fetch=".."
            review="https://github.com/TheXPerienceProject/"
-           revision="refs/heads/xpe-15.0"
+           revision="refs/heads/staging/xpe-15.0"
            sync-c="true"
            sync-j="4" />
 
@@ -837,5 +837,8 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- add snippets-->
+  <include name="snippets/xperience.xml" />  
 
 </manifest>
