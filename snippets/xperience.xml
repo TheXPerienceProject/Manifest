@@ -27,7 +27,7 @@
   
   <!--Hardware-->
   <remove-project name="platform/hardware/libhardware_legacy" />
-  <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_libhardware_legacy" groups="pdk" remote="xpe" />
+  <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
   
   <!--Tools-->
   <remove-project name="platform/tools/metalava" />
