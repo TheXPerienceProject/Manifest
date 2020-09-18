@@ -49,6 +49,6 @@
 
   <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
   <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.0" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
 
 </manifest>
