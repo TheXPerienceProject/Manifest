@@ -11,7 +11,7 @@ To initialize your local repository using the XPerience CAF trees, use a command
 
       $ mkdir XPe
       $ cd XPe
-      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-14.0
+      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-15.0
     
 Then to sync up:
 
@@ -29,8 +29,8 @@ OR:
 - Tested and Working on any version of Ubuntu - 15.10 & 16.04 16.10 (64-bit)
 - Any other distribution based of the Ubuntu Distro such as Lubuntu, Xubuntu and etc.
 - A Terminal window
-- A Good specs of hardware like 8 GB of RAM and an Intel I3 dual core (Minimum)
-- A storage unit of any kind (minimum 100 GB). It would be better to use SSD because is more fast during the compliation process
+- A Good specs of hardware like 16 GB of RAM and an Intel I5 quad core (Minimum)
+- A storage unit of any kind (minimum 300 GB). It would be better to use SSD because is more fast during the compliation process
 - Some dependencies that should be installed
 
 ### [Dependencies for Linux](https://github.com/TheXPerienceProject/Manifest/wiki/Dependencies-for-Linux) or [Dependencies for Mac](https://github.com/TheXPerienceProject/Manifest/wiki/Dependencies-for-Mac)
@@ -81,4 +81,4 @@ automatically. As the device value, you just feed it with the device codename (f
       * http://tryge.com/2013/06/15/build-android-from-source-macosx/
       * https://source.android.com/source/initializing.html
 
-## Copyright (C) 2018 The XPerience Project
+## Copyright (C) 2011-2020 The XPerience Project
