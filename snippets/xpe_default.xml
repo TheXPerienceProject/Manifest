@@ -56,10 +56,14 @@
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
 
   <!-- Vendor QCOM -->
+  <project name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
+  </project>
   <project name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="xpe" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
   </project>
+  <project name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="xpe" />
   <project name="TheXPerienceProject/vendor_qcom-opensource_location" path="vendor/qcom/opensource/location" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
   </project>
