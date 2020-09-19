@@ -38,7 +38,7 @@
   <project name="TheXPerienceProject/android_device_qcom_vendor-common" path="device/qcom/vendor-common" remote="xpe"/>
 
   <!--Hardware-->
-  <remove-project name="platform/hardware/libhardware_legacy" />
+  <project name="TheXPerienceProject/android_hardware_libhardware" path="hardware/libhardware" remote="xpe" />
   <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
 
   <!--Hardware HALS -->
