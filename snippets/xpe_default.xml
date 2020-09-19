@@ -31,9 +31,17 @@
   <remove-project name="platform/bionic" />
   <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
 
+  <!-- Device -->
+  <project name="TheXPerienceProject/android_device_qcom_common" path="device/qcom/common" remote="xpe">
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+  </project>
+  <project name="TheXPerienceProject/android_device_qcom_vendor-common" path="device/qcom/vendor-common" remote="xpe"/>
+
   <!--Hardware-->
   <remove-project name="platform/hardware/libhardware_legacy" />
   <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
+
+  <!--Hardware HALS -->
 
   <!--Tools-->
   <remove-project name="platform/tools/metalava" />
