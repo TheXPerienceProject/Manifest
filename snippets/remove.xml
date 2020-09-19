@@ -41,4 +41,5 @@
   <!-- vendor -->
   <remove-project name="platform/vendor/qcom/kona" />
   <remove-project name="platform/vendor/qcom/lito" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf">
 </manifest>
