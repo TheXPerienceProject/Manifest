@@ -16,7 +16,6 @@
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/qcom/common" />
-  <remove-project name="device/qcom/" />
   <remove-project name="device/qcom/vendor-common" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
 
