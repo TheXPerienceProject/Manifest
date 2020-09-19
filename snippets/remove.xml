@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Build -->
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build"/>
+  <remove-project name="platform/build/blueprint"/>
+  <remove-project name="platform/build/soong" />
+
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
@@ -38,6 +45,9 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
+
+  <!-- Tools -->
+  <remove-project name="platform/tools/metalava" />
 
   <!-- vendor -->
   <remove-project name="platform/vendor/qcom/kona" />
