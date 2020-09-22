@@ -23,9 +23,7 @@
   <remote name="unicorn"
           fetch="https://github.com/RainbowUnicornXPe/" />
 
-  <default remote="system" 
-           sync-j="4"
-           sync-c="true"/>
+  <default remote="system" />
 
   <!-- Add all tracked repos -->
   <include name="source/system.xml"/>
