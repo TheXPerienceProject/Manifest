@@ -53,6 +53,7 @@
   <remove-project name="platform/vendor/qcom/kona" />
   <remove-project name="platform/vendor/qcom/lito" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/location" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
