@@ -5,7 +5,7 @@
   <remote name="system"
           fetch="https://source.codeaurora.org/quic/la/"
           review="codeaurora.org"
-          revision="refs/tags/LA.QSSI.11.0.r1-05600-qssi.0"/>
+          revision="refs/tags/LA.QSSI.11.0.r1-06000-qssi.0"/>
 
   <remote name="vendor"
           fetch="https://source.codeaurora.org/quic/la/"
