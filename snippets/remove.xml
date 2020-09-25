@@ -23,8 +23,14 @@
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/qcom/common" />
+  <remove-project name="device/qcom/sepolicy_vndr" />
   <remove-project name="device/qcom/vendor-common" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
+
+  <!--Frameworks-->
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/native" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />

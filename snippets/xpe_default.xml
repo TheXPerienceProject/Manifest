@@ -31,6 +31,16 @@
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <project name="TheXPerienceProject/android_device_qcom_vendor-common" path="device/qcom/vendor-common" remote="xpe"/>
+  <project name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="xpe"/>
+  <project name="TheXPerienceProject/android_device_xperience_common" path="device/xperience/common" remote="xpe" />
+
+  <!--External -->
+
+
+  <!--Frameworks -->
+  <project name="TheXPerienceProject/android_frameworks_av" path="frameworks/av" remote="xpe" />
+  <project name="TheXPerienceProject/android_frameworks_base" path="frameworks/base" remote="xpe" />
+  <project name="TheXPerienceProject/android_frameworks_native" path="frameworks/native" remote="xpe" />
 
   <!--Hardware-->
   <project name="TheXPerienceProject/android_hardware_libhardware" path="hardware/libhardware" remote="xpe" />
@@ -48,6 +58,7 @@
 
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
+  <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
 
   <!-- Vendor QCOM -->
   <project name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="xpe">
