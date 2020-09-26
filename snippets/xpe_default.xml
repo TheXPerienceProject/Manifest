@@ -7,6 +7,7 @@
 
 
   <!--Build-->
+  <project name="TheXPerienceProject/android_art" path="art" remote="xpe" />
   <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -35,7 +36,12 @@
   <project name="TheXPerienceProject/android_device_xperience_common" path="device/xperience/common" remote="xpe" />
 
   <!--External -->
-
+  <project name="TheXPerienceProject/android_external_ant-wireless_antradio-library" path="external/ant-wireless/antradio-library" remote="xpe" />
+  <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" remote="xpe" />
+  <project path="external/json-c" name="TheXPerienceProject/android_external_json-c" remote="xpe" />
+  <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" remote="xpe" />
+  <project path="external/libpng" name="TheXPerienceProject/android_external_libpng" remote="xpe" />
+  <project path="external/zlib" name="TheXPerienceProject/android_external_zlib" remote="xpe" />
 
   <!--Frameworks -->
   <project name="TheXPerienceProject/android_frameworks_av" path="frameworks/av" remote="xpe" />

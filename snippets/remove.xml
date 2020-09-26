@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Build -->
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build"/>
@@ -27,7 +28,14 @@
   <remove-project name="device/qcom/vendor-common" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
 
-  <!--Frameworks-->
+  <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/json-c" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/zlib" />
+
+  <!-- Frameworks -->
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
