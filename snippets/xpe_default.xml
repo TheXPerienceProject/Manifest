@@ -51,6 +51,7 @@
   <!--Hardware-->
   <project name="TheXPerienceProject/android_hardware_libhardware" path="hardware/libhardware" remote="xpe" />
   <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
+  <project name="TheXPerienceProject/android_hardware_ril" path="hardware/ril" remote="xpe" />
 
   <!--Hardware HALS -->
 
