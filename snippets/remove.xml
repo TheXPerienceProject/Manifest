@@ -60,6 +60,9 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
+   
+   <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
   <!--System-->
   <remove-project name="platform/system/core" />
