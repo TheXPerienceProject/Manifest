@@ -82,6 +82,10 @@
   <project name="TheXPerienceProject/vendor_qcom-opensource_location" path="vendor/qcom/opensource/location" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
   </project>
+  <project name="TheXPerienceProject/vendor_qcom-opensource_power" path="vendor/qcom/opensource/power" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk" remote="xpe" />
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk" remote="xpe" />
+  </project>
   <project name="TheXPerienceProject/vendor_qcom-opensource_usb" path="vendor/qcom/opensource/usb" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
   </project>
