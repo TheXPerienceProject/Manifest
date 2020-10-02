@@ -1,5 +1,8 @@
 ![xperience](https://i.imgur.com/h4CgRmp.png)
 
+[![Download XPerience](https://img.shields.io/sourceforge/dm/xperience-aosp?color=red&label=The%20XPerience%20Project%20Downloads&style=for-the-badge&labelColor=1B4F72&logo=sourceforge)](https://sourceforge.net/projects/xperience-aosp/files/)
+[![Download XPerience](https://img.shields.io/sourceforge/dw/xperience-aosp?color=red&label=The%20XPerience%20Project%20Downloads&style=for-the-badge&labelColor=1B4F72&logo=sourceforge)](https://sourceforge.net/projects/xperience-aosp/files/)
+
 Getting Started The XPerience Project
 ---------------
 You must be running a 64-bit Linux distribution and must have installed some packages to build
