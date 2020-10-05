@@ -59,9 +59,12 @@
 
   <!-- Packages -->
   <project name="TheXPerienceProject/android_packages_apps_Settings" path="packages/apps/Settings" remote="xpe" />
+  <project name="TheXPerienceProject/android_packages_overlay_XPerience" path="packages/overlay/xperience" remote="xpe" />
+  <project name="TheXPerienceProject/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="xpe" />
 
   <!--System-->
   <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
+  <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" remote="xpe" />
   <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
 
   <!--Tools-->

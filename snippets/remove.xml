@@ -63,12 +63,14 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
   <!--System-->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
 
   <!-- Tools -->
