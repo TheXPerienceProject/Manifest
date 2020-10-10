@@ -42,6 +42,7 @@
   <project path="external/json-c" name="TheXPerienceProject/android_external_json-c" remote="xpe" />
   <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" remote="xpe" />
   <project path="external/libpng" name="TheXPerienceProject/android_external_libpng" remote="xpe" />
+  <project name="TheXPerienceProject/android_external_selinux" path="external/selinux" remote="xpe" />
   <project path="external/zlib" name="TheXPerienceProject/android_external_zlib" remote="xpe" />
 
   <!--Frameworks -->
