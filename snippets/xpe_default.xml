@@ -5,6 +5,8 @@
     <remote  name="klab"
              fetch="https://gitlab.com/klozz_/" />
 
+    <remote name="aosp"
+	        fetch="https://android.googlesource.com" />
 
   <!--Build-->
   <project name="TheXPerienceProject/android_art" path="art" remote="xpe" />
@@ -55,6 +57,7 @@
   <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
   <project name="TheXPerienceProject/android_hardware_ril" path="hardware/ril" remote="xpe" />
   <project name="TheXPerienceProject/android_hardware_xperience_interfaces" path="hardware/xperience/interfaces" remote="xpe" />
+  <project name="platform/hardware/google/pixel" path="hardware/google/pixel" remote="aosp" revision="refs/tags/android-11.0.0_r4" />
 
   <!--Hardware HALS -->
 
