@@ -35,7 +35,9 @@
   </project>
   <project name="TheXPerienceProject/android_device_qcom_vendor-common" path="device/qcom/vendor-common" remote="xpe"/>
   <project name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="xpe"/>
+  <project name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr-legacy-um" remote="xpe" revision="xpe-15.0-legacy-um" />
   <project name="TheXPerienceProject/android_device_xperience_common" path="device/xperience/common" remote="xpe" />
+  <project name="TheXPerienceProject/android_device_xperience_sepolicy" path="device/xperience/sepolicy" remote="xpe" />
 
   <!--External -->
   <project path="external/ant-wireless/antradio-library" name="TheXPerienceProject/android_external_ant-wireless_antradio-library" remote="xpe" />
