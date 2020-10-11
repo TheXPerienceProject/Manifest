@@ -44,7 +44,7 @@
   <project path="external/json-c" name="TheXPerienceProject/android_external_json-c" remote="xpe" />
   <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" remote="xpe" />
   <project path="external/libpng" name="TheXPerienceProject/android_external_libpng" remote="xpe" />
-  <project name="TheXPerienceProject/android_external_selinux" path="external/selinux" remote="xpe" />
+  <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" remote="xpe" />
   <project path="external/zlib" name="TheXPerienceProject/android_external_zlib" remote="xpe" />
 
   <!--Frameworks -->
@@ -62,9 +62,11 @@
   <!--Hardware HALS -->
 
   <!-- Packages -->
+  <project name="TheXPerienceProject/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="xpe" />
   <project name="TheXPerienceProject/android_packages_apps_Settings" path="packages/apps/Settings" remote="xpe" />
-  <project name="TheXPerienceProject/android_packages_overlay_XPerience" path="packages/overlay/xperience" remote="xpe" />
+  <project name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="xpe" />
   <project name="TheXPerienceProject/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="xpe" />
+  <project name="TheXPerienceProject/android_packages_overlay_XPerience" path="packages/overlay/xperience" remote="xpe" />
 
   <!--System-->
   <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />

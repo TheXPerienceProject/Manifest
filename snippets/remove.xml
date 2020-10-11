@@ -63,7 +63,9 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
 
   <!-- Prebuilts -->
