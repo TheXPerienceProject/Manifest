@@ -74,6 +74,7 @@
   <!--System-->
   <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" remote="xpe" />
+  <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" remote="xpe" />
   <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
 
   <!--Tools-->
