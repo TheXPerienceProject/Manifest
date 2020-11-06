@@ -257,6 +257,16 @@
     <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
 
+    <!--Lineage NFC -->
+    <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />
+    <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+    <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" />
+    <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
+    <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-17.1-pn5xx" />
+    <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.1-pn5xx" />
+    <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-17.1-sn100x" />
+    <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.1-sn100x" />
+
     <!--Cleanups -->
     <!-- Obsolete Packages -->
     <!--and non obsolete but not needed by all -->
@@ -316,5 +326,11 @@
     <remove-project name="platform/vendor/opensource/display-drivers"/>
     <remove-project name="platform/vendor/opensource/video-driver"/>
     <remove-project name="platform/vendor/qcom/kona"/>
-
+	<remove-project name="platform/vendor/nxp/opensource/interfaces/nfc" />
+    <remove-project name="platform/vendor/nxp/interfaces/opensource/nfc" />
+    <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
+    <remove-project name="platform/vendor/nxp/opensource/frameworks" />
+	<remove-project name="platform/vendor/nxp/opensource/halimpl" />
+	<remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
+	<remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
 </manifest>
