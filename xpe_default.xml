@@ -326,11 +326,5 @@
     <remove-project name="platform/vendor/opensource/display-drivers"/>
     <remove-project name="platform/vendor/opensource/video-driver"/>
     <remove-project name="platform/vendor/qcom/kona"/>
-	<remove-project name="platform/vendor/nxp/opensource/interfaces/nfc" />
-    <remove-project name="platform/vendor/nxp/interfaces/opensource/nfc" />
-    <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
-    <remove-project name="platform/vendor/nxp/opensource/frameworks" />
-	<remove-project name="platform/vendor/nxp/opensource/halimpl" />
-	<remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
-	<remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
+
 </manifest>
