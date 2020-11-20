@@ -42,6 +42,7 @@
   <!--External -->
   <project path="external/ant-wireless/antradio-library" name="TheXPerienceProject/android_external_ant-wireless_antradio-library" remote="xpe" />
   <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" remote="xpe" />
+  <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
   <project path="external/google-fonts/google-sans" name="TheXPerienceProject/android_external_google-fonts_google-sans" remote="xpe" />
   <project path="external/json-c" name="TheXPerienceProject/android_external_json-c" remote="xpe" />
   <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" remote="xpe" />
