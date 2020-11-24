@@ -107,6 +107,9 @@
   <project name="TheXPerienceProject/vendor_qcom-opensource_usb" path="vendor/qcom/opensource/usb" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
   </project>
+  <project name="TheXPerienceProject/vendor-qcom-opensource-vibrator" path="vendor/qcom/opensource/vibrator" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
+  </project>
 
   <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
   <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />
