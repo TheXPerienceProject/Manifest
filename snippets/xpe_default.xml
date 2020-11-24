@@ -62,6 +62,9 @@
   <project name="platform/hardware/google/pixel" path="hardware/google/pixel" remote="aosp" revision="refs/tags/android-11.0.0_r4" />
 
   <!--Hardware HALS -->
+  <project name="TheXPerienceProject/android_hardware_qcom_audio" path="hardware/qcom/audio/msm8998" remote="xpe" revision="xpe-15.0-caf-msm8998" />
+  <project name="TheXPerienceProject/android_hardware_qcom_display" path="hardware/qcom/display/msm8998" remote="xpe" revision="xpe-15.0-caf-msm8998" />
+  <project name="TheXPerienceProject/android_hardware_qcom_media" path="hardware/qcom/media/msm8998" remote="xpe" revision="xpe-15.0-caf-msm8998" />
 
   <!-- Packages -->
   <project name="TheXPerienceProject/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="xpe" />
