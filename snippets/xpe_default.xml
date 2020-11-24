@@ -62,9 +62,17 @@
   <project name="platform/hardware/google/pixel" path="hardware/google/pixel" remote="aosp" revision="refs/tags/android-11.0.0_r4" />
 
   <!--Hardware HALS -->
-  <project name="TheXPerienceProject/android_hardware_qcom_audio" path="hardware/qcom/audio/msm8998" remote="xpe" revision="xpe-15.0-caf-msm8998" />
+  <project name="TheXPerienceProject/android_hardware_qcom_audio"   path="hardware/qcom/audio/msm8998"   remote="xpe" revision="xpe-15.0-caf-msm8998" />
+  <project name="TheXPerienceProject/android_hardware_qcom_audio"   path="hardware/qcom/audio/sm8150"    remote="xpe" revision="xpe-15.0-caf-sm8150" />
+  <project name="TheXPerienceProject/android_hardware_qcom_audio"   path="hardware/qcom/audio/sdm845"    remote="xpe" revision="xpe-15.0-caf-sdm845" />
+
   <project name="TheXPerienceProject/android_hardware_qcom_display" path="hardware/qcom/display/msm8998" remote="xpe" revision="xpe-15.0-caf-msm8998" />
-  <project name="TheXPerienceProject/android_hardware_qcom_media" path="hardware/qcom/media/msm8998" remote="xpe" revision="xpe-15.0-caf-msm8998" />
+  <project name="TheXPerienceProject/android_hardware_qcom_display" path="hardware/qcom/display/sdm845"  remote="xpe" revision="xpe-15.0-caf-sdm845" />
+  <project name="TheXPerienceProject/android_hardware_qcom_display" path="hardware/qcom/display/sm8150"  remote="xpe" revision="xpe-15.0-caf-sm8150" />
+
+  <project name="TheXPerienceProject/android_hardware_qcom_media"   path="hardware/qcom/media/msm8998"   remote="xpe" revision="xpe-15.0-caf-msm8998" />
+  <project name="TheXPerienceProject/android_hardware_qcom_media"   path="hardware/qcom/media/sdm845"    remote="xpe" revision="xpe-15.0-caf-sdm845" />
+  <project name="TheXPerienceProject/android_hardware_qcom_media"   path="hardware/qcom/media/sm8150"    remote="xpe" revision="xpe-15.0-caf-sm8150" />
 
   <!-- Packages -->
   <project name="TheXPerienceProject/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="xpe" />
