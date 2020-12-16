@@ -58,7 +58,7 @@
   <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" remote="vendor"/>
   <project name="platform/vendor/qcom-opensource/thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="vendor"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" remote="vendor"/>
-  <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" remote="vendor" revision="refs/tags/LA.UM.9.12.r1-08300-SMxx50.0" />
+  <project name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" remote="vendor"/>
   <project name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb" remote="vendor">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
   </project>
