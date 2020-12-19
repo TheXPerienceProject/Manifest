@@ -2,12 +2,12 @@
 <manifest>
 
   <!-- Build -->
-  <remove-project name="platform/art" />
+  <!--<remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build"/>
   <remove-project name="platform/build/blueprint"/>
-  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build/soong" />-->
 
   <!-- Device -->
   <remove-project name="device/amlogic/yukawa" />
@@ -23,31 +23,32 @@
   <remove-project name="device/linaro/dragonboard-kernel" />
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
-  <remove-project name="device/qcom/common" />
+  <!--<remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/sepolicy_vndr" />
-  <remove-project name="device/qcom/vendor-common" />
+  <remove-project name="device/qcom/vendor-common" />-->
   <remove-project name="platform/prebuilts/qemu-kernel" />
 
   <!-- External -->
+  <!--
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/json-c" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
   <remove-project name="platform/external/selinux" />
-  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/zlib" />-->
 
   <!-- Frameworks -->
-  <remove-project name="platform/frameworks/base" />
+  <!--<remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/native" />-->
 
   <!-- Hardware -->
-  <remove-project name="platform/hardware/libhardware" />
+  <!--<remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/media" />-->
   <remove-project name="platform/hardware/ril" />
 
   <!-- Kernel -->
@@ -65,21 +66,21 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
 
   <!-- Packages -->
-  <remove-project name="platform/packages/apps/Launcher3" />
+  <!--<remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/apps/ThemePicker" />-->
 
   <!-- Prebuilts -->
-  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <!--<remove-project name="platform/prebuilts/abi-dumps/vndk" />-->
 
   <!--System-->
-  <remove-project name="platform/system/core" />
+  <!--<remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/hardware/interfaces" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/vold" />-->
 
   <!-- Tools -->
   <remove-project name="platform/tools/metalava" />
