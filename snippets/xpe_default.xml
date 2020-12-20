@@ -5,7 +5,7 @@
     <remote  name="klab"
              fetch="https://gitlab.com/klozz_/" />
 
-  <project name="platform/hardware/google/pixel" path="hardware/google/pixel" remote="aosp" revision="refs/tags/android-11.0.0_r4" />
+  <project name="platform/hardware/google/pixel" path="hardware/google/pixel" remote="aosp" revision="refs/tags/android-11.0.0_r20" />
 
   <!--Hardware HALS -->
   <project name="TheXPerienceProject/android_hardware_qcom_audio"   path="hardware/qcom/audio/msm8998"   remote="xpe" revision="xpe-15.0-caf-msm8998" />
@@ -23,5 +23,35 @@
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
   <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
+
+  <!-- Vendor QCOM -->
+  <project name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
+  </project>
+  <project name="TheXPerienceProject/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="xpe"/>
+  <project name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="xpe" >
+    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
+  </project>
+  <project name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="xpe" />
+  <project name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="xpe" />
+  <project name="TheXPerienceProject/vendor_qcom-opensource_location" path="vendor/qcom/opensource/location" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
+  </project>
+  <project name="TheXPerienceProject/vendor_qcom-opensource_power" path="vendor/qcom/opensource/power" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk" remote="xpe" />
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk" remote="xpe" />
+  </project>
+  <project name="TheXPerienceProject/vendor_qcom-opensource_usb" path="vendor/qcom/opensource/usb" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
+  </project>
+  <project name="TheXPerienceProject/vendor-qcom-opensource-vibrator" path="vendor/qcom/opensource/vibrator" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
+  </project>
+
+  <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
+  <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
+  <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="ruby"  />
 
 </manifest>

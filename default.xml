@@ -20,7 +20,7 @@
   <remote name="xpe"
           fetch=".."
           review="https://github.com/TheXPerienceProject/"
-          revision="refs/heads/xpe-15.0" />
+          revision="refs/heads/xpe-15.1" />
 
   <default revision="refs/tags/LA.QSSI.11.0.r1-08400-qssi.0"
            remote="caf_system"/>
