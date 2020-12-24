@@ -5,6 +5,30 @@
     <remote  name="klab"
              fetch="https://gitlab.com/klozz_/" />
 
+  <!--Build-->
+  <project name="TheXPerienceProject/android_art" path="art" remote="xpe" />
+  <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/blueprint" name="TheXPerienceProject/android_build_blueprint" groups="pdk,tradefed" remote="xpe" />
+  <project path="build/soong" name="TheXPerienceProject/android_build_soong" groups="pdk,tradefed" remote="xpe" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
+
+  <!--External -->
+  <project path="external/ant-wireless/antradio-library" name="TheXPerienceProject/android_external_ant-wireless_antradio-library" remote="xpe" />
+  <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
+  <project path="external/google-fonts/google-sans" name="TheXPerienceProject/android_external_google-fonts_google-sans" remote="xpe" />
+
+  <!--Hardware-->
   <project name="platform/hardware/google/pixel" path="hardware/google/pixel" remote="aosp" revision="refs/tags/android-11.0.0_r20" />
 
   <!--Hardware HALS -->
@@ -19,6 +43,13 @@
   <project name="TheXPerienceProject/android_hardware_qcom_media"   path="hardware/qcom/media/msm8998"   remote="xpe" revision="xpe-15.0-caf-msm8998" />
   <project name="TheXPerienceProject/android_hardware_qcom_media"   path="hardware/qcom/media/sdm845"    remote="xpe" revision="xpe-15.0-caf-sdm845" />
   <project name="TheXPerienceProject/android_hardware_qcom_media"   path="hardware/qcom/media/sm8150"    remote="xpe" revision="xpe-15.0-caf-sm8150" />
+
+  <!-- Packages -->
+  <project name="TheXPerienceProject/android_packages_overlay_XPerience" path="packages/overlay/xperience" remote="xpe" />
+
+  <!--System-->
+  <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
+  <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
 
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
