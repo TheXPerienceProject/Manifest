@@ -22,6 +22,16 @@
   </project>
   <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
 
+  <!-- Device -->
+  <project name="TheXPerienceProject/android_device_qcom_common" path="device/qcom/common" remote="xpe">
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+  </project>
+  <project name="TheXPerienceProject/android_device_qcom_vendor-common" path="device/qcom/vendor-common" remote="xpe"/>
+  <project name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="xpe"/>
+  <project name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr-legacy-um" remote="xpe" revision="xpe-15.0-legacy-um" />
+  <project name="TheXPerienceProject/android_device_xperience_common" path="device/xperience/common" remote="xpe" />
+  <project name="TheXPerienceProject/android_device_xperience_sepolicy" path="device/xperience/sepolicy" remote="xpe" />
+
   <!--External -->
   <project path="external/ant-wireless/antradio-library" name="TheXPerienceProject/android_external_ant-wireless_antradio-library" remote="xpe" />
   <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
