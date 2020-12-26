@@ -6,7 +6,6 @@
              fetch="https://gitlab.com/klozz_/" />
 
   <!--Build-->
-  <project name="TheXPerienceProject/android_art" path="art" remote="xpe" />
   <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
