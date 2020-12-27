@@ -93,7 +93,7 @@
 
   <!-- Packages -->
   <project name="TheXPerienceProject/android_packages_overlay_XPerience" path="packages/overlay/xperience" remote="xpe" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-18.1-caf" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-18.1" />
 
   <!--System-->
   <!--<project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
