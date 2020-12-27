@@ -6,7 +6,7 @@
              fetch="https://gitlab.com/klozz_/" />
 
   <!--Build-->
-  <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe">
+  <!--<project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -20,12 +20,12 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
+  <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />-->
 
   <!-- Device -->
-  <project name="TheXPerienceProject/android_device_qcom_common" path="device/qcom/common" remote="xpe">
+  <!--<project name="TheXPerienceProject/android_device_qcom_common" path="device/qcom/common" remote="xpe">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-  </project>
+  </project>-->
   <project name="TheXPerienceProject/android_device_qcom_vendor-common" path="device/qcom/vendor-common" remote="xpe"/>
   <project name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="xpe"/>
   <project name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr-legacy-um" remote="xpe" revision="xpe-15.0-legacy-um" />
@@ -33,59 +33,119 @@
   <project name="TheXPerienceProject/android_device_xperience_sepolicy" path="device/xperience/sepolicy" remote="xpe" />
 
   <!--External -->
-  <project path="external/ant-wireless/antradio-library" name="TheXPerienceProject/android_external_ant-wireless_antradio-library" remote="xpe" />
-  <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby" />
+  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf"/>
   <project path="external/google-fonts/google-sans" name="TheXPerienceProject/android_external_google-fonts_google-sans" remote="xpe" />
 
   <!--Hardware-->
-  <project name="platform/hardware/google/pixel" path="hardware/google/pixel" remote="aosp" revision="refs/tags/android-11.0.0_r20" />
-
+  <!--<project name="platform/hardware/google/pixel" path="hardware/google/pixel" remote="aosp" />-->
+  
   <!--Hardware HALS -->
-  <project name="TheXPerienceProject/android_hardware_qcom_audio"   path="hardware/qcom/audio/msm8998"   remote="xpe" revision="xpe-15.0-caf-msm8998" />
-  <project name="TheXPerienceProject/android_hardware_qcom_audio"   path="hardware/qcom/audio/sm8150"    remote="xpe" revision="xpe-15.0-caf-sm8150" />
-  <project name="TheXPerienceProject/android_hardware_qcom_audio"   path="hardware/qcom/audio/sdm845"    remote="xpe" revision="xpe-15.0-caf-sdm845" />
-
-  <project name="TheXPerienceProject/android_hardware_qcom_display" path="hardware/qcom/display/msm8998" remote="xpe" revision="xpe-15.0-caf-msm8998" />
-  <project name="TheXPerienceProject/android_hardware_qcom_display" path="hardware/qcom/display/sdm845"  remote="xpe" revision="xpe-15.0-caf-sdm845" />
-  <project name="TheXPerienceProject/android_hardware_qcom_display" path="hardware/qcom/display/sm8150"  remote="xpe" revision="xpe-15.0-caf-sm8150" />
-
-  <project name="TheXPerienceProject/android_hardware_qcom_media"   path="hardware/qcom/media/msm8998"   remote="xpe" revision="xpe-15.0-caf-msm8998" />
-  <project name="TheXPerienceProject/android_hardware_qcom_media"   path="hardware/qcom/media/sdm845"    remote="xpe" revision="xpe-15.0-caf-sdm845" />
-  <project name="TheXPerienceProject/android_hardware_qcom_media"   path="hardware/qcom/media/sm8150"    remote="xpe" revision="xpe-15.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-18.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-18.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-18.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-18.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-18.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-18.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="github" revision="lineage-18.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="github" revision="lineage-18.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf-sm8250" />
+  <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf" />
+  <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf" />
+  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" revision="lineage-18.1-caf" />
 
   <!-- Packages -->
   <project name="TheXPerienceProject/android_packages_overlay_XPerience" path="packages/overlay/xperience" remote="xpe" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-18.1-caf" />
 
   <!--System-->
-  <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
-  <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
+  <!--<project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
+  <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />-->
 
   <!--Tools-->
   <project path="tools/metalava" name="TheXPerienceProject/android_tools_metalava" groups="pdk,tools" remote="xpe" />
   <project path="prebuilts/tools-xperience" name="TheXPerienceProject/android_prebuilts_tools-lineage" remote="xpe" />
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-18.1" />
 
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
   <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
+
+  <!--Vendor Codeaurora-->
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-18.1" />
 
   <!-- Vendor QCOM -->
   <project name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
   </project>
   <project name="TheXPerienceProject/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="xpe"/>
-  <project name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="xpe" >
+  <!--<project name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="xpe" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
-  </project>
-  <project name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="xpe" />
+  </project>-->
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="github" revision="lineage-18.1" />
+  <!--<project name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="xpe" />-->
   <project name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="xpe" />
-  <project name="TheXPerienceProject/vendor_qcom-opensource_location" path="vendor/qcom/opensource/location" remote="xpe">
+  <!--<project name="TheXPerienceProject/vendor_qcom-opensource_location" path="vendor/qcom/opensource/location" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
-  </project>
+  </project>-->
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="github" revision="lineage-18.1" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="github" revision="lineage-18.1" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="github" revision="lineage-18.1" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="github" revision="lineage-18.1" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="lineage-18.1-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="lineage-18.1-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="lineage-18.1-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="lineage-18.1-sn100x" />
+  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
+  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
   <project name="TheXPerienceProject/vendor_qcom-opensource_power" path="vendor/qcom/opensource/power" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk" remote="xpe" />
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk" remote="xpe" />
   </project>
+  <project name="platform/vendor/qcom-opensource/thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="caf_vendor"/>
   <project name="TheXPerienceProject/vendor_qcom-opensource_usb" path="vendor/qcom/opensource/usb" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
   </project>
@@ -95,7 +155,7 @@
 
   <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
   <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.1" />
   <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="ruby"  />
 
 </manifest>
