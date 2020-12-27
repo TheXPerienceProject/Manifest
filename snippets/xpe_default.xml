@@ -45,6 +45,10 @@
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-18.1"/>
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.1"/>
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="github" revision="lineage-18.1"/>
+  <project path="external/bash" name="LineageOS/android_external_bash" remote="github" revision="lineage-18.1"/>
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="github" revision="lineage-18.1"/>
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-18.1"/>
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.1"/>
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1"/>
   <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-18.1"/>
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-18.1"/>
