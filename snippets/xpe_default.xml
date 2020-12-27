@@ -33,21 +33,21 @@
   <project name="TheXPerienceProject/android_device_xperience_sepolicy" path="device/xperience/sepolicy" remote="xpe" />
 
   <!--External -->
-  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="lineage-18.1-caf"/>
-  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1-caf"/>
+  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" remote="github" revision="lineage-18.1"/>
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-18.1"/>
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-18.1"/>
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.1"/>
+  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="github" revision="lineage-18.1"/>
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1"/>
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-18.1"/>
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-18.1"/>
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="github" revision="lineage-18.1"/>
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-18.1"/>
+  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-18.1"/>
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="github" revision="lineage-18.1"/>
+  <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-18.1"/>
+  <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="lineage-18.1"/>
+  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1"/>
   <project path="external/google-fonts/google-sans" name="TheXPerienceProject/android_external_google-fonts_google-sans" remote="xpe" />
 
   <!--Hardware-->
