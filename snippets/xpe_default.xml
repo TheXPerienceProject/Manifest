@@ -2,18 +2,32 @@
 <manifest>
 
     <!-- Github remote -->
-    <remote  name="klab"
-             fetch="https://gitlab.com/klozz_/" />
+  <remote  name="klab"
+           fetch="https://gitlab.com/klozz_/" />
 
+  <remote  name="carbon"
+           fetch="git://github.com/"
+           review="review.carbonrom.org"
+           revision="refs/heads/cr-9.0"
+           sync-j="8" />
 
-
+  <remote  name="lineage"
+           fetch=".."
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-18.1"
+           sync-j="8" />
 
 
   <!-- Android -->
   <project path="manifest" name="TheXPerienceProject/Manifest" />
 
-  <!--Build-->
-  <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe" revision="xpe-15.1-aosp" >
+  <project path="android" name="CarbonROM/android" groups="pdk" remote="carbon" />
+
+  <project path="art" name="CarbonROM/android_art" groups="pdk" remote="carbon" />
+
+  <project path="bionic" name="CarbonROM/android_bionic" groups="pdk" remote="carbon" />
+
+  <project path="build/make" name="CarbonROM/android_build_make" groups="pdk" remote="carbon">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -22,48 +36,154 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/blueprint" name="TheXPerienceProject/android_build_blueprint" groups="pdk,tradefed" remote="xpe" revision="xpe-15.1-aosp" />
-  <project path="build/soong" name="TheXPerienceProject/android_build_soong" groups="pdk,tradefed" remote="xpe" revision="xpe-15.1-aosp" >
+  <project path="build/blueprint" name="CarbonROM/android_build_blueprint" groups="pdk,tradefed" remote="carbon" />
+  <project path="build/soong" name="CarbonROM/android_build_soong" groups="pdk,tradefed" remote="carbon" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" revision="xpe-15.1-aosp" />
 
-  <!-- Device -->
-  <!--<project name="TheXPerienceProject/android_device_qcom_common" path="device/qcom/common" remote="xpe">
-    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-  </project>-->
-  <project name="TheXPerienceProject/android_device_qcom_vendor-common" path="device/qcom/vendor-common" remote="xpe"/>
-  <project name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="xpe"/>
-  <project name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr-legacy-um" remote="xpe" revision="xpe-15.0-legacy-um" />
-  <project name="TheXPerienceProject/android_device_xperience_common" path="device/xperience/common" remote="xpe" />
-  <project name="TheXPerienceProject/android_device_xperience_sepolicy" path="device/xperience/sepolicy" remote="xpe" />
+  <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
 
-  <!--External -->
-  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" remote="github" revision="lineage-18.1"/>
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-18.1"/>
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="lineage-18.1"/>
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-18.1"/>
-  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="github" revision="lineage-18.1"/>
-  <project path="external/bash" name="LineageOS/android_external_bash" remote="github" revision="lineage-18.1"/>
-  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="github" revision="lineage-18.1"/>
-  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-18.1"/>
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-18.1"/>
-  <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1"/>
-  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-18.1"/>
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-18.1"/>
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="github" revision="lineage-18.1"/>
-  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github" revision="lineage-18.1"/>
-  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-18.1"/>
-  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="github" revision="lineage-18.1"/>
-  <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-18.1"/>
-  <project path="external/zip" name="LineageOS/android_external_zip" remote="github" revision="lineage-18.1"/>
-  <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1"/>
-  <project path="external/google-fonts/google-sans" name="TheXPerienceProject/android_external_google-fonts_google-sans" remote="xpe" />
+  <project path="development" name="CarbonROM/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="carbon" />
+
+  <!--External-->
+  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" remote="lineage" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="lineage" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="lineage" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="lineage" />
+  <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" remote="lineage" />
+  <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" />
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
+  <project path="external/e2fsprogs" name="CarbonROM/android_external_e2fsprogs" remote="carbon" />
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
+  <project path="external/gptfdisk" name="CarbonROM/android_external_gptfdisk" remote="carbon" />
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="lineage" />
+  <project path="external/json-c" name="LineageOS/android_external_json-c" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="lineage" />
+  <project path="external/mksh" name="CarbonROM/android_external_mksh" groups="pdk" remote="carbon" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="lineage" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
+  <project path="external/p7zip" name="LineageOS/android_external_p7zip" remote="lineage" />
+  <project path="external/pigz" name="LineageOS/android_external_pigz" remote="lineage" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="lineage" />
+  <project path="external/selinux" name="CarbonROM/android_external_selinux" groups="pdk" remote="carbon" />
+  <project path="external/tinycompress" name="CarbonROM/android_external_tinycompress" groups="pdk" remote="carbon" />
+  <project path="external/toybox" name="CarbonROM/android_external_toybox" groups="pdk" remote="carbon" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" />
+  <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" />
+  <project path="external/zip" name="LineageOS/android_external_zip" remote="lineage" />
+
+  <!--Frameworks-->
+  <project path="frameworks/av" name="CarbonROM/android_frameworks_av" groups="pdk" remote="carbon" />
+  <project path="frameworks/base" name="CarbonROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="frameworks/native" name="CarbonROM/android_frameworks_native" groups="pdk" remote="carbon" />
+  <project path="frameworks/opt/net/ims" name="CarbonROM/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="frameworks/opt/net/wifi" name="CarbonROM/android_frameworks_opt_net_wifi" groups="pdk" remote="carbon" />
+  <project path="frameworks/opt/telephony" name="CarbonROM/android_frameworks_opt_telephony" groups="pdk" remote="carbon" />
+  <project path="frameworks/rs" name="CarbonROM/android_frameworks_rs" groups="pdk" remote="carbon" />
 
   <!--Hardware-->
-  <!--<project name="platform/hardware/google/pixel" path="hardware/google/pixel" remote="aosp" />-->
-  
+<!--  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" remote="lineage" />
+  <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="lineage" /> -->
+  <project path="hardware/interfaces" name="CarbonROM/android_hardware_interfaces" groups="pdk" remote="carbon" />
+  <project path="hardware/libhardware" name="CarbonROM/android_hardware_libhardware" groups="pdk" remote="carbon" />
+  <project path="hardware/libhardware_legacy" name="CarbonROM/android_hardware_libhardware_legacy" groups="pdk" remote="carbon" />
+<!--  <project path="hardware/nxp/nfc" name="LineageOS/android_hardware_nxp_nfc" groups="pdk" remote="lineage" /> -->
+  <project path="hardware/qcom/audio" name="CarbonROM/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="carbon" />
+  <project path="hardware/qcom/bt" name="CarbonROM/android_hardware_qcom_bt" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/bootctrl" name="CarbonROM/android_hardware_qcom_bootctrl" groups="pdk" remote="carbon" />
+  <project path="hardware/qcom/camera" name="CarbonROM/android_hardware_qcom_camera" groups="qcom_camera" remote="carbon" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="CarbonROM/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/display" name="CarbonROM/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="carbon" />
+  <project path="hardware/qcom/gps" name="CarbonROM/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="carbon" />
+  <project path="hardware/qcom/keymaster" name="CarbonROM/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
+  <project path="hardware/qcom/media" name="CarbonROM/android_hardware_qcom_media" groups="qcom,pdk" remote="carbon" />
+  <project path="hardware/qcom/wlan" name="CarbonROM/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
+  <project path="hardware/ril" name="CarbonROM/android_hardware_ril" groups="pdk" remote="carbon" />
+  <project path="hardware/xperience/interfaces/" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
+
+  <!--Packages -->
+  <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/apps/Contacts" name="CarbonROM/android_packages_apps_Contacts" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/DeskClock" name="CarbonROM/android_packages_apps_DeskClock" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/Dialer" name="CarbonROM/android_packages_apps_Dialer" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
+  <project path="packages/apps/Launcher3" name="CarbonROM/android_packages_apps_Launcher3" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/Messaging" name="CarbonROM/android_packages_apps_Messaging" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/Nfc" name="CarbonROM/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="carbon" />
+  <project path="packages/apps/PhoneCommon" name="CarbonROM/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/apps/Settings" name="CarbonROM/android_packages_apps_Settings" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/SettingsIntelligence" name="CarbonROM/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/ThemePicker" name="CarbonROM/android_packages_apps_ThemePicker" groups="pdk-fs" remote="carbon" />
+  <project path="packages/apps/WallpaperPicker2" name="CarbonROM/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="carbon" />
+
+  <project path="packages/inputmethods/LatinIME" name="CarbonROM/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="carbon" />
+
+  <project path="packages/providers/MediaProvider" name="CarbonROM/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+
+  <project name="TheXPerienceProject/android_packages_overlay_XPerience" path="packages/overlay/xperience" remote="xpe" />
+ 
+  <project path="packages/services/Telecomm" name="CarbonROM/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/services/Telephony" name="CarbonROM/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+
+  <!--Prebuilts-->
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-18.0" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-18.0" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-18.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-18.0" />
+
+  <!--System-->
+  <project path="system/apex" name="CarbonROM/android_system_apex" groups="pdk" remote="carbon" />
+  <project path="system/bt" name="CarbonROM/android_system_bt" groups="pdk" remote="carbon" />
+  <project path="system/bpf" name="CarbonROM/android_system_bpf" groups="pdk" remote="carbon" />
+  <project path="system/core" name="CarbonROM/android_system_core" groups="pdk" remote="carbon" />
+  <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" />
+  <project path="system/netd" name="CarbonROM/android_system_netd" groups="pdk" remote="carbon" />
+  <project path="system/sepolicy" name="CarbonROM/android_system_sepolicy" groups="pdk" remote="carbon" />
+  <project path="system/update_engine" name="CarbonROM/android_system_update_engine" groups="pdk" remote="carbon" />
+  <project path="system/vold" name="CarbonROM/android_system_vold" groups="pdk" remote="carbon" />
+
+  <!--Tools-->
+  <project path="tools/metalava" name="TheXPerienceProject/android_tools_metalava" groups="pdk,tools" remote="xpe" />
+  <project path="prebuilts/tools-xperience" name="TheXPerienceProject/android_prebuilts_tools-lineage" remote="xpe" />
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-18.1" />
+
+  <!--Vendor-->
+  <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
+  <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
+
+  <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
+  <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.1" />
+  <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="ruby"  />
+
+  <!--CAF shit-->
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="lineage" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-18.0-pn5xx" remote="lineage" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.0-pn5xx" remote="lineage" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-18.0-sn100x" remote="lineage" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.0-sn100x" remote="lineage" />
+  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" groups="qcom,pdk-qcom"/>
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS/android_vendor_qcom_opensource_system_bt" remote="lineage" groups="qcom,pdk-qcom"/>
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" remote="lineage" groups="qcom,pdk-qcom" />
+  <project name="TheXPerienceProject/vendor_qcom-opensource_power" path="vendor/qcom/opensource/power" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk" remote="xpe" />
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk" remote="xpe" />
+  </project>
+  <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="lineage" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="lineage" groups="qcom,pdk-qcom" />
+
   <!--Hardware HALS -->
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" >
     <!-- add guard for AOSP hardware/qcom dir -->
@@ -101,72 +221,5 @@
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="github" revision="lineage-18.1-caf" />
-
-  <!-- Packages -->
-  <project name="TheXPerienceProject/android_packages_overlay_XPerience" path="packages/overlay/xperience" remote="xpe" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="github" revision="lineage-18.1" />
-
-  <!--System-->
-  <!--<project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
-  <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />-->
-
-  <!--Tools-->
-  <project path="tools/metalava" name="TheXPerienceProject/android_tools_metalava" groups="pdk,tools" remote="xpe" />
-  <project path="prebuilts/tools-xperience" name="TheXPerienceProject/android_prebuilts_tools-lineage" remote="xpe" />
-  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" remote="github" revision="lineage-18.1" />
-
-  <!--Vendor-->
-  <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
-  <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
-
-  <!--Vendor Codeaurora-->
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-18.1" />
-
-  <!-- Vendor QCOM -->
-  <project name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="xpe">
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
-  </project>
-  <project name="TheXPerienceProject/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="xpe"/>
-  <!--<project name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="xpe" >
-    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
-  </project>-->
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="github" revision="lineage-18.1" />
-  <!--<project name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="xpe" />-->
-  <project name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="xpe" />
-  <!--<project name="TheXPerienceProject/vendor_qcom-opensource_location" path="vendor/qcom/opensource/location" remote="xpe">
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
-  </project>-->
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="github" revision="lineage-18.1" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="github" revision="lineage-18.1" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="github" revision="lineage-18.1" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="github" revision="lineage-18.1" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="lineage-18.1-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="lineage-18.1-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="lineage-18.1-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="lineage-18.1-sn100x" />
-  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="LineageOS/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
-  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="github" revision="lineage-18.1" />
-  <project name="TheXPerienceProject/vendor_qcom-opensource_power" path="vendor/qcom/opensource/power" remote="xpe">
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk" remote="xpe" />
-    <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk" remote="xpe" />
-  </project>
-  <project name="platform/vendor/qcom-opensource/thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="caf_vendor"/>
-  <project name="TheXPerienceProject/vendor_qcom-opensource_usb" path="vendor/qcom/opensource/usb" remote="xpe">
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
-  </project>
-  <project name="TheXPerienceProject/vendor-qcom-opensource-vibrator" path="vendor/qcom/opensource/vibrator" remote="xpe">
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
-  </project>
-
-  <!--Non common but I always forget to fetch them when I change from server so fetch them too anywas have less space -->
-  <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.1" />
-  <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="ruby"  />
 
 </manifest>
