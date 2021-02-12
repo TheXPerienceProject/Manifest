@@ -95,7 +95,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" remote="xpe" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/dataservices" name="CarbonROM/android_vendor_qcom_opensource_dataservices" remote="carbon" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" remote="xpe" groups="qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/android_vendor_qcom_opensource_power" remote="xpe" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" groups="qcom,pdk" />
