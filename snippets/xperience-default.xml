@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="xpe"
+           fetch="https://github.com/"
+           revision="refs/heads/xpe-15.0"
+           sync-j="8" />
+
+  <remote  name="gh"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="8" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="lineage"
+           fetch=".."
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-18.1"
+           sync-j="8" />
+
+  <remote  name="carbon"
+           fetch="git://github.com/"
+           review="review.carbonrom.org"
+           revision="refs/heads/cr-9.0"
+           sync-j="8" />
+
+  <!-- XPerience -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/xpe-aosp.xml" />
+
+  <!-- Include CAF -->
+  <include name="snippets/caf.xml" />
+
+  <!-- LineageOS Projects -->
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
+
+</manifest>

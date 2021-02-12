@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="art" name="CarbonROM/android_art" groups="pdk" remote="carbon" />
+
+  <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
+
+  <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/blueprint" name="TheXPerienceProject/android_build_blueprint" groups="pdk,tradefed" remote="xpe" revision="xpe-15.1-aosp" />
+  <project path="build/soong" name="TheXPerienceProject/android_build_soong" groups="pdk,tradefed" remote="xpe" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
+  
+  <project path="development" name="CarbonROM/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="carbon" />
+
+  <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
+  <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
+  <project path="external/mksh" name="TheXPerienceProject/android_external_mksh" groups="pdk" remote="xpe" />
+  <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
+  <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
+  <project path="external/toybox" name="TheXPerienceProject/android_external_toybox" groups="pdk" remote="xpe" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
+
+  <project path="hardware/interfaces" name="TheXPerienceProject/android_hardware_interfaces" groups="pdk" remote="xpe" />
+  <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
+  <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
+
+  <project path="hardware/qcom/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="xpe" />
+  <project path="hardware/qcom/bt" name="TheXPerienceProject/android_hardware_qcom_bt" groups="qcom,pdk" remote="xpe" />
+  <project path="hardware/qcom/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="pdk" remote="xpe" />
+  <project path="hardware/qcom/camera" name="TheXPerienceProject/android_hardware_qcom_camera" groups="qcom_camera" remote="xpe" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="TheXPerienceProject/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk" remote="xpe" />
+  <project path="hardware/qcom/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="xpe" />
+  <project path="hardware/qcom/gps" name="TheXPerienceProject/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="xpe" />
+  <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="xpe" />
+  <project path="hardware/qcom/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,pdk" remote="xpe" />
+  <project path="hardware/qcom/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="xpe" />
+  <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" remote="xpe" />
+
+  <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
+  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
+
+  <project path="system/apex" name="CarbonROM/android_system_apex" groups="pdk" remote="carbon" />
+  <project path="system/bt" name="CarbonROM/android_system_bt" groups="pdk" remote="carbon" />
+  <project path="system/bpf" name="CarbonROM/android_system_bpf" groups="pdk" remote="carbon" />
+
+  <project path="tools/metalava" name="TheXPerienceProject/android_tools_metalava" groups="pdk,tools" remote="xpe" />
+
+</manifest>
