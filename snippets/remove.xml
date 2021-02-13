@@ -118,6 +118,12 @@
 
   <remove-project name="platform/packages/apps/Bluetooth" />
 
+
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
+
   <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/bpf" />
