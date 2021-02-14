@@ -32,9 +32,16 @@
   <project path="external/toybox" name="TheXPerienceProject/android_external_toybox" groups="pdk" remote="xpe" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
 
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="xpe" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="xpe" />
+  <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" remote="xpe" />
+
   <project path="hardware/interfaces" name="TheXPerienceProject/android_hardware_interfaces" groups="pdk" remote="xpe" />
   <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
   <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
+  <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
 
   <project path="hardware/qcom/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="xpe" />
   <project path="hardware/qcom/bt" name="TheXPerienceProject/android_hardware_qcom_bt" groups="qcom,pdk" remote="xpe" />
@@ -50,6 +57,14 @@
 
   <project path="packages/apps/Bluetooth" name="CarbonROM/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="carbon" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
+  <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
+  <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" />
+  <project path="packages/overlay/xperience" name="TheXPerienceProject/android_packages_overlay_XPerience" remote="xpe" />
+
+  <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+
+  <project path="prebuilts/abi-dumps/vndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="xpe" />
 
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-18.1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-18.1" />
@@ -61,8 +76,15 @@
   <project path="system/apex" name="CarbonROM/android_system_apex" groups="pdk" remote="carbon" />
   <project path="system/bt" name="CarbonROM/android_system_bt" groups="pdk" remote="carbon" />
   <project path="system/bpf" name="CarbonROM/android_system_bpf" groups="pdk" remote="carbon" />
+  <project path="system/core" name="platform/system/core" groups="pdk" remote="xpe" />
   <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" />
+  <project path="system/security" name="platform/system/security" groups="pdk" remote="xpe" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="xpe" />
+  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" remote="xpe" />
+  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="xpe" />
 
   <project path="tools/metalava" name="TheXPerienceProject/android_tools_metalava" groups="pdk,tools" remote="xpe" />
 
+  <!--Vendor-->
+  <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
 </manifest>

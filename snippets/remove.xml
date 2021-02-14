@@ -78,6 +78,12 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
 
+  <project name="platform/frameworks/av" />
+  <project name="platform/frameworks/base" />
+  <project name="platform/frameworks/native" />
+  <project name="platform/frameworks/opt/net/ims" />
+  <project name="platform/frameworks/opt/telephony" />
+
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
@@ -117,8 +123,13 @@
   <remove-project name="platform/hardware/ril" />
 
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Settings" />
 
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
@@ -127,7 +138,12 @@
   <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/keymaster" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
 
   <remove-project name="platform/tools/metalava" />
 </manifest>
