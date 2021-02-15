@@ -12,7 +12,7 @@
 
   <remove-project name="platform/development" />
 
- <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />
   <remove-project name="device/generic/arm64" />
@@ -78,11 +78,11 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
 
-  <project name="platform/frameworks/av" />
-  <project name="platform/frameworks/base" />
-  <project name="platform/frameworks/native" />
-  <project name="platform/frameworks/opt/net/ims" />
-  <project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
