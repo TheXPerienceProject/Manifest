@@ -81,12 +81,12 @@
   <project path="system/apex" name="CarbonROM/android_system_apex" groups="pdk" remote="carbon" />
   <project path="system/bt" name="CarbonROM/android_system_bt" groups="pdk" remote="carbon" />
   <project path="system/bpf" name="CarbonROM/android_system_bpf" groups="pdk" remote="carbon" />
-  <project path="system/core" name="platform/system/core" groups="pdk" remote="xpe" />
+  <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
   <project path="system/keymaster" name="CarbonROM/android_system_keymaster" groups="pdk" remote="carbon" />
-  <project path="system/security" name="platform/system/security" groups="pdk" remote="xpe" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="xpe" />
-  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" remote="xpe" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" remote="xpe" />
+  <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
+  <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
+  <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
+  <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
 
   <project path="tools/metalava" name="TheXPerienceProject/android_tools_metalava" groups="pdk,tools" remote="xpe" />
 
