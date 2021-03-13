@@ -74,7 +74,10 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/libjpeg-turbo"/>
   <remove-project name="platform/external/mksh" />
+  <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/toybox" />
@@ -137,6 +140,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -147,6 +151,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhwbinder"/>
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/keymaster" />

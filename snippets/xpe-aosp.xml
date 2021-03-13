@@ -28,7 +28,10 @@
   <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
   <project path="external/google-fonts/google-sans" name="TheXPerienceProject/android_external_google-fonts_google-sans" remote="xpe" />
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
+  <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" groups="pdk" remote="xpe" />
+  <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
   <project path="external/mksh" name="TheXPerienceProject/android_external_mksh" groups="pdk" remote="xpe" />
+  <project path="external/scudo" name="TheXPerienceProject/android_external_scudo" groups="pdk" remote="xpe" />
   <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
   <project path="external/toybox" name="TheXPerienceProject/android_external_toybox" groups="pdk" remote="xpe" />
@@ -57,7 +60,7 @@
   <project path="hardware/qcom/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="xpe" />
   <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" remote="xpe" />
 
-  <project path="libcore" name="https://github.com/TheXPerienceProject/android_libcore" groups="pdk" remote="xpe" />
+  <project path="libcore" name="TheXPerienceProject/android_libcore" groups="pdk" remote="xpe" />
 
   <project path="packages/apps/Bluetooth" name="TheXPerienceProject/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/apps/Dialer" name="TheXPerienceProject/android_packages_apps_Dialer" groups="pdk-fs" remote="xpe" />
@@ -75,6 +78,7 @@
   <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
+  <project path="prebuilts/abi-dumps/ndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/abi-dumps/vndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="xpe" />
 
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-18.1" />
@@ -89,6 +93,7 @@
   <project path="system/bpf" name="TheXPerienceProject/android_system_bpf" groups="pdk" remote="xpe" />
   <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
   <project path="system/keymaster" name="TheXPerienceProject/android_system_keymaster" groups="pdk" remote="xpe" />
+  <project path="system/libhwbinder" name="TheXPerienceProject/android_system_libhwbinder" groups="pdk" remote="xpe" />
   <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
   <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
