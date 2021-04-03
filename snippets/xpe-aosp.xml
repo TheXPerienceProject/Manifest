@@ -30,6 +30,7 @@
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
   <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" groups="pdk" remote="xpe" />
   <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
+  <project path="external/mimalloc" name="TheXPerienceProject/android_external_mimalloc" groups="pdk" remote="xpe" />
   <project path="external/mksh" name="TheXPerienceProject/android_external_mksh" groups="pdk" remote="xpe" />
   <project path="external/scudo" name="TheXPerienceProject/android_external_scudo" groups="pdk" remote="xpe" />
   <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
