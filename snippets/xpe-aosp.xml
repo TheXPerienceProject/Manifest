@@ -78,6 +78,7 @@
   <project path="packages/apps/Yunikon" name="TheXPerienceProject/android_packages_apps_Yunikon" remote="xpe" revision="xpe-14.0" />
   <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" />
   <project path="packages/apps/WallpaperPicker2" name="TheXPerienceProject/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="xpe" />
+  <project path="packages/apps/XPerienceWallpapers" name="TheXPerienceProject/android_packages_apps_XPerienceWallpapers" groups="pdk-fs" remote="xpe" />
   <project path="packages/overlay/xperience" name="TheXPerienceProject/android_packages_overlay_XPerience" remote="xpe" />
 
   <project path="packages/providers/DownloadProvider" name="TheXPerienceProject/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
