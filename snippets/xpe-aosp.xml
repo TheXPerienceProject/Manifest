@@ -20,7 +20,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="bootable/recovery" name="CarbonROM/android_bootable_recovery" groups="pdk" remote="carbon" />
+  <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
   
   <project path="development" name="CarbonROM/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="carbon" />
 
