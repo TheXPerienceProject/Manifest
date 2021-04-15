@@ -2,9 +2,9 @@
 <manifest>
 
   <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" />
-  <project path="device/qcom/sepolicy_legacy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-15.0-legacy" />
-  <project path="device/qcom/sepolicy_legacy_um" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-15.0-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" remote="xpe" />
+  <project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-15.0-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-15.0-legacy-um" />
+  <project path="device/qcom/sepolicy-vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" remote="xpe" />
   <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" revision="xpe-15.1" />
 
   <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" remote="lineage" />
