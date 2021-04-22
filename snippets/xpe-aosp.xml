@@ -113,4 +113,5 @@
 
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
+  <project path="vendor/themes" name="TheXPerienceProject/android_vendor_themes" remote="xpe" />
 </manifest>
