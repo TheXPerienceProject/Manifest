@@ -69,7 +69,6 @@
   <project name="platform/external/aac" path="external/aac"/>
   <project name="platform/external/adeb" path="external/adeb"/>
   <project name="platform/external/adhd" path="external/adhd"/>
-  <project name="platform/external/adt-infra" path="external/adt-infra"/>
   <project name="platform/external/android-clat" path="external/android-clat"/>
   <project name="platform/external/androidplot" path="external/androidplot"/>
   <project name="platform/external/angle" path="external/angle"/>
@@ -527,7 +526,6 @@
   <project name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement"/>
   <project name="platform/packages/apps/Settings" path="packages/apps/Settings"/>
   <project name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence"/>
-  <project name="platform/packages/apps/SnapdragonGallery" path="vendor/codeaurora/commonsys/packages/apps/SnapdragonGallery"/>
   <project name="platform/packages/apps/SnapdragonMusic" path="vendor/codeaurora/commonsys/packages/apps/SnapdragonMusic">
     <linkfile dest="vendor/qcom/defs/product-defs/system/app_snapMusic_product.mk" src="app_snapMusic_system_product.mk"/>
   </project>
