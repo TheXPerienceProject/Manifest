@@ -5,9 +5,6 @@
     <remote  name="klab"
              fetch="https://gitlab.com/klozz_/" />
 
-    <remote name="aosp"
-	        fetch="https://android.googlesource.com" />
-
 
   <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" />
   <project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-15.0-legacy" />
