@@ -31,6 +31,12 @@
   <remote name="unicorn"
           fetch="https://github.com/RainbowUnicornXPe/" />
 
+  <remote  name="lineage"
+           fetch=".."
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-18.1"
+           sync-j="8" />
+
   <!-- Add all tracked repos -->
   <include name="source/system.xml"/>
   <include name="source/vendor.xml"/>
