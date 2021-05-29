@@ -34,8 +34,7 @@
   <!-- Add all tracked repos -->
   <include name="source/system.xml"/>
   <include name="source/vendor.xml"/>
-  <!--
   <include name="snippets/remove.xml" />
-  <include name="snippets/xpe_default.xml" />-->
+  <include name="snippets/xpe_default.xml" />
 
 </manifest>
