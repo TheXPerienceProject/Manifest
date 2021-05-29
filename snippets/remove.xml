@@ -34,4 +34,5 @@
   <remove-project  name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
   <remove-project  name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
+  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
 </manifest>
