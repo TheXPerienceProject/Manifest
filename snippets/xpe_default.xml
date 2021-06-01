@@ -5,6 +5,23 @@
     <remote  name="klab"
              fetch="https://gitlab.com/klozz_/" />
 
+  <project name="TheXPerienceProject/android_art" path="art" remote="xpe" revision="red"/>
+  <project name="TheXPerienceProject/android_bionic" path="bionic" remote="xpe" revision="red"/>
+  <project name="TheXPerienceProject/android_bootable_recovery" path="bootable/recovery" remote="xpe" revision="red"/>
+  <project name="TheXPerienceProject/android_build" path="build/make" remote="xpe" revision="red">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project name="TheXPerienceProject/android_build_blueprint" path="build/blueprint" remote="xpe" revision="red"/>
+  <project name="TheXPerienceProject/android_build_soong" path="build/soong" remote="xpe" revision="red">
+    <linkfile dest="Android.bp" src="root.bp"/>
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
+  </project>
 
   <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" />
   <project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-15.0-legacy" />
@@ -12,7 +29,12 @@
   <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" remote="xpe" />
   <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" revision="xpe-15.1" />
 
+  <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" groups="pdk" remote="xpe" />
   <project path="external/bson" name="TheXPerienceProject/android_external_bson" remote="xpe" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />	
+
+  <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" revision="red" />
 
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >  
     <!-- add guard for AOSP hardware/qcom dir -->
@@ -94,7 +116,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" remote="xpe" revision="red" />
 
   <!--Vendor-->
-  <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
+  <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" revision="red"/>
   <project path="vendor/themes" name="TheXPerienceProject/android_vendor_themes" remote="xpe" />
   <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
 
