@@ -77,7 +77,7 @@
   <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-sm8250" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="lineage" />
-  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-18.1-caf" remote="lineage" />
+  <project path="hardware/qcom-caf/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="xpe" />
   <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" remote="xpe" />
 
   <project path="vendor/codeaurora/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" remote="xpe" />
@@ -94,7 +94,7 @@
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="CarbonROM/android_vendor_qcom_opensource_bluetooth_ext" remote="carbon" groups="qcom,pdk-qcom"/>
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" groups="qcom,pdk-qcom"/>
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="CarbonROM/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="carbon" groups="qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="CarbonROM/android_vendor_qcom_opensource_system_bt" remote="carbon" groups="qcom,pdk-qcom"/>
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="TheXPerienceProject/android_vendor_qcom_opensource_system_bt" remote="xpe" groups="qcom,pdk-qcom"/>
   <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" remote="lineage" />
   <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="lineage" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="CarbonROM/android_vendor_qcom_opensource_cryptfs_hw" remote="carbon" groups="qcom,pdk-qcom" />

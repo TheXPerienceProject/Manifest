@@ -24,21 +24,26 @@
   
   <project path="development" name="CarbonROM/android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="carbon" />
 
+  <project path="external/airbnb-lottie" name="TheXPerienceProject/android_external_airbnb-lottie" remote="xpe" />
   <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" groups="pdk" remote="xpe" />
+  <project path="external/compiler-rt" name="TheXPerienceProject/android_external_compiler-rt" groups="pdk" remote="xpe" />
   <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
   <project path="external/google-fonts/google-sans" name="TheXPerienceProject/android_external_google-fonts_google-sans" remote="xpe" />
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
+  <project path="external/honggfuzz" name="TheXPerienceProject/android_external_honggfuzz" groups="pdk" remote="xpe" />
   <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" groups="pdk" remote="xpe" />
   <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
-  <project path="external/airbnb-lottie" name="TheXPerienceProject/android_external_airbnb-lottie" remote="xpe" />
   <project path="external/mimalloc" name="TheXPerienceProject/android_external_mimalloc" groups="pdk" remote="xpe" />
   <project path="external/mksh" name="TheXPerienceProject/android_external_mksh" groups="pdk" remote="xpe" />
+  <project path="external/python/cpython2" name="TheXPerienceProject/android_external_python_cpython2" groups="pdk" remote="xpe" />
   <project path="external/scudo" name="TheXPerienceProject/android_external_scudo" groups="pdk" remote="xpe" />
   <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
   <project path="external/sqlite" name="TheXPerienceProject/android_external_sqlite" groups="pdk" remote="xpe" />
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
   <project path="external/toybox" name="TheXPerienceProject/android_external_toybox" groups="pdk" remote="xpe" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
+  <project path="external/wpa_supplicant_8" name="TheXPerienceProject/android_external_wpa_supplicant_8" remote="xpe" />
+  <project path="external/zlib-ng" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" />
 
   <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" remote="xpe" />
   <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
@@ -105,6 +110,7 @@
   <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
   <project path="system/keymaster" name="TheXPerienceProject/android_system_keymaster" groups="pdk" remote="xpe" />
   <project path="system/libhwbinder" name="TheXPerienceProject/android_system_libhwbinder" groups="pdk" remote="xpe" />
+  <project path="system/linkerconfig" name="TheXPerienceProject/android_system_linkerconfig" groups="pdk" remote="xpe" />
   <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
   <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
