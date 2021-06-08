@@ -21,7 +21,7 @@ Then to sync up:
       repo sync -j<number_of_threads>
 OR:
 
-      repo sync --no-tags --no-clone-bundle --force-sync -c
+      repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 
 --------
 
