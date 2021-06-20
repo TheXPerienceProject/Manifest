@@ -30,6 +30,11 @@
            revision="refs/heads/cr-9.0"
            sync-j="8" />
 
+  <remote  name="gitlab"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="8" />
+
   <!-- XPerience -->
   <include name="snippets/remove.xml" />
   <include name="snippets/xpe-aosp.xml" />
@@ -44,5 +49,9 @@
   <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
   <project path="packages/apps/FaceUnlockService" name="DerpFest-11/packages_apps_FaceUnlockService" remote="gh" revision="11" />
+
+  
+  <!--Gapps-->
+  <project path="vendor/gapps" name="klozz/vendor_gapps" remote="gitlab" revision="xpe-15.0" />
 
 </manifest>
