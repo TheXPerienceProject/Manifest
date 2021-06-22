@@ -31,7 +31,7 @@
            sync-j="8" />
 
   <remote  name="gitlab"
-           fetch="https://github.com/"
+           fetch="https://gitlab.com/"
            sync-c="true"
            sync-j="8" />
 
