@@ -57,16 +57,6 @@
   <project path="hardware/libhardware_legacy" name="TheXPerienceProject/android_hardware_libhardware_legacy" groups="pdk" remote="xpe" />
   <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" revision="xpe-15.1" />
 
-  <project path="hardware/qcom/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="xpe" />
-  <project path="hardware/qcom/bt" name="TheXPerienceProject/android_hardware_qcom_bt" groups="qcom,pdk" remote="xpe" />
-  <project path="hardware/qcom/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="pdk" remote="xpe" />
-  <project path="hardware/qcom/camera" name="TheXPerienceProject/android_hardware_qcom_camera" groups="qcom_camera" remote="xpe" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="TheXPerienceProject/android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk" remote="xpe" />
-  <project path="hardware/qcom/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="xpe" />
-  <project path="hardware/qcom/gps" name="TheXPerienceProject/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="xpe" />
-  <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="xpe" />
-  <project path="hardware/qcom/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,pdk" remote="xpe" />
-  <project path="hardware/qcom/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="xpe" />
   <project path="hardware/ril" name="TheXPerienceProject/android_hardware_ril" groups="pdk" remote="xpe" />
 
   <project path="libcore" name="TheXPerienceProject/android_libcore" groups="pdk" remote="xpe" />
@@ -94,18 +84,6 @@
 
   <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
-
-  <project path="prebuilts/abi-dumps/ndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="xpe" />
-  <project path="prebuilts/abi-dumps/vndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="xpe" />
-
-  <project path="prebuilts/clang/host/linux-x86" name="TheXPerienceProject/android_prebuilts_clang_host_linux-x86" remote="xpe" groups="pdk" />
-  <project path="prebuilts/clang/host/linux-x86/clang-13" name="Klozz/Yuki-clang" remote="gh" groups="pdk" clone-depth="1" revision="main" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-18.1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-18.1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-18.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-18.1" />
-
-  <project path="prebuilts/tools-lineage" name="TheXPerienceProject/android_prebuilts_tools-lineage" remote="xpe" revision="xpe-15.1"  clone-depth="1" />
 
   <project path="system/apex" name="TheXPerienceProject/android_system_apex" groups="pdk" remote="xpe" />
   <project path="system/bt" name="TheXPerienceProject/android_system_bt" groups="pdk" remote="xpe" />
