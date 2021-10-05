@@ -5,12 +5,12 @@
   <remote name="caf_system"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
-		  revision="refs/tags/LA.QSSI.11.0.r1-12300-qssi.0"/>
+		  revision="refs/tags/LA.QSSI.11.0.r1-13300-qssi.0"/>
 
   <remote name="caf_vendor"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
-          revision="refs/tags/LA.UM.9.14.r1-16700-LAHAINA.0"/>
+          revision="refs/tags/LA.UM.9.14.r1-18300-LAHAINA.0"/>
 
   <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" />
   <project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-15.0-legacy" />
