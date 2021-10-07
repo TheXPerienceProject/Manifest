@@ -2,16 +2,16 @@
 <manifest>
 
 
-  <remove-project name="platform/art" />
-  <remove-project name="platform/bionic" />
+  <!--<remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />-->
   <remove-project name="platform/build" />
-  <remove-project name="platform/build/blueprint" />
+<!--  <remove-project name="platform/build/blueprint" />-->
   <remove-project name="platform/build/soong" />
 
   <remove-project name="platform/bootable/recovery" />
 
-  <remove-project name="platform/development" />
-
+<!--  <remove-project name="platform/development" />
+-->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />
@@ -42,6 +42,7 @@
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
   <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redbull-sepolicy" />
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
@@ -56,6 +57,7 @@
   <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/trout" />
+  <remove-project name="evice/google/vrservices" />
   <remove-project name="device/google_car" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
@@ -68,6 +70,7 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+<!--
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/compiler-rt" />
   <remove-project name="platform/external/chromium-webview" />
@@ -88,15 +91,15 @@
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zlib" />
 
-  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/av" />-->
   <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" />
+  <!--<remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony" />
 
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/libhardware_legacy" />-->
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/bt" />
@@ -130,8 +133,8 @@
   <remove-project name="platform/hardware/qcom/sm8150/vr" />
   <remove-project name="platform/hardware/qcom/sm8150p/gps" />
   <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/ril" />
-
+  <!--<remove-project name="platform/hardware/ril" />-->
+<!--
   <remove-project name="platform/libcore" />
 
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -152,13 +155,13 @@
 
   <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />-->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
-  <remove-project name="platform/system/apex" />
+  <!--<remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/core" />
@@ -170,5 +173,5 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 
-  <remove-project name="platform/tools/metalava" />
+  <remove-project name="platform/tools/metalava" />-->
 </manifest>
