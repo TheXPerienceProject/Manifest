@@ -36,7 +36,6 @@
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/bramble" />
-  <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/bramble-sepolicy" />
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
@@ -53,11 +52,10 @@
   <remove-project name="device/google/crosshatch-kernel" />
   <remove-project name="device/google/crosshatch-sepolicy" />
   <remove-project name="device/google/cuttlefish" />
-  <remove-project name="device/google/cuttlefish_kernel" />
-  <remove-project name="device/google/cuttlefish_vmm" />
+  <remove-project name="device/google/cuttlefish_prebuilts" />
   <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/trout" />
-  <remove-project name="evice/google/vrservices" />
+  <remove-project name="device/google/vrservices" />
   <remove-project name="device/google_car" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
@@ -93,8 +91,8 @@
 
   <remove-project name="platform/frameworks/av" />-->
   <remove-project name="platform/frameworks/base" />
-  <!--<remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/frameworks/native" />
+   <!-- <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony" />
 
   <remove-project name="platform/hardware/interfaces" />
@@ -163,9 +161,9 @@
 
   <!--<remove-project name="platform/system/apex" />
   <remove-project name="platform/system/bt" />
-  <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/bpf" />-->
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/libhwbinder"/>
+  <!--<remove-project name="platform/system/libhwbinder"/>
   <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
