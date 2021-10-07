@@ -87,9 +87,9 @@
 
   <project path="system/apex" name="TheXPerienceProject/android_system_apex" groups="pdk" remote="xpe" />
   <project path="system/bt" name="TheXPerienceProject/android_system_bt" groups="pdk" remote="xpe" />
-  <project path="system/bpf" name="TheXPerienceProject/android_system_bpf" groups="pdk" remote="xpe" />
+  <project path="system/bpf" name="TheXPerienceProject/android_system_bpf" groups="pdk" remote="xpe" />-->
   <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
-  <project path="system/keymaster" name="TheXPerienceProject/android_system_keymaster" groups="pdk" remote="xpe" />
+  <!--<project path="system/keymaster" name="TheXPerienceProject/android_system_keymaster" groups="pdk" remote="xpe" />
   <project path="system/libhwbinder" name="TheXPerienceProject/android_system_libhwbinder" groups="pdk" remote="xpe" />
   <project path="system/linkerconfig" name="TheXPerienceProject/android_system_linkerconfig" groups="pdk" remote="xpe" />
   <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
@@ -101,5 +101,5 @@
   -->
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
-  <project path="vendor/themes" name="TheXPerienceProject/android_vendor_themes" remote="xpe" />
+  <!--<project path="vendor/themes" name="TheXPerienceProject/android_vendor_themes" remote="xpe" />-->
 </manifest>
