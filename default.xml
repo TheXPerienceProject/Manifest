@@ -1094,6 +1094,6 @@
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
   <!-- XPerience -->
-  <!--<include name="snippets/xperience-default.xml" />-->
+  <include name="snippets/xperience-default.xml" />
 
 </manifest>
