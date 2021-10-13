@@ -43,7 +43,7 @@
   <include name="snippets/caf.xml" />
 
   <!-- LineageOS Projects -->
-  <roject path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <!--<project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />-->
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
   <!--<project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
