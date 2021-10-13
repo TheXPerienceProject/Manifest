@@ -43,12 +43,11 @@
   <include name="snippets/caf.xml" />
 
   <!-- LineageOS Projects -->
-  <!--
-  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <roject path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
+  <!--<project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />-->
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
-  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />-->
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />
+  <!--<project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="lineage" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="lineage" />-->
   <!--<project path="packages/apps/FaceUnlockService" name="DerpFest-11/packages_apps_FaceUnlockService" remote="gh" revision="11" />-->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" />
   

@@ -38,9 +38,9 @@
   <project path="external/python/cpython2" name="TheXPerienceProject/android_external_python_cpython2" groups="pdk" remote="xpe" />
   <project path="external/scudo" name="TheXPerienceProject/android_external_scudo" groups="pdk" remote="xpe" />
   <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
-  <project path="external/sqlite" name="TheXPerienceProject/android_external_sqlite" groups="pdk" remote="xpe" />
+  <project path="external/sqlite" name="TheXPerienceProject/android_external_sqlite" groups="pdk" remote="xpe" />-->
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
-  <project path="external/toybox" name="TheXPerienceProject/android_external_toybox" groups="pdk" remote="xpe" />
+  <!--<project path="external/toybox" name="TheXPerienceProject/android_external_toybox" groups="pdk" remote="xpe" />
   <project path="external/tremolo" name="TheXPerienceProject/android_external_tremolo" groups="pdk" remote="xpe" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
   <project path="external/wpa_supplicant_8" name="TheXPerienceProject/android_external_wpa_supplicant_8" remote="xpe" />
