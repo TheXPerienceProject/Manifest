@@ -92,9 +92,9 @@
   <!--<project path="system/keymaster" name="TheXPerienceProject/android_system_keymaster" groups="pdk" remote="xpe" />
   <project path="system/libhwbinder" name="TheXPerienceProject/android_system_libhwbinder" groups="pdk" remote="xpe" />
   <project path="system/linkerconfig" name="TheXPerienceProject/android_system_linkerconfig" groups="pdk" remote="xpe" />
-  <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
+  <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />-->
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
-  <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
+  <!--<project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
   <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
 
   <project path="tools/metalava" name="TheXPerienceProject/android_tools_metalava" groups="pdk,tools" remote="xpe" />
