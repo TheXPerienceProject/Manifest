@@ -77,9 +77,9 @@
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
-  <remove-project name="platform/external/honggfuzz" />
+  <remove-project name="platform/external/honggfuzz" />-->
   <remove-project name="platform/external/jemalloc_new" />
-  <remove-project name="platform/external/libjpeg-turbo"/>
+  <!--<remove-project name="platform/external/libjpeg-turbo"/>
   <remove-project name="platform/external/libunwind" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/python/cpython2" />
@@ -89,8 +89,8 @@
   <remove-project name="platform/external/tinycompress" />
   <!--<remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/tremolo" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
-  <remove-project name="platform/external/zlib" />-->
+  <remove-project name="platform/external/wpa_supplicant_8" />-->
+  <remove-project name="platform/external/zlib" />
 
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
@@ -139,19 +139,22 @@
   <remove-project name="platform/libcore" />
 
   <remove-project name="platform/packages/apps/Bluetooth" />
-  <!--<remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <!--<remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PhoneCommon" />-->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
-<!--
+  <remove-project name="platform/packages/modules/Wifi" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+
   <remove-project name="platform/packages/providers/DownloadProvider" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
+  <!--<remove-project name="platform/packages/providers/MediaProvider" />
 
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />

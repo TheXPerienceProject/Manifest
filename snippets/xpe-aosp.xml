@@ -31,9 +31,9 @@
   <!--<project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
   <project path="external/google-fonts/google-sans" name="TheXPerienceProject/android_external_google-fonts_google-sans" remote="xpe" />
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
-  <project path="external/honggfuzz" name="TheXPerienceProject/android_external_honggfuzz" groups="pdk" remote="xpe" />
+  <project path="external/honggfuzz" name="TheXPerienceProject/android_external_honggfuzz" groups="pdk" remote="xpe" />-->
   <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" groups="pdk" remote="xpe" />
-  <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
+  <!--<project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
   <project path="external/mimalloc" name="TheXPerienceProject/android_external_mimalloc" groups="pdk" remote="xpe" />
   <project path="external/mksh" name="TheXPerienceProject/android_external_mksh" groups="pdk" remote="xpe" />
   <project path="external/python/cpython2" name="TheXPerienceProject/android_external_python_cpython2" groups="pdk" remote="xpe" />
@@ -45,8 +45,8 @@
   <!--<project path="external/toybox" name="TheXPerienceProject/android_external_toybox" groups="pdk" remote="xpe" />
   <project path="external/tremolo" name="TheXPerienceProject/android_external_tremolo" groups="pdk" remote="xpe" />
   <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="lineage" revision="master" />
-  <project path="external/wpa_supplicant_8" name="TheXPerienceProject/android_external_wpa_supplicant_8" remote="xpe" />
-  <project path="external/zlib-ng" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" />-->
+  <project path="external/wpa_supplicant_8" name="TheXPerienceProject/android_external_wpa_supplicant_8" remote="xpe" />-->
+  <project path="external/zlib-ng" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" />
 
   <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" remote="xpe" />
   <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
@@ -64,10 +64,12 @@
   <project path="libcore" name="TheXPerienceProject/android_libcore" groups="pdk" remote="xpe" />
 
   <project path="packages/apps/Bluetooth" name="TheXPerienceProject/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
-  <!--<project path="packages/apps/Dialer" name="TheXPerienceProject/android_packages_apps_Dialer" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />
+  <project path="packages/apps/Contacts" name="TheXPerienceProject/android_packages_apps_Contacts" groups="pdk-fs" remote="xpe" />
+  <project path="packages/apps/Dialer" name="TheXPerienceProject/android_packages_apps_Dialer" groups="pdk-fs" remote="xpe" />
+  <!--<project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" remote="lineage" />-->
   <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/OmniStyle" name="TheXPerienceProject/android_packages_apps_omnistyle" groups="pdk-fs" remote="xpe" />
+  <project path="packages/apps/Messaging" name="TheXPerienceProject/android_packages_apps_Messaging" groups="pdk-fs" remote="xpe" />
+  <!--<project path="packages/apps/OmniStyle" name="TheXPerienceProject/android_packages_apps_omnistyle" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Nfc" name="TheXPerienceProject/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="xpe" />
   <project path="packages/apps/PhoneCommon" name="TheXPerienceProject/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="xpe" />-->
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
@@ -75,15 +77,16 @@
   <!--<project path="packages/apps/SetupWizard" name="TheXPerienceProject/android_packages_apps_SetupWizard" remote="xpe" />-->
   <project path="packages/apps/SimpleDeviceconfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="gh" revision="sc" />
   <project path="packages/apps/ThemePicker" name="TheXPerienceProject/android_packages_apps_ThemePicker" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/Yunikon" name="TheXPerienceProject/android_packages_apps_Yunikon" remote="xpe" />
-  <!--<project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" />-->
+  <!--<project path="packages/apps/Yunikon" name="TheXPerienceProject/android_packages_apps_Yunikon" remote="xpe" />
+  <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" />-->
   <project path="packages/apps/WallpaperPicker2" name="TheXPerienceProject/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/XPerienceDoze" name="TheXPerienceProject/android_packages_apps_XPerienceDoze" remote="xpe" />
   <project path="packages/apps/XPerienceWallpapers" name="TheXPerienceProject/android_packages_apps_XPerienceWallpapers" groups="pdk-fs" remote="xpe" />
   <project path="packages/overlay/xperience" name="TheXPerienceProject/android_packages_overlay_XPerience" remote="xpe" />
+  <project path="packages/inputmethods/LatinIME" name="TheXPerienceProject/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="xpe" />
   <project path="packages/modules/Connectivity" name="TheXPerienceProject/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/modules/Permission" name="TheXPerienceProject/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
-
+  <project path="packages/modules/Wifi" name="TheXPerienceProject/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
   <project path="packages/providers/DownloadProvider" name="TheXPerienceProject/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
  <!-- <project path="packages/providers/MediaProvider" name="TheXPerienceProject/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
