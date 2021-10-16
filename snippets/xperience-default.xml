@@ -63,8 +63,8 @@
   <project path="hardware/qcom/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,pdk" remote="xpe" />
   <project path="hardware/qcom/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="xpe" />
 <!--
-  <project path="prebuilts/abi-dumps/ndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="xpe" />
-  <project path="prebuilts/abi-dumps/vndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="xpe" />-->
+  <project path="prebuilts/abi-dumps/ndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="xpe" />-->
+  <project path="prebuilts/abi-dumps/vndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="xpe" />
 
 <!--  <project path="prebuilts/clang/host/linux-x86" name="TheXPerienceProject/android_prebuilts_clang_host_linux-x86" remote="xpe" groups="pdk" />
   <project path="prebuilts/clang/host/linux-x86/clang-13" name="Klozz/Yuki-clang" remote="gh" groups="pdk" clone-depth="1" revision="main" />-->
