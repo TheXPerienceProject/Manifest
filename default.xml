@@ -26,11 +26,11 @@
   <remote name="xpe"
           fetch=".."
           review="https://github.com/TheXPerienceProject/"
-          revision="refs/heads/xpe-16.0" />
+          revision="refs/heads/xpe-16.0-caf" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com"
-           revision="xpe-16.0" />
+           revision="xpe-16.0-caf" />
 
   <remote  name="unicorn"
            fetch="https://github.com/RainbowUnicorn"
