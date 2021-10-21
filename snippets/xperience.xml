@@ -114,7 +114,7 @@
   <project path="packages/apps/Messaging" name="TheXPerienceProject/android_packages_apps_Messaging" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/SimpleDeviceconfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="gh" revision="sc" />
+  <project path="packages/apps/SimpleDeviceconfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="sc" />
   <project path="packages/apps/ThemePicker" name="TheXPerienceProject/android_packages_apps_ThemePicker" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/WallpaperPicker2" name="TheXPerienceProject/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/XPerienceDoze" name="TheXPerienceProject/android_packages_apps_XPerienceDoze" remote="xpe" />
