@@ -34,7 +34,7 @@
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" groups="proton"  revision="sc" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" groups="pdk" remote="xpe" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" />
+  <project path="external/ntfs-3g" name="TheXPerienceProject/android_external_ntfs-3g" remote="xpe" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" groups="proton" revision="sc" />
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
   <project path="external/zlib-ng" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" />
