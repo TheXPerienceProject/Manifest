@@ -71,7 +71,7 @@
   <project path="packages/apps/Messaging" name="TheXPerienceProject/android_packages_apps_Messaging" groups="pdk-fs" remote="xpe" />
   <!--<project path="packages/apps/OmniStyle" name="TheXPerienceProject/android_packages_apps_omnistyle" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Nfc" name="TheXPerienceProject/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="xpe" />-->
-  <project path="packages/apps/SeedVault" name="TheXPerienceProject/android_packages_apps_Seedvault" groups="backups" remove="xpe" />
+  <project path="packages/apps/SeedVault" name="TheXPerienceProject/android_packages_apps_Seedvault" groups="backups" remote="xpe" />
   <!--<project path="packages/apps/PhoneCommon" name="TheXPerienceProject/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="xpe" />-->
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
