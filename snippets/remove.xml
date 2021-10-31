@@ -83,9 +83,9 @@
   <remove-project name="platform/external/libunwind" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/python/cpython2" />
-  <remove-project name="platform/external/scudo" />
+  <remove-project name="platform/external/scudo" />-->
   <remove-project name="platform/external/selinux" />
-  <remove-project name="platform/external/sqlite" />-->
+<!--  <remove-project name="platform/external/sqlite" />-->
   <remove-project name="platform/external/tinycompress" />
   <!--<remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/tremolo" />
