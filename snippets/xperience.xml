@@ -105,6 +105,8 @@
   <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-sm8250" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="xpe"  revision="xpe-16.0" />
   <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" remote="xpe" />
+  <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="xpe" />
+
   <!-- Libcore -->
   <project path="libcore" name="TheXPerienceProject/android_libcore" groups="pdk" remote="xpe" />
 
@@ -139,6 +141,12 @@
 
   <!-- System -->
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
+
+
+  <project name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="xpe" revision="xpe-16.0">
+    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
+  </project>
 
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />

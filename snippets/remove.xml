@@ -66,7 +66,7 @@
   <remove-project name="platform/vendor/qcom-opensource/location" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
 
   <!-- Libcore -->
   <remove-project name="platform/libcore" />
@@ -95,4 +95,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
   <remove-project name="platform/system/sepolicy" />
+
+  <!-- Vendor -->
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
 </manifest>
