@@ -98,4 +98,6 @@
 
   <!-- Vendor -->
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces"/>
+
 </manifest>

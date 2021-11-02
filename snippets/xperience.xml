@@ -147,6 +147,7 @@
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
   </project>
+  <project name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="xpe" />
 
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
