@@ -38,6 +38,7 @@
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" groups="pdk" remote="xpe" />
   <project path="external/ntfs-3g" name="TheXPerienceProject/android_external_ntfs-3g" remote="xpe" />
+  <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" groups="proton" revision="sc" />
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
   <project path="external/zlib-ng" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" />
@@ -46,6 +47,7 @@
   <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" remote="xpe" />
   <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe" />
+  <project path="frameworks/libs/systemui" name="TheXPerienceProject/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
   <!-- Hardware -->
   <project path="hardware/google/pixel" name="TheXPerienceProject/android_hardware_google_pixel" groups="generic_fs,pixel" remote="xpe"/>
@@ -120,6 +122,7 @@
   <project path="packages/apps/Messaging" name="TheXPerienceProject/android_packages_apps_Messaging" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
+  <project path="packages/apps/SetupWizard" name="TheXPerienceProject/android_packages_apps_SetupWizard" remote="xpe" revision="xpe-16.0" />
   <project path="packages/apps/SimpleDeviceconfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="sc" />
   <project path="packages/apps/ThemePicker" name="TheXPerienceProject/android_packages_apps_ThemePicker" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/WallpaperPicker2" name="TheXPerienceProject/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="xpe" />
@@ -143,9 +146,10 @@
   <project path="prebuilts/tools-lineage" name="TheXPerienceProject/android_prebuilts_tools-lineage" remote="xpe" revision="xpe-16.0"  clone-depth="1" />
 
   <!-- System -->
+  <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
 
-
+  <!-- Vendor qcom -->
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" revision="xpe-16.0">
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
@@ -153,8 +157,12 @@
   <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" remote="xpe" />
   <project path="vendor/qcom/opensource/commonsys/fm" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" remote="xpe" />
   <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" remote="lineage" />
+  <project path="TheXPerienceProject/vendor-qcom-opensource-vibrator" name="platform/vendor/qcom-opensource/vibrator" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
+  </project>
 
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
+  <project path="vendor/gapps" name="klozz/vendor_gapps" remote="gitlab" revision="xpe-16.0" >
 
 </manifest>

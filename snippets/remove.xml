@@ -41,6 +41,7 @@
   <!-- External -->
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
@@ -73,7 +74,7 @@
   <remove-project name="platform/libcore" />
 
   <!-- Packages -->
-  <remove-project name="platform/packages/apps/Bluetooth" />
+  <!--<remove-project name="platform/packages/apps/Bluetooth" />-->
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -95,11 +96,13 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
+  <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
 
   <!-- Vendor -->
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces"/>
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys"/>
+  <remove-project name="platform/vendor/qcom-opensource/vibrator"/>
 
 </manifest>
