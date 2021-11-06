@@ -34,6 +34,7 @@
   <remove-project name="device/google/trout"/>
   <remove-project name="device/google/vrservices"/>
   <remove-project name="device/sample"/>
+  <remove-project name="device/qcom/common"/>
   <remove-project name="device/qcom/sepolicy"/>
   <remove-project name="device/qcom/sepolicy_vndr"/>
 
