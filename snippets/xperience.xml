@@ -52,7 +52,7 @@
   <!-- Hardware -->
   <project path="hardware/google/pixel" name="TheXPerienceProject/android_hardware_google_pixel" groups="generic_fs,pixel" remote="xpe"/>
   <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
-  <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" revision="xpe-15.0" />
+  <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
 
   <!-- Hardware-Qcom-->
   <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-18.1">
