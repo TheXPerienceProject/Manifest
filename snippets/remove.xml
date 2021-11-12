@@ -103,6 +103,10 @@
   <remove-project name="platform/system/sepolicy" />
 
   <!-- Vendor -->
+  <remove-project name="platform/packages/apps/Mms" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
+  <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces"/>
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys"/>
