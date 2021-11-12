@@ -41,6 +41,10 @@
            sync-c="true"
            sync-j="8" />
 
+  <remote  name="mario"
+           fetch="https://github.com/ThankYouMario"
+           revision="sapphire" />
+
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
