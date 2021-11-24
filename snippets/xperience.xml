@@ -158,7 +158,7 @@
   <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
   <project path="system/libziparchive" name="TheXPerienceProject/android_system_libziparchive" remote="xpe" />
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
-  <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" remove="xpe" />
+  <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" remote="xpe" />
 
   <!-- Vendor qcom -->
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" revision="xpe-16.0-caf">
@@ -186,6 +186,7 @@
   <project path="vendor/qcom-opensource/vibrator" name="TheXPerienceProject/vendor-qcom-opensource-vibrator" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
   </project>
+  <project path="vendor/qcom/opensource/commonsys-intf/wfd" name="TheXPerienceProject/vendor_qcom-opensource_wfd-commonsys" remote="xpe" />
 
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
