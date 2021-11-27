@@ -62,7 +62,7 @@
   <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
 
   <!-- Hardware-Qcom-->
-  <project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" revision="lineage-18.1">
+  <project path="hardware/qcom-caf/common" name="TheXPerienceProject/android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="xpe">
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
