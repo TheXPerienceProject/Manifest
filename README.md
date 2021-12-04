@@ -18,9 +18,6 @@ To initialize your local repository using the XPerience CAF trees, use a command
     
 Then to sync up:
 
-      repo sync -j<number_of_threads>
-OR:
-
       repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 
 --------
@@ -53,23 +50,14 @@ OR:
 Congratulations,the sources are initialized! 
 	  
 #### To build The XPerience Project ROM
-
-The bundled builder tool `./rom-build.sh` handles all the building steps for the specified device
-automatically. As the device value, you just feed it with the device codename (for example,
-'Addison' for the Moto Z Play).
-
-      # Automatic script
-      $ ./rom-build.sh codename
-      # Example
-      $ ./rom-build.sh addison
-
-#### OR
       
-      # Manually
       $ . build/envsetup.sh
-      $ lunch codename-userdebug #only if we support your device if not clone manually and do
-      $ lunch xpe_codename-userdebug or breakfast codename
+      $ lunch xperience_codename-userdebug
       $ make bacon -j$(nproc --all)
+
+#### If you want build with GAPPS add this flag
+
+      $ WITH_GMS := true
 
 #### Credits to:
 
@@ -84,4 +72,4 @@ automatically. As the device value, you just feed it with the device codename (f
       * http://tryge.com/2013/06/15/build-android-from-source-macosx/
       * https://source.android.com/source/initializing.html
 
-## Copyright (C) 2011-2021 The XPerience Project
+## Copyright (C) 2011-2022 The XPerience Project
