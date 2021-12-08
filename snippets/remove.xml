@@ -115,7 +115,7 @@
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
-  <remove-project name="platform/vendor/qcom-opensource/core-utils">
+  <remove-project name="platform/vendor/qcom-opensource/core-utils"/>
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces"/>
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys"/>
