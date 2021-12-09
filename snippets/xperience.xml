@@ -204,5 +204,5 @@
   <!--<project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />-->
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="mario" clone-depth="1" />
   <project path="vendor/gapps" name="klozz/vendor_gapps" remote="gitlab" revision="xpe-16.0" clone-depth="1" />
-
+  <project path="vendor/pixel-framework" name="TheXPerienceProject/vendor_pixel-framework" remote="xpe" />
 </manifest>
