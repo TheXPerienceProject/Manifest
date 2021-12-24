@@ -194,6 +194,9 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
   </project>
+  <project path="vendor/qcom/opensource/usb" name="TheXPerienceProject/vendor_qcom-opensource_usb" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
+  </project>
   <project path="vendor/qcom/opensource/vibrator" name="TheXPerienceProject/vendor-qcom-opensource-vibrator" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
   </project>
