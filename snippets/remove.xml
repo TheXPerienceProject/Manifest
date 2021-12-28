@@ -40,6 +40,7 @@
   <remove-project name="device/qcom/sepolicy_vndr"/>
 
   <!-- External -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/gptfdisk" />
@@ -107,6 +108,7 @@
 
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libziparchive" />
+  <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
 
