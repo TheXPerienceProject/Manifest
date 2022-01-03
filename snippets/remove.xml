@@ -47,7 +47,9 @@
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/mksh"/>
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/scudo" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
@@ -109,6 +111,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/system/security"/>
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
 

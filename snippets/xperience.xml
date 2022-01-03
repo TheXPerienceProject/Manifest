@@ -45,7 +45,9 @@
   <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" groups="pdk" remote="xpe" />
   <project path="external/mksh" name="TheXPerienceProject/android_external_mksh" groups="pdk" remote="xpe" />
   <project path="external/ntfs-3g" name="TheXPerienceProject/android_external_ntfs-3g" remote="xpe" />
+  <project path="external/scudo" name="TheXPerienceProject/android_external_scudo" remote="xpe" />
   <project path="external/selinux" name="TheXPerienceProject/android_external_selinux" groups="pdk" remote="xpe" />
+  <project path="external/skia" name="TheXPerienceProject/android_external_skia" remote="xpe" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" groups="proton" revision="sc" />
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
   <project path="external/zlib-ng" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" />
@@ -161,6 +163,7 @@
   <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
   <project path="system/libziparchive" name="TheXPerienceProject/android_system_libziparchive" remote="xpe" />
   <project path="system/memory/lmkd" name="TheXPerienceProject/android_system_memory_lmkd" remote="xpe" />
+  <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
   <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" remote="xpe" />
 
