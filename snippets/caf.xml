@@ -5,12 +5,12 @@
   <remote name="caf_system"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
-		  revision="refs/tags/LA.QSSI.12.0.r1-04900-qssi.0"/>
+		  revision="refs/tags/LA.QSSI.12.0.r1-05800-qssi.0"/>
 
   <remote name="caf_vendor"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
-          revision="refs/tags/LA.UM.9.14.r1-18300-LAHAINA.0"/>
+          revision="refs/tags/LA.UM.9.14.r1-18900-LAHAINA.QSSI12.0"/>
 
   <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" />
   <project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-15.0-legacy" />
@@ -115,8 +115,12 @@
   <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" remote="xpe" groups="qcom,pdk-qcom"  revision="xpe-15.0" />
   <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" groups="qcom,pdk-qcom"  revision="xpe-15.0" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="lineage" groups="qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/usb" name="TheXPerienceProject/android_vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="xpe"  revision="xpe-15.0" />
-  <project path="vendor/qcom/opensource/vibrator" name="TheXPerienceProject/vendor-qcom-opensource-vibrator" remote="xpe" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/usb" name="TheXPerienceProject/vendor_qcom-opensource_usb" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
+  </project>
+  <project path="vendor/qcom/opensource/vibrator" name="TheXPerienceProject/vendor-qcom-opensource-vibrator" remote="xpe">
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
+  </project>
   <project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" groups="qcom,pdk" />
 
   <project path="hardware/qcom/sm8150/display" name="LineageOS/android_hardware_qcom_sm8150_display" remote="lineage" groups="qcom_sm8150" />
