@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="mario"
+           fetch="https://github.com/ThankYouMario"
+           revision="sapphire" />
+
   <project path="art" name="TheXPerienceProject/android_art" groups="pdk" remote="xpe" />
 
   <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
@@ -112,5 +116,8 @@
   -->
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
+  <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="mario" clone-depth="1" />
+  <project path="vendor/gapps" name="klozz/vendor_gapps" remote="gitlab" revision="xpe-16.0" clone-depth="1" />
   <!--<project path="vendor/themes" name="TheXPerienceProject/android_vendor_themes" remote="xpe" />-->
 </manifest>
