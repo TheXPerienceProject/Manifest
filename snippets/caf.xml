@@ -96,12 +96,12 @@
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-pn5xx" remote="lineage" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-sn100x" remote="lineage" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-sn100x" remote="lineage" />
-  <project path="vendor/qcom/opensource/audio" name="CarbonROM/android_vendor_qcom_opensource_audio" remote="carbon" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" remote="lineage" groups="qcom,pdk-qcom"/>
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage" groups="qcom,pdk-qcom"/>
-  <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,pdk-qcom" />
+  <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom,pdk-qcom" remote="lineage" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,pdk-qcom" remote="lineage" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="TheXPerienceProject/android_vendor_qcom_opensource_system_bt" remote="xpe" groups="qcom,pdk-qcom" revision="xpe-15.0" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" remote="xpe" />
@@ -109,8 +109,8 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="CarbonROM/android_vendor_qcom_opensource_cryptfs_hw" remote="carbon" groups="qcom,pdk-qcom" />
   <!--<project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" remote="xpe" groups="qcom,pdk-qcom" />-->
   <project path="vendor/qcom/opensource/dataservices" name="CarbonROM/android_vendor_qcom_opensource_dataservices" remote="carbon" groups="qcom,pdk-qcom" />
-  <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" remote="xpe" groups="qcom,pdk-qcom"  revision="xpe-15.0" />
-  <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" groups="qcom,pdk-qcom"  revision="xpe-15.0" />
+  <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" remote="xpe" groups="qcom,pdk-qcom"  revision="xpe-16.0-caf" />
+  <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe" groups="qcom,pdk-qcom"  revision="xpe-16.0-caf" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" remote="lineage" groups="qcom,pdk-qcom" />
   <project path="vendor/qcom/opensource/usb" name="TheXPerienceProject/vendor_qcom-opensource_usb" remote="xpe" revision="xpe-16.0-caf">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
