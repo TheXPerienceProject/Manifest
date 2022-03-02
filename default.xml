@@ -51,6 +51,10 @@
            revision="refs/heads/lineage-19.0"
            sync-j="8" />
 
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="twelve" />
+
   <include name="snippets/system.xml"/>
   <include name="snippets/vendor.xml"/>
   <include name="snippets/remove.xml"/>
