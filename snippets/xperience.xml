@@ -195,14 +195,14 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/ipacm_vendor_product.mk" src="ipacm_vendor_product.mk"/>
   </project>
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" revision="lineage-18.1"/>
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" revision="lineage-18.1" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="lineage" revision="lineage-18.1"/>
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" revision="lineage-19.1"/>
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" revision="lineage-19.1" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" remote="lineage" revision="lineage-19.1"/>
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="TheXPerienceProject/android_vendor_nxp_opensource_packages_apps_Nfc" remote="xpe" revision="xpe-16.0-caf" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-pn5xx" remote="lineage" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-pn5xx" remote="lineage" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-18.1-sn100x" remote="lineage" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-18.1-sn100x" remote="lineage" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-19.1-pn5xx" remote="lineage" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-19.1-pn5xx" remote="lineage" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" revision="lineage-19.1-sn100x" remote="lineage" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" revision="lineage-19.1-sn100x" remote="lineage" />
   <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
