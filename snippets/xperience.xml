@@ -123,7 +123,7 @@
   <project path="hardware/qcom-caf/sm8250/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="xpe-16.0-caf-sm8250" remote="xpe" />
   <project path="hardware/qcom-caf/sm8250/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="xpe-16.0-caf-sm8250" remote="xpe" />
   <project path="hardware/qcom-caf/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="pdk" revision="xpe-16.0-caf" remote="xpe" />
-  <project path="hardware/qcom-caf/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="xpe"  revision="xpe-16.0" />
+  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" revision="lineage-19.1-caf" />
   <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" remote="xpe" />
   <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="xpe" />
 
