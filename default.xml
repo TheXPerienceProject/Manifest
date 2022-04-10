@@ -24,7 +24,7 @@
   <remote name="xpe"
           fetch=".."
           review="https://github.com/TheXPerienceProject/"
-          revision="refs/heads/xpe-16.0-caf" />
+          revision="refs/heads/xpe-16.1-caf" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com"
