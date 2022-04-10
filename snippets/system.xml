@@ -610,7 +610,7 @@
   <project name="platform/external/tensorflow" path="external/tensorflow"/>
   <project name="platform/external/testng" path="external/testng"/>
   <project name="platform/external/tflite-support" path="external/tflite-support"/>
-  <project clone-depth="2" name="platform/external/timezone-boundary-builder" path="external/timezone-boundary-builder" revision="refs/tags/LA.QSSI.12.0.r1-05600.02-qssi.0" />
+  <project clone-depth="2" name="platform/external/timezone-boundary-builder" path="external/timezone-boundary-builder"/>
   <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
   <project name="platform/external/tinyalsa_new" path="external/tinyalsa_new"/>
   <project name="platform/external/tinycompress" path="external/tinycompress"/>
