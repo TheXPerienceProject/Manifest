@@ -125,7 +125,7 @@
   <project name="platform/external/cblas" path="external/cblas"/>
   <project name="platform/external/cbor-java" path="external/cbor-java"/>
   <project name="platform/external/chromium-trace" path="external/chromium-trace"/>
-  <project name="platform/external/chromium-webview" path="external/chromium-webview" clone-depth="1" />
+  <project name="platform/external/chromium-webview" path="external/chromium-webview" clone-depth="1" revision="9c558eaf4dc2cbbd8b93ccdc53799bc3bebef4c0" upstream="refs/heads/ks-aosp.lnx.12.0.r1-rel"/>
   <project name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/cldr" path="external/cldr"/>
   <project name="platform/external/cn-cbor" path="external/cn-cbor"/>
