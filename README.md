@@ -14,7 +14,7 @@ To initialize your local repository using the XPerience CAF trees, use a command
 
       $ mkdir XPe
       $ cd XPe
-      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-16.0-caf
+      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-16.1-caf-L
       $ sudo install /usr/bin/repo .repo/repo/repo
     
 Then to sync up:

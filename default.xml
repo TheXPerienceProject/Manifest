@@ -24,7 +24,7 @@
   <remote name="xpe"
           fetch=".."
           review="https://github.com/TheXPerienceProject/"
-          revision="refs/heads/xpe-16.1-caf" />
+          revision="refs/heads/xpe-16.1-caf-L" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com"
@@ -44,7 +44,7 @@
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/lineage-19.0" />
+           revision="refs/heads/lineage-19.1" />
 
   <remote name="pixel-gitlab-self-hosted"
           fetch="https://gitlab.pixelexperience.org/android"

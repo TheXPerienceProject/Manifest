@@ -40,7 +40,7 @@
 <!--  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" groups="proton"  revision="sc" />-->
   <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
-  <project path="external/f2fs-tools" name="https://github.com/AOSPA/android_external_f2fs-tools" remote="github" revision="sapphire" />
+  <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="github" revision="sapphire" />
 <!--  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/fastrpc" name="TheXPerienceProject/android_external_fastrpc" remote="xpe" />-->
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
@@ -55,11 +55,11 @@
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
   <project path="external/zlib-ng" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" />-->
 
-  <!-- Frameworks 
+  <!-- Frameworks -->
   <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" remote="xpe" />
   <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe" />
-  <project path="frameworks/libs/systemui" name="TheXPerienceProject/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="xpe" />-->
+<!--  <project path="frameworks/libs/systemui" name="TheXPerienceProject/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="xpe" />-->
 
   <!-- Hardware -->
   <project path="hardware/google/pixel" name="TheXPerienceProject/android_hardware_google_pixel" groups="generic_fs,pixel" remote="xpe"/>
@@ -87,6 +87,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
@@ -122,8 +124,11 @@
   <project path="hardware/qcom-caf/sm8250/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="xpe-16.0-caf-sm8250" remote="xpe" />
   <project path="hardware/qcom-caf/sm8250/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="xpe-16.0-caf-sm8250" remote="xpe" />
   <project path="hardware/qcom-caf/sm8250/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="xpe-16.0-caf-sm8250" remote="xpe" />
-  <project path="hardware/qcom-caf/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="pdk" revision="xpe-16.0-caf" remote="xpe" />
-  <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="lineage" revision="lineage-19.1-caf" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-19.1-caf-sm8350" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1-caf-sm8350" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.1-caf-sm8350" remote="lineage" />
+  <project path="hardware/qcom-caf/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="pdk" remote="xpe" />
+  <project path="hardware/qcom-caf/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="xpe" revision="xpe-16.1-caf-L" />
   <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" remote="xpe" />
   <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="xpe" />
 
@@ -178,7 +183,7 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display" remote="xpe" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
   </project>
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" revision="xpe-16.0-caf">
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
   </project>
