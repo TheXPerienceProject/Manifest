@@ -143,9 +143,9 @@
   <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Messaging" name="TheXPerienceProject/android_packages_apps_Messaging" groups="pdk-fs" remote="xpe" />-->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv"  remote="github" groups="proton" revision="main" />
-<!--  <project path="packages/apps/Seedvault" name="TheXPerienceProject/android_packages_apps_Seedvault" remote="xpe" />
+  <project path="packages/apps/Seedvault" name="TheXPerienceProject/android_packages_apps_Seedvault" remote="xpe" />
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
+<!--  <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/SetupWizard" name="TheXPerienceProject/android_packages_apps_SetupWizard" remote="xpe" revision="xpe-16.0" />-->
   <project path="packages/apps/SimpleDeviceconfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="sc" />
   <!--<project path="packages/apps/ThemePicker" name="TheXPerienceProject/android_packages_apps_ThemePicker" groups="pdk-fs" remote="xpe" />
