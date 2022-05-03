@@ -41,8 +41,8 @@
   <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="github" revision="sapphire" />
-<!--  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
-  <project path="external/fastrpc" name="TheXPerienceProject/android_external_fastrpc" remote="xpe" />-->
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <!--  <project path="external/fastrpc" name="TheXPerienceProject/android_external_fastrpc" remote="xpe" />-->
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
 <!--  <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" groups="pdk" remote="xpe" />-->
   <project path="external/libxaac" name="TheXPerienceProject/android_external_libxaac" remote="xpe" />
@@ -139,8 +139,8 @@
   <!--Packages -->
   <project path="external/Camera" name="GrapheneOS/platform_external_Camera" groups="pdk-fs" remote="github" revision="12.1" />
 <!--  <project path="packages/apps/Contacts" name="TheXPerienceProject/android_packages_apps_Contacts" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/Dialer" name="TheXPerienceProject/android_packages_apps_Dialer" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/FaceUnlockService" name="TheXPerienceProject/packages_apps_FaceUnlockService" remote="xpe" />-->
+  <project path="packages/apps/Dialer" name="TheXPerienceProject/android_packages_apps_Dialer" groups="pdk-fs" remote="xpe" />-->
+  <project path="packages/apps/FaceUnlockService" name="TheXPerienceProject/packages_apps_FaceUnlockService" remote="xpe" />
   <project path="packages/apps/ExactCalculator" name="TheXPerienceProject/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" groups="pdk-fs" remote="xpe" />
 <!--  <project path="packages/apps/Messaging" name="TheXPerienceProject/android_packages_apps_Messaging" groups="pdk-fs" remote="xpe" />-->
