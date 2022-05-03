@@ -140,9 +140,10 @@
   <project path="external/Camera" name="GrapheneOS/platform_external_Camera" groups="pdk-fs" remote="github" revision="12.1" />
 <!--  <project path="packages/apps/Contacts" name="TheXPerienceProject/android_packages_apps_Contacts" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Dialer" name="TheXPerienceProject/android_packages_apps_Dialer" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/FaceUnlockService" name="TheXPerienceProject/packages_apps_FaceUnlockService" remote="xpe" />
+  <project path="packages/apps/FaceUnlockService" name="TheXPerienceProject/packages_apps_FaceUnlockService" remote="xpe" />-->
+  <project path="packages/apps/ExactCalculator" name="TheXPerienceProject/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/Messaging" name="TheXPerienceProject/android_packages_apps_Messaging" groups="pdk-fs" remote="xpe" />-->
+<!--  <project path="packages/apps/Messaging" name="TheXPerienceProject/android_packages_apps_Messaging" groups="pdk-fs" remote="xpe" />-->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv"  remote="github" groups="proton" revision="main" />
   <project path="packages/apps/Seedvault" name="TheXPerienceProject/android_packages_apps_Seedvault" remote="xpe" />
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
@@ -151,10 +152,10 @@
   <project path="packages/apps/SimpleDeviceconfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="sc-v2" />
   <!--<project path="packages/apps/ThemePicker" name="TheXPerienceProject/android_packages_apps_ThemePicker" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" />
-  <project path="packages/apps/WallpaperPicker2" name="TheXPerienceProject/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="xpe" />
+  <project path="packages/apps/WallpaperPicker2" name="TheXPerienceProject/android_packages_apps_WallpaperPicker2" groups="pdk-fs" remote="xpe" />-->
   <project path="packages/apps/XPerienceDoze" name="TheXPerienceProject/android_packages_apps_XPerienceDoze" remote="xpe" />
   <project path="packages/apps/XPerienceWallpapers" name="TheXPerienceProject/android_packages_apps_XPerienceWallpapers" groups="pdk-fs" remote="xpe" />
-  <project path="packages/inputmethods/LatinIME" name="TheXPerienceProject/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="xpe" />
+<!--  <project path="packages/inputmethods/LatinIME" name="TheXPerienceProject/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="xpe" />
   <project path="packages/modules/adb" name="TheXPerienceProject/android_packages_modules_adb" remote="xpe" />
   <project path="packages/modules/Connectivity" name="TheXPerienceProject/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/modules/Permission" name="TheXPerienceProject/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
