@@ -105,9 +105,8 @@
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
 <!--  <remove-project name="platform/packages/inputmethods/LatinIME" />-->
-
   <remove-project name="platform/packages/providers/DownloadProvider" />
--->
+
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/4.19/arm64"/>
   <remove-project name="kernel/prebuilts/5.4/arm64"/>
