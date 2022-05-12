@@ -28,7 +28,7 @@
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <project path="device/qcom/vendor-common" name="TheXPerienceProject/android_device_qcom_common-vendor" remote="xpe"/>
-  <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-16.0-caf" />
+  <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" />
   <project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-15.0-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="TheXPerienceProject/android_device_qcom_sepolicy" remote="xpe" revision="xpe-16.0-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" remote="xpe" />
@@ -60,7 +60,7 @@
   <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" remote="xpe" />
   <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe" />
-<!--  <project path="frameworks/libs/systemui" name="TheXPerienceProject/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="xpe" />-->
+  <project path="frameworks/libs/systemui" name="TheXPerienceProject/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
   <!-- Hardware -->
   <project path="hardware/google/pixel" name="TheXPerienceProject/android_hardware_google_pixel" groups="generic_fs,pixel" remote="xpe"/>
