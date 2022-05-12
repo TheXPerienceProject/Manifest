@@ -39,6 +39,7 @@
   <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" remote="xpe" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" groups="proton"  revision="sc-v2" />
   <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="github" revision="sapphire" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
