@@ -137,7 +137,7 @@
   <project path="libcore" name="TheXPerienceProject/android_libcore" groups="pdk" remote="xpe" />
 
   <!--Packages -->
-  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" groups="pdk-fs" remote="github" revision="12.1" />
+  <project path="external/Camera" name="TheXPerienceProject/android_external_Camera" groups="pdk-fs" remote="xpe" />
 <!--  <project path="packages/apps/Contacts" name="TheXPerienceProject/android_packages_apps_Contacts" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Dialer" name="TheXPerienceProject/android_packages_apps_Dialer" groups="pdk-fs" remote="xpe" />-->
   <project path="packages/apps/FaceUnlockService" name="TheXPerienceProject/packages_apps_FaceUnlockService" remote="xpe" />
