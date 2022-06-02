@@ -8,6 +8,9 @@
 
   <remove-project name="platform/bootable/recovery" />
 
+  <!-- CTS -->
+  <remove-project name="platform/cts" />
+
   <!-- Device -->
   <!--<remove-project name="device/amlogic/yukawa"/>
   <remove-project name="device/amlogic/yukawa-kernel"/>

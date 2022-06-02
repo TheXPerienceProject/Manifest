@@ -23,6 +23,9 @@
   <!-- Bootable -->
   <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
 
+  <!-- CTS -->
+  <project path="cts" name="platform/cts" remote="aosp" clone-depth="1"/>
+
   <!--device-->
   <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
