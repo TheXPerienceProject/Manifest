@@ -147,8 +147,8 @@
   <remove-project name="platform/vendor/qcom-opensource/interfaces"/>
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys"/>
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-  <remove-project name="platform/vendor/nxp/opensource/halimpl"/>
-  <remove-project name="platform/vendor/nxp/opensource/hidlimpl"/>
+  <!--<remove-project name="platform/vendor/nxp/opensource/halimpl"/>
+  <remove-project name="platform/vendor/nxp/opensource/hidlimpl"/>-->
   <remove-project name="platform/vendor/nxp/interfaces/opensource/nfc" />
   <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
   <remove-project name="platform/vendor/nxp/opensource/frameworks" />
