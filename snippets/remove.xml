@@ -75,7 +75,6 @@
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Kernel -->
   <remove-project name="kernel/msm-5.4" />
