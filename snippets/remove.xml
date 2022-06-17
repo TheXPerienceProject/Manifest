@@ -22,34 +22,34 @@
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/atv" />
-  <remove-project path="device/google/barbet" />
-  <remove-project path="device/google/barbet-kernel"  />
-  <remove-project path="device/google/barbet-sepolicy" />
-  <remove-project path="device/google/bonito"/>
-  <remove-project path="device/google/bonito-kernel"/>
-  <remove-project path="device/google/bonito-sepolicy"/>
-  <remove-project path="device/google/bramble"/>
-  <remove-project path="device/google/bramble-sepolicy" />
-  <remove-project path="device/google/contexthub"/>
-  <remove-project path="device/google/coral"/>
-  <remove-project path="device/google/coral-kernel" />
-  <remove-project path="device/google/coral-sepolicy"/>
-  <remove-project path="device/google/gs101" />
-  <remove-project path="device/google/gs101-sepolicy"/>
-  <remove-project path="device/google/gs-common" />
-  <remove-project path="device/google/raviole" />
-  <remove-project path="device/google/raviole-kernel" />
-  <remove-project path="device/google/redbull" />
-  <remove-project path="device/google/redbull-kernel" />
-  <remove-project path="device/google/redbull-sepolicy" />
-  <remove-project path="device/google/redfin" />
-  <remove-project path="device/google/redfin-sepolicy" />
-  <remove-project path="device/google/sunfish" />
-  <remove-project path="device/google/sunfish-kernel" />
-  <remove-project path="device/google/sunfish-sepolicy" />
-  <remove-project path="device/google/crosshatch" />
-  <remove-project path="device/google/crosshatch-kernel" />
-  <remove-project path="device/google/crosshatch-sepolicy" />
+  <remove-project name="device/google/barbet" />
+  <remove-project name="device/google/barbet-kernel"  />
+  <remove-project name="device/google/barbet-sepolicy" />
+  <remove-project name="device/google/bonito"/>
+  <remove-project name="device/google/bonito-kernel"/>
+  <remove-project name="device/google/bonito-sepolicy"/>
+  <remove-project name="device/google/bramble"/>
+  <remove-project name="device/google/bramble-sepolicy" />
+  <remove-project name="device/google/contexthub"/>
+  <remove-project name="device/google/coral"/>
+  <remove-project name="device/google/coral-kernel" />
+  <remove-project name="device/google/coral-sepolicy"/>
+  <remove-project name="device/google/gs101" />
+  <remove-project name="device/google/gs101-sepolicy"/>
+  <remove-project name="device/google/gs-common" />
+  <remove-project name="device/google/raviole" />
+  <remove-project name="device/google/raviole-kernel" />
+  <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-kernel" />
+  <remove-project name="device/google/redbull-sepolicy" />
+  <remove-project name="device/google/redfin" />
+  <remove-project name="device/google/redfin-sepolicy" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
   <remove-project name="device/google/cuttlefish" />
   <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/cuttlefish_vmm" />
@@ -68,33 +68,33 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- external -->
-  <remove-project path="external/f2fs-tools" />
+  <remove-project name="platform/external/f2fs-tools" />
   
   <!-- Frameworks-->
-  <remove-project  path="frameworks/av" />
-  <remove-project path="frameworks/base" />
-  <remove-project path="frameworks/native" />
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
 
   <!--hardware-->
-  <remove-project path="hardware/interfaces" />
-  <remove-project path="hardware/libhardware" />
-  <remove-project path="hardware/qcom/audio" />
-  <remove-project path="hardware/qcom/camera" />
-  <remove-project path="hardware/qcom/data/ipacfg-mgr" />
-  <remove-project path="hardware/qcom/sdm845/display" />
-  <remove-project path="hardware/qcom/sdm845/media" />
-  <remove-project path="hardware/qcom/sm7250/display" />
-  <remove-project path="hardware/qcom/sm7250/media" />
-  <remove-project path="hardware/qcom/sm8150/data/ipacfg-mgr" />
-  <remove-project path="hardware/qcom/sm8150/display" />
-  <remove-project path="hardware/qcom/sm8150/media" />
-  <remove-project path="hardware/qcom/wlan" />
-  <remove-project path="hardware/ril" />
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
+  <remove-project name="platform/hardware/qcom/sm7250/display" />
+  <remove-project name="platform/hardware/qcom/sm7250/media" />
+  <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sm8150/display" />
+  <remove-project name="platform/hardware/qcom/sm8150/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
 
   <!-- Packages -->
-  <remove-project path="packages/apps/Bluetooth" />
-  <remove-project path="packages/apps/Nfc" />
-  <remove-project path="packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Settings" />
 
   <!--prebuilt-->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -103,10 +103,10 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
 
   <!--system-->
-  <remove-project path="system/bt" />
-  <remove-project path="system/security" />
-  <remove-project path="system/sepolicy" />
-  <remove-project path="system/update_engine" />
-  <remove-project path="system/vold"/>
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold"/>
 
 </manifest>
