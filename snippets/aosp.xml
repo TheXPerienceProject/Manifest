@@ -168,7 +168,7 @@
   <project path="external/downloader" name="platform/external/downloader" groups="pdk" remote="aosp" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer,pdk-fs" remote="aosp" />
   <project path="external/drrickorang" name="platform/external/drrickorang" groups="pdk" remote="aosp" />
-  <project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
+  <project path="external/dtc" name="platform/external/dtc" groups="pdk" remote="aosp" />
   <project path="external/dynamic_depth" name="platform/external/dynamic_depth" groups="pdk" remote="aosp" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" remote="aosp" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" remote="aosp" />
@@ -186,7 +186,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fec" name="platform/external/fec" groups="pdk" remote="aosp" />
   <project path="external/fft2d" name="platform/external/fft2d" groups="pdk" remote="aosp" />
-  <project path="external/firebase-messaging" name="platform/external/firebase-messaging" groups="pdk"/>
+  <project path="external/firebase-messaging" name="platform/external/firebase-messaging" groups="pdk" remote="aosp" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" remote="aosp" />
   <project path="external/flatbuffers" name="platform/external/flatbuffers" groups="pdk" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk" remote="aosp" />
@@ -918,7 +918,7 @@
   <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/AlternativeNetworkAccess" name="platform/packages/services/AlternativeNetworkAccess" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" groups="pdk-cw-fs,pdk-fs"/>
+  <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Mtp" name="platform/packages/services/Mtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -1032,7 +1032,7 @@
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
   <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
   <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" remote="aosp" />
-  <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk"/>
+  <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk" remote="aosp" />
   <project path="system/teeui" name="platform/system/teeui" groups="pdk" remote="aosp" />
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" remote="aosp" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" remote="aosp" />
