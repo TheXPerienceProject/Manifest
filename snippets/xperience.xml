@@ -2,7 +2,29 @@
 <manifest>
 
   <project path="Manifest" name="TheXPerienceProject/Manifest" remote="xpe" />
+  
+  <project path="art" name="TheXPerienceProject/android_art" groups="pdk" remote="xpe" />
+
+  <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
  
+   <!-- Build -->
+  <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="TheXPerienceProject/android_build_soong" groups="pdk,tradefed" remote="xpe" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
+
   <!--device-->
   <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" groups="qcom,qssi" remote="xpe" revision="xpe-16.1-caf-L"/>
   <project path="device/qcom/sepolicy-legacy-um" name="TheXPerienceProject/android_device_qcom_sepolicy" groups="qcom,sdm660" remote="xpe" revision="xpe-16.0-legacy-um" />
@@ -14,16 +36,31 @@
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm845" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm845" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
+  <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" remote="xpe" revision="xpe-16.1-caf-L" />
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" groups="proton"  revision="sc-v2" />
+  <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
+  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/f2fs-tools" name="AOSPA/android_external_f2fs-tools" remote="github" revision="sapphire" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="lineage" />
+  <project path="external/libcxx" name="LineageOS/android_external_libcxx" remote="lineage" />
+  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" remote="lineage" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="lineage" />
+  <project path="external/setupcompat" name="LineageOS/android_external_setupcompat" groups="pdk" remote="lineage" />
+  <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" groups="proton" revision="sc-v2" />
+  <project path="external/wpa_supplicant_8" name="TheXPerienceProject/android_external_wpa_supplicant_8" remote="xpe" />
+  <project path="external/zlib-ng" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" revision="xpe-16.1-caf-L" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" remote="xpe" />
   <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk" remote="xpe" />
   <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe" />
+  <project path="frameworks/opt/telephony" name="TheXPerienceProject/android_frameworks_opt_telephony" groups="pdk" remote="xpe" />
+  <project path="frameworks/opt/timezonepicker" name="TheXPerienceProject/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="frameworks/libs/systemui" name="TheXPerienceProject/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
   <!-- Hardware aosp-->
   <project path="hardware/interfaces" name="TheXPerienceProject/android_hardware_interfaces" groups="pdk" remote="xpe" />
@@ -97,6 +134,7 @@
   <project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,lahaina" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
   <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,sdm845" revision="lineage-19.1-caf" remote="lineage" />
+  <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" remote="xpe" revision="xpe-16.1-caf-L" />
 
   <!-- Libcore -->
 
@@ -109,13 +147,22 @@
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" groups="pdk-fs,proton" remote="github" revision="main" />
   <project path="packages/apps/Seedvault" name="TheXPerienceProject/android_packages_apps_Seedvault" groups="pdk-fs" remote="xpe" revision="xpe-16.1-caf-L"/>
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
+  <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/SetupWizard" name="TheXPerienceProject/android_packages_apps_SetupWizard" remote="xpe" revision="xpe-16.1-caf-L"/>
   <project path="packages/apps/SimpleDeviceconfig" name="ProtonAOSP/android_packages_apps_SimpleDeviceConfig" remote="github" revision="sc-v2" />
   <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" revision="xpe-16.1-caf-L"/>
   <project path="packages/apps/XPerienceDoze" name="TheXPerienceProject/android_packages_apps_XPerienceDoze" remote="xpe" revision="xpe-16.1-caf-L"/>
   <project path="packages/apps/XPerienceWallpapers" name="TheXPerienceProject/android_packages_apps_XPerienceWallpapers" groups="pdk-fs" remote="xpe" revision="xpe-16.1-caf-L"/>
+  <project path="packages/modules/adb" name="TheXPerienceProject/android_packages_modules_adb" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="packages/modules/common" name="TheXPerienceProject/android_packages_modules_common" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="packages/modules/Connectivity" name="TheXPerienceProject/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="packages/modules/Permission" name="TheXPerienceProject/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="packages/modules/Wifi" name="TheXPerienceProject/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/overlay/xperience" name="TheXPerienceProject/android_packages_overlay_XPerience" remote="xpe" revision="xpe-16.1-caf-L"/>
+  <project path="packages/providers/DownloadProvider" name="TheXPerienceProject/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="packages/providers/TelephonyProvider" name="TheXPerienceProject/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" revision="lineage-19.1" />
+  <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
