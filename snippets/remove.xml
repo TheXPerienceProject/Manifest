@@ -71,9 +71,9 @@
   <remove-project path="external/f2fs-tools" />
   
   <!-- Frameworks-->
-  <project path="frameworks/av" />
-  <project path="frameworks/base" />
-  <project path="frameworks/native" />
+  <remove-project  path="frameworks/av" />
+  <remove-project path="frameworks/base" />
+  <remove-project path="frameworks/native" />
 
   <!--hardware-->
   <remove-project path="hardware/interfaces" />
