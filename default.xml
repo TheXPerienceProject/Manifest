@@ -3,28 +3,20 @@
 
   <!-- AOSP -->
   <remote name="aosp"
-          fetch="https://android.googlesource.com"
-          review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-12.1.0_r4"/>
+        fetch="https://android.googlesource.com"
+        review="android-review.googlesource.com"
+        revision="refs/tags/android-12.1.0_r7" />
 
-  <!-- CAF -->
-  <remote name="caf_system"
-          fetch="https://git.codelinaro.org/clo/la"
-          review="codelinaro.org"/>
-
-  <remote name="caf_vendor"
-          fetch="https://git.codelinaro.org/clo/la"
-          review="codelinaro.org"
-		  revision="refs/tags/LA.UM.9.14.r1-19600.01-LAHAINA.QSSI12.0"/>
-
-  <default revision="refs/tags/LA.QSSI.12.0.r1-07600-qssi.0"
-           remote="caf_system" />
+  <default revision="refs/heads/xpe-16.1-L"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
 
   <!--XPerience Stuff-->
   <remote name="xpe"
           fetch=".."
           review="https://github.com/TheXPerienceProject/"
-          revision="refs/heads/xpe-16.1-caf-L" />
+          revision="refs/heads/xpe-16.1-L" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com"
@@ -50,9 +42,8 @@
           fetch="https://gitlab.pixelexperience.org/android"
           revision="twelve" />
 
-  <include name="snippets/system.xml"/>
-  <include name="snippets/vendor.xml"/>
-  <include name="snippets/remove.xml"/>
-  <include name="snippets/xperience.xml"/>
+  <include name="snippets/aosp.xml"/>
+  <!--<include name="snippets/remove.xml"/>
+  <include name="snippets/xperience.xml"/>-->
 
 </manifest>
