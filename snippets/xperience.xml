@@ -106,7 +106,7 @@
   <project path="packages/apps/FaceUnlockService" name="TheXPerienceProject/packages_apps_FaceUnlockService" groups="pdk-fs" remote="xpe" revision="xpe-16.1-caf-L"/>
   <project path="packages/apps/ExactCalculator" name="TheXPerienceProject/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="xpe" revision="xpe-16.1-caf-L"/>
   <project path="packages/apps/Nfc" name="TheXPerienceProject/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="xpe" />
-  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" groups="pdk-fs" remote="github" groups="proton" revision="main" />
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" groups="pdk-fs,proton" remote="github" revision="main" />
   <project path="packages/apps/Seedvault" name="TheXPerienceProject/android_packages_apps_Seedvault" groups="pdk-fs" remote="xpe" revision="xpe-16.1-caf-L"/>
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/SetupWizard" name="TheXPerienceProject/android_packages_apps_SetupWizard" remote="xpe" revision="xpe-16.1-caf-L"/>
