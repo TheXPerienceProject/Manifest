@@ -141,7 +141,7 @@
 
   <!--Packages -->
   <project path="external/Camera" name="TheXPerienceProject/android_external_Camera" groups="pdk-fs" remote="xpe" revision="xpe-16.1-caf-L"/>
-  <project path="packages/apps/Bluetooth" name="TheXPerienceProject/packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="packages/apps/Bluetooth" name="TheXPerienceProject/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/apps/FaceUnlockService" name="TheXPerienceProject/packages_apps_FaceUnlockService" groups="pdk-fs" remote="xpe" revision="xpe-16.1-caf-L"/>
   <project path="packages/apps/ExactCalculator" name="TheXPerienceProject/android_packages_apps_ExactCalculator" groups="pdk-fs" remote="xpe" revision="xpe-16.1-caf-L"/>
   <project path="packages/apps/Launcher3" name="TheXPerienceProject/android_packages_apps_Launcher3" groups="pdk-fs" remote="xpe" />
