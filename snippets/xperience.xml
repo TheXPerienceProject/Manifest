@@ -137,6 +137,7 @@
   <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" remote="xpe" revision="xpe-16.1-caf-L" />
 
   <!-- Libcore -->
+  <project path="libcore" name="TheXPerienceProject/android_libcore" groups="pdk" remote="xpe" />
 
   <!--Packages -->
   <project path="external/Camera" name="TheXPerienceProject/android_external_Camera" groups="pdk-fs" remote="xpe" revision="xpe-16.1-caf-L"/>
