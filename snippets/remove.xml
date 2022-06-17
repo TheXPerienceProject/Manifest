@@ -93,6 +93,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/timezonepicker" />
+  <remove-project name="platform/frameworks/libs/systemui" />
 
   <!--hardware-->
   <remove-project name="platform/hardware/interfaces" />
