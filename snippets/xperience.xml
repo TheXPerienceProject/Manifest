@@ -21,6 +21,9 @@
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" groups="proton" revision="sc-v2" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" remote="xpe" />
+  <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk" remote="xpe" />
+  <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe" />
 
   <!-- Hardware aosp-->
   <project path="hardware/interfaces" name="TheXPerienceProject/android_hardware_interfaces" groups="pdk" remote="xpe" />
@@ -124,6 +127,8 @@
   <!-- System -->
   <project path="system/bt" name="TheXPerienceProject/android_system_bt" groups="pdk" remote="xpe" />
   <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
+  <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
+  <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
   <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
 
   <!-- Vendor qcom -->

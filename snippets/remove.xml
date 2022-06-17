@@ -70,6 +70,11 @@
   <!-- external -->
   <remove-project path="external/f2fs-tools" />
   
+  <!-- Frameworks-->
+  <project path="frameworks/av" />
+  <project path="frameworks/base" />
+  <project path="frameworks/native" />
+
   <!--hardware-->
   <remove-project path="hardware/interfaces" />
   <remove-project path="hardware/libhardware" />
@@ -100,6 +105,8 @@
   <!--system-->
   <remove-project path="system/bt" />
   <remove-project path="system/security" />
+  <remove-project path="system/sepolicy" />
+  <remove-project path="system/update_engine" />
   <remove-project path="system/vold"/>
 
 </manifest>

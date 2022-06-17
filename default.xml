@@ -43,7 +43,7 @@
           revision="twelve" />
 
   <include name="snippets/aosp.xml"/>
-  <!--<include name="snippets/remove.xml"/>
-  <include name="snippets/xperience.xml"/>-->
+  <include name="snippets/remove.xml"/>
+  <include name="snippets/xperience.xml"/>
 
 </manifest>
