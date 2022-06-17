@@ -177,6 +177,7 @@
 
   <!-- System -->
   <project path="system/bt" name="TheXPerienceProject/android_system_bt" groups="pdk" remote="xpe" />
+  <project path="system/logging" name="TheXPerienceProject/android_system_logging" remote="xpe" />
   <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
   <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
@@ -206,6 +207,7 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="lineage" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" remote="lineage" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,sdm845" remote="lineage" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="TheXPerienceProject/vendor_qcom_opensource_healthd-ext" remote="xpe" />
   <project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="lineage" />
   <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" groups="qcom,lahaina" remote="xpe" />
   <project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,lahaina" remote="lineage" />
