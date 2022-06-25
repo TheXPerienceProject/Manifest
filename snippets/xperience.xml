@@ -170,6 +170,7 @@
   
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="xpe" />
+  <project path="prebuilts/abi-dumps/ndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_ndk" groups="pdk-fs" clone-depth="1" remote="xpe" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" />
