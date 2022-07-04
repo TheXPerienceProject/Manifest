@@ -32,6 +32,7 @@
   <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" revision="xpe-16.1-caf-L"/>
 
   <!-- External -->
+  <project path="external/androidsystemblur" name="TheXPerienceProject/android_external_androidsystemblur" remote="xpe" />
   <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm845" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm845" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm845" remote="lineage" />
