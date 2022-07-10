@@ -12,7 +12,7 @@
   <remove-project name="platform/cts" />
 
   <!-- Device -->
-  <!--<remove-project name="device/amlogic/yukawa"/>
+  <remove-project name="device/amlogic/yukawa"/>
   <remove-project name="device/amlogic/yukawa-kernel"/>
   <remove-project name="device/common"/>
   <remove-project name="device/generic/arm64"/>
@@ -36,28 +36,23 @@
   <remove-project name="device/google/atv"/>
   <remove-project name="device/google/trout"/>
   <remove-project name="device/google/vrservices"/>
-  <remove-project name="device/sample"/>-->
+  <remove-project name="device/sample" />
   <remove-project name="device/qcom/common"/>
   <remove-project name="device/qcom/vendor-common"/>
   <remove-project name="device/qcom/sepolicy"/>
   <remove-project name="device/qcom/sepolicy_vndr"/>
--->
+
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/f2fs-tools" />
-  <!--<remove-project name="platform/external/fastrpc" />-->
   <remove-project name="platform/external/gptfdisk" />
-<!--  <remove-project name="platform/external/jemalloc_new" />-->
   <remove-project name="platform/external/libxaac"/>
-<!--  <remove-project name="platform/external/mksh"/>
-  <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/scudo" />
-  <remove-project name="platform/external/selinux" />
-  <remove-project name="platform/external/skia" />-->
+  <remove-project name="platform/external/mksh"/>
+  <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/setupcompat" />
   <remove-project name="platform/external/zlib" />
-
   <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- Frameworks -->
@@ -94,11 +89,7 @@
   <remove-project name="platform/libcore" />
 
   <!-- Packages -->
-  <!--<remove-project name="platform/packages/apps/Bluetooth" />-->
-  <!--<remove-project name="platform/packages/apps/Contacts" />
-  <remove-project name="platform/packages/apps/Dialer" />-->
   <remove-project name="platform/packages/apps/Launcher3" />
-<!--  <remove-project name="platform/packages/apps/Messaging" />-->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
@@ -108,7 +99,6 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
-<!--  <remove-project name="platform/packages/inputmethods/LatinIME" />-->
   <remove-project name="platform/packages/providers/DownloadProvider" />
 
   <!-- Prebuilts -->
@@ -132,9 +122,7 @@
 
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/logging" />
-<!--  <remove-project name="platform/system/libziparchive" />
-  <remove-project name="platform/system/memory/lmkd" />
-  <remove-project name="platform/system/security"/>-->
+  <remove-project name="platform/system/security"/>
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
 
