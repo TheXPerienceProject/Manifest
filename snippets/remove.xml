@@ -146,6 +146,7 @@
   <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
   <remove-project name="platform/vendor/nxp/opensource/frameworks" />
   <remove-project name="platform/vendor/nxp/opensource/packages/apps/Nfc" />
+  <remove-project name="platform/vendor/qcom-opensource/audio" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator"/>
   <remove-project name="platform/vendor/qcom-opensource/usb" />

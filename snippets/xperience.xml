@@ -169,6 +169,9 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display-commonsys" remote="xpe" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
   </project>
+  <project  path="vendor/qcom/opensource/commonsys/audio" name="TheXPerienceProject/vendor-qcom-opensource-audio" remote="xpe" >
+    <linkfile dest="vendor/qcom/defs/product-defs/system/audio_system_product.mk" src="configs/qssi/audio_system_product.mk"/>
+  </project>
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" remote="xpe" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
