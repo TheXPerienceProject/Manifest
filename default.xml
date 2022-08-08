@@ -5,7 +5,7 @@
   <remote name="aosp"
         fetch="https://android.googlesource.com"
         review="android-review.googlesource.com"
-        revision="refs/tags/android-12.1.0_r11" />
+        revision="refs/tags/android-12.1.0_r22" />
 
   <default revision="refs/heads/xpe-16.1-L"
            remote="github"
