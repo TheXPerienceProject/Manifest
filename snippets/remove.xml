@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
+  <remove-project name="platform/bootable/recovery" />
+
+  <!-- Frameworks-->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+
+  <!--packages-->
+  <remove-project name="platform/packages/apps/Settings" />
+
+  <!--system-->
+  <remove-project name="platform/system/core" />
+</manifest>

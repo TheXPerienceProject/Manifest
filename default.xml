@@ -38,5 +38,7 @@
            sync-j="4" />
 
   <include name="snippets/aosp.xml"/>
+  <include name="snippets/remove.xml"/>
+  <include name="snippets/xperience.xml"/>
 
 </manifest>
