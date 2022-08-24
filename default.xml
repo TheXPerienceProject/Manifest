@@ -26,12 +26,12 @@
 
   <remote  name="mario"
            fetch="https://github.com/ThankYouMario"
-           revision="sapphire" />
+           revision="topaz" />
 
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/lineage-19.1" />
+           revision="refs/heads/lineage-20.0" />
 
   <default revision="xpe-17.0"
            remote="xpe"
