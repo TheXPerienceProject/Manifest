@@ -42,6 +42,7 @@
   <remove-project name="platform/frameworks/native" />
 
   <!--hardware-->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
 
   <!--packages-->
@@ -51,4 +52,8 @@
 
   <!--system-->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhidl" />
+  <remove-project name="platform/system/security" />
+  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/vold" />
 </manifest>

@@ -35,6 +35,7 @@
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
 
   <!-- Hardware aosp-->
+  <project path="hardware/interfaces" name="TheXPerienceProject/android_hardware_interfaces" groups="pdk" remote="xpe" />
   <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
   <project path="hardware/xiaomi" name="TheXPerienceProject/android_hardware_xiaomi" groups="pdk" remote="xpe" />
 
@@ -92,6 +93,10 @@
 
   <!-- System -->
   <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
+  <project path="system/libhidl" name="TheXPerienceProject/android_system_libhidl" groups="pdk" remote="xpe" />
+  <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
+  <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
+  <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
 
   <!-- Vendor qcom -->
   <!-- NXP additions -->
