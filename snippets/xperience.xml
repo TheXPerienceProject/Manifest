@@ -20,6 +20,11 @@
   <!-- Bootable -->
   <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
 
+  <!--device-->
+  <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" groups="qcom,qssi" remote="xpe" />
+  <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="xpe" revision="xpe-16.1-caf-L"/>
+  <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" revision="xpe-16.1-caf-L"/>
+
   <!--frameworks-->
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="aosp" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
