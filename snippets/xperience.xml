@@ -31,6 +31,7 @@
 
   <!-- Hardware aosp-->
   <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
+  <project path="hardware/xiaomi" name="TheXPerienceProject/android_hardware_xiaomi" groups="pdk" remote="xpe" />
 
   <!-- Hardware-CLO -->
   <project path="hardware/qcom-caf/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="qcom,lahaina" remote="xpe" revision="xpe-17.0-caf" />
