@@ -47,6 +47,7 @@
   <project path="hardware/interfaces" name="TheXPerienceProject/android_hardware_interfaces" groups="pdk" remote="xpe" />
   <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
   <project path="hardware/xiaomi" name="TheXPerienceProject/android_hardware_xiaomi" groups="pdk" remote="xpe" />
+  <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
 
   <!-- Hardware-CLO -->
   <project path="hardware/qcom-caf/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="qcom,lahaina" remote="xpe" revision="xpe-17.0-caf" />
@@ -91,6 +92,9 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
+  <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
+  <project path="packages/modules/Connectivity" name="TheXPerienceProject/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="packages/modules/Permission" name="TheXPerienceProject/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" revision="lineage-19.1" />
   <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
@@ -110,6 +114,7 @@
   <project path="system/logging" name="TheXPerienceProject/android_system_logging" groups="pdk" remote="xpe" />
   <project path="system/media" name="TheXPerienceProject/android_system_media" groups="pdk" remote="xpe" />
   <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
+  <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
   <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" remote="xpe" revision="xpe-16.1-caf-L" />
   <project path="system/tools/mkbootimg" name="TheXPerienceProject/android_system_tools_mkbootimg" groups="pdk" remote="xpe" />
   <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
