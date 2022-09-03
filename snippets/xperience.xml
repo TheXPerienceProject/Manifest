@@ -157,4 +157,6 @@
 
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
+  <project path="vendor/google/gms" name="android_vendor_google_gms" clone-depth="1" remote="unicornlab" />
+  <project path="vendor/google/pixel" name="android_vendor_google_pixel" clone-depth="1" remote="unicornlab" />
 </manifest>
