@@ -18,11 +18,11 @@
            revision="xpe-17.0" />
 
   <remote  name="unicorn"
-           fetch="https://github.com/RainbowUnicorn"
+           fetch="https://github.com/RainbowUnicornXPe"
            revision="xpe-17.0" />
 
   <remote  name="unicornlab"
-           fetch="https://gitlab.com/RainbowUnicorn"
+           fetch="https://gitlab.com/RainbowUnicornXPe"
            revision="xpe-17.0" />
 
   <remote  name="github"
