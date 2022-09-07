@@ -26,9 +26,9 @@
   <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" revision="xpe-16.1-caf-L"/>
 
   <!--frameworks-->
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" remote="xpe" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
-  <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" remote="xpe" />
+  <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" remote="xpe" />
+  <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe" />
   <project path="frameworks/opt/telephony" name="TheXPerienceProject/android_frameworks_opt_telephony" groups="pdk" remote="xpe" />
   <project path="frameworks/opt/timezonepicker" name="TheXPerienceProject/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
