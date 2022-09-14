@@ -89,6 +89,7 @@
   <project path="hardware/qcom-caf/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom,sdm845" revision="xpe-17.0" remote="lineage" />
 
   <!-- Packages -->
+  <project path="packages/apps/GameSpace" name="TheXPerienceProject/android_packages_apps_GameSpace" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
   <project path="packages/modules/Connectivity" name="TheXPerienceProject/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
