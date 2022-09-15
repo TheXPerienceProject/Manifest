@@ -59,10 +59,6 @@
            review="review.lineageos.org"
            revision="refs/heads/lineage-20.0" />
 
-  <default revision="xpe-17.0-caf"
-           remote="xpe"
-           sync-j="4" />
-
   <!--<include name="snippets/remove.xml"/>
   <include name="snippets/xperience.xml"/>-->
 
