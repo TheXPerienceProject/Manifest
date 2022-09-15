@@ -3,27 +3,49 @@
 
   <!-- AOSP -->
   <remote name="aosp"
-        fetch="https://android.googlesource.com"
-        review="android-review.googlesource.com"
-        revision="refs/tags/android-13.0.0_r1" />
+          fetch="https://android.googlesource.com"
+          sync-c="true"
+          sync-tags="false"
+          review="https://android-review.googlesource.com/"
+          revision="refs/tags/android-13.0.0_r3"/>
+
+  <!-- CLO -->
+  <remote name="clo_system"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          review="codelinaro.org"/>
+
+  <remote name="clo_vendor"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          review="codelinaro.org"
+          revision="refs/tags/LA.UM.9.14.2.r1-01700-QCM6490.QSSI12.0"/>
+
+  <default revision="refs/tags/LA.QSSI.13.0.r1-06400-qssi.0"
+           remote="clo_system"/>
+
+  <include name="snippets/system.xml"/>
+  <include name="snippets/vendor.xml"/>
 
   <!--XPerience Stuff-->
   <remote name="xpe"
           fetch=".."
           review="https://github.com/TheXPerienceProject/"
-          revision="refs/heads/xpe-17.0" />
+          revision="refs/heads/xpe-17.0-caf" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com"
-           revision="xpe-17.0" />
+           revision="xpe-17.0-caf" />
 
   <remote  name="unicorn"
            fetch="https://github.com/RainbowUnicornXPe"
-           revision="xpe-17.0" />
+           revision="xpe-17.0-caf" />
 
   <remote  name="unicornlab"
            fetch="https://gitlab.com/RainbowUnicornXPe"
-           revision="xpe-17.0" />
+           revision="xpe-17.0-caf" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -37,12 +59,11 @@
            review="review.lineageos.org"
            revision="refs/heads/lineage-20.0" />
 
-  <default revision="xpe-17.0"
+  <default revision="xpe-17.0-caf"
            remote="xpe"
            sync-j="4" />
 
-  <include name="snippets/aosp.xml"/>
-  <include name="snippets/remove.xml"/>
-  <include name="snippets/xperience.xml"/>
+  <!--<include name="snippets/remove.xml"/>
+  <include name="snippets/xperience.xml"/>-->
 
 </manifest>
