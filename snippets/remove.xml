@@ -35,6 +35,7 @@
   <remove-project name="device/linaro/poplar"/>
   <remove-project name="device/linaro/poplar-kernel"/>
   <remove-project name="device/qcom/qssi_32"/>
+  <remove-project name="device/qcom/common"/>
   <remove-project name="device/qcom/qssi_32go"/>
   <remove-project name="device/sample"/>
 
