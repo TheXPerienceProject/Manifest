@@ -50,14 +50,18 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="mario"
-           fetch="https://github.com/ThankYouMario"
-           revision="topaz" />
-
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
            revision="refs/heads/lineage-20.0" />
+
+  <remote  name="blobs-pa"
+           fetch="https://github.com/ThankYouMario"
+           revision="topaz" />
+
+  <remote  name="blobs-gitlab-pa"
+           fetch="https://gitlab.com/ThankYouMario"
+           revision="topaz" />
 
   <include name="snippets/remove.xml"/>
   <include name="snippets/xperience.xml"/>
