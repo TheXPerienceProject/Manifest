@@ -59,7 +59,7 @@
            review="review.lineageos.org"
            revision="refs/heads/lineage-20.0" />
 
-  <!--<include name="snippets/remove.xml"/>
-  <include name="snippets/xperience.xml"/>-->
+  <include name="snippets/remove.xml"/>
+  <include name="snippets/xperience.xml"/>
 
 </manifest>
