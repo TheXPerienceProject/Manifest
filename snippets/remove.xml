@@ -117,8 +117,14 @@
   <remove-project name="platform/system/vold" />
 
    <!--vendor-->
+  <remove-project name="platform/packages/apps/Mms" />
+  <remove-project name="platform/packages/apps/SnapdragonCamera" />
+  <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
+  <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+  <remove-project name="platform/vendor/qcom/holi" />
   <remove-project name="platform/vendor/qcom-opensource/audio-hal/st-hal" />
   <remove-project name="platform/vendor/qcom-opensource/audio" />
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
