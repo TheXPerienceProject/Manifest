@@ -137,9 +137,14 @@
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
   </project>
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="TheXPerienceProject/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="xpe" >
+    <linkfile dest="vendor/qcom/defs/board-defs/system/bt-system-qssi-board.mk" src="bt-system-qssi-board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
+  </project>
   <project path="vendor/qcom/opensource/commonsys/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
   </project>
+  <project path="vendor/qcom/opensource/commonsys/system/bt"  name="TheXPerienceProject/android_vendor_qcom_opensource_system_bt" remote="xpe" />
   <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom" remote="lineage" revision="lineage-20.0" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" groups="qcom,qssi" remote="xpe" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" />
