@@ -93,6 +93,7 @@
   <!--<project path="hardware/qcom-caf/thermal" name="TheXPerienceProject/android_hardware_qcom_thermal" groups="qcom,lahaina" remote="xpe" />
   <project path="hardware/qcom-caf/vr" name="TheXPerienceProject/android_hardware_qcom_vr" groups="qcom,sdm660" remote="xpe" />-->
   <project path="hardware/qcom-caf/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom,sdm845" revision="xpe-17.0" remote="xpe" />
+  <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,sdm845" remote="xpe" />
 
   <!-- Packages -->
   <project path="packages/apps/GameSpace" name="TheXPerienceProject/android_packages_apps_GameSpace" groups="pdk-fs" remote="xpe" revision="xpe-17.0" />
