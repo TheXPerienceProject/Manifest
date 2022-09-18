@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="art" name="TheXPerienceProject/android_art" groups="pdk" remote="xpe" />
+
   <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
 
    <!-- Build -->
@@ -37,11 +39,15 @@
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
+  <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" groups="pdk" remote="xpe" />
   <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
   <project path="external/json-c" name="TheXPerienceProject/android_external_json-c" groups="qcom,qssi" remote="xpe" />
+  <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
+  <project path="external/sqlite" name="TheXPerienceProject/android_external_sqlite" groups="pdk" remote="xpe" />
+  <project path="external/zlib" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" />
 
   <!-- Hardware aosp-->
   <project path="hardware/interfaces" name="TheXPerienceProject/android_hardware_interfaces" groups="pdk" remote="xpe" />
@@ -116,6 +122,7 @@
   <project path="system/libziparchive" name="TheXPerienceProject/android_system_libziparchive" groups="pdk" remote="xpe" />
   <project path="system/logging" name="TheXPerienceProject/android_system_logging" groups="pdk" remote="xpe" />
   <project path="system/media" name="TheXPerienceProject/android_system_media" groups="pdk" remote="xpe" />
+  <project path="system/memory/lmkd" name="TheXPerienceProject/android_system_memory_lmkd" groups="pdk" remote="xpe" />
   <project path="system/security" name="TheXPerienceProject/android_system_security" groups="pdk" remote="xpe" />
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
   <project path="system/tools/dtbtool" name="TheXPerienceProject/android_system_tools_dtbtool" remote="xpe" revision="xpe-16.1-caf-L" />
