@@ -146,4 +146,5 @@
   <project path="vendor/xperience_themes" name="TheXPerienceProject/android_vendor_xperience_themes" remote="xpe" />
   <project path="vendor/google/gms" name="android_vendor_google_gms" clone-depth="1" remote="unicornlab" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" clone-depth="1" remote="unicornlab" />
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs-pa" revision="14" />
 </manifest>

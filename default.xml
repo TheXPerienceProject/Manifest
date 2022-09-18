@@ -5,6 +5,8 @@
   <remote name="aosp"
         fetch="https://android.googlesource.com"
         review="android-review.googlesource.com"
+        sync-c="true"
+        sync-tags="false"
         revision="refs/tags/android-13.0.0_r1" />
 
   <!--XPerience Stuff-->
@@ -28,8 +30,12 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="mario"
+  <remote  name="blobs-pa"
            fetch="https://github.com/ThankYouMario"
+           revision="topaz" />
+
+  <remote  name="blobs-gitlab-pa"
+           fetch="https://gitlab.com/ThankYouMario"
            revision="topaz" />
 
   <remote  name="lineage"
@@ -38,8 +44,7 @@
            revision="refs/heads/lineage-20.0" />
 
   <default revision="xpe-17.0"
-           remote="xpe"
-           sync-j="4" />
+           remote="xpe" />
 
   <include name="snippets/aosp.xml"/>
   <include name="snippets/remove.xml"/>
