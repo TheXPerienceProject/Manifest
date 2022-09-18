@@ -51,7 +51,7 @@
 
   <!-- Hardware-CLO -->
   <project path="hardware/qcom-caf/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="qcom,lahaina" remote="xpe" revision="xpe-17.0-caf" />
-  <project path="hardware/qcom-caf/common" name="TheXPerienceProject/android_hardware_qcom-caf_common" groups="qcom" remote="xpe" >
+  <project path="hardware/qcom-caf/common" name="TheXPerienceProject/android_hardware_qcom-caf_common" groups="qcom" remote="xpe" revision="xpe-17.0-caf" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
