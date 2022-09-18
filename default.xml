@@ -9,6 +9,14 @@
         sync-tags="false"
         revision="refs/tags/android-13.0.0_r1" />
 
+  <!-- CLO -->
+  <remote name="clo_system"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          review="codelinaro.org"
+          revision="refs/tags/LA.QSSI.13.0.r1-06400-qssi.0" />
+
   <!--XPerience Stuff-->
   <remote name="xpe"
           fetch=".."
