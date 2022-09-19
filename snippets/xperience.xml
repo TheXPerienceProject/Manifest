@@ -24,8 +24,9 @@
 
   <!--device-->
   <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" groups="qcom,qssi" remote="xpe" />
-  <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="xpe" revision="xpe-16.1-caf-L"/>
-  <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" revision="xpe-16.1-caf-L"/>
+  <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" groups="qcom,waipio" remote="xpe" revision="xpe-17.0-waipio" /> <!--LA.VENDOR.1.0.r1-16600-WAIPIO.QSSI13.0-->
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="xpe" revision="xpe-17.0-lahaina" />
+  <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" />
 
   <!--frameworks-->
   <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" remote="xpe" />
