@@ -7,7 +7,7 @@
           sync-c="true"
           sync-tags="false"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-13.0.0_r3"/>
+          revision="refs/tags/android-13.0.0_r4"/>
 
   <!-- CLO -->
   <remote name="clo_system"
@@ -21,9 +21,9 @@
           sync-c="true"
           sync-tags="false"
           review="codelinaro.org"
-          revision="refs/tags/LA.UM.9.14.2.r1-01700-QCM6490.QSSI12.0"/>
+          revision="refs/tags/LA.UM.9.14.2.r1-02700-QCM6490.QSSI12.0"/>
 
-  <default revision="refs/tags/LA.QSSI.13.0.r1-06400-qssi.0"
+  <default revision="refs/tags/LA.QSSI.13.0.r1-07000-qssi.0"
            remote="clo_system"/>
 
   <include name="snippets/system.xml"/>
