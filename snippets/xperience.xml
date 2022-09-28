@@ -97,6 +97,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/GameSpace" name="TheXPerienceProject/android_packages_apps_GameSpace" groups="pdk-fs" remote="xpe" />
+  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" />
