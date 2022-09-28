@@ -149,6 +149,7 @@
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="TheXPerienceProject/vendor_qcom_opensource_commonsys-intf_bluetooth" groups="qcom,qssi" remote="xpe" revision="xpe-17.0-caf" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" groups="qcom,qssi" remote="xpe" />
   <project path="vendor/qcom/opensource/commonsys/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="xpe" />
+  <project path="vendor/qcom/opensource/commonsys/dpm" name="TheXPerienceProject/vendor_qcom_opensource_commonsys_dpm" remote="xpe" />
   <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom" remote="lineage" revision="lineage-20.0" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" groups="qcom,qssi" remote="xpe" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="xpe" />
