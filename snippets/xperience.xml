@@ -42,6 +42,8 @@
   <project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
   <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" groups="pdk" remote="xpe" />
   <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
+  <project path="external/camera" name="TheXPerienceProject/android_external_Camera" remote="xpe" />
+  <project path="external/fastrpc" name="TheXPerienceProject/external_fastrpc" remote="xpe" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
   <project path="external/json-c" name="TheXPerienceProject/android_external_json-c" groups="qcom,qssi" remote="xpe" />
