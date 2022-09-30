@@ -139,7 +139,7 @@
   <project path="vendor/codeaurora/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="xpe" />
   <project path="vendor/qcom/opensource/audio" name="TheXPerienceProject/vendor-qcom-opensource-audio" groups="qcom,qssi" remote="xpe" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="TheXPerienceProject/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="xpe" />
-  <project path="vendor/qcom/opensource/core-utils" name="platform/vendor/qcom-opensource/core-utils" remote="clo_system" >
+  <project path="vendor/qcom/opensource/core-utils" name="platform/vendor/qcom-opensource/core-utils" remote="clo_system" revision="LA.UM.11.2.1.r1-01900-sdm660.0">
     <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
     <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
     <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
