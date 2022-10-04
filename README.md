@@ -21,6 +21,10 @@ Then to sync up:
 
       repo sync -c --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
 
+or:
+
+      repo sync --no-clone-bundle --current-branch --no-tags -j4
+
 --------
 
 ## Building The XPerience Project for your device
