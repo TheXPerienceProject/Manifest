@@ -50,6 +50,7 @@
   <project path="external/json-c" name="TheXPerienceProject/android_external_json-c" groups="qcom,qssi" remote="xpe" />
   <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/sqlite" name="TheXPerienceProject/android_external_sqlite" groups="pdk" remote="xpe" />
   <project path="external/zlib" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" />
 
