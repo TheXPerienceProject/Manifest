@@ -111,7 +111,7 @@
   <project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" remote="xpe" />
   <project path="packages/modules/Connectivity" name="TheXPerienceProject/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/modules/Permission" name="TheXPerienceProject/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
-  <project path="packages/modules/Wifi" name="https://github.com/TheXPerienceProject/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+  <project path="packages/modules/Wifi" name="TheXPerienceProject/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" revision="lineage-20.0" />
   <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
