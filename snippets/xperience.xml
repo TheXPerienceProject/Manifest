@@ -108,7 +108,7 @@
   <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" />
   <project path="packages/apps/XPerienceDoze" name="TheXPerienceProject/android_packages_apps_XPerienceDoze" remote="xpe" />
-  <project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" remote="xpe" />
+  <project path="packages/modules/Bluetooth" name="TheXPerienceProject/android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
   <project path="packages/modules/Connectivity" name="TheXPerienceProject/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/modules/Permission" name="TheXPerienceProject/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/modules/Wifi" name="TheXPerienceProject/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
