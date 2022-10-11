@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+
+  <project path="art" name="TheXPerienceProject/android_art" groups="pdk" remote="xpe" />
   <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
 
    <!-- Build -->
@@ -25,7 +27,7 @@
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" groups="qcom,qssi" remote="xpe" revision="xpe-17.0" />
-  <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="xpe" revision="xpe-17.0" />
+  <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="xpe" revision="xpe-17.0-lahaina" />
   <project path="device/xperience/common" name="TheXPerienceProject/android_device_xperience_common" remote="xpe" />
   <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" revision="xpe-17.0" />
 
@@ -40,10 +42,15 @@
   <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
+  <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" groups="pdk" remote="xpe" />
   <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
   <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
+  <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" revision="xpe-17.0" />
+  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
+  <project path="external/sqlite" name="TheXPerienceProject/android_external_sqlite" groups="pdk" remote="xpe" revision="xpe-17.0" />
+  <project path="external/zlib" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" revision="xpe-17.0" />
 
   <!-- Hardware aosp-->
   <project path="hardware/interfaces" name="TheXPerienceProject/android_hardware_interfaces" groups="pdk" remote="xpe" />
@@ -96,12 +103,13 @@
   <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,sdm845" remote="xpe" />
 
   <!-- Packages -->
+  <project path="packages/apps/Aperture" name="TheXPerienceProject/android_packages_apps_Aperture" remote="xpe" revision="xpe-17.0" />
   <project path="packages/apps/GameSpace" name="TheXPerienceProject/android_packages_apps_GameSpace" groups="pdk-fs" remote="xpe" revision="xpe-17.0" />
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" revision="xpe-17.0" />
   <project path="packages/apps/XPerienceDoze" name="TheXPerienceProject/android_packages_apps_XPerienceDoze" remote="xpe" revision="xpe-17.0" />
-  <!--<project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" remote="aosp" />-->
+  <project path="packages/modules/Bluetooth" name="TheXPerienceProject/android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
   <project path="packages/modules/Connectivity" name="TheXPerienceProject/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/modules/Permission" name="TheXPerienceProject/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" revision="lineage-20.0" />
@@ -149,10 +157,12 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" groups="qcom,qssi" remote="xpe" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" />
   <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="xpe" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="TheXPerienceProject/android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="xpe" />
   <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" groups="qcom,lahaina" remote="xpe" >
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
   </project>
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="TheXPerienceProject/android_vendor_qcom_opensource_system_bt" remote="xpe" />
   <project path="vendor/qcom/opensource/thermal-engine" name="TheXPerienceProject/android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="xpe" />
   <project path="vendor/qcom/opensource/usb" name="TheXPerienceProject/vendor_qcom-opensource_usb" groups="qcom,lahaina" remote="xpe" >
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>

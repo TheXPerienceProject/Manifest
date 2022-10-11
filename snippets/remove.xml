@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build_repo" />
   <remove-project name="platform/build/soong" />
@@ -42,10 +43,14 @@
   <remove-project name="device/sample"/>
 
   <!-- external -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/exfatprogs" />
+  <remove-project name="platform/external/sqlite" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks-->
   <remove-project name="platform/frameworks/av" />
@@ -83,6 +88,7 @@
   <!--packages-->
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/services/Telecomm" />
@@ -134,7 +140,9 @@
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
+  <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
+  <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <remove-project name="platform/vendor/qcom-opensource/thermal-engine" />
   <remove-project name="platform/vendor/qcom-opensource/usb" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
