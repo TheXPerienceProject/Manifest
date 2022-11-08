@@ -27,7 +27,7 @@
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" groups="qcom,qssi" remote="xpe" revision="xpe-17.0" />
-  <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="xpe" revision="xpe-17.0-lahaina" />
+  <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="xpe" revision="xpe-17.0-lahaina2" />
   <project path="device/xperience/common" name="TheXPerienceProject/android_device_xperience_common" remote="xpe" />
   <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" revision="xpe-17.0" />
 
