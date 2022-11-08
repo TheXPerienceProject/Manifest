@@ -65,7 +65,7 @@
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
-    <!--<linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />-->
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/nxp/Android.bp" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
     <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
@@ -84,7 +84,7 @@
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />-->
-    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="vendor/nxp/opensource/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/Android.mk" />
   </project>
   <!--<project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-20.0-caf" remote="lineage" />-->
@@ -132,6 +132,7 @@
   <project path="system/libhidl" name="TheXPerienceProject/android_system_libhidl" groups="pdk" remote="xpe" />
   <project path="system/libziparchive" name="TheXPerienceProject/android_system_libziparchive" groups="pdk" remote="xpe" />
   <project path="system/logging" name="TheXPerienceProject/android_system_logging" groups="pdk" remote="xpe" />
+  <project path="system/memory/lmkd" name="TheXPerienceProject/android_system_memory_lmkd" groups="pdk" remote="xpe" />
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
   <project path="system/tools/mkbootimg" name="TheXPerienceProject/android_system_tools_mkbootimg" groups="pdk" remote="xpe" />
   <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
