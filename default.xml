@@ -63,6 +63,15 @@
            fetch="https://gitlab.com/ThankYouMario"
            revision="topaz" />
 
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="thirteen" />
+
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="thirteen"
+          review="gerrit.pixelexperience.org" />
+
   <include name="snippets/remove.xml"/>
   <include name="snippets/xperience.xml"/>
 
