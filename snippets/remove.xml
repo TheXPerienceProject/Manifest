@@ -114,6 +114,7 @@
   <remove-project name="platform/prebuilts/android-emulator" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
   <remove-project name="platform/prebuilts/build-tools" />
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk"/>
 
   <!--system-->
