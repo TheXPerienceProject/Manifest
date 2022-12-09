@@ -60,7 +60,7 @@
   <project path="hardware/interfaces" name="TheXPerienceProject/android_hardware_interfaces" groups="pdk" remote="xpe" />
   <project path="hardware/google/pixel" name="TheXPerienceProject/android_hardware_google_pixel" groups="pdk" remote="xpe" />
   <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
-  <project path="hardware/xiaomi" name="TheXPerienceProject/android_hardware_xiaomi" groups="pdk" remote="xpe" />
+  <project path="hardware/xiaomi" name="TheXPerienceProject/android_hardware_xiaomi" groups="pdk" remote="xpe" revision="xpe-17.0-caf-new" />
   <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
 
   <!-- Hardware-CLO -->
