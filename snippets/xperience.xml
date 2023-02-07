@@ -99,7 +99,7 @@
   <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,kona" revision="lineage-20.0-caf-sm8250" remote="lineage" />
   <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kona" revision="lineage-20.0-caf-sm8250" remote="lineage" />
   <project path="hardware/qcom-caf/sm8350/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8350/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350" remote="xpe" />
+  <project path="hardware/qcom-caf/sm8350/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
   <project path="hardware/qcom-caf/sm8350/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350" remote="xpe" />
   <!--<project path="hardware/qcom-caf/thermal" name="TheXPerienceProject/android_hardware_qcom_thermal" groups="qcom,lahaina" remote="xpe" />
   <project path="hardware/qcom-caf/vr" name="TheXPerienceProject/android_hardware_qcom_vr" groups="qcom,sdm660" remote="xpe" />-->
@@ -150,7 +150,8 @@
     <linkfile dest="vendor/qcom/defs/product-defs/system/audio_system_product.mk" src="configs/qssi/audio_system_product.mk"/>
   </project>
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="TheXPerienceProject/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="xpe" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" groups="qcom,qssi" remote="xpe" >
+  <project path="vendor/qcom/opensource/commonsys-intf/
+                 " name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" groups="qcom,qssi" remote="xpe" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
   </project>
@@ -161,7 +162,7 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
   </project>
-  <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom" remote="lineage" revision="lineage-20.0" />
+  <project path="vendor/qcom/opensource/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display" groups="qcom" remote="xpe" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" groups="qcom,qssi" remote="xpe" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" />
   <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="xpe" />
