@@ -150,8 +150,7 @@
     <linkfile dest="vendor/qcom/defs/product-defs/system/audio_system_product.mk" src="configs/qssi/audio_system_product.mk"/>
   </project>
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="TheXPerienceProject/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="xpe" />
-  <project path="vendor/qcom/opensource/commonsys-intf/
-                 " name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" groups="qcom,qssi" remote="xpe" >
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" groups="qcom,qssi" remote="xpe" >
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
   </project>
