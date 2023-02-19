@@ -95,9 +95,9 @@
   <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-20.0-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="qcom,msmnile" revision="xpe-17.0-caf-sm8150-new" remote="xpe" />
   <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-20.0-caf-sm8150" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,kona" revision="lineage-20.0-caf-sm8250" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,kona" revision="lineage-20.0-caf-sm8250" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kona" revision="lineage-20.0-caf-sm8250" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,kona" revision="xpe-17.0-caf-sm8250" remote="xpe" />
+  <project path="hardware/qcom-caf/sm8250/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="qcom,kona" revision="xpe-17.0-caf-sm8250" remote="xpe" />
+  <project path="hardware/qcom-caf/sm8250/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,kona" revision="xpe-17.0-caf-sm8250" remote="xpe" />
   <project path="hardware/qcom-caf/sm8350/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
   <project path="hardware/qcom-caf/sm8350/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
   <project path="hardware/qcom-caf/sm8350/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
