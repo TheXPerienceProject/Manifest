@@ -49,6 +49,7 @@
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
+  <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/sqlite" />

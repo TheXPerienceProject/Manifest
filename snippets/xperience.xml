@@ -53,6 +53,7 @@
   <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" remote="xpe" />
   <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" revision="xpe-17.0" />
   <project path="external/libpng" name="TheXPerienceProject/android_external_libpng"  remote="xpe" />
+  <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto"  remote="xpe" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
   <project path="external/sqlite" name="TheXPerienceProject/android_external_sqlite" groups="pdk" remote="xpe" revision="xpe-17.0" />
