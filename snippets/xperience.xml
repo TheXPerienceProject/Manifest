@@ -53,7 +53,7 @@
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
   <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" remote="xpe" />
-  <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" revision="xpe-17.0" />
+  <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
   <project path="external/libpng" name="TheXPerienceProject/android_external_libpng"  remote="xpe" />
   <project path="external/lz4" name="TheXPerienceProject/android_external_lz4" remote="xpe" />
   <project path="external/mimalloc" name="TheXPerienceProject/android_external_mimalloc" remote="xpe" />
