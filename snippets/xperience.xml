@@ -198,5 +198,5 @@
   <project path="vendor/google/gms" name="android_vendor_google_gms" clone-depth="1" remote="unicornlab" revision="xpe-17.0"  />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" clone-depth="1" remote="unicornlab" revision="xpe-17.0"  />
   <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
-  <project path="vendor/qcom/sdclang" name="TheXPerienceProject/proprietary_vendor_qcom_sdclang" remote="xpe" revision="14" />
+  <project path="vendor/qcom/sdclang" name="TheXPerienceProject/proprietary_vendor_qcom_sdclang" remote="gitlab" revision="14" />
 </manifest>
