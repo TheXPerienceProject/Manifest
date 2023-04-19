@@ -56,7 +56,6 @@
   <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
   <project path="external/libpng" name="TheXPerienceProject/android_external_libpng"  remote="xpe" />
   <project path="external/lz4" name="TheXPerienceProject/android_external_lz4" remote="xpe" />
-  <project path="external/mimalloc" name="TheXPerienceProject/android_external_mimalloc" remote="xpe" />
   <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto"  remote="xpe" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
   <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
