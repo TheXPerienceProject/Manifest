@@ -152,6 +152,7 @@
   <project path="system/libziparchive" name="TheXPerienceProject/android_system_libziparchive" groups="pdk" remote="xpe" />
   <project path="system/logging" name="TheXPerienceProject/android_system_logging" groups="pdk" remote="xpe" />
   <project path="system/memory/lmkd" name="TheXPerienceProject/android_system_memory_lmkd" groups="pdk" remote="xpe" />
+  <project path="vendor/qcom/opensource/softap" name="TheXPerienceProject/android_system_qcom" remote="xpe"/>
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
   <project path="system/tools/mkbootimg" name="TheXPerienceProject/android_system_tools_mkbootimg" groups="pdk" remote="xpe" />
   <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
