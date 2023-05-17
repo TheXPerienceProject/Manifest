@@ -119,6 +119,9 @@
   <project path="hardware/qcom-caf/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom,sdm845" revision="xpe-17.0" remote="xpe" />
   <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,sdm845" remote="xpe" />
 
+  <!-- Kernel Tools-->
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.75" />
+  
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="TheXPerienceProject/android_packages_apps_Aperture" remote="xpe" revision="xpe-17.0" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
