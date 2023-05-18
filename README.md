@@ -19,7 +19,7 @@ To initialize your local repository using the XPerience CAF trees, use a command
     
 Then to sync up:
 
-      repo sync --force-sync --no-tags --no-clone-bundle -j$(nproc --all) --optimized-fetch --prune
+    repo sync --force-sync --no-tags -j$(nproc --all) --optimized-fetch --prune
 
 --------
 
