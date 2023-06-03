@@ -46,6 +46,7 @@
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
   <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" groups="pdk" remote="xpe" />
+  <project path="external/cldr" name="TheXPerienceProject/android_external_cldr" clone-depth="1" remote="xpe" />
   <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
   <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="b5bbcb383357b92acb10082878b32bbe831a2137" />
@@ -53,6 +54,7 @@
   <project path="external/f2fs-tools" name="TheXPerienceProject/android_external_f2fs-tools" remote="xpe"/>
   <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
+  <project path="external/icu" name="TheXPerienceProject/android_external_icu" remote="xpe" />
   <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" remote="xpe" />
   <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
   <project path="external/libpng" name="TheXPerienceProject/android_external_libpng"  remote="xpe" />
@@ -158,6 +160,7 @@
   <project path="system/memory/lmkd" name="TheXPerienceProject/android_system_memory_lmkd" groups="pdk" remote="xpe" />
   <project path="vendor/qcom/opensource/softap" name="TheXPerienceProject/android_system_qcom" remote="xpe"/>
   <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
+  <project path="system/timezone" name="TheXPerienceProject/android_system_timezone" remote="xpe" />
   <project path="system/tools/mkbootimg" name="TheXPerienceProject/android_system_tools_mkbootimg" groups="pdk" remote="xpe" />
   <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
   <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />

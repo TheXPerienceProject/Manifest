@@ -43,10 +43,12 @@
 
   <!-- external -->
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/cldr" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/icu" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libpng" />
@@ -129,6 +131,7 @@
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/qcom" />
+  <remove-project name="platform/system/timezone" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
