@@ -184,7 +184,8 @@
   </project>
   <project path="vendor/qcom/opensource/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display" groups="qcom" remote="xpe" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" groups="qcom,qssi" remote="xpe" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" revision="xpe-17.0-caf-legacy"/>
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,waipio" remote="xpe" />
   <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="xpe" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="TheXPerienceProject/android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="xpe" />
   <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" groups="qcom,lahaina" remote="xpe" >
