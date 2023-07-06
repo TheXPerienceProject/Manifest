@@ -127,7 +127,7 @@
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="TheXPerienceProject/android_packages_apps_Aperture" remote="xpe" revision="xpe-17.0" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
-  <project path="packages/apps/GameSpace" name="TheXPerienceProject/android_packages_apps_GameSpace" groups="pdk-fs" remote="xpe" revision="xpe-17.0" />
+  <project path="packages/apps/GameSpace" name="TheXPerienceProject/android_packages_apps_GameSpace" groups="pdk-fs" remote="xpe" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
   <project path="packages/apps/SetupWizard" name="TheXPerienceProject/android_packages_apps_SetupWizard" remote="xpe" />
   <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" revision="xpe-17.0-caf-qpr3"  />
