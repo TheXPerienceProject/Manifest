@@ -36,7 +36,7 @@
           revision="refs/heads/xpe-17.0-caf" />
 
   <remote  name="gitlab"
-           fetch="https://gitlab.com"
+           fetch="https://gitlab.com/"
            revision="xpe-17.0-caf" />
 
   <remote  name="unicorn"

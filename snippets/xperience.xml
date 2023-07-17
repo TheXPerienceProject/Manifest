@@ -215,6 +215,7 @@
   <!--Vendor-->
   <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
   <project path="vendor/xperience_themes" name="TheXPerienceProject/android_vendor_xperience_themes" remote="xpe" />
+  <project path="vendor/xperience_shutdown" name="TheXPerienceProject/android_vendor_xperience_shutdownanimation" remote="gitlab" />
   <project path="vendor/google/gms" name="android_vendor_google_gms" clone-depth="1" remote="unicornlab" revision="xpe-17.0"  />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" clone-depth="1" remote="unicornlab" revision="xpe-17.0"  />
   <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
