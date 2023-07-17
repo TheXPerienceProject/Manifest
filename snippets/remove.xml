@@ -148,6 +148,7 @@
   <remove-project name="platform/vendor/qcom/holi" />
   <remove-project name="platform/vendor/qcom-opensource/audio-hal/st-hal" />
   <remove-project name="platform/vendor/qcom-opensource/audio" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils">
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />

@@ -182,6 +182,16 @@
   <project path="vendor/qcom/opensource/commonsys/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="xpe">
     <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
   </project>
+  <project path="vendor/qcom/opensource/core-utils" name="TheXPerienceProject/vendor_qcom_opensource_core-utils" remote="xpe" >
+    <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
+    <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
+    <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
+    <linkfile dest="vendor/qcom/build/tasks/generate_vendor_bundle.mk" src="image_generation_tool/generate_vendor_bundle.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/image_generation_tool_product.mk" src="image_generation_tool/config/image_generation_tool_product.mk"/>
+    <linkfile dest="build.sh" src="build/build.sh"/>
+    <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
+    <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
+  </project>
   <project path="vendor/qcom/opensource/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display" groups="qcom" remote="xpe" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" groups="qcom,qssi" remote="xpe" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" revision="xpe-17.0-caf-legacy"/>
