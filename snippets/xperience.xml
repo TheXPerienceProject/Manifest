@@ -96,6 +96,9 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
     <!--<linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
@@ -116,6 +119,11 @@
   <project path="hardware/qcom-caf/sm8350/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
   <project path="hardware/qcom-caf/sm8350/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
   <project path="hardware/qcom-caf/sm8350/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
+  <project path="hardware/qcom-caf/sm8450/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8450/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8450/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-sm8450" remote="lineage"  />
+  <project path="hardware/qcom-caf/sm8450/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
   <!--<project path="hardware/qcom-caf/thermal" name="TheXPerienceProject/android_hardware_qcom_thermal" groups="qcom,lahaina" remote="xpe" />
   <project path="hardware/qcom-caf/vr" name="TheXPerienceProject/android_hardware_qcom_vr" groups="qcom,sdm660" remote="xpe" />-->
   <project path="hardware/qcom-caf/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom,waipio" remote="xpe" />
