@@ -21,9 +21,9 @@
           sync-c="true"
           sync-tags="false"
           review="codelinaro.org"
-          revision="refs/tags/LA.UM.9.14.r1-21600-LAHAINA.QSSI14.0"/>
+          revision="refs/tags/LA.UM.9.14.1.r1-11100-QCM6490.QSSI13.0"/>
 
-  <default revision="refs/tags/LA.QSSI.13.0.r1-11500-qssi.0"
+  <default revision="refs/tags/LA.QSSI.13.0.r1-11700-qssi.0"
            remote="clo_system"/>
 
   <include name="snippets/system.xml"/>
