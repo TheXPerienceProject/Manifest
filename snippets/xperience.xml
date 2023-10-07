@@ -2,7 +2,6 @@
 <manifest>
   <!--XPerience Stuff-->
   <remote name="xpe"
-          fetch=".."
           review="https://github.com/TheXPerienceProject/"
           revision="refs/heads/xpe-18.0" />
 
