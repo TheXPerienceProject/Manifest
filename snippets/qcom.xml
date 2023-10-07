@@ -16,9 +16,9 @@
       <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/Android.mk" />
     </project>
 
-    <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
-    <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
-    <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
+    <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" groups="qcom,lahaina" revision="xpe-18.0-caf-sm8350-new" remote="xpe" />
+    <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="qcom,lahaina" revision="xpe-18.0-caf-sm8350-new" remote="xpe" />
+    <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" groups="qcom,lahaina" revision="xpe-18.0-caf-sm8350-new" remote="xpe" />
     <project path="hardware/qcom-caf/sm8450/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
     <project path="hardware/qcom-caf/sm8450/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
     <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
@@ -36,8 +36,8 @@
     <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="xpe" revision="xpe-17.0-caf" >
       <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
     </project>
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" revision="xpe-17.0-caf-legacy" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,waipio" remote="xpe" revision="xpe-17.0-caf" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" revision="xpe-18.0-legacy" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,waipio" remote="xpe" />
     <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom-opensource_fm-commonsys" groups="qcom,qssi" remote="xpe" revision="xpe-17.0-caf" />
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="xpe" revision="xpe-17.0-caf" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" groups="qcom,lahaina" remote="xpe" >
