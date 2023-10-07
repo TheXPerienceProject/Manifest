@@ -44,12 +44,12 @@
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
       <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
     </project>
-    <project path="vendor/qcom/opensource/thermal-engine" name="TheXPerienceProject/android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" />
+    <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" />
     <project path="vendor/qcom/opensource/usb" name="vendor_qcom-opensource_usb" groups="qcom,lahaina" remote="xpe" >
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
     </project>
     <project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" >
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
     </project>
-    <project path="vendor/qcom/opensource/wfd-commonsys" name="TheXPerienceProject/vendor_qcom-opensource_wfd-commonsys" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" />
+    <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom-opensource_wfd-commonsys" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" />
 </manifest>
