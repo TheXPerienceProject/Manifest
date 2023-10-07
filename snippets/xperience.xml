@@ -2,7 +2,7 @@
 <manifest>
   <!--XPerience Stuff-->
   <remote name="xpe"
-          review="https://github.com/TheXPerienceProject/"
+          fetch="https://github.com/TheXPerienceProject/"
           revision="refs/heads/xpe-18.0" />
 
   <remote  name="gitlab"
