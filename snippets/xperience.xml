@@ -71,7 +71,7 @@
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
     <project path="external/cronet" name="android_externel_cronet" groups="pdk" remote="gitlab" />
-    <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
+    <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="lineage" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
     <!-- Frameworks -->
