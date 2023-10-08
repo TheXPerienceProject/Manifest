@@ -6,7 +6,7 @@
           revision="refs/heads/xpe-18.0" />
 
   <remote  name="gitlab"
-           fetch="https://gitlab.com/"
+           fetch="https://gitlab.com/TheXPerienceProject/"
            revision="xpe-18.0" />
 
   <remote  name="unicorn"
@@ -61,6 +61,19 @@
       <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Device -->
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,qssi" remote="xpe" revision="xpe-18.0-caf" />
+    <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,sdm660" remote="xpe" revision="xpe-17.0-caf-legacy" />
+    <project path="device/xperience/sepolicy" name="android_device_xperience_sepolicy" remote="xpe" revision="xpe-18.0" />
+
+    <!-- External -->
+    <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
+    <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
+    <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
+    <project path="external/cronet" name="android_externel_cronet" groups="pdk" remote="gitlab" />
+    <project path="external/json-c" name="android_external_json-c" groups="qcom,qssi" remote="lineage" />
+    <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
+
     <!-- Frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="xpe" />
     <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
@@ -71,6 +84,13 @@
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="xpe" revision="xpe-17.0" />
 
+    <!-- Prebuilts -->
+    <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+    <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
+    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="xpe" clone-depth="1" />
+
     <!--Vendor-->
-    <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
+    <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
 </manifest>

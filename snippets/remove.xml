@@ -74,7 +74,10 @@
     <remove-project name="device/ti/beagle-x15" />
     <remove-project name="device/ti/beagle-x15-kernel" />
 
-     <!-- Frameworks -->
+    <!-- External -->
+    <remove-project name="platform/external/cronet" />
+
+    <!-- Frameworks -->
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
 
