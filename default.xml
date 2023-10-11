@@ -7,45 +7,35 @@
           sync-c="true"
           sync-tags="false"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-13.0.0_r11"/>
+          revision="refs/tags/android-14.0.0_r2" />
 
   <!-- CLO -->
-  <remote name="clo_system"
+  <remote name="clo-la"
           fetch="https://git.codelinaro.org/clo/la"
           sync-c="true"
-          sync-tags="false"
-          review="codelinaro.org"/>
+          sync-tags="false" />
 
-  <remote name="clo_vendor"
-          fetch="https://git.codelinaro.org/clo/la"
-          sync-c="true"
-          sync-tags="false"
-          review="codelinaro.org"
-          revision="refs/tags/LA.UM.9.14.r1-22900-LAHAINA.QSSI14.0"/>
-
-  <default revision="refs/tags/LA.QSSI.13.0.r1-11700-qssi.0"
-           remote="clo_system"/>
+  <default remote="clo-la"/>
 
   <include name="snippets/system.xml"/>
   <include name="snippets/vendor.xml"/>
 
   <!--XPerience Stuff-->
   <remote name="xpe"
-          fetch=".."
-          review="https://github.com/TheXPerienceProject/"
-          revision="refs/heads/xpe-17.0-caf" />
+          fetch="https://github.com/TheXPerienceProject/"
+          revision="refs/heads/xpe-18.0" />
 
   <remote  name="gitlab"
-           fetch="https://gitlab.com/"
-           revision="xpe-17.0-caf" />
+           fetch="https://gitlab.com/TheXPerienceProject/"
+           revision="xpe-18.0" />
 
   <remote  name="unicorn"
            fetch="https://github.com/RainbowUnicornXPe"
-           revision="xpe-17.0-caf" />
+           revision="xpe-18.0-caf" />
 
   <remote  name="unicornlab"
            fetch="https://gitlab.com/RainbowUnicornXPe"
-           revision="xpe-17.0-caf" />
+           revision="xpe-18.0-caf" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -73,6 +63,8 @@
           review="gerrit.pixelexperience.org" />
 
   <include name="snippets/remove.xml"/>
+  <include name="snippets/aosp.xml"/>
+  <include name="snippets/qcom.xml"/>
   <include name="snippets/xperience.xml"/>
 
 </manifest>

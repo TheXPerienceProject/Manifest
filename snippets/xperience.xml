@@ -1,231 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <!-- Device -->
+    <!--<project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,qssi" remote="xpe" revision="xpe-18.0-caf" />-->
+    <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,sdm660" remote="xpe" revision="xpe-17.0-caf-legacy" />
+    <project path="device/xperience/common" name="android_device_xperience_common" remote="xpe" revision="xpe-17.0-caf" />
+    <project path="device/xperience/sepolicy" name="android_device_xperience_sepolicy" remote="xpe" revision="xpe-18.0" />
 
-  <project path="art" name="TheXPerienceProject/android_art" groups="pdk" remote="xpe" />
-  <project path="bionic" name="TheXPerienceProject/android_bionic" groups="pdk" remote="xpe" />
+    <!-- External -->
+    <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
+    <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
+    <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
+    <project path="external/cronet" name="android_externel_cronet" groups="pdk" remote="gitlab" />
+    <!--<project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="lineage" />-->
+    <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
-   <!-- Build -->
-  <project path="build/make" name="TheXPerienceProject/android_build" groups="pdk" remote="xpe">
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="build/soong" name="TheXPerienceProject/android_build_soong" groups="pdk,tradefed" remote="xpe" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+    <!-- Packages -->
+    <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="xpe" revision="xpe-17.0" />
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="xpe" revision="xpe-17.0-caf" />
 
-  <!-- Bootable -->
-  <project path="bootable/recovery" name="TheXPerienceProject/android_bootable_recovery" groups="pdk" remote="xpe" />
+    <!-- Prebuilts -->
+    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="xpe" clone-depth="1" />
 
-  <!--device-->
-  <project path="device/qcom/common" name="TheXPerienceProject/android_device_qcom_common" remote="xpe">
-    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-  </project>
-  <remove-project name="device/qcom/vendor-common"/>
-  <project path="device/qcom/vendor-common" name="TheXPerienceProject/android_device_qcom_vendor-common" remote="xpe"/>
-  <project path="device/qcom/sepolicy" name="TheXPerienceProject/android_device_qcom_sepolicy" groups="qcom,qssi" remote="xpe" revision="xpe-17.0-caf" />
-  <project path="device/qcom/sepolicy-legacy" name="TheXPerienceProject/android_device_qcom_sepolicy" groups="qcom,sdm660" remote="xpe" revision="xpe-17.0-caf-legacy" />
-  <project path="device/qcom/sepolicy_vndr" name="TheXPerienceProject/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="xpe" revision="xpe-17.0-lahaina2" />
-  <project path="device/xperience/common" name="TheXPerienceProject/android_device_xperience_common" remote="xpe" />
-  <project path="device/xperience/sepolicy" name="TheXPerienceProject/android_device_xperience_sepolicy" remote="xpe" revision="xpe-17.0" />
+    <!--Vendor-->
+    <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
+    <project path="vendor/qcom/common" name="android_vendor_qcom_common" remote="xpe" revision="xpe-17.0-caf" />
 
-  <!--frameworks-->
-  <project path="frameworks/av" name="TheXPerienceProject/android_frameworks_av" groups="pdk" remote="xpe" />
-  <project path="frameworks/base" name="TheXPerienceProject/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" revision="xpe-17.0-caf-qpr3" />
-  <project path="frameworks/native" name="TheXPerienceProject/android_frameworks_native" groups="pdk" remote="xpe" />
-  <project path="frameworks/opt/telephony" name="TheXPerienceProject/android_frameworks_opt_telephony" groups="pdk" remote="xpe" />
-  <project path="frameworks/opt/timezonepicker" name="TheXPerienceProject/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
-
-  <!--external-->
-  <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
-  <project path="external/arm-optimized-routines" name="TheXPerienceProject/android_external_arm-optimized-routines" groups="pdk" remote="xpe" />
-  <project path="external/cldr" name="TheXPerienceProject/android_external_cldr" clone-depth="1" remote="xpe" />
-  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
-  <project path="external/e2fsprogs" name="TheXPerienceProject/android_external_e2fsprogs" remote="xpe" />
-  <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="b5bbcb383357b92acb10082878b32bbe831a2137" />
-  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" remote="aosp" revision="59381daac28229894d70bbf3d9ff4fd3d13541ab" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
-  <project path="external/gptfdisk" name="TheXPerienceProject/android_external_gptfdisk" remote="xpe" />
-  <project path="external/icu" name="TheXPerienceProject/android_external_icu" remote="xpe" />
-  <project path="external/jemalloc_new" name="TheXPerienceProject/android_external_jemalloc_new" remote="xpe" />
-  <project path="external/libjpeg-turbo" name="TheXPerienceProject/android_external_libjpeg-turbo" groups="pdk" remote="xpe" />
-  <project path="external/libpng" name="TheXPerienceProject/android_external_libpng"  remote="xpe" />
-  <project path="external/lz4" name="TheXPerienceProject/android_external_lz4" remote="xpe" />
-  <project path="external/perfetto" name="TheXPerienceProject/android_external_perfetto"  remote="xpe" />
-  <project path="external/setupcompat" name="TheXPerienceProject/android_external_setupcompat" groups="pdk" remote="xpe" />
-  <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-  <project path="external/tinycompress" name="TheXPerienceProject/android_external_tinycompress" groups="pdk" remote="xpe" />
-  <project path="external/sqlite" name="TheXPerienceProject/android_external_sqlite" groups="pdk" remote="xpe" revision="xpe-17.0" />
-  <project path="external/zlib" name="TheXPerienceProject/android_external_zlib-ng" remote="xpe" revision="xpe-17.0" />
-
-  <!-- Hardware aosp-->
-  <project path="hardware/interfaces" name="TheXPerienceProject/android_hardware_interfaces" groups="pdk" remote="xpe" />
-  <project path="hardware/google/pixel" name="TheXPerienceProject/android_hardware_google_pixel" groups="pdk" remote="xpe" />
-  <project path="hardware/libhardware" name="TheXPerienceProject/android_hardware_libhardware" groups="pdk" remote="xpe" />
-  <project path="hardware/xiaomi" name="TheXPerienceProject/android_hardware_xiaomi" groups="pdk" remote="xpe" revision="xpe-17.0-caf-new" />
-  <project path="hardware/xperience/interfaces" name="TheXPerienceProject/android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
-
-  <!-- Hardware-CLO -->
-  <project path="hardware/qcom-caf/bootctrl" name="TheXPerienceProject/android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" />
-  <project path="hardware/qcom-caf/common" name="TheXPerienceProject/android_hardware_qcom-caf_common" groups="qcom" remote="xpe" >
-    <!-- add guard for AOSP hardware/qcom dir -->
-    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-    <!-- add guards for CAF repositories -->
-    <!--<linkfile src="os_pickup_qssi.bp" dest="hardware/nxp/Android.bp" />-->
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
-    <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />-->
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
-    <!--<linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />-->
-    <linkfile src="os_pickup_qssi.bp" dest="vendor/nxp/opensource/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/Android.mk" />
-  </project>
-  <!--<project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-20.0-caf" remote="lineage" />-->
-  <project path="hardware/qcom-caf/sdm660/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,sdm660" revision="xpe-17.0-caf-sdm660" remote="xpe" />
-  <project path="hardware/qcom-caf/sdm660/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="qcom,sdm660" revision="xpe-17.0-caf-sdm660" remote="xpe" />
-  <project path="hardware/qcom-caf/sdm660/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,sdm660" revision="xpe-17.0-caf-sdm660" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-20.0-caf-sm8150" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="qcom,msmnile" revision="xpe-17.0-caf-sm8150-new" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-20.0-caf-sm8150" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,kona" revision="xpe-17.0-caf-sm8250" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8250/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="qcom,kona" revision="xpe-17.0-caf-sm8250" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8250/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,kona" revision="xpe-17.0-caf-sm8250" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="TheXPerienceProject/android_hardware_qcom_audio" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8350/display" name="TheXPerienceProject/android_hardware_qcom_display" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8350/media" name="TheXPerienceProject/android_hardware_qcom_media" groups="qcom,lahaina" revision="xpe-17.0-caf-sm8350-new" remote="xpe" />
-  <project path="hardware/qcom-caf/sm8450/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8450/audio/pal" name="LineageOS/android_vendor_qcom_opensource_arpal-lx" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8450/audio/primary-hal" name="LineageOS/android_hardware_qcom_audio-ar" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8450/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-sm8450" remote="lineage"  />
-  <project path="hardware/qcom-caf/sm8450/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="lineage" />
-  <!--<project path="hardware/qcom-caf/thermal" name="TheXPerienceProject/android_hardware_qcom_thermal" groups="qcom,lahaina" remote="xpe" />
-  <project path="hardware/qcom-caf/vr" name="TheXPerienceProject/android_hardware_qcom_vr" groups="qcom,sdm660" remote="xpe" />-->
-  <project path="hardware/qcom-caf/wlan" name="TheXPerienceProject/android_hardware_qcom_wlan" groups="qcom,waipio" remote="xpe" />
-  <project path="hardware/qcom/keymaster" name="TheXPerienceProject/android_hardware_qcom_keymaster" groups="qcom,sdm845" remote="xpe" />
-
-  <!-- Kernel Tools-->
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="aosp" revision="refs/tags/android-13.0.0_r0.75" />
-  
-  <!-- Packages -->
-  <project path="packages/apps/Aperture" name="TheXPerienceProject/android_packages_apps_Aperture" remote="xpe" revision="xpe-17.0" />
-  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
-  <project path="packages/apps/GameSpace" name="TheXPerienceProject/android_packages_apps_GameSpace" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
-  <project path="packages/apps/SetupWizard" name="TheXPerienceProject/android_packages_apps_SetupWizard" remote="xpe" />
-  <project path="packages/apps/Settings" name="TheXPerienceProject/android_packages_apps_Settings" groups="pdk-fs" remote="xpe" revision="xpe-17.0-caf-qpr3"  />
-  <project path="packages/apps/SettingsIntelligence" name="TheXPerienceProject/android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="xpe" />
-  <project path="packages/apps/Updater" name="TheXPerienceProject/android_packages_apps_XPeUpdater" remote="xpe" revision="xpe-17.0-caf" />
-  <project path="packages/apps/XPerienceDoze" name="TheXPerienceProject/android_packages_apps_XPerienceDoze" remote="xpe" revision="xpe-17.0" />
-  <project path="packages/modules/Bluetooth" name="TheXPerienceProject/android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
-  <project path="packages/modules/Connectivity" name="TheXPerienceProject/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
-  <project path="packages/modules/Permission" name="TheXPerienceProject/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
-  <project path="packages/resources/devicesettings" name="TheXPerienceProject/android_packages_resources_devicesettings" remote="xpe" />
-  <project path="packages/services/Telecomm" name="TheXPerienceProject/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
-  <project path="packages/services/Telephony" name="TheXPerienceProject/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
-
-  <!-- Prebuilts -->
-  <project path="prebuilts/abi-dumps/ndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_ndk" remote="xpe" clone-depth="1"/>
-  <project path="prebuilts/abi-dumps/vndk" name="TheXPerienceProject/android_prebuilts_abi-dumps_vndk" remote="xpe" clone-depth="1"/>
-  <project path="prebuilts/build-tools" name="TheXPerienceProject/android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="xpe" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
-  <project path="prebuilts/tools-lineage" name="TheXPerienceProject/android_prebuilts_tools-lineage" remote="xpe" clone-depth="1" />
-
-  <!-- System -->
-  <project path="system/core" name="TheXPerienceProject/android_system_core" groups="pdk" remote="xpe" />
-  <project path="system/extras" name="TheXPerienceProject/android_system_extras" groups="pdk" remote="xpe" />
-  <project path="system/libhidl" name="TheXPerienceProject/android_system_libhidl" groups="pdk" remote="xpe" />
-  <project path="system/libziparchive" name="TheXPerienceProject/android_system_libziparchive" groups="pdk" remote="xpe" />
-  <project path="system/logging" name="TheXPerienceProject/android_system_logging" groups="pdk" remote="xpe" />
-  <project path="system/memory/lmkd" name="TheXPerienceProject/android_system_memory_lmkd" groups="pdk" remote="xpe" />
-  <project path="vendor/qcom/opensource/softap" name="TheXPerienceProject/android_system_qcom" remote="xpe"/>
-  <project path="system/sepolicy" name="TheXPerienceProject/android_system_sepolicy" groups="pdk" remote="xpe" />
-  <project path="system/timezone" name="TheXPerienceProject/android_system_timezone" remote="xpe" />
-  <project path="system/tools/mkbootimg" name="TheXPerienceProject/android_system_tools_mkbootimg" groups="pdk" remote="xpe" />
-  <project path="system/update_engine" name="TheXPerienceProject/android_system_update_engine" groups="pdk" remote="xpe" />
-  <project path="system/vold" name="TheXPerienceProject/android_system_vold" groups="pdk" remote="xpe" />
-
-  <!-- Vendor qcom -->
-  <project path="vendor/codeaurora/commonsys/telephony" name="TheXPerienceProject/android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="xpe" />
-  <project path="vendor/qcom/opensource/commonsys/audio" name="TheXPerienceProject/vendor-qcom-opensource-audio" groups="qcom,qssi" remote="xpe" >
-    <linkfile dest="vendor/qcom/defs/product-defs/system/audio_system_product.mk" src="configs/qssi/audio_system_product.mk"/>
-  </project>
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="TheXPerienceProject/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="xpe" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="TheXPerienceProject/vendor-qcom-opensource-display-commonsys-intf" groups="qcom,qssi" remote="xpe" >
-    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
-  </project>
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="TheXPerienceProject/vendor_qcom_opensource_commonsys-intf_bluetooth" remote="xpe" >
-    <linkfile dest="vendor/qcom/defs/board-defs/system/bt-system-qssi-board.mk" src="bt-system-qssi-board.mk"/>
-    <linkfile dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
-  </project>
-  <project path="vendor/qcom/opensource/commonsys/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="xpe">
-    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
-  </project>
-  <project path="vendor/qcom/opensource/core-utils" name="TheXPerienceProject/vendor_qcom_opensource_core-utils" remote="xpe" >
-    <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
-    <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
-    <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
-    <linkfile dest="vendor/qcom/build/tasks/generate_vendor_bundle.mk" src="image_generation_tool/generate_vendor_bundle.mk"/>
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/image_generation_tool_product.mk" src="image_generation_tool/config/image_generation_tool_product.mk"/>
-    <linkfile dest="build.sh" src="build/build.sh"/>
-    <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
-    <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
-  </project>
-  <project path="vendor/qcom/opensource/display" name="TheXPerienceProject/android_vendor_qcom_opensource_display" groups="qcom" remote="xpe" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="TheXPerienceProject/vendor_qcom-opensource_fm-commonsys" groups="qcom,qssi" remote="xpe" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" revision="xpe-17.0-caf-legacy"/>
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="TheXPerienceProject/vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,waipio" remote="xpe" />
-  <project path="vendor/qcom/opensource/interfaces" name="TheXPerienceProject/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="xpe" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="TheXPerienceProject/android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="xpe" />
-  <project path="vendor/qcom/opensource/power" name="TheXPerienceProject/vendor_qcom-opensource_power" groups="qcom,lahaina" remote="xpe" >
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
-    <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
-  </project>
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="TheXPerienceProject/android_vendor_qcom_opensource_system_bt" remote="xpe" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="TheXPerienceProject/android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="xpe" />
-  <project path="vendor/qcom/opensource/usb" name="TheXPerienceProject/vendor_qcom-opensource_usb" groups="qcom,lahaina" remote="xpe" >
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
-  </project>
-  <project path="vendor/qcom/opensource/vibrator" name="TheXPerienceProject/vendor-qcom-opensource-vibrator" groups="qcom,waipio-vendor" remote="xpe">
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
-  </project>
-  <project path="vendor/qcom/opensource/wfd-commonsys" name="TheXPerienceProject/vendor_qcom-opensource_wfd-commonsys" groups="qcom,waipio-vendor" remote="xpe" />
-
-  <!--Vendor-->
-  <project path="vendor/xperience" name="TheXPerienceProject/android_vendor_xperience" remote="xpe" />
-  <project path="vendor/xperience_themes" name="TheXPerienceProject/android_vendor_xperience_themes" remote="xpe" />
-  <project path="vendor/xperience_shutdown" name="TheXPerienceProject/android_vendor_xperience_shutdownanimation" remote="gitlab" />
-  <project path="vendor/google/gms" name="android_vendor_google_gms" clone-depth="1" remote="unicornlab" revision="xpe-17.0"  />
-  <project path="vendor/google/pixel" name="android_vendor_google_pixel" clone-depth="1" remote="unicornlab" revision="xpe-17.0"  />
-  <project path="vendor/qcom/common" name="TheXPerienceProject/android_vendor_qcom_common" remote="xpe" />
-  <project path="vendor/qcom/sdclang" name="TheXPerienceProject/proprietary_vendor_qcom_sdclang" remote="gitlab" revision="14" />
 </manifest>
