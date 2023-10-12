@@ -39,7 +39,6 @@
     </project>
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" revision="xpe-18.0-legacy" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,waipio" remote="xpe" />
-    <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom-opensource_fm-commonsys" groups="qcom,qssi" remote="xpe" revision="xpe-17.0-caf" />
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="xpe" revision="xpe-17.0-caf" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" groups="qcom,lahaina" remote="xpe" >
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
