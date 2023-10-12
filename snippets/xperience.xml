@@ -44,5 +44,5 @@
     <!--Vendor-->
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
     <project path="vendor/qcom/common" name="android_vendor_qcom_common" remote="xpe" revision="xpe-17.0-caf" />
-    <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="gitlab" revision="14" />
+    <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs-pa" revision="disabled" />
 </manifest>
