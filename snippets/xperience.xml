@@ -73,14 +73,21 @@
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
     <project path="external/cronet" name="android_externel_cronet" groups="pdk" remote="gitlab" />
+    <project path="external/e2fsprogs" name="android_externel_e2fsprogs" groups="pdk" remote="xpe" />
     <project path="external/gptfdisk" name="android_externel_gptfdisk" groups="pdk" remote="xpe" />
     <project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="lineage" />
     <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="xpe" />
+    <project path="external/libvpx" name="android_external_libvpx" groups="pdk" remote="xpe" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
     <!-- Frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="xpe" />
     <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="xpe" />
+    <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="xpe" />
 
     <!-- Hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
@@ -88,7 +95,11 @@
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="xpe" revision="xpe-17.0" />
+    <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
+    <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="xpe" revision="xpe-17.0-caf" />
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
     <!-- Prebuilts -->
     <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,darwin,arm" clone-depth="1" remote="lineage" revision="lineage-19.1" />
