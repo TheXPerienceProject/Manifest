@@ -5,6 +5,7 @@
 
     <remove-project name="platform/build" /> 
     <remove-project name="platform/build/soong" /> 
+    <remove-project name="platform/bootable/recovery" />
 
     <!-- Device -->
     <remove-project name="device/amlogic/yukawa" />
@@ -76,12 +77,15 @@
 
     <!-- External -->
     <remove-project name="platform/external/cronet" />
+    <remove-project name="platform/external/gptfdisk" />
+    <remove-project name="platform/external/libcxx" />
 
     <!-- Frameworks -->
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
 
      <!-- Hardware -->
+    <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform/hardware/qcom/audio" />
     <remove-project name="platform/hardware/qcom/camera" />
@@ -90,5 +94,18 @@
     <remove-project name="platform/hardware/qcom/gps" />
     <remove-project name="platform/hardware/qcom/media" />
     <remove-project name="platform/hardware/qcom/wlan" />
-    
+
+    <!-- System -->
+    <remove-project name="platform/system/core" />
+    <remove-project name="platform/system/extras" />
+    <remove-project name="platform/system/keymaster" />
+    <remove-project name="platform/system/libhidl" />
+    <remove-project name="platform/system/libziparchive" />
+    <remove-project name="platform/system/logging" />
+    <remove-project name="platform/system/media" />
+    <remove-project name="platform/system/tools/mkbootimg" />
+    <remove-project name="platform/system/security" />
+    <remove-project name="platform/system/sepolicy" />
+    <remove-project name="platform/system/update_engine" />
+
 </manifest>
