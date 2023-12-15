@@ -3,7 +3,7 @@
   <!--XPerience Stuff-->
   <remote name="xpe"
           fetch="https://github.com/TheXPerienceProject/"
-          revision="refs/heads/xpe-18.0" />
+          revision="xpe-18.0" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/TheXPerienceProject/"
