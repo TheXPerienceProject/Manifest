@@ -3,7 +3,7 @@
 
     <!-- Hardware-CLO -->
     <project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-21.0-caf" />
-    <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="xpe" >
+    <project path="hardware/qcom-caf/common" name="TheXPerienceProject/android_hardware_qcom-caf_common" groups="qcom" remote="xpe" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
