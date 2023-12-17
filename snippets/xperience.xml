@@ -66,6 +66,10 @@
     <!-- Device -->
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,qssi" remote="xpe" revision="xpe-18.0-caf" />
     <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,sdm660" remote="xpe" revision="xpe-17.0-caf-legacy" />
+    <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" remote="lineage" revision="lineage-21.0-legacy-um" />
+    <project path="device/qcom/sepolicy_vndr/legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="lineage" revision="lineage-21.0-legacy-um" />
+    <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-21.0-caf-sm8450" />
+    <project path="device/qcom/sepolicy_vndr/sm8550" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-21.0-caf-sm8550" />
     <project path="device/xperience/sepolicy" name="android_device_xperience_sepolicy" remote="xpe" revision="xpe-18.0" />
 
     <!-- External -->
@@ -92,6 +96,9 @@
     <!-- Hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="xpe" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="pdk" remote="xpe" />
+    <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
+    <project path="hardware/xperience/compat" name="android_hardware_xperience_compat" groups="pdk" remote="xpe" />
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="xpe" revision="xpe-17.0" />
