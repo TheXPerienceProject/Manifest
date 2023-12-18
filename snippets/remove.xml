@@ -108,6 +108,7 @@
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Calendar" />
     <remove-project name="platform/packages/modules/Bluetooth" />
+    <remove-project name="platform/packages/modules/Connectivity" />
     <remove-project name="platform/packages/providers/TelephonyProvider"  />
     <remove-project name="platform/packages/services/Telecomm" />
     <remove-project name="platform/packages/services/Telephony" />
