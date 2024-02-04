@@ -6,8 +6,6 @@
   <remove-project name="platform/build/soong" />
 
   <!-- Device -->
-  <remove-project name="device/amlogic/yukawa"/>
-  <remove-project name="device/amlogic/yukawa-kernel"/>
   <remove-project name="device/common"/>
   <remove-project name="device/generic/arm64"/>
   <remove-project name="device/generic/armv7-a-neon"/>
