@@ -43,7 +43,7 @@
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/lineage-20.0" />
+           revision="refs/heads/lineage-21.0" />
 
   <remote  name="blobs-pa"
            fetch="https://github.com/ThankYouMario"

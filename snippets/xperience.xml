@@ -18,7 +18,7 @@
     </project>
 
     <!-- Device -->
-    <project path="device/qcom/common" name="android_device_qcom_common" remote="xpe" >
+    <project path="device/qcom/common" name="android_device_qcom_common" remote="xpe" revision="xpe-18.0-caf" >
       <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
     </project>
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" groups="qcom,qssi" remote="xpe" revision="xpe-18.0-caf" />
