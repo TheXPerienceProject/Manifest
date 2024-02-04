@@ -30,11 +30,11 @@
     <!--<project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" ="xpe" revision="xpe-17.0-caf" />-->
     <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="xpe" revision="xpe-17.0-caf" />
     <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" groups="qcom" remote="xpe" revision="xpe-17.0-caf" />
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor-qcom-opensource-display-commonsys-intf" groups="qcom,qssi" remote="xpe" >
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor-qcom-opensource-display-commonsys-intf" groups="qcom,qssi"  remote="xpe" revision="xpe-18.0-caf" >
       <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk"/>
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk"/>
     </project>
-    <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="xpe" >
+    <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="xpe" revision="xpe-18.0-caf" >
       <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-commonsys.mk" src="config/display-product-commonsys.mk"/>
     </project>
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="vendor_qcom-opensource_data-ipa-cfg-mgr" groups="qcom,QCM6490-vendor" remote="xpe" revision="xpe-18.0-legacy" />
