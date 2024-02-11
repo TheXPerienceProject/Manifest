@@ -99,7 +99,6 @@
     <!-- Hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="xpe" />
-    <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,qcom_wlan,pdk-qcom" remote="lineage" />
     <project path="hardware/xiaomi" name="android_hardware_xiaomi" groups="pdk" remote="xpe" />
     <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
     <project path="hardware/xperience/compat" name="android_hardware_xperience_compat" groups="pdk" remote="xpe" />
@@ -121,6 +120,7 @@
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="xpe" clone-depth="1" />
 
     <!-- System -->
+    <project path="system/bpf" name="android_system_bpf" remote="xpe" groups="pdk" />
     <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
     <project path="system/extras" name="android_system_extras" groups="pdk" remote="xpe" />
     <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="xpe" />

@@ -10,10 +10,17 @@
     <!-- Device -->
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
+    <remove-project name="device/common" />
+    <remove-project name="device/generic/arm64" />
+    <remove-project name="device/generic/armv7-a-neon" />
+    <remove-project name="device/generic/car" />
     <remove-project name="device/generic/mini-emulator-arm64" />
     <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
     <remove-project name="device/generic/mini-emulator-x86" />
     <remove-project name="device/generic/mini-emulator-x86_64" />
+    <remove-project name="device/generic/opengl-transport" />
+    <remove-project name="device/generic/qemu" />
+    <remove-project name="device/generic/trusty" />
     <remove-project name="device/generic/uml" />
     <remove-project name="device/generic/x86" />
     <remove-project name="device/generic/x86_64" />
@@ -33,7 +40,6 @@
     <remove-project name="device/google/felix" />
     <remove-project name="device/google/felix-kernel" />
     <remove-project name="device/google/felix-sepolicy" />
-    <remove-project name="device/google/gs-common" />
     <remove-project name="device/google/redbull" />
     <remove-project name="device/google/redbull-sepolicy" />
     <remove-project name="device/google/redbull-kernel" />
@@ -58,6 +64,7 @@
     <remove-project name="device/google/raviole" />
     <remove-project name="device/google/raviole-kernel" />
     <remove-project name="device/google/trout" />
+    <remove-project name="device/google/vrservices" />
     <remove-project name="device/linaro/dragonboard" />
     <remove-project name="device/linaro/dragonboard-kernel" />
     <remove-project name="device/linaro/hikey" />
@@ -106,6 +113,7 @@
     <remove-project name="platform/packages/services/Telephony" />
 
     <!-- System -->
+    <remove-project name="platform/system/bpf" />
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/extras" />
     <remove-project name="platform/system/keymaster" />

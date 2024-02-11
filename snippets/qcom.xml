@@ -69,7 +69,7 @@
     <project path="hardware/qcom-caf/sm8550/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-21.0-caf-sm8550" />
     <project path="hardware/qcom-caf/sm8550/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-21.0-caf-sm8550" />
     <project path="hardware/qcom-caf/sm8550/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-21.0-caf-sm8550" />
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,waipio" remote="xpe" revision="xpe-18.0-caf" />
+    <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-21.0-caf" />
 
     <!-- Vendor qcom -->
     <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="xpe" revision="xpe-18.0-caf" />
@@ -92,6 +92,8 @@
     <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,kailua-audio" remote="lineage" />
     <project path="vendor/qcom/opensource/core-utils-sys" name="LineageOS/android_vendor_qcom_opensource_core-utils-sys" groups="qcom,qssi" remote="lineage" />
     <project path="vendor/qcom/opensource/core-utils-vendor" name="LineageOS/android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,kailua-vendor" remote="lineage" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" remote="lineage" revision="lineage-21.0-legacy-um" />
+    <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,kailua-vendor" remote="lineage" />
     <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" remote="lineage" />
     <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="lineage" />
     <project path="vendor/qcom/opensource/commonsys/fm" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="lineage" />
