@@ -81,11 +81,11 @@
     <remove-project name="kernel/prebuilts/mainline/arm64"/>
     <remove-project name="kernel/prebuilts/mainline/x86-64"/>
 
-
     <!-- Packages -->
     <remove-project name="platform/packages/modules/Bluetooth" />
 
     <!-- system -->
+    <remove-project name="platform/system/core"/>
     <remove-project name="platform/system/vold"/>
 
     <!-- Vendor -->

@@ -50,6 +50,7 @@
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="xpe" clone-depth="1" revision="xpe-18.0" />
 
     <!-- system -->
+    <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
     <project path="system/vold" name="android_system_vold" groups="pdk" remote="xpe" />
 
     <!--Vendor-->
