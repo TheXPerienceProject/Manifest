@@ -73,6 +73,16 @@
 
     <!-- Vendor qcom -->
     <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="xpe" revision="xpe-18.0" />
+    <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="xpe" >
+      <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
+      <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
+      <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
+      <linkfile dest="vendor/qcom/build/tasks/generate_vendor_bundle.mk" src="image_generation_tool/generate_vendor_bundle.mk"/>
+      <linkfile dest="vendor/qcom/defs/product-defs/vendor/image_generation_tool_product.mk" src="image_generation_tool/config/image_generation_tool_product.mk"/>
+      <linkfile dest="build.sh" src="build/build.sh"/>
+      <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
+      <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
+    </project>    
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="xpe" revision="xpe-18.0-caf" />
     <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" groups="qcom,lahaina" remote="xpe" >
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>

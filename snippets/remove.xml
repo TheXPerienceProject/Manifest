@@ -94,6 +94,9 @@
     <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
     <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
     <remove-project name="platform/vendor/codeaurora/telephony" />
+    <remove-project name="platform/vendor/qcom-opensource/core-utils" />
+    <remove-project name="platform/vendor/qcom-opensource/core-utils-sys" />
+    <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />
     <remove-project name="platform/vendor/nxp/opensource/halimpl" />
     <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
     <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
