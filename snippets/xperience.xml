@@ -44,7 +44,7 @@
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="xpe" revision="xpe-17.0-caf" />
 
     <!-- Prebuilts -->
-    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="xpe" clone-depth="1" />
+    <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="xpe" clone-depth="1" revision="xpe-18.0" />
 
     <!-- system -->
     <project path="system/vold" name="android_system_vold" groups="pdk" remote="xpe" />
