@@ -95,7 +95,6 @@
     <project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" >
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
     </project>
-    <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom-opensource_wfd-commonsys" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" />
 
     <!--Qcom from Lineage -->
     <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="lineage" />
