@@ -84,10 +84,10 @@
       <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
     </project>    
     <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="xpe" revision="xpe-18.0-caf" />
-    <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" groups="qcom,lahaina" remote="xpe" >
+    <!--<project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" groups="qcom,lahaina" remote="xpe" >
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
       <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
-    </project>
+    </project>-->
     <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" />
     <project path="vendor/qcom/opensource/usb" name="vendor_qcom-opensource_usb" groups="qcom,lahaina" remote="xpe" >
       <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
