@@ -38,6 +38,11 @@
     <!-- External -->
     <remove-project name="platform/external/cronet" />
 
+    <!-- Frameworks -->
+    <remove-project name="platform/frameworks/av" />
+    <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/native" />
+
     <!-- Hardware -->
     <remove-project name="platform/hardware/qcom/gps" />
     <remove-project name="platform/hardware/qcom/media" />

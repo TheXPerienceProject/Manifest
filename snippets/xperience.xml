@@ -38,6 +38,11 @@
     <!--<project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="lineage" />-->
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
+    <!-- Frameworks -->
+    <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="xpe" />
+    <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
+    <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="xpe" />
+
     <!-- Hardware -->
     <project path="hardware/xperience/compat" name="android_hardware_xperience_compat" remote="xpe" revision="xpe-18.0" />
 
