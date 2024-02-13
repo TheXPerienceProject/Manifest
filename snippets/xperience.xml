@@ -44,7 +44,9 @@
     <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="xpe" />
 
     <!-- Hardware -->
+    <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="xpe" />
     <project path="hardware/xperience/compat" name="android_hardware_xperience_compat" remote="xpe" revision="xpe-18.0" />
+    <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="xpe" revision="xpe-17.0" />

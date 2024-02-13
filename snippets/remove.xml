@@ -44,6 +44,7 @@
     <remove-project name="platform/frameworks/native" />
 
     <!-- Hardware -->
+    <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform/hardware/qcom/gps" />
     <remove-project name="platform/hardware/qcom/media" />
     <remove-project name="platform/hardware/qcom/bootctrl" />
