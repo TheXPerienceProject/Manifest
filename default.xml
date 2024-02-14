@@ -28,12 +28,12 @@
 
   <remote  name="laclo"
            fetch="https://git.codelinaro.org/clo/la"
-           revision="LA.QSSI.14.0.r1-11900-qssi.0" />
+           revision="refs/tags/LA.QSSI.14.0.r1-11900-qssi.0" />
 
 
   <remote  name="clovendor"
            fetch="https://git.codelinaro.org/clo/la"
-           revision="LA.VENDOR.13.2.0.r1-22200-KAILUA.QSSI14.0" />
+           revision="refs/tags/LA.VENDOR.13.2.0.r1-22200-KAILUA.QSSI14.0" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/TheXPerienceProject/"
