@@ -14,7 +14,7 @@ To initialize your local repository using the XPerience CAF trees, use a command
 
       $ mkdir XPe
       $ cd XPe
-      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-18.0-caf
+      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-18.0-caf --git-lfs
       $ sudo install /usr/bin/repo .repo/repo/repo
     
 Then to sync up:
@@ -22,6 +22,11 @@ Then to sync up:
     repo sync --force-sync --no-tags -j$(nproc --all) --optimized-fetch --prune
 
 --------
+## Options
+    You can build with stock google apps package or only essentials use:
+
+- TARGET_ESSENTIAL_GAPPS:=true "for only Essengital (core package)"
+- TARGET_STOCK_GAPPS:=true "for stock packages"
 
 ## Building The XPerience Project for your device
 

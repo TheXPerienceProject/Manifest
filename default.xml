@@ -37,7 +37,7 @@
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/TheXPerienceProject/"
-           revision="xpe-18.0" />
+           revision="xpe-18.0-caf" />
 
   <remote  name="unicorn"
            fetch="https://github.com/RainbowUnicornXPe"
