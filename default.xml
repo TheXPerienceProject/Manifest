@@ -7,7 +7,7 @@
           sync-c="true"
           sync-tags="false"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-14.0.0_r2" />
+          revision="refs/tags/android-14.0.0_r27" />
 
   <!-- CLO -->
   <remote name="clo-la"
@@ -24,6 +24,16 @@
   <remote name="xpe"
           fetch="https://github.com/TheXPerienceProject/"
           revision="refs/heads/xpe-18.0-caf" />
+
+
+  <remote  name="laclo"
+           fetch="https://git.codelinaro.org/clo/la"
+           revision="LA.QSSI.14.0.r1-11900-qssi.0" />
+
+
+  <remote  name="clovendor"
+           fetch="https://git.codelinaro.org/clo/la"
+           revision="LA.VENDOR.13.2.0.r1-22200-KAILUA.QSSI14.0" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/TheXPerienceProject/"
