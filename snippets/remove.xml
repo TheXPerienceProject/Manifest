@@ -92,7 +92,7 @@
     <remove-project name="kernel/prebuilts/mainline/x86-64"/>
 
     <!-- Packages -->
-    <remove-project name="platform/packages/Settings" />
+    <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/modules/Bluetooth" />
 
     <!-- system -->
