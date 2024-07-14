@@ -39,7 +39,7 @@
     <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="xpe"/>
     <project path="external/cronet" name="android_externel_cronet" groups="pdk" remote="gitlab" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="xpe" />
-    <project path="external/fastrpc " name="android_external_fastrpc" remote="xpe" />
+    <project path="external/fastrpc" name="android_external_fastrpc" remote="xpe" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />
     <!--<project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="lineage" />-->
     <project path="external/libcxx" name="android_external_libcxx" remote="xpe" />
