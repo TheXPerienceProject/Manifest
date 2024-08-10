@@ -33,7 +33,7 @@
 
   <remote  name="clovendor"
            fetch="https://git.codelinaro.org/clo/la"
-           revision="refs/tags/LA.VENDOR.13.2.0.r1-22900-KAILUA.QSSI15.0" />
+           revision="refs/tags/LA.VENDOR.13.2.0.r1-24300-KAILUA.QSSI15.0" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/TheXPerienceProject/"
