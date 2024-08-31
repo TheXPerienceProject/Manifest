@@ -63,6 +63,9 @@
            fetch="https://gitlab.com/ThankYouMario"
            revision="uvite" />
 
+  <remote name="bitbucket"
+          fetch="https://bitbucket.org/thexperienceproject" />
+
   <include name="snippets/remove.xml"/>
   <include name="snippets/aosp.xml"/>
   <include name="snippets/qcom.xml"/>

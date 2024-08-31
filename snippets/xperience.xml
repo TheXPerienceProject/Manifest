@@ -80,6 +80,7 @@
 
     <!-- Prebuilts -->
     <project path="prebuilts/calyx/datura" name="android_prebuilts_calyx_datura" remote="xpe" />
+    <project path="prebuilts/clang/host/linux-x86/clang-20" name="yuki-clang" remote="bitbucket" revision="20.0.0git" clone-depth="1" />
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="xpe" clone-depth="1" revision="xpe-18.0" />
 
     <!-- Toolchain-->
@@ -113,4 +114,5 @@
     <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" />
     <project path="vendor/qcom/common" name="android_vendor_qcom_common" remote="xpe" clone-depth="1" />
     <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs-pa" revision="disabled" clone-depth="1" />
+
 </manifest>
