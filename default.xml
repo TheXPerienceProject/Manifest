@@ -66,6 +66,10 @@
   <remote name="bitbucket"
           fetch="https://bitbucket.org/thexperienceproject" />
 
+  <remote  name="PeterCxy"
+           fetch="https://gitea.angry.im/PeterCxy"
+           revision="refs/heads/master" />
+
   <include name="snippets/remove.xml"/>
   <include name="snippets/aosp.xml"/>
   <include name="snippets/qcom.xml"/>
