@@ -66,7 +66,6 @@
     <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="xpe" />
     <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="xpe" />
     <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="xpe" />
-    <project path="packages/apps/OpenEUICC" name="OpenEUICC" remote="PeterCxy" sync-s="true" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xpe" />
     <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="xpe" />
     <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="xpe" />
@@ -82,7 +81,6 @@
     <!-- Prebuilts -->
     <project path="prebuilts/calyx/datura" name="android_prebuilts_calyx_datura" remote="xpe" />
     <project path="prebuilts/clang/host/linux-x86/clang-20" name="yuki-clang" remote="bitbucket" revision="20.0.0git" clone-depth="1" />
-    <project path="prebuilts/openeuicc-deps" name="android_prebuilts_openeuicc-deps" remote="PeterCxy" />
     <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" remote="xpe" clone-depth="1" revision="xpe-18.0" />
 
     <!-- Toolchain-->
