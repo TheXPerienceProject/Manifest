@@ -66,7 +66,7 @@
     <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="xpe" />
     <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="xpe" />
     <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="xpe" />
-    <project path="packages/apps/OpenEUICC" name="packages_OpenEUICC" remote="PeterCxy" sync-s="true" />
+    <project path="packages/apps/OpenEUICC" name="OpenEUICC" remote="PeterCxy" sync-s="true" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xpe" />
     <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="xpe" />
     <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="xpe" />
