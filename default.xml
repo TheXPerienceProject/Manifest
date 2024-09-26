@@ -7,7 +7,7 @@
           sync-c="true"
           sync-tags="false"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-14.0.0_r27" />
+          revision="refs/tags/android-15.0.0_r1" />
 
   <!-- CLO -->
   <remote name="clo-la"
@@ -23,12 +23,12 @@
   <!--XPerience Stuff-->
   <remote name="xpe"
           fetch="https://github.com/TheXPerienceProject/"
-          revision="refs/heads/xpe-18.0-caf" />
+          revision="refs/heads/xpe-19.0-caf" />
 
 
   <remote  name="laclo"
            fetch="https://git.codelinaro.org/clo/la"
-           revision="refs/tags/LA.QSSI.14.0.r1-16600-qssi.0" />
+           revision="refs/tags/LA.QSSI.15.0.r1-09800-qssi.0" />
 
 
   <remote  name="clovendor"
@@ -37,15 +37,15 @@
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/TheXPerienceProject/"
-           revision="xpe-18.0-caf" />
+           revision="xpe-19.0-caf" />
 
   <remote  name="unicorn"
            fetch="https://github.com/RainbowUnicornXPe"
-           revision="xpe-18.0-caf" />
+           revision="xpe-19.0-caf" />
 
   <remote  name="unicornlab"
            fetch="https://gitlab.com/RainbowUnicornXPe"
-           revision="xpe-18.0-caf" />
+           revision="xpe-19.0-caf" />
 
   <remote  name="github"
            fetch="https://github.com/" />
@@ -53,15 +53,15 @@
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/lineage-21.0" />
+           revision="refs/heads/lineage-22.0" />
 
   <remote  name="blobs-pa"
            fetch="https://github.com/ThankYouMario"
-           revision="uvite" />
+           revision="vauxite" />
 
   <remote  name="blobs-gitlab-pa"
            fetch="https://gitlab.com/ThankYouMario"
-           revision="uvite" />
+           revision="vauxite" />
 
   <remote name="bitbucket"
           fetch="https://bitbucket.org/thexperienceproject" />

@@ -69,33 +69,11 @@
     <project path="hardware/qcom-caf/sm8550/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-21.0-caf-sm8550" />
     <project path="hardware/qcom-caf/sm8550/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-21.0-caf-sm8550" />
     <project path="hardware/qcom-caf/sm8550/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-21.0-caf-sm8550" />
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,kailua-vendor" remote="xpe" />
-    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan"  remote="xpe" revision="kailua" />
+    <!--<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,kailua-vendor" remote="xpe" />
+    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan"  remote="xpe" revision="kailua" />-->
 
     <!-- Vendor qcom -->
-    <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="xpe" revision="xpe-18.0" />
-    <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="xpe" >
-      <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
-      <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
-      <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
-      <linkfile dest="vendor/qcom/build/tasks/generate_vendor_bundle.mk" src="image_generation_tool/generate_vendor_bundle.mk"/>
-      <linkfile dest="vendor/qcom/defs/product-defs/vendor/image_generation_tool_product.mk" src="image_generation_tool/config/image_generation_tool_product.mk"/>
-      <linkfile dest="build.sh" src="build/build.sh"/>
-      <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
-      <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
-    </project>    
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="xpe" revision="xpe-18.0-caf" />
-    <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" groups="qcom,kailua" remote="xpe" >
-      <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
-      <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
-    </project>
     <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="xpe" revision="xpe-17.0-caf" />
-    <project path="vendor/qcom/opensource/usb" name="vendor_qcom-opensource_usb" groups="qcom,lahaina" remote="xpe" >
-      <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
-    </project>
-    <project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="qcom,kailua-vendor" remote="xpe" revision="xpe-18.0-caf" >
-      <linkfile dest="vendor/qcom/defs/product-defs/vendor/vibrator_product.mk" src="vibrator-vendor-product.mk"/>
-    </project>
 
     <!--Qcom from Lineage -->
     <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="lineage" />
