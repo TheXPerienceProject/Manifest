@@ -23,7 +23,7 @@
   <!--XPerience Stuff-->
   <remote name="xpe"
           fetch="https://github.com/TheXPerienceProject/"
-          revision="refs/heads/xpe-19.0-caf" />
+          revision="refs/heads/xpe-19.0" />
 
 
   <remote  name="laclo"
@@ -37,15 +37,15 @@
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/TheXPerienceProject/"
-           revision="xpe-19.0-caf" />
+           revision="xpe-19.0" />
 
   <remote  name="unicorn"
            fetch="https://github.com/RainbowUnicornXPe"
-           revision="xpe-19.0-caf" />
+           revision="xpe-19.0" />
 
   <remote  name="unicornlab"
            fetch="https://gitlab.com/RainbowUnicornXPe"
-           revision="xpe-19.0-caf" />
+           revision="xpe-19.0" />
 
   <remote  name="github"
            fetch="https://github.com/" />
