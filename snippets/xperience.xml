@@ -39,7 +39,7 @@
 
     <!-- System -->
     <remove-project name="platform/system/qcom" />
-    <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="aospa" revision="vauxite" />
+    <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="github" revision="vauxite" />
 
     <!--Vendor-->
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="vauxite" />
