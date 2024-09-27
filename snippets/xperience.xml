@@ -47,7 +47,7 @@
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="vauxite" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="vauxite-legacy" />
     <project path="vendor/qcom/opensource/dataservices" name="AOSPA/android_vendor_qcom-opensource_dataservices" remote="github" revision="vauxite" />
-    <project path="vendor/gms" name="vendor_gms" remote="gitlab" clone-depth="1" />
+    <!--<project path="vendor/gms" name="vendor_gms" remote="gitlab" clone-depth="1" />-->
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
     <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" />
     <project path="vendor/qcom/common" name="android_vendor_qcom_common" remote="xpe" clone-depth="1" />
