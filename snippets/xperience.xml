@@ -78,7 +78,7 @@
     <remove-project name="platform/system/core" />
     <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/sepolicy" />
-    <project path="system/core" name="android_system_sepolicy" groups="pdk" remote="xpe" />
+    <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/qcom" />
     <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="github" revision="vauxite" />
 
