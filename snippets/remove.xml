@@ -84,6 +84,10 @@
   <!--Packages apps-->
   <remove-project name="platform/packages/apps/Settings" />
 
+  <!-- qcom -->
+  <remove-project name="platform/vendor/qcom-opensource/power" />
+  <remove-project name="platform/vendor/qcom-opensource/usb"  />
+
   <!-- Vendor -->
   <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
