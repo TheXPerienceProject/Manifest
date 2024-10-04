@@ -85,6 +85,7 @@
   <remove-project name="platform/packages/apps/Settings" />
 
   <!-- qcom -->
+  <remove-project name="platform/vendor/codeaurora/telephony" />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <remove-project name="platform/vendor/qcom-opensource/usb"  />
 
