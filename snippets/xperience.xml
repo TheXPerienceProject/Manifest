@@ -19,6 +19,8 @@
 
     <!-- Bootable -->
     <project path="bootable/recovery"  name="android_bootable_recovery" remote="xpe" />
+    <remove-project name="platform/bootable/deprecated-ota"  />
+    <project path="bootable/deprecated-ota"  name="android_bootable_deprecated-ota" remote="xpe" />
 
     <!--Development-->
     <remove-project name="platform/development" />
@@ -41,6 +43,10 @@
     <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
+    <remove-project name="platform/external/e2fsprogs" />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="xpe" />
+    <remove-project name="platform/external/gptfdisk" />
+    <project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />
     <remove-project name="platform/external/lmfit" />
     <project path="external/lmfit" name="android_external_lmfit"  groups="24Q3-fs-release,pdk,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" remote="xpe" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
@@ -61,7 +67,7 @@
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="xpe" />
-    <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="xpe" />
+    <!--<project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="xpe" />-->
     <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="xpe" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xpe" />
     <project path="packages/apps/Updater" name="android_packages_apps_XPeUpdater" remote="xpe" />
@@ -81,6 +87,8 @@
     <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="xpe" />
     <remove-project name="platform/system/qcom" />
     <project path="vendor/qcom/opensource/softap" name="AOSPA/android_system_qcom" remote="github" revision="vauxite" />
+    <remove-project name="platform/system/vold" />
+    <project path="system/vold" name="android_system_vold" groups="pdk" remote="xpe" />
 
     <!--Vendor-->
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="vauxite" />
