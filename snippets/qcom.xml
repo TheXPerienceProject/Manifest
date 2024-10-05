@@ -70,7 +70,7 @@
     <project path="hardware/qcom-caf/sm8550/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-22.0-caf-sm8550" />
     <project path="hardware/qcom-caf/sm8550/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kailua-vendor" remote="lineage" revision="lineage-22.0-caf-sm8550" />
     <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom,lanai-vendor" remote="xpe" />
-    <!--<project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan"  remote="xpe" revision="kailua-15" />-->
+    <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan"  remote="xpe" revision="15" />
 
     <!-- Vendor qcom -->
     <project path="vendor/qcom/opensource/core-utils-vendor" name="android_vendor_qcom_opensource_core-utils-vendor" groups="qcom,lanai-vendor" remote="xpe" />
