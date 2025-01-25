@@ -45,7 +45,7 @@
 
     <!-- Frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="xpe" />
-    <project path="frameworks/base" name="platform_frameworks_base" remote="xpe" />
+    <project path="frameworks/base" name="platform_frameworks_base" remote="xpe" revision="xpe-19.1" />
     <project path="frameworks/native" name="android_frameworks_native" remote="xpe" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="xpe" />
     <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="xpe" />
