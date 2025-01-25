@@ -33,7 +33,7 @@
     <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="vos" />
     <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="vos" />
     <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="vos" />
-    <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="xpe" />
+    <project path="external/ant-wireless/hidl" name="TheXPerienceProject-staging/external_ant-wireless_hidl" remote="github" revision="xpe-19.0" />
     <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="xpe" />
     <project path="external/dtc" name="android_external_dtc" groups="pdk" remote="xpe" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="xpe" />
