@@ -126,7 +126,7 @@
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
     <!-- Prebuilts -->
-    <project path="prebuilts/clang/host/linux-x86/clang-20" name="yuki-clang" remote="bitbucket" revision="20.0.0git" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-20" name="yuki_clang" remote="bitbucket" revision="20.0.0git" clone-depth="1" />
     <project path="prebuilts/openeuicc-deps" name="yaap/prebuilts_openeuicc-deps" remote="github" revision="fifteen" />
     <project path="toolchain/pgo-profiles" name="yaap/toolchain_pgo-profiles" remote="github" revision="fifteen" />
 
