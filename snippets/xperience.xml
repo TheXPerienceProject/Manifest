@@ -97,7 +97,7 @@
     <project path="hardware/qcom-caf/sm8650/media" name="yaap/hardware_qcom-caf_sm8650_media" remote="github" revision="fifteen" />
     <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,lanai-vendor" remote="xpe" revision="xpe-19.0-caf" />
     <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="vos" />
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="xpe" revision="xpe-19.0-caf" />
+    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="xpe" revision="xpe-19.0-qpr1-caf" />
 
     <!-- Kernel -->
     <project path="kernel/configs" name="kernel_configs" remote="vos" />
