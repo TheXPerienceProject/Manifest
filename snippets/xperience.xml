@@ -140,8 +140,8 @@
     <project path="system/update_engine" name="android_system_update_engine" remote="xpe" />
 
     <!-- Vendor -->
-    <project path="vendor/google/gms" name="android_proprietary_vendor_gms" remote="gitlab" clone-depth="1" />
-    <project path="vendor/google/pixel" name="vendor_google_pixel" remote="gitlab" clone-depth="1" />
+    <project path="vendor/google/gms" name="android_proprietary_vendor_gms" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
+    <project path="vendor/google/pixel" name="vendor_google_pixel" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
     <project path="vendor/google/prebuilt" name="vendor_google_prebuilt" remote="gitlab" clone-depth="1" revision="15" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa-legacy" />
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
