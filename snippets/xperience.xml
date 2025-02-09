@@ -103,6 +103,7 @@
     <project path="kernel/configs" name="kernel_configs" remote="vos" />
 
     <!-- Packages -->
+    <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="xpe" />
     <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="xpe" revision="xpe-19.0" />
     <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk" remote="xpe" />
     <project path="packages/apps/OpenEUICC" name="yaap/packages_apps_OpenEUICC" remote="github" revision="fifteen" sync-s="true" />
