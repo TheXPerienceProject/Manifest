@@ -61,6 +61,12 @@
     <!--Packages-->
     <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" remote="LineageOS" />
 
+    <!-- Prebuilts -->
+    <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="LineageOS" />
+
+    <!-- tools -->
+    <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
+
     <!-- Vendor-->
     <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="LineageOS" />
     <project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="LineageOS" />
