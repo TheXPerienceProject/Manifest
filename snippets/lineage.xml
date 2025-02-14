@@ -59,13 +59,14 @@
     <project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,legacy-qcom" remote="LineageOS" />
 
     <!--Packages-->
-    <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" remote="LineageOS" />
+    <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" remote="LineageOS" revision="lineage-22.1" />
 
     <!-- Prebuilts -->
-    <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="LineageOS" />
+    <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="LineageOS" revision="lineage-22.1" />
+    <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" remote="LineageOS" revision="lineage-22.1" />
 
     <!-- tools -->
-    <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" />
+    <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="LineageOS" revision="lineage-22.1" />
 
     <!-- Vendor-->
     <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="LineageOS" />
