@@ -6,7 +6,7 @@
             revision="lineage-22.1" />
 
     <!-- Device qcom stuff-->
-    <project path="device/qcom/sepolicy_vndr/legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-22.1-legacy-um" remote="LineageOS" />
+    <project path="device/qcom/sepolicy_vndr/legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-22.0-legacy-um" remote="LineageOS" />
     <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" revision="lineage-22.1-caf-sm8450" remote="LineageOS" />
     <project path="device/qcom/sepolicy_vndr/sm8550" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" revision="lineage-22.1-caf-sm8550" remote="LineageOS" />
 
