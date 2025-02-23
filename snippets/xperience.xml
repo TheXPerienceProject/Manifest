@@ -90,9 +90,9 @@
         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
     </project>
-    <project path="hardware/qcom-caf/sm8650/audio/agm" name="yaap/vendor_qcom_opensource_agm-sm8650" remote="github" revision="fifteen" />
-    <project path="hardware/qcom-caf/sm8650/audio/pal" name="yaap/vendor_qcom_opensource_arpal-lx-sm8650" remote="github" revision="fifteen" />
-    <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="yaap/hardware_qcom_audio-ar-sm8650" remote="github" revision="fifteen" />
+    <project path="hardware/qcom-caf/sm8650/audio/agm" name="OnePlus-SM8650-Development/vendor_qcom_opensource_agm-sm8650" remote="github" revision="xpe-19.0-caf-sm8650" />
+    <project path="hardware/qcom-caf/sm8650/audio/pal" name="OnePlus-SM8650-Development/vendor_qcom_opensource_arpal-lx-sm8650" remote="github" revision="xpe-19.0-caf-sm8650" />
+    <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="OnePlus-SM8650-Development/hardware_qcom_audio-ar-sm8650" remote="github" revision="xpe-19.0-caf-sm8650" />
     <project path="hardware/qcom-caf/sm8650/dataipa" name="yaap/vendor_qcom_opensource_dataipa-sm8650" remote="github" revision="fifteen" />
     <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="github" revision="fifteen" />
     <project path="hardware/qcom-caf/sm8650/display" name="yaap/hardware_qcom-caf_sm8650_display" remote="github" revision="fifteen" />
