@@ -41,6 +41,7 @@
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="xpe" />
     <project path="external/fastrpc" name="android_external_fastrpc" groups="pdk" remote="xpe" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />
+    <project path="external/liblhdc" name="android_external_liblhdc" remote="xpe" revision="203796e878d73f7d2aa10fd6fd1cb499cee91abd" />
     <project path="external/json-c" name="external_json-c" remote="vos" />
     <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk,sysui-studio" remote="xpe" />
     <project path="external/tinycompress" name="external_tinycompress" remote="vos" />
@@ -148,6 +149,7 @@
     <project path="vendor/google/pixel" name="vendor_google_pixel" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
     <project path="vendor/google/prebuilt" name="vendor_google_prebuilt" remote="gitlab" clone-depth="1" revision="15" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa-legacy" />
+    <project path="vendor/savitech/lhdc" name="android_vendor_savitech_lhdc" remote="xpe" />
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
     <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" />
     <project path="vendor/qcom/common" name="android_vendor_qcom_common" clone-depth="1" remote="xpe" />
