@@ -41,7 +41,10 @@
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="xpe" />
     <project path="external/fastrpc" name="android_external_fastrpc" groups="pdk" remote="xpe" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />
+    <project path="external/htop" name="yaap/external_htop"  remote="github" revision="fifteen" />
     <project path="external/liblhdc" name="android_external_liblhdc" remote="xpe" revision="203796e878d73f7d2aa10fd6fd1cb499cee91abd" />
+    <project path="external/libncurses" name="yaap/external_libncurses" remote="github" revision="fifteen" />
+    <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="8ff63a678516e5e6bae1a1320f245d01e3be943e" />
     <project path="external/json-c" name="external_json-c" remote="vos" />
     <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk,sysui-studio" remote="xpe" />
     <project path="external/tinycompress" name="external_tinycompress" remote="vos" />
@@ -130,6 +133,7 @@
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
 
     <!-- Prebuilts -->
+    <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" revision="62cdcefa89e31af2d72c366e8b5ef8db84caea62" />
     <project path="prebuilts/clang/host/linux-x86/clang-20" name="yuki_clang" remote="bitbucket" revision="20.0.0git" clone-depth="1" />
     <project path="prebuilts/openeuicc-deps" name="yaap/prebuilts_openeuicc-deps" remote="github" revision="fifteen" />
     <project path="toolchain/pgo-profiles" name="yaap/toolchain_pgo-profiles" remote="github" revision="fifteen" />
