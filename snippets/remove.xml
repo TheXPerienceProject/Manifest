@@ -81,7 +81,6 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/gptfdisk" />
-  <remove-project name="platform/external/llvm" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/setupcompat" />
 
@@ -116,7 +115,6 @@
   <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- prebuilts -->
-  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />
