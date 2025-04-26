@@ -152,6 +152,7 @@
     <project path="vendor/google/prebuilt" name="vendor_google_prebuilt" remote="gitlab" clone-depth="1" revision="15" />
     <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa-legacy" />
     <project path="vendor/qcom/opensource/usb" name="vendor_qcom-opensource_usb" groups="qcom,lanai-vendor" remote="xpe" />
+    <project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="qcom,lanai-vendor" remote="xpe" />
     <project path="vendor/savitech/lhdc" name="android_vendor_savitech_lhdc" remote="xpe" />
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
     <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" />
