@@ -48,7 +48,7 @@
     <project path="external/libncurses" name="yaap/external_libncurses" remote="github" revision="fifteen" />
     <project path="external/libyuv" name="platform/external/libyuv" remote="aosp" revision="969ed2ab0a254660ce8dd3619200ec37c1f63161" />
     <project path="external/llvm" name="platform/external/llvm" remote="aosp" revision="8ff63a678516e5e6bae1a1320f245d01e3be943e" />
-    <project path="external/minijail" name="platform/external/minijail" remote="aosp" revision="113ad64853a65480c38141e2374a1c65e8a535de" />
+    <!--<project path="external/minijail" name="platform/external/minijail" remote="aosp" revision="113ad64853a65480c38141e2374a1c65e8a535de" />-->
     <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk,sysui-studio" remote="xpe" />
     <project path="external/tinycompress" name="external_tinycompress" remote="vos" />
     <project path="external/tensorflow" name="android_external_tensorflow" remote="xpe" />
