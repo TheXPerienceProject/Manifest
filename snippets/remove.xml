@@ -81,8 +81,14 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/llvm" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <!--<remove-project name="platform/external/libpng" />-->
+  <remove-project name="platform/external/libyuv" />
+  <remove-project name="platform/external/tensorflow" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/setupcompat" />
+  <remove-project name="platform/external/vixl" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -115,6 +121,8 @@
   <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- prebuilts -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <remove-project name="platform/prebuilts/r8" />
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />
