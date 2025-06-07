@@ -121,7 +121,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
 
   <!-- prebuilts -->
-  <!--<remove-project name="platform/prebuilts/clang/host/linux-x86" />-->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
   <!-- System -->
   <remove-project name="platform/system/bpf" />
