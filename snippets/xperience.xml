@@ -20,7 +20,7 @@
     </project>
     <remove-project name="platform/build/blueprint" />
     <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" remote="LineageOS" />
-    <project path="build/release" name="android_build_release " groups="pdk,tradefed" remote="xpe" />
+    <project path="build/release" name="android_build_release" groups="pdk,tradefed" remote="xpe" />
 
     <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" groups="pdk" remote="xpe" />
     <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="xpe" />
