@@ -26,7 +26,7 @@
     <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" remote="lineage" />
     <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" remote="lineage" />
 
-    <project path="vendor/gms" name="vendor_gms" remote="gitlab" clone-depth="1" />
+    <project path="vendor/google/gms" name="android_proprietary_vendor_gms" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
 
 </manifest>
