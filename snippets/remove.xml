@@ -1,138 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remove-project name="platform/art" />
-  <remove-project name="platform/bionic" />
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/soong" />
-  <remove-project name="platform/bootable/deprecated-ota" />
-  <remove-project name="platform/bootable/recovery" />
-  <remove-project name="platform/build/release" />
+    <!-- Hardware -->
+    <remove-project name="platform/hardware/qcom/gps" />
+    <remove-project name="platform/hardware/qcom/media" />
 
-  <!-- Device -->
-  <remove-project name="device/amlogic/yukawa" />
-  <remove-project name="device/amlogic/yukawa-kernel" />
-  <remove-project name="device/common" />
-  <remove-project name="device/generic/arm64" />
-  <remove-project name="device/generic/armv7-a-neon" />
-  <remove-project name="device/generic/car" />
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/mini-emulator-arm64" />
-  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
-  <remove-project name="device/generic/mini-emulator-x86" />
-  <remove-project name="device/generic/mini-emulator-x86_64" />
-  <remove-project name="device/generic/trusty" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
-  <remove-project name="device/google_car" />
-  <remove-project name="device/google/akita" />
-  <remove-project name="device/google/akita-sepolicy" />
-  <remove-project name="device/google/akita-kernels/5.15" />
-  <remove-project name="device/google/atv" />
-  <remove-project name="device/google/bluejay" />
-  <remove-project name="device/google/bluejay-kernels/5.10" />
-  <remove-project name="device/google/bluejay-sepolicy" />
-  <remove-project name="device/google/contexthub" />
-  <remove-project name="device/google/caimito" />
-  <remove-project name="device/google/caimito-kernels/6.1" />
-  <remove-project name="device/google/caimito-sepolicy" />
-  <remove-project name="device/google/common/etm" />
-  <remove-project name="device/google/comet" />
-  <remove-project name="device/google/comet-kernels/6.1" />
-  <remove-project name="device/google/comet-sepolicy" />
-  <remove-project name="device/google/felix" />
-  <remove-project name="device/google/felix-kernels/5.10" />
-  <remove-project name="device/google/felix-sepolicy" />
-  <remove-project name="device/google/shusky" />
-  <remove-project name="device/google/shusky-kernels/5.15" />
-  <remove-project name="device/google/shusky-sepolicy" />
-  <remove-project name="device/google/tangorpro" />
-  <remove-project name="device/google/tangorpro-kernels/5.10" />
-  <remove-project name="device/google/tangorpro-sepolicy" />
-  <remove-project name="device/google/gs101" />
-  <remove-project name="device/google/gs101-sepolicy" />
-  <remove-project name="device/google/gs201" />
-  <remove-project name="device/google/gs201-sepolicy" />
-  <remove-project name="device/google/gs-common" />
-  <remove-project name="device/google/lynx" />
-  <remove-project name="device/google/lynx-kernels/5.10" />
-  <remove-project name="device/google/lynx-sepolicy" />
-  <remove-project name="device/google/pantah" />
-  <remove-project name="device/google/pantah-kernels/5.10" />
-  <remove-project name="device/google/pantah-sepolicy" />
-  <remove-project name="device/google/raviole" />
-  <remove-project name="device/google/raviole-kernels/5.10" />
-  <remove-project name="device/google/trout" />
-  <remove-project name="device/google/zuma" />
-  <remove-project name="device/google/zuma-sepolicy" />
-  <remove-project name="device/google/zumapro" />
-  <remove-project name="device/google/zumapro-sepolicy" />
-  <remove-project name="device/linaro/dragonboard" />
-  <remove-project name="device/linaro/dragonboard-kernel" />
-  <remove-project name="device/linaro/hikey" />
-  <remove-project name="device/linaro/hikey-kernel" />
-  <remove-project name="device/linaro/poplar" />
-  <remove-project name="device/linaro/poplar-kernel" />
-  <remove-project name="device/sample" />
-  <remove-project name="platform/hardware/google/pixel-sepolicy" />
+    <!-- Kernel -->
+    <remove-project name="meta-qti-touch" />
+    <remove-project name="platform/vendor/nxp/opensource/driver" />
+    <remove-project name="platform/vendor/opensource/dataipa" />
+    <remove-project name="platform/vendor/opensource/mm-sys-kernel" />
+    <remove-project name="platform/vendor/opensource/synx-kernel" />
+    <remove-project name="platform/vendor/opensource/touch-drivers" />
+    <remove-project name="platform/vendor/qcom/opensource/commonsys/wifi" />
+    <remove-project name="platform/vendor/qcom/opensource/datarmnet" />
+    <remove-project name="platform/vendor/qcom/opensource/datarmnet-ext" />
+    <remove-project name="platform/vendor/qcom/opensource/dsp-devicetree" />
+    <remove-project name="platform/vendor/qcom/opensource/dsp-kernel" />
+    <remove-project name="platform/vendor/qcom/opensource/securemsm-kernel" />
+    <remove-project name="platform/vendor/qcom/opensource/spu-kernel" />
+    <remove-project name="platform/vendor/qcom-opensource/data-devicetree" />
+    <remove-project name="platform/vendor/qcom-opensource/data-kernel" />
+    <remove-project name="platform/vendor/qcom-opensource/data-openssl" />
+    <remove-project name="platform/vendor/qcom-opensource/eSE-devicetree" />
+    <remove-project name="platform/vendor/qcom-opensource/fingerprint-devicetree" />
+    <remove-project name="platform/vendor/qcom-opensource/fingerprint" />
+    <remove-project name="platform/vendor/qcom-opensource/location" />
+    <remove-project name="platform/vendor/qcom-opensource/nfc-devicetree" />
+    <remove-project name="platform/vendor/qcom-opensource/synx-devicetree" />
+    <remove-project name="platform/vendor/qcom-opensource/wigig" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/platform" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/wlan-devicetree" />
 
-  <!-- External -->
-  <remove-project name="platform/external/arm-optimized-routines" />
-  <remove-project name="platform/external/dtc" />
-  <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/fastrpc" />
-  <remove-project name="platform/external/gptfdisk" />
-  <remove-project name="platform/external/llvm" />
-  <remove-project name="platform/external/libjpeg-turbo" />
-  <!--<remove-project name="platform/external/libpng" />-->
-  <remove-project name="platform/external/libyuv" />
-  <remove-project name="platform/external/tensorflow" />
-  <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/setupcompat" />
-  <remove-project name="platform/external/vixl" />
+    <!-- Packages -->
+    <remove-project name="platform/packages/apps/Gallery2" />
 
-  <!-- Frameworks -->
-  <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/libs/systemui" />
+    <!-- Prebuilts -->
+    <remove-project name="kernel/prebuilts/6.1/arm64"/>
+    <remove-project name="kernel/prebuilts/6.1/x86-64"/>
+    <remove-project name="kernel/prebuilts/6.6/arm64"/>
+    <remove-project name="kernel/prebuilts/6.6/x86-64"/>
+    <remove-project name="kernel/prebuilts/6.12/arm64"/>
+    <remove-project name="kernel/prebuilts/6.12/x86-64"/>
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64"/>
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64"/>
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64"/>
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64"/>
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64"/>
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64"/>
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
+    <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
+    <remove-project name="kernel/prebuilts/mainline/arm64"/>
+    <remove-project name="kernel/prebuilts/mainline/x86-64"/>
+    <remove-project name="platform/prebuilts/android-emulator" />
+    <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
+    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
+    <remove-project name="platform/prebuilts/qemu-kernel" />
 
-  <!-- Hardware -->
-  <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/libhardware"/>
-  <remove-project name="platform/hardware/qcom/wlan"/>
-
-  <!-- Kernel -->
-  <remove-project name="kernel/configs" />
-
-  <!-- Packages -->
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/modules/Bluetooth" />
-  <remove-project name="platform/packages/modules/Connectivity" />
-  <remove-project name="platform/packages/modules/common" />
-  <remove-project name="platform/packages/modules/NetworkStack" />
-  <remove-project name="platform/packages/modules/Permission" />
-  <remove-project name="platform/packages/modules/Wifi" />
-  <remove-project name="platform/packages/providers/DownloadProvider" />"
-  <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/services/Telecomm" />
-
-  <!-- prebuilts -->
-  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
-
-  <!-- System -->
-  <remove-project name="platform/system/bpf" />
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" />
-  <remove-project name="platform/system/security" />
-  <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/tools/mkbootimg" />
-  <remove-project name="platform/system/vold" />
-  <remove-project name="platform/system/update_engine" />
-  <remove-project name="toolchain/pgo-profiles" />
+    <!-- Vendor -->
+    <remove-project name="platform/packages/apps/Mms" />
+    <remove-project name="platform/packages/apps/SnapdragonMusic" />
+    <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
+    <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
+    <remove-project name="platform/vendor/nxp/opensource/halimpl" />
+    <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+    <remove-project name="platform/vendor/qcom/blair" />
+    <remove-project name="platform/vendor/qcom/kalama" />
+    <remove-project name="platform/vendor/qcom/lahaina" />
+    <remove-project name="platform/vendor/qcom/pineapple" />
+    <remove-project name="platform/vendor/qcom/sun" />
+    <remove-project name="platform/vendor/qcom/taro" />
+    <remove-project name="platform/vendor/st/opensource/driver" />
+    <remove-project name="platform/vendor/st/opensource/eSE-driver" />
+    <remove-project name="platform/vendor/st/opensource/halimpl" />
+    <remove-project name="platform/vendor/st/opensource/keymaster" />
 
 </manifest>
