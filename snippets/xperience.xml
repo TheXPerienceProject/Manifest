@@ -5,9 +5,9 @@
     <project path="device/xperience/sepolicy" name="android_device_xperience_sepolicy" remote="xpe" revision="xpe-19.0-qpr1" />
 
     <!-- External -->
-    <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
-    <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
-    <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
+    <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
+    <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
+    <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
 
