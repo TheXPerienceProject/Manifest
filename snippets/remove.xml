@@ -82,6 +82,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/grpc-grpc" />
   <remove-project name="platform/external/llvm" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <!--<remove-project name="platform/external/libpng" />-->

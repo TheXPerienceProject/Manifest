@@ -42,6 +42,7 @@
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="xpe" />
     <project path="external/fastrpc" name="android_external_fastrpc" groups="pdk" remote="xpe" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />
+    <project path="external/grpc-grpc" name="android_external_grpc-grpc" groups="pdk,tradefed" remote="xpe" />
     <project path="external/htop" name="yaap/external_htop"  remote="github" revision="fifteen" />
     <project path="external/json-c" name="external_json-c" remote="vos" />
     <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="xpe" />
