@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+    <project path="art" name="android_art" groups="pdk" remote="xpe" />
+    <project path="bionic" name="android_bionic" groups="pdk" remote="xpe" />
+
+    <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="xpe" >
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+
+    <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="xpe" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
     <!-- Device -->
     <project path="device/xperience/common" name="android_device_xperience_common" remote="xpe"  revision="xpe-19.0-qpr1" />
     <project path="device/xperience/sepolicy" name="android_device_xperience_sepolicy" remote="xpe" revision="xpe-19.0-qpr1" />
@@ -9,7 +27,6 @@
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-
 
 
     <!-- Hardware -->
@@ -26,13 +43,26 @@
     <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" remote="lineage" revision="lineage-22.2" />
     <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" remote="lineage" revision="lineage-22.2" />
 
-    <project path="vendor/google/gms" name="android_proprietary_vendor_gms" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
-    <project path="vendor/google/pixel" name="vendor_google_pixel" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
-    <project path="vendor/google/prebuilt" name="vendor_google_prebuilt" remote="gitlab" clone-depth="1" revision="15" />
-    <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
 
     <!-- tools -->
     <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" revision="lineage-22.2" />
     <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" revision="lineage-22.2" />
 
+    <!-- Vendor xperience -->
+    <project path="vendor/google/gms" name="android_proprietary_vendor_gms" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
+    <project path="vendor/google/pixel" name="vendor_google_pixel" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
+    <project path="vendor/google/prebuilt" name="vendor_google_prebuilt" remote="gitlab" clone-depth="1" revision="15" />
+    <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
+
+    <!-- vendor qcom -->
+    <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3" remote="xpe" >
+        <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
+        <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
+        <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
+        <linkfile dest="vendor/qcom/build/tasks/generate_vendor_bundle.mk" src="image_generation_tool/generate_vendor_bundle.mk"/>
+        <linkfile dest="vendor/qcom/defs/product-defs/vendor/image_generation_tool_product.mk" src="image_generation_tool/config/image_generation_tool_product.mk"/>
+        <linkfile dest="build.sh" src="build/build.sh"/>
+        <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
+        <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
+    </project>
 </manifest>

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+    <remove-project name="platform/art" />
+    <remove-project name="platform/bionic" />
+    <remove-project name="platform/build" />
+    <remove-project name="platform/build/soong" />
+
     <!-- Hardware -->
     <remove-project name="platform/hardware/qcom/gps" />
     <remove-project name="platform/hardware/qcom/media" />
@@ -39,7 +44,7 @@
     <remove-project name="platform/packages/apps/Gallery2" />
 
     <!-- Prebuilts -->
-    <remove-project name="kernel/prebuilts/6.1/arm64"/>
+    <!--<remove-project name="kernel/prebuilts/6.1/arm64"/>
     <remove-project name="kernel/prebuilts/6.1/x86-64"/>
     <remove-project name="kernel/prebuilts/6.6/arm64"/>
     <remove-project name="kernel/prebuilts/6.6/x86-64"/>
@@ -54,7 +59,7 @@
     <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
     <remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
     <remove-project name="kernel/prebuilts/mainline/arm64"/>
-    <remove-project name="kernel/prebuilts/mainline/x86-64"/>
+    <remove-project name="kernel/prebuilts/mainline/x86-64"/>-->
     <remove-project name="platform/prebuilts/android-emulator" />
     <remove-project name="platform/prebuilts/bazel/darwin-x86_64" />
     <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
@@ -67,6 +72,7 @@
     <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
     <remove-project name="platform/vendor/nxp/opensource/halimpl" />
     <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
+    <remove-project name="platform/vendor/nxp/opensource/keymaster" />
     <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
     <remove-project name="platform/vendor/qcom/blair" />
     <remove-project name="platform/vendor/qcom/kalama" />
@@ -78,5 +84,6 @@
     <remove-project name="platform/vendor/st/opensource/eSE-driver" />
     <remove-project name="platform/vendor/st/opensource/halimpl" />
     <remove-project name="platform/vendor/st/opensource/keymaster" />
+    <remove-project name="platform/vendor/qcom-opensource/core-utils" />
 
 </manifest>
