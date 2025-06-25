@@ -31,4 +31,8 @@
     <project path="vendor/google/prebuilt" name="vendor_google_prebuilt" remote="gitlab" clone-depth="1" revision="15" />
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
 
+    <!-- tools -->
+    <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" revision="lineage-22.2" />
+    <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" revision="lineage-22.2" />
+
 </manifest>
