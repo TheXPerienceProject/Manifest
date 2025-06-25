@@ -59,6 +59,7 @@
     <project path="vendor/google/pixel" name="vendor_google_pixel" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
     <project path="vendor/google/prebuilt" name="vendor_google_prebuilt" remote="gitlab" clone-depth="1" revision="15" />
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
+    <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" />
 
     <!-- vendor qcom -->
     <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3" remote="xpe" >
