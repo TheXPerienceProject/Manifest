@@ -8,6 +8,9 @@
     <remove-project name="device/qcom/sepolicy_vndr" />
     <remove-project name="device/qcom/common" />
 
+    <!-- External -->
+    <remove-project name="platform/external/dtc" />
+
     <!-- Hardware -->
     <remove-project name="platform/hardware/qcom/bootctrl" />
     <remove-project name="platform/hardware/qcom/gps" />
