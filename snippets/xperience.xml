@@ -50,6 +50,9 @@
     <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" revision="lineage-22.2" />
     <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" revision="lineage-22.2" />
 
+    <!-- system -->
+    <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
+
     <!-- Vendor xperience -->
     <project path="vendor/google/gms" name="android_proprietary_vendor_gms" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
     <project path="vendor/google/pixel" name="vendor_google_pixel" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />

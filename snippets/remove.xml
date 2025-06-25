@@ -69,6 +69,9 @@
     <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
     <remove-project name="platform/prebuilts/qemu-kernel" />
 
+    <!-- System -->
+    <remove-project name="platform/system/core" />
+
     <!-- Vendor -->
     <remove-project name="platform/packages/apps/Mms" />
     <remove-project name="platform/packages/apps/SnapdragonMusic" />
