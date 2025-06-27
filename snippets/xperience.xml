@@ -74,4 +74,7 @@
         <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
         <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
     </project>
+    <project path="vendor/qcom/opensource/usb" name="vendor_qcom-opensource_usb" revision="xpe" revision="xpe-19.0-qpr1" >
+        <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
+    </project>
 </manifest>
