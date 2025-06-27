@@ -88,5 +88,6 @@
     <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="xpe" revision="xpe-19.0-qpr1-caf" />
 
     <!-- Vendor -->
+    <project path="vendor/qcom/opensource/commonsys/wfd" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,lanai-video" remote="lineage"  revision="lineage-22.2" />
     <project path="vendor/qcom/common" name="android_vendor_qcom_common" clone-depth="1" remote="xpe" />
 </manifest>
