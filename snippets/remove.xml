@@ -10,6 +10,7 @@
 
     <!-- External -->
     <remove-project name="platform/external/dtc" />
+    <remove-project name="platform/external/tinycompress" />
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/qcom/bootctrl" />
@@ -74,6 +75,7 @@
 
     <!-- System -->
     <remove-project name="platform/system/core" />
+    <remove-project name="platform/system/sepolicy" />
 
     <!-- Vendor -->
     <remove-project name="platform/packages/apps/Mms" />
@@ -83,8 +85,10 @@
     <remove-project name="platform/vendor/nxp/opensource/halimpl" />
     <remove-project name="platform/vendor/nxp/opensource/hidlimpl" />
     <remove-project name="platform/vendor/nxp/opensource/keymaster" />
+    <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
     <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
     <remove-project name="platform/vendor/qcom-opensource/usb" />
+    <remove-project name="platform/vendor/qcom-opensource/vibrator" />
     <remove-project name="platform/vendor/qcom/blair" />
     <remove-project name="platform/vendor/qcom/kalama" />
     <remove-project name="platform/vendor/qcom/lahaina" />

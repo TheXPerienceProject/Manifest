@@ -29,6 +29,7 @@
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/dtc" name="android_external_dtc" remote="xpe" />
+    <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="xpe" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
 
@@ -55,6 +56,7 @@
 
     <!-- system -->
     <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
+    <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="xpe" />
 
     <!-- Vendor xperience -->
     <project path="vendor/google/gms" name="android_proprietary_vendor_gms" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
@@ -74,7 +76,9 @@
         <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
         <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
     </project>
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-22.2-legacy-um" remote="lineage" />
     <project path="vendor/qcom/opensource/usb" name="vendor_qcom-opensource_usb" remote="xpe" revision="xpe-19.0-qpr1" >
         <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
     </project>
+    <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,lanai-vendor" remote="lineage" revision="lineage-22.2" />
 </manifest>
