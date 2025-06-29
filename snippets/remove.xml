@@ -11,6 +11,7 @@
     <!-- External -->
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/tinycompress" />
+    <remove-project name="platform/external/wpa_supplicant_8" />
 
     <!-- Hardware -->
     <remove-project name="platform/hardware/qcom/bootctrl" />
