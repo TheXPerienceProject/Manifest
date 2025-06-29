@@ -85,7 +85,8 @@
     <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="github" revision="fifteen" />
     <project path="hardware/qcom-caf/sm8650/display" name="yaap/hardware_qcom-caf_sm8650_display" remote="github" revision="fifteen" />
     <project path="hardware/qcom-caf/sm8650/media" name="yaap/hardware_qcom-caf_sm8650_media" remote="github" revision="fifteen" />
-    <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="xpe" revision="xpe-19.0-qpr1-caf" />
+    <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="lineage" groups="qcom,lanai-vendor" revision="lineage-22.2-caf" />
+    <project path="hardware/qcom/wlan" name="VoltageOS-staging/hardware_qcom_wlan" remote="github" groups="qcom,lanai-vendor" revision="16" />
 
     <!-- Vendor -->
     <project path="vendor/qcom/opensource/commonsys/wfd" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,lanai-video" remote="lineage"  revision="lineage-22.2" />
