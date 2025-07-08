@@ -45,6 +45,7 @@
 
     <!-- Hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="xpe" />
     <project path="hardware/xperience/compat" name="android_hardware_xperience_compat" remote="xpe" />
     <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
 
@@ -95,5 +96,7 @@
     <project path="vendor/qcom/opensource/usb" name="vendor_qcom-opensource_usb" remote="xpe" revision="xpe-19.0-qpr1" >
         <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
     </project>
+    <project path="vendor/qcom/opensource/thermal-hal" name="android_hardware_qcom_thermal" remote="xpe" revision="xpe-20.0" />
+    <project path="vendor/qcom/opensource/thermal-hal-legacy" name="android_hardware_qcom_thermal" remote="xpe" revision="xpe-20.0-legacy-um" />
     <project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,lanai-vendor" remote="lineage" revision="lineage-22.2" />
 </manifest>
