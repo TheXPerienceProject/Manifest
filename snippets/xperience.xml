@@ -33,6 +33,7 @@
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/dtc" name="android_external_dtc" remote="xpe" />
+    <project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />
     <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="xpe" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
     <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="xpe" />
