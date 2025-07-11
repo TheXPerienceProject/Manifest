@@ -28,6 +28,7 @@
     <remove-project name="platform/hardware/qcom/wlan" />
     <remove-project name="platform/hardware/qcom/thermal" />
     <remove-project name="platform/hardware/interfaces" />
+    <remove-project name="platform/hardware/libhardware" />
 
     <!-- Kernel -->
     <remove-project name="meta-qti-touch" />
