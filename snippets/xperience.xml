@@ -71,8 +71,11 @@
     <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" revision="lineage-22.2" />
 
     <!-- system -->
+    <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="xpe" />
     <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
+    <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="xpe" />
     <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="xpe" />
+    <project path="system/vold" name="android_system_vold" groups="pdk" remote="xpe" />
 
     <!-- Vendor xperience -->
     <project path="vendor/google/gms" name="android_proprietary_vendor_gms" remote="gitlab" clone-depth="1" revision="xpe-19.0-qpr1" />
