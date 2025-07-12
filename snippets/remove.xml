@@ -105,6 +105,7 @@
     <remove-project name="platform/vendor/nxp/opensource/keymaster" />
     <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
     <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+    <remove-project name="platform/vendor/qcom-opensource/power" />
     <remove-project name="platform/vendor/qcom-opensource/usb" />
     <remove-project name="platform/vendor/qcom-opensource/vibrator" />
     <remove-project name="platform/vendor/qcom/blair" />
