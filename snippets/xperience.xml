@@ -34,13 +34,17 @@
     <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
+    <project path="external/bouncycastle" name="android_external_bouncycastle" remote="xpe" />
     <project path="external/dtc" name="android_external_dtc" remote="xpe" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />
+    <project path="external/htop" name="yaap/external_htop"  remote="github" revision="sixteen" />
+    <project path="external/libncurses" name="yaap/external_libncurses" remote="github" revision="sixteen" />
     <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="xpe" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
     <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="xpe" />
 
     <!-- Frameworks -->
+    <project path="frameworks/av" name="pandroid_frameworks_av" remote="xpe" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="xpe" />
     <project path="frameworks/native" name="android_frameworks_native" remote="xpe" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="xpe" />

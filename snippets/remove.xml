@@ -11,14 +11,16 @@
     <remove-project name="device/qcom/common" />
 
     <!-- External -->
+    <remove-project name="platform/external/bouncycastle" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/wpa_supplicant_8" />
 
     <!-- Frameworks -->
-    <remove-project name="platform/frameworks/native" />
+    <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/native" />
     <remove-project name="platform/frameworks/opt/telephony" />
 
     <!-- Hardware -->
