@@ -49,7 +49,7 @@
     <project path="frameworks/base" name="platform_frameworks_base" remote="xpe" />
     <project path="frameworks/native" name="android_frameworks_native" remote="xpe" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="xpe" />
-    <project path="frameworks/opt/wifi" name="android_frameworks_opt_net_wifi" remote="xpe" />
+    <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="xpe" />
 
     <!-- Hardware -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
