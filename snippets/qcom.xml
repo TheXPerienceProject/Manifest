@@ -84,11 +84,10 @@
     <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="github" revision="sixteen" />
     <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" remote="xpe" revision="xpe-20.0-caf-sm8650" />
     <project path="hardware/qcom-caf/sm8650/media" name="yaap/hardware_qcom-caf_sm8650_media" remote="github" revision="sixteen" />
-    <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="lineage" groups="qcom,lanai-vendor" revision="lineage-22.2-caf" />
+    <project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="lineage" groups="qcom,lanai-vendor" revision="lineage-23.0-caf" />
     <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="xpe" groups="qcom,lanai-vendor" />
 
     <!-- Vendor -->
     <project path="vendor/qcom/opensource/commonsys/wfd" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,lanai-video" remote="lineage"  revision="lineage-22.2" />
-    <project path="vendor/qcom/opensource/dataservices-legacy" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,pakala-vendor" revision="lineage-23.0" remote="lineage" />
     <project path="vendor/qcom/common" name="android_vendor_qcom_common" clone-depth="1" remote="xpe" />
 </manifest>
