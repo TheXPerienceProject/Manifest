@@ -13,6 +13,7 @@
     <!-- External -->
     <remove-project name="platform/external/bouncycastle" />
     <remove-project name="platform/external/dtc" />
+    <remove-project name="platform/external/fastrpc" />
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/json-c" />
     <remove-project name="platform/external/tinycompress" />
