@@ -76,7 +76,7 @@
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="xpe" />
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="xpe" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="xpe" revision="xpe-17.0-caf" />
-    <project path="packages/services/Telephony" name="android_packages_providers_Telephony" remote="xpe" />
+    <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="xpe" />
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="xpe" />
 
     <!-- Prebuilts (kernel tools)-->
