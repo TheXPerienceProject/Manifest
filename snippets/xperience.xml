@@ -63,8 +63,9 @@
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="lineage" />
-    <!--<project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="xpe" />
-    <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="xpe" />
+    <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="xpe" />
+    <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="xpe" />
+    <!--<project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="xpe" />
     <project path="packages/apps/Updater" name="android_packages_apps_XPeUpdater" remote="xpe" />
     <project path="packages/apps/XPerienceDoze" name="android_packages_apps_XPerienceDoze" remote="xpe" />-->
     <project path="packages/apps/RainbowUnicorn" name="android_packages_apps_RainbowUnicorn" remote="xpe" />
