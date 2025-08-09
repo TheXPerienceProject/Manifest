@@ -31,7 +31,7 @@
     <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" remote="lineage" revision="lineage-22.2" />
 
     <!-- Prebuilts (kernel tools)-->
-    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="clo-la" revision="ks-kernel.lnx.4.0.r1-rel" />
+    <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="laclo" revision="ks-kernel.lnx.4.0.r1-rel" />
 
     <!-- tools -->
     <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" revision="lineage-23.0" />
