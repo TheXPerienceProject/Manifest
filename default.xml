@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- AOSP -->
-  <remote name="aosp"
-          fetch="https://android.googlesource.com"
-          sync-c="true"
-          sync-tags="false"
-          review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-16.0.0_r1" />
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="https://android-review.googlesource.com/" />
 
-  <!-- CLO -->
-  <remote name="clo-la"
-          fetch="https://git.codelinaro.org/clo/la"
-          sync-c="true"
-          sync-tags="false" />
+  <default revision="refs/tags/android-16.0.0_r1"
+           remote="aosp"
+           sync-j="4" />
 
-  <default remote="clo-la"/>
-
-  <include name="snippets/system.xml"/>
-  <include name="snippets/vendor.xml"/>
-  <include name="snippets/wlan.xml"/>
-
+  <include name="snippets/system.xml" />
+  
   <!--XPerience Stuff-->
   <remote name="xpe"
           fetch="https://github.com/TheXPerienceProject/"
