@@ -76,10 +76,10 @@
     <project path="hardware/qcom-caf/sm8550/dataipa" name="LineageOS/android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" revision="lineage-22.1-caf-sm8550" remote="lineage" />
     <project path="hardware/qcom-caf/sm8550/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-22.1-caf-sm8550" remote="lineage" />
     <project path="hardware/qcom-caf/sm8550/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kailua-vendor" revision="lineage-22.1-caf-sm8550" remote="lineage" />
-    <project path="hardware/qcom-caf/sm8650/audio/agm" name="vendor_qcom_opensource_agm-sm8650" remote="github" revision="sixteen" />
-    <project path="hardware/qcom-caf/sm8650/audio/graphservices" name="vendor_qcom_opensource_audioreach-graphservices-sm8650" remote="github" revision="sixteen" />
-    <project path="hardware/qcom-caf/sm8650/audio/pal" name="vendor_qcom_opensource_arpal-lx-sm8650" remote="github" revision="sixteen" />
-    <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="hardware_qcom_audio-ar-sm8650" remote="github" revision="sixteen" />
+    <project path="hardware/qcom-caf/sm8650/audio/agm" name="yaap/vendor_qcom_opensource_agm-sm8650" remote="github" revision="sixteen" />
+    <project path="hardware/qcom-caf/sm8650/audio/graphservices" name="yaap/vendor_qcom_opensource_audioreach-graphservices-sm8650" remote="github" revision="sixteen" />
+    <project path="hardware/qcom-caf/sm8650/audio/pal" name="yaap/vendor_qcom_opensource_arpal-lx-sm8650" remote="github" revision="sixteen" />
+    <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="yaap/hardware_qcom_audio-ar-sm8650" remote="github" revision="sixteen" />
     <project path="hardware/qcom-caf/sm8650/dataipa" name="yaap/vendor_qcom_opensource_dataipa-sm8650" remote="github" revision="sixteen" />
     <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="github" revision="sixteen" />
     <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" remote="xpe" revision="xpe-20.0-caf-sm8650" />
