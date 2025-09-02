@@ -61,6 +61,11 @@
     <project path="hardware/xperience/compat" name="android_hardware_xperience_compat" remote="xpe" revision="xpe-20.0" />
     <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" revision="xpe-20.0" />
 
+    <!-- Lindroid -->
+    <project path="libhybris" name="yaap/libhybris" remote="github" revision="sixteen" />
+    <project path="external/lxc" name="yaap/external_lxc" remote="github" revision="sixteen" />
+    <project path="vendor/lindroid" name="yaap/vendor_lindroid" remote="github" revision="sixteen" />
+
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="lineage" />
     <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="xpe" />
