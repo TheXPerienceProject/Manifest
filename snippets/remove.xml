@@ -123,6 +123,12 @@
     <remove-project name="platform/vendor/qcom-opensource/power" />
     <remove-project name="platform/vendor/qcom-opensource/usb" />
     <remove-project name="platform/vendor/qcom-opensource/vibrator" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/platform" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
+    <remove-project name="platform/vendor/qcom-opensource/wlan/wlan-devicetree" />
     <remove-project name="platform/vendor/qcom/blair" />
     <remove-project name="platform/vendor/qcom/kalama" />
     <remove-project name="platform/vendor/qcom/lahaina" />
