@@ -27,6 +27,8 @@
     <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,sdm660" remote="xpe" revision="xpe-17.0-caf-legacy" />
     <project path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr" remote="xpe" revision="xpe-20.0-caf-sm8450" />
     <project path="device/qcom/sepolicy_vndr/sm8650" name="yaap/device_qcom_sepolicy_vndr_sm8650" remote="github" revision="sixteen" />
+    <!--<project path="device/qcom/sepolicy_vndr/sm8750" name="SunOS-Project/android_device_qcom_sepolicy_vndr" remote="github" revision="bienor-caf-sm8750" />-->
+    <project path="device/qcom/sepolicy_vndr/sm8750" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" remote="lineage" revision="lineage-23.0-caf-sm8750" />
 
     <!-- External -->
     <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
