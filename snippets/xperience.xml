@@ -13,6 +13,7 @@
         <linkfile src="tools" dest="build/tools" />
     </project>
 
+    <project path="build/release" name="android_build_release" groups="pdk,tradefed,sysui-studio" remote="xpe" />
     <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="xpe" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -55,6 +56,7 @@
     <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="xpe" />
     <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="xpe" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="xpe" />
+    <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="xpe" />
 
     <!-- Hardware -->
     <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="lineage" revision="lineage-23.0" />
@@ -75,12 +77,16 @@
     <project path="packages/apps/XPerienceDoze" name="android_packages_apps_XPerienceDoze" remote="xpe" />
     <project path="packages/apps/RainbowUnicorn" name="android_packages_apps_RainbowUnicorn" remote="xpe" />
     <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xpe" />
+    <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="xpe" />
     <project path="packages/apps/XPerienceOptimizer" name="android_packages_apps_XPerienceOptimizer" remote="xpe" />
     <project path="packages/apps/XPerienceSetupWizard" name="android_packages_apps_SetupWizard" remote="xpe" />
     <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" remote="lineage" revision="lineage-22.2" />
     <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" remote="lineage" revision="lineage-22.2" />
     <project path="packages/apps/Updater" name="android_packages_apps_XPeUpdater" remote="xpe" />
     <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
+    <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk" remote="gitlab" revision="xpe-20.0-aosp" />
+    <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="xpe" />
+    <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" groups="pdk" remote="xpe" />
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="xpe" />
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="xpe" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="xpe" revision="xpe-17.0-caf" />
@@ -96,6 +102,7 @@
     <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" revision="lineage-23.0" />
 
     <!-- system -->
+    <project path="system/apex" name="android_system_apex" groups="pdk" remote="xpe" />
     <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="xpe" />
     <project path="system/chre" name="android_system_chre" groups="pdk" remote="xpe" />
     <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
