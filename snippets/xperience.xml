@@ -71,6 +71,7 @@
     <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" remote="lineage" revision="lineage-23.0"/>
     <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="xpe" />
     <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="xpe" />
+    <project path="packages/apps/GameBar" name="android_packages_apps_GameBar" remote="xpe" revision="xpe-20.0" />
     <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="xpe" revision="xpe-20.0" />
     <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="xpe" />
     <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="lineage" revision="lineage-23.0"/>
