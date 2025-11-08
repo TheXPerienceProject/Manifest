@@ -32,6 +32,7 @@
     <remove-project name="platform/hardware/qcom/wlan" />
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
+    <remove-project name="platform/hardware/samsung/nfc" />
 
     <!-- Packages -->
     <remove-project name="platform/packages/apps/Launcher3" />
