@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="clo-la" name="device/common" path="device/common" revision="5fc96da75640da81cdd42c62fad5b523ba4a3322" upstream="refs/heads/ks-aosp.lnx.16.0.r1-rel" groups="24Q3-fs-release,25Q2-fs-release,pdk,pdk-cw-fs,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
   <project remote="clo-la" name="device/generic/arm64" path="device/generic/arm64" revision="4370c79c23e6689a3264728316f69e6aeef090b7" upstream="refs/heads/ks-aosp.lnx.16.0.r1-rel" groups="24Q3-fs-release,25Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
   <project remote="clo-la" name="device/generic/armv7-a-neon" path="device/generic/armv7-a-neon" revision="011f625be7ca430373ae644da1046aa270751e4c" upstream="refs/heads/ks-aosp.lnx.16.0.r1-rel" groups="24Q3-fs-release,25Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
