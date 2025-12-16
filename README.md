@@ -14,7 +14,7 @@ To initialize your local repository using the XPerience CAF trees, use a command
 
       $ mkdir XPe
       $ cd XPe
-      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-20.0 --git-lfs
+      $ repo init -u https://github.com/TheXPerienceProject/Manifest -b xpe-20.0-aosp --git-lfs
       $ sudo install /usr/bin/repo .repo/repo/repo
     
 Then to sync up:
@@ -59,7 +59,7 @@ Congratulations,the sources are initialized!
 #### To build The XPerience Project ROM
       
       $ . build/envsetup.sh
-      $ lunch xperience_codename-userdebug
+      $ lunch xperience_${DEVICE}-bp2a-userdebug
       $ make bacon -j$(nproc --all)
 
 #### If you want build with GAPPS add this flag
@@ -79,4 +79,4 @@ Congratulations,the sources are initialized!
       * http://tryge.com/2013/06/15/build-android-from-source-macosx/
       * https://source.android.com/source/initializing.html
 
-## Copyright (C) 2011-2022 The XPerience Project
+## Copyright (C) 2011-2026 The XPerience Project

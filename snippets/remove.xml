@@ -7,13 +7,16 @@
     <remove-project name="platform/build/release" />
     <remove-project name="platform/build/soong" />
     <remove-project name="platform/bootable/recovery" />
+    <remove-project name="platform/cts" />
 
     <!-- External -->
     <remove-project name="platform/external/bouncycastle" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/fastrpc" />
+    <remove-project name="platform/external/dng_sdk" />
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/setupcompat" />
+    <remove-project name="platform/external/skia" />
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/wpa_supplicant_8" />
     <remove-project name="platform/external/zstd" />
@@ -35,6 +38,7 @@
     <remove-project name="platform/hardware/samsung/nfc" />
 
     <!-- Packages -->
+    <remove-project name="platform/packages/apps/CertInstaller" />
     <remove-project name="platform/packages/apps/Launcher3" />
     <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/apps/Stk" />
@@ -45,6 +49,7 @@
     <remove-project name="platform/packages/modules/Wifi" />
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/packages/providers/MediaProvider" />
+    <remove-project name="platform/packages/services/Mms" />
     <remove-project name="platform/packages/services/Telecomm" />
     <remove-project name="platform/packages/services/Telephony" />
 
