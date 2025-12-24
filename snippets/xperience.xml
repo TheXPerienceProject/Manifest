@@ -72,6 +72,7 @@
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="lineage" />
+    <project path="packages/apps/BatteryAdviser" name="android_packages_apps_BatteryAdviser" remote="xpe" />
     <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" remote="lineage" revision="lineage-23.0"/>
     <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="xpe" />
     <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="xpe" />
