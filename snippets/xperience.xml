@@ -99,7 +99,7 @@
     <project path="packages/apps/Updater" name="android_packages_apps_XPeUpdater" remote="xpe" revision="xpe-20.0-new" />
     <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
     <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk" remote="gitlab" revision="xpe-20.0-aosp" />
-    <project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="xpe" />
+    <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="xpe" />
     <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" groups="pdk" remote="xpe" />
     <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="xpe" />
     <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="xpe" />
