@@ -66,7 +66,7 @@
     <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="lineage" revision="lineage-23.0" />
     <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="xpe" />
-    <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" groups="pdk" revision="lineage-23.0" />
+    <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" groups="pdk" remote="lineage" revision="lineage-23.0" />
     <project path="hardware/xperience/compat" name="android_hardware_xperience_compat" remote="xpe" revision="xpe-20.0" />
     <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" revision="xpe-20.0" />
 
