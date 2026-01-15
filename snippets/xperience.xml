@@ -30,7 +30,7 @@
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="xpe" revision="xpe-20.0-caf" />
     <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,sdm660" remote="xpe" revision="xpe-17.0-caf-legacy" />
     <project path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr" remote="xpe" revision="xpe-20.0-caf-sm8450" />
-    <project path="device/qcom/sepolicy_vndr/sm8650" name="yaap/device_qcom_sepolicy_vndr_sm8650" remote="github" revision="sixteen" />
+    <project path="device/qcom/sepolicy_vndr/sm8650" name="yaap/device_qcom_sepolicy_vndr_sm8650" remote="github" revision="f2f251d2fce6d5a792fe58b62e03fb615b7b4559" />
     <!--<project path="device/qcom/sepolicy_vndr/sm8750" name="SunOS-Project/android_device_qcom_sepolicy_vndr" remote="github" revision="bienor-caf-sm8750" />-->
 
     <!-- External -->
