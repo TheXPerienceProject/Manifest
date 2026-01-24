@@ -1094,9 +1094,9 @@
   <!-- END open-source projects -->
 
   <!-- XPerience start -->
-  <!--<include name="snippets/remove.xml"/>
+  <include name="snippets/remove.xml"/>
   <include name="snippets/aosp.xml"/>
   <include name="snippets/qcom.xml"/>
-  <include name="snippets/xperience.xml"/>-->
+  <include name="snippets/xperience.xml"/>
 
 </manifest>
