@@ -29,9 +29,19 @@
     <project path="device/xperience/sepolicy" name="android_device_xperience_sepolicy" remote="xpe" revision="xpe-20.0-aosp"/>
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="xpe" revision="xpe-20.0-caf" />
     <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,sdm660" remote="xpe" revision="xpe-17.0-caf-legacy" />
-    <project path="device/qcom/sepolicy_vndr/sm8450" name="android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-23.2-caf-sm8450" />
+    <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-23.2-caf-sm8450" />
     <project path="device/qcom/sepolicy_vndr/sm8650" name="yaap/device_qcom_sepolicy_vndr_sm8650" remote="github" revision="sixteen" />
     <!--<project path="device/qcom/sepolicy_vndr/sm8750" name="SunOS-Project/android_device_qcom_sepolicy_vndr" remote="github" revision="bienor-caf-sm8750" />-->
+
+    <!-- Chromium Webview -->
+    <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" remote="LineageOS" >
+        <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
+        <linkfile src="README" dest="external/chromium-webview/README" />
+    </project>
+    <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" groups="pdk" revision="main" remote="LineageOS" />
+    <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" remote="LineageOS" />
+    <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" remote="LineageOS" />
+    <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" remote="LineageOS" />
 
     <!-- External -->
     <project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
@@ -83,15 +93,15 @@
     <project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="xpe" revision="xpe-20.0" />
     <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="xpe" />
     <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="xpe" />
-    <project path="packages/apps/RainbowUnicorn" name="android_packages_apps_RainbowUnicorn" remote="xpe" />
+    <project path="packages/apps/RainbowUnicorn" name="android_packages_apps_RainbowUnicorn" remote="xpe" />-->
     <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="lineage" revision="lineage-23.0"/>
-    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xpe" />
+    <!--<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xpe" />
     <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="xpe" />
     <project path="packages/apps/XPerienceOptimizer" name="android_packages_apps_XPerienceOptimizer" remote="xpe" revision="xpe-20.0" />
-    <project path="packages/apps/XPerienceSetupWizard" name="android_packages_apps_SetupWizard" remote="xpe" revision="xpe-20.0" />
+    <project path="packages/apps/XPerienceSetupWizard" name="android_packages_apps_SetupWizard" remote="xpe" revision="xpe-20.0" />-->
     <project path="packages/apps/SimpleDeviceConfig" name="LineageOS/android_packages_apps_SimpleDeviceConfig" remote="lineage" revision="lineage-22.2" />
     <project path="packages/apps/SimpleSettingsConfig" name="LineageOS/android_packages_apps_SimpleSettingsConfig" remote="lineage" revision="lineage-22.2" />
-    <project path="packages/apps/Updater" name="android_packages_apps_XPeUpdater" remote="xpe" revision="xpe-20.0-new" />
+    <!--<project path="packages/apps/Updater" name="android_packages_apps_XPeUpdater" remote="xpe" revision="xpe-20.0-new" />
     <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
     <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk" remote="gitlab" revision="xpe-20.0-aosp" />
     <project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="xpe" />
@@ -131,33 +141,4 @@
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
     <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" revision="xpe-20.0" />
 
-    <!-- vendor qcom -->
-    <!--<project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_telephony" remote="xpe" revision="xpe-20.0" />
-    <project path="vendor/qcom/opensource/commonsys/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,qssi"  remote="lineage" />
-    <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="xpe" revision="xpe-20.0" />
-    <project path="vendor/qcom/opensource/commonsys-intf/audio" name="LineageOS/android_vendor_qcom_opensource_audio-commonsys-intf" groups="qcom,qssi" remote="lineage" />
-    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor-qcom-opensource-display-commonsys-intf" remote="xpe" revision="xpe-20.0" />
-    <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3" remote="xpe" revision="xpe-20.0" >
-        <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
-        <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
-        <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
-        <linkfile dest="vendor/qcom/build/tasks/generate_vendor_bundle.mk" src="image_generation_tool/generate_vendor_bundle.mk"/>
-        <linkfile dest="vendor/qcom/defs/product-defs/vendor/image_generation_tool_product.mk" src="image_generation_tool/config/image_generation_tool_product.mk"/>
-        <linkfile dest="build.sh" src="build/build.sh"/>
-        <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
-        <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
-    </project>
-    <project path="vendor/qcom/opensource/core-utils-vendor" name="android_vendor_qcom_opensource_core-utils-vendor" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3" remote="xpe" revision="xpe-20.0" />
-    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-22.2-legacy-um" remote="lineage" />
-    <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="xpe" revision="xpe-20.0" />
-    <project path="vendor/qcom/opensource/dataservices-legacy" name="android_vendor_qcom_opensource_dataservices" remote="xpe" revision="xpe-20.0-legacy-um" />
-    <project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom" remote="lineage" />
-    <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom" remote="xpe" revision="xpe-20.0" />
-    <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="xpe" revision="xpe-20.0" />
-    <project path="vendor/qcom/opensource/usb" name="vendor_qcom-opensource_usb" remote="xpe" revision="xpe-20.0" >
-        <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
-    </project>
-    <project path="vendor/qcom/opensource/thermal-hal" name="android_hardware_qcom_thermal" remote="xpe" revision="xpe-20.0" />
-    <project path="vendor/qcom/opensource/thermal-hal-legacy" name="android_hardware_qcom_thermal" remote="xpe" revision="xpe-20.0-legacy-um" />
-    <project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="qcom,lanai-vendor" remote="xpe" revision="xpe-20.0-aosp" />-->
 </manifest>
