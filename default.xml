@@ -18,7 +18,6 @@
            fetch="https://git.codelinaro.org/clo/la"
            revision="refs/tags/LA.QSSI.16.0.r1-11500-qssi.0" />
 
-
   <remote  name="clovendor"
            fetch="https://git.codelinaro.org/clo/la"
            revision="refs/tags/LA.VENDOR.15.4.0.r1-18000-pakala.QSSI16.0" />
@@ -41,7 +40,7 @@
   <remote  name="lineage"
            fetch=".."
            review="review.lineageos.org"
-           revision="refs/heads/lineage-23.0" />
+           revision="refs/heads/lineage-23.2" />
 
   <remote  name="blobs-pa"
            fetch="https://github.com/ThankYouMario"
@@ -53,11 +52,6 @@
 
   <remote name="bitbucket"
           fetch="https://bitbucket.org/thexperienceproject" />
-
-  <!--<remote  name="PeterCxy"
-           fetch="https://gitea.angry.im/PeterCxy"
-           revision="refs/heads/master" />-->
-
 
 
   <superproject name="platform/superproject" remote="aosp" revision="android-16.0.0_r4"/>
