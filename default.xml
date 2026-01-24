@@ -53,6 +53,11 @@
   <remote name="bitbucket"
           fetch="https://bitbucket.org/thexperienceproject" />
 
+  <remote  name="vos"
+           revision="refs/heads/16.2"
+           fetch="https://github.com/VoltageOS"
+           sync-c="true"
+           sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-16.0.0_r4"/>
   <contactinfo bugurl="go/repo-bug" />
