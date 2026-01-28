@@ -84,7 +84,7 @@
     <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="yaap/hardware_qcom_audio-ar-sm8650" remote="github" revision="sixteen" />
     <project path="hardware/qcom-caf/sm8650/dataipa" name="yaap/vendor_qcom_opensource_dataipa-sm8650" remote="github" revision="sixteen" />
     <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="github" revision="sixteen" />
-    <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" remote="xpe" revision="xpe-20.0-caf-sm8650" />
+    <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" remote="xpe" revision="xpe-20.2-caf-sm8650" />
     <project path="hardware/qcom-caf/sm8650/media" name="yaap/hardware_qcom-caf_sm8650_media" remote="github" revision="sixteen" />
     <project path="hardware/qcom-caf/sm8750/audio/agm" name="LineageOS/android_vendor_qcom_opensource_agm" groups="qcom,pakala-audio" revision="lineage-23.2-caf-sm8750" remote="lineage" />
     <project path="hardware/qcom-caf/sm8750/audio/graphservices" name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" revision="lineage-23.2-caf-sm8750" remote="lineage" />
