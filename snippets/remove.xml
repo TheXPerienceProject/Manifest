@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!--<remove-project name="platform/art" />
+    <remove-project name="platform/art" />
     <remove-project name="platform/bionic" />
     <remove-project name="platform/build" />
-    <remove-project name="platform/build/release" />
+    <!--<remove-project name="platform/build/release" />-->
     <remove-project name="platform/build/soong" />
     <remove-project name="platform/bootable/recovery" />
-    <remove-project name="platform/cts" />-->
+    <!--<remove-project name="platform/cts" />-->
 
     <!-- External -->
     <remove-project name="platform/external/chromium-webview" />
