@@ -49,20 +49,26 @@
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/ant-wireless/hidl" name="TheXPerienceProject-staging/external_ant-wireless_hidl" groups="qcom,sdm660" remote="github" revision="xpe-19.0" />
-    <!--<project path="external/bouncycastle" name="android_external_bouncycastle" remote="xpe" />
-    <project path="external/dng_sdk" name="android_external_dng_sdk" remote="xpe" />
-    <project path="external/dtc" name="android_external_dtc" remote="xpe" />
+    <!--<project path="external/bouncycastle" name="android_external_bouncycastle" remote="xpe" />-->
+    <project path="external/dtc" name="LineageOS/android_external_dtc" remote="lineage" />
+    <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
     <project path="external/fastrpc" name="android_external_fastrpc" remote="xpe" />
+    <project path="external/google-fonts/google-sans-flex" name="LineageOS/android_external_google-fonts_google-sans-flex" remote="lineage" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />
     <project path="external/htop" name="yaap/external_htop"  remote="github" revision="sixteen" />
-    <project path="external/json-c" name="android_external_json-c" remote="xpe" />
+    <project path="external/json-c" name="android_external_json-c" remote="lineage" />
     <project path="external/libncurses" name="yaap/external_libncurses" remote="github" revision="sixteen" />
-    <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk" remote="xpe" />
-    <project path="external/skia" name="android_external_skia" groups="pdk" remote="xpe" />
-    <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="xpe" />-->
+    <project path="external/nano" name="LineageOS/android_external_nano" remote="lineage" />
+    <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage"  />
+    <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="lineage"  />
+    <project path="external/rsync" name="LineageOS/android_external_rsync" remote="lineage"  />
+    <!--<project path="external/setupcompat" name="android_external_setupcompat" groups="pdk" remote="xpe" />-->
+    <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="xpe" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
-    <!--<project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="xpe" />
-    <project path="external/zstd" name="android_external_zstd" remote="xpe" />-->
+    <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" />
+    <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" />
+    <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="xpe" />
+    <project path="external/zstd" name="android_external_zstd" remote="xpe" />
 
     <!-- Frameworks -->
     <!--<project path="frameworks/av" name="android_frameworks_av" remote="xpe" />-->

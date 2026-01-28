@@ -11,16 +11,15 @@
 
     <!-- External -->
     <remove-project name="platform/external/chromium-webview" />
-    <!--<remove-project name="platform/external/bouncycastle" />
+    <!--<remove-project name="platform/external/bouncycastle" />-->
     <remove-project name="platform/external/dtc" />
+    <remove-project name="platform/external/exfatprogs" />
     <remove-project name="platform/external/fastrpc" />
-    <remove-project name="platform/external/dng_sdk" />
     <remove-project name="platform/external/gptfdisk" />
-    <remove-project name="platform/external/setupcompat" />
-    <remove-project name="platform/external/skia" />
+<!--    <remove-project name="platform/external/setupcompat" />-->
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/wpa_supplicant_8" />
-    <remove-project name="platform/external/zstd" />-->
+    <remove-project name="platform/external/zstd" />
 
     <!-- Frameworks -->
    <!-- <remove-project name="platform/frameworks/av" />-->
