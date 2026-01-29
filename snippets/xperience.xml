@@ -26,8 +26,8 @@
     <project path="cts" name="android_cts" remote="gitlab" />
     -->
     <!-- Device -->
-    <project path="device/xperience/common" name="android_device_xperience_common" remote="xpe"  revision="xpe-20.0-aosp"/>
-    <project path="device/xperience/sepolicy" name="android_device_xperience_sepolicy" remote="xpe" revision="xpe-20.0-aosp"/>
+    <!--<project path="device/xperience/common" name="android_device_xperience_common" remote="xpe"  revision="xpe-20.0-aosp"/>-->
+    <project path="device/xperience/sepolicy" name="android_device_xperience_sepolicy" remote="xpe" />
     <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="xpe" revision="xpe-20.2-caf" />
     <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,sdm660" remote="xpe" revision="xpe-17.0-caf-legacy" />
     <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-23.2-caf-sm8450" />
@@ -71,21 +71,24 @@
     <project path="external/zstd" name="android_external_zstd" remote="xpe" />
 
     <!-- Frameworks -->
-    <!--<project path="frameworks/av" name="android_frameworks_av" remote="xpe" />-->
+    <project path="frameworks/av" name="android_frameworks_av" remote="xpe" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="xpe" />
-   <!-- <project path="frameworks/native" name="android_frameworks_native" remote="xpe" />
-    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="xpe" />
+    <project path="frameworks/native" name="android_frameworks_native" remote="xpe" />
+    <!-- <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="xpe" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="xpe" />
     <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="xpe" />-->
 
     <!-- Hardware -->
     <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="lineage" revision="lineage-23.2" />
     <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="lineage" revision="lineage-23.2" />
-    <!--<project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
-    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="xpe" />-->
+    <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="xpe" />
     <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" groups="pdk" remote="lineage" revision="lineage-23.2" />
     <project path="hardware/xperience/compat" name="android_hardware_xperience_compat" remote="xpe" />
     <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
+
+    <!-- Kernel -->
+    <project path="kernel/configs" name="android_kernel_configs" remote="xpe" />
 
     <!-- Packages -->
     <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="lineage" />
@@ -129,17 +132,19 @@
     <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" revision="lineage-23.2" />
 
     <!-- system -->
-    <!--<project path="system/apex" name="android_system_apex" groups="pdk" remote="xpe" />
+    <!--<project path="system/apex" name="android_system_apex" groups="pdk" remote="xpe" />-->
     <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="xpe" />
     <project path="system/chre" name="android_system_chre" groups="pdk" remote="xpe" />
     <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
     <project path="system/extras" name="android_system_extras" groups="pdk" remote="xpe" />
     <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="xpe" />
+    <project path="system/logging" name="android_system_logging" groups="pdk" remote="xpe" />
     <project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="xpe" />
     <project path="system/media" name="android_system_media" groups="pdk" remote="xpe" />
+    <project path="system/security" name="android_system_security" groups="pdk" remote="xpe" />
     <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="xpe" />
     <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="xpe" />
-    <project path="system/vold" name="android_system_vold" groups="pdk" remote="xpe" />-->
+    <project path="system/vold" name="android_system_vold" groups="pdk" remote="xpe" />
 
     <!-- Vendor xperience -->
     <!--<project path="vendor/google/gms" name="android_proprietary_vendor_gms" remote="gitlab" clone-depth="1" />
