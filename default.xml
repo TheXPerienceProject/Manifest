@@ -18,6 +18,11 @@
            fetch="https://git.codelinaro.org/clo/la"
            revision="refs/tags/LA.QSSI.16.0.r1-11500-qssi.0" />
 
+  <remote name="clo-la"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false" />
+
   <remote  name="clovendor"
            fetch="https://git.codelinaro.org/clo/la"
            revision="refs/tags/LA.VENDOR.15.4.0.r1-18000-pakala.QSSI16.0" />
