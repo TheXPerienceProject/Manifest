@@ -49,7 +49,7 @@
     <project path="external/google-fonts/google-sans-flex" name="LineageOS/android_external_google-fonts_google-sans-flex" remote="lineage" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />
     <project path="external/htop" name="yaap/external_htop"  remote="github" revision="sixteen" />
-    <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+    <project path="external/json-c" name="LineageOS/android_external_json-c" remote="lineage" />
     <project path="external/libncurses" name="yaap/external_libncurses" remote="github" revision="sixteen" />
     <project path="external/nano" name="LineageOS/android_external_nano" remote="lineage" />
     <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage"  />
