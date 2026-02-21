@@ -26,6 +26,8 @@
     <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" groups="qcom,sdm660" remote="xpe" revision="xpe-17.0-caf-legacy" />
     <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-23.2-caf-sm8450" />
     <project path="device/qcom/sepolicy_vndr/sm8650" name="yaap/device_qcom_sepolicy_vndr_sm8650" remote="github" revision="sixteen" />
+    <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" clone-depth="1" remote="xpe" />
+    <project path="device/generic/common" name="android_device_generic_common" groups="pdk" clone-depth="1" remote="xpe" />
 
     <!-- Chromium Webview -->
     <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" remote="lineage" >
