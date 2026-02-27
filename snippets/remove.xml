@@ -15,7 +15,7 @@
 
     <!-- External -->
     <remove-project name="platform/external/chromium-webview" />
-    <!--<remove-project name="platform/external/bouncycastle" />-->
+    <remove-project name="platform/external/bouncycastle" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/exfatprogs" />
     <remove-project name="platform/external/fastrpc" />
