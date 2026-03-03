@@ -14,6 +14,7 @@
     <remove-project name="device/generic/goldfish" />
 
     <!-- External -->
+    <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/bouncycastle" />
     <remove-project name="platform/external/dtc" />
