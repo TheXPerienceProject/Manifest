@@ -46,6 +46,7 @@
     <project path="external/ant-wireless/hidl" name="TheXPerienceProject-staging/external_ant-wireless_hidl" groups="qcom,sdm660" remote="github" revision="xpe-19.0" />
     <project path="external/avb" name="android_external_avb" remote="xpe" />
     <project path="external/bouncycastle" name="android_external_bouncycastle" remote="xpe" />
+    <project path="external/dng_sdk" name="android_external_dng_sdk" groups="pdk" remote="xpe" />
     <project path="external/dtc" name="LineageOS/android_external_dtc" remote="lineage" />
     <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />
     <project path="external/fastrpc" name="android_external_fastrpc" remote="xpe" />
@@ -80,6 +81,7 @@
     <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="lineage" revision="lineage-23.2" />
     <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="xpe" />
+    <project path="hardware/st/nfc" name="android_hardware_st_nfc" groups="pdk" remote="xpe" />
     <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" groups="pdk" remote="lineage" revision="lineage-23.2" />
     <project path="hardware/xperience/compat" name="android_hardware_xperience_compat" remote="xpe" />
     <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
@@ -93,6 +95,7 @@
     <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" remote="lineage" revision="lineage-23.2"/>
     <!--<project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="xpe" />-->
     <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" remote="lineage" />
+    <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
     <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="xpe" />
     <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="xpe" revision="xpe-20.2" />
     <!--<project path="packages/apps/GameBar" name="android_packages_apps_GameBar" remote="xpe" />
@@ -115,15 +118,17 @@
     <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
     <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk" remote="gitlab" />
     <!--<project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="xpe" />-->
+    <project path="packages/modules/Permission" name="android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
     <project path="packages/modules/UprobeStats" name="LineageOS/android_packages_modules_UprobeStats" groups="pdk-cw-fs,pdk-fs" remote="lineage" revision="lineage-23.2" />
+    <project path="packages/modules/Virtualization" name="android_packages_modules_Virtualization" groups="pdk" remote="xpe" />
     <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" groups="pdk" remote="xpe" />
-    <!--<project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="xpe" />
-    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="xpe" />-->
+    <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="xpe" />
+    <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="xpe" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="xpe" />
    <!-- <project path="packages/services/Mms" name="android_packages_services_Mms" remote="xpe" />
-    <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="xpe" />
+    <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="xpe" />-->
     <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="xpe" />
-    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="xpe" />-->
+    <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="xpe" />
 
     <!-- Prebuilts (kernel tools)-->
     <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" remote="clo-la" revision="ks-kernel.lnx.4.0.r1-rel" />

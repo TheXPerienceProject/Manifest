@@ -17,6 +17,7 @@
     <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/bouncycastle" />
+    <remove-project name="platform/external/dng_sdk" />
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/exfatprogs" />
     <remove-project name="platform/external/fastrpc" />
@@ -42,6 +43,7 @@
     <remove-project name="platform/hardware/interfaces" />
     <remove-project name="platform/hardware/libhardware" />
     <remove-project name="platform/hardware/samsung/nfc" />
+    <remove-project name="platform/hardware/st/nfc" />
 
     <!-- kernel -->
     <remove-project name="kernel/configs"/>
@@ -49,6 +51,7 @@
     <!-- Packages -->
     <!--<remove-project name="platform/packages/apps/CertInstaller" />-->
     <remove-project name="platform/packages/apps/DeskClock" />
+    <remove-project name="platform/packages/apps/DocumentsUI" />
     <remove-project name="platform/packages/apps/Launcher3" />
     <remove-project name="platform/packages/apps/Settings" />
     <!--<remove-project name="platform/packages/apps/Stk" />-->
@@ -57,13 +60,15 @@
     <remove-project name="platform/packages/modules/Connectivity" />
     <remove-project name="platform/packages/modules/Bluetooth" />
     <!--<remove-project name="platform/packages/modules/IntentResolver" />-->
+    <remove-project name="platform/packages/modules/Permission" />
     <remove-project name="platform/packages/modules/UprobeStats" />
+    <remove-project name="platform/packages/modules/Virtualization" />
     <remove-project name="platform/packages/modules/Wifi" />
-    <!--<remove-project name="platform/packages/providers/DownloadProvider" />
+    <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/packages/providers/MediaProvider" />
-    <remove-project name="platform/packages/services/Mms" />
+    <!--<remove-project name="platform/packages/services/Mms" />-->
     <remove-project name="platform/packages/services/Telecomm" />
-    <remove-project name="platform/packages/services/Telephony" />-->
+    <remove-project name="platform/packages/services/Telephony" />
 
     <!-- System -->
 <!--    <remove-project name="platform/system/apex" />-->
