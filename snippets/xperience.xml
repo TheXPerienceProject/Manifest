@@ -38,7 +38,6 @@
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/bouncycastle" name="android_external_bouncycastle" remote="xpe" />
-    <project path="external/camera" name="GrapheneOS/platform_external_Camera" remote="github" revision="16" />
     <project path="external/dng_sdk" name="android_external_dng_sdk" remote="xpe" />
     <project path="external/dtc" name="android_external_dtc" remote="xpe" />
     <project path="external/fastrpc" name="android_external_fastrpc" remote="xpe" />
