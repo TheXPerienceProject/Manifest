@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!--<remove-project name="platform/art" />
+    <remove-project name="platform/art" />
     <remove-project name="platform/bionic" />
     <remove-project name="platform/build" />
-    <remove-project name="platform/build/release" />
+    <!--<remove-project name="platform/build/release" />-->
     <remove-project name="platform/build/soong" />
-    <remove-project name="platform/bootable/recovery" />-->
+    <!--<remove-project name="platform/bootable/recovery" />-->
     <!--<remove-project name="platform/cts" />-->
 
     <!--device-->
-    <!--<remove-project name="device/generic/common" />
-    <remove-project name="device/generic/goldfish" />-->
+    <remove-project name="device/generic/common" />
+    <remove-project name="device/generic/goldfish" />
 
     <!-- External -->
     <!--<remove-project name="platform/external/arm-optimized-routines" />
@@ -28,8 +28,8 @@
     <remove-project name="platform/external/setupcompat" />
     <remove-project name="platform/external/sqlite" />
     <remove-project name="platform/external/tinycompress" />
-    <remove-project name="platform/external/wpa_supplicant_8" />
-    <remove-project name="platform/external/zstd" />-->
+    <remove-project name="platform/external/wpa_supplicant_8" />-->
+    <remove-project name="platform/external/zstd" />
 
     <!-- Frameworks -->
     <!--<remove-project name="platform/frameworks/av" />-->

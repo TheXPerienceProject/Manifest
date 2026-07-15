@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <!--<project path="art" name="android_art" groups="pdk" remote="xpe" />
+    <project path="art" name="android_art" groups="pdk" remote="xpe" />
     <project path="bionic" name="android_bionic" groups="pdk" remote="xpe" />
 
     <project path="build/make" name="android_build" groups="pdk,sysui-studio" remote="xpe" >
@@ -12,14 +12,14 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project path="build/release" name="android_build_release" groups="pdk,tradefed,sysui-studio" remote="xpe" />
+    <!--<project path="build/release" name="android_build_release" groups="pdk,tradefed,sysui-studio" remote="xpe" />-->
 
     <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="xpe" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="xpe" />-->
+    <!--<project path="bootable/recovery" name="android_bootable_recovery" remote="xpe" />-->
 
     <!-- Device -->
     <project path="device/xperience/sepolicy" name="android_device_xperience_sepolicy" remote="xpe" />
@@ -27,8 +27,8 @@
     <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660"  remote="lineage" revision="lineage-23.2-legacy-um" />
     <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-23.2-caf-sm8450" />
     <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" remote="xpe" revision="xpe-20.2-caf-sm8650" />
-    <!--<project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" clone-depth="1" remote="xpe" />
-    <project path="device/generic/common" name="android_device_generic_common" groups="pdk" clone-depth="1" remote="xpe" />-->
+    <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" clone-depth="1" remote="xpe" />
+    <project path="device/generic/common" name="android_device_generic_common" groups="pdk" clone-depth="1" remote="xpe" />
 
     <!-- Chromium Webview -->
     <project path="external/chromium-webview/patches" name="LineageOS/android_external_chromium-webview_patches" groups="pdk" revision="main" remote="lineage" >
@@ -69,8 +69,8 @@
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
     <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" revision="lineage-23.2" />
     <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" revision="lineage-23.2" />
-    <!--<project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="xpe" />
-    <project path="external/zstd" name="android_external_zstd" remote="xpe" />-->
+    <!--<project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="xpe" />-->
+    <project path="external/zstd" name="android_external_zstd" remote="xpe" />
 
     <!-- Frameworks -->
     <!--<project path="frameworks/av" name="android_frameworks_av" remote="xpe" />-->
