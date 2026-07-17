@@ -148,9 +148,9 @@
     <project path="system/chre" name="android_system_chre" groups="pdk" remote="xpe" />
     <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
     <project path="system/extras" name="android_system_extras" groups="pdk" remote="xpe" />
-    <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="xpe" />
-    <project path="system/logging" name="android_system_logging" groups="pdk" remote="xpe" />
-    <project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="xpe" />
+    <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="xpe" />-->
+    <project path="system/logging" name="LineageOS/android_system_logging" groups="pdk" remote="lineage" revision="lineage-24.0" />
+    <!--<project path="system/libziparchive" name="android_system_libziparchive" groups="pdk" remote="xpe" />
     <project path="system/media" name="android_system_media" groups="pdk" remote="xpe" />
     <project path="system/security" name="android_system_security" groups="pdk" remote="xpe" />
     <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="xpe" />
