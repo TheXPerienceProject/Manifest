@@ -18,9 +18,9 @@
     <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/chromium-webview" />
     <remove-project name="platform/external/bouncycastle" />
-    <remove-project name="platform/external/dng_sdk" />
+    <remove-project name="platform/external/dng_sdk" />-->
     <remove-project name="platform/external/dtc" />
-    <remove-project name="platform/external/exfatprogs" />
+    <!--<remove-project name="platform/external/exfatprogs" />
     <remove-project name="platform/external/fastrpc" />
     <remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/libpng" />
@@ -44,9 +44,9 @@
     <!--<remove-project name="platform/hardware/google/pixel" />
     <remove-project name="platform/hardware/google/pixel-sepolicy" />-->
     <remove-project name="platform/hardware/qcom/wlan" />
-    <!--<remove-project name="platform/hardware/interfaces" />
-    <remove-project name="platform/hardware/libhardware" />-->
-    <remove-project name="platform/hardware/samsung/nfc" />
+    <remove-project name="platform/hardware/interfaces" />
+    <remove-project name="platform/hardware/libhardware" />
+    <!--<remove-project name="platform/hardware/samsung/nfc" />-->
     <remove-project name="platform/hardware/st/nfc" />
 
     <!-- kernel -->

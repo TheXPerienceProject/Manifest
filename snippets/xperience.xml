@@ -24,8 +24,8 @@
     <!-- Device -->
     <project path="device/xperience/sepolicy" name="android_device_xperience_sepolicy" remote="xpe" />
     <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="lineage" />
-    <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660"  remote="lineage" revision="lineage-23.2-legacy-um" />
-    <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-23.2-caf-sm8450" />
+    <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660"  remote="lineage" revision="lineage-24.0-legacy-um" />
+    <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-24.0-caf-sm8450" />
     <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" remote="xpe" revision="xpe-20.2-caf-sm8650" />
     <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" clone-depth="1" remote="xpe" />
     <project path="device/generic/common" name="android_device_generic_common" groups="pdk" clone-depth="1" remote="xpe" />
@@ -48,9 +48,9 @@
     <!--<project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" groups="pdk" remote="xpe" />
     <project path="external/avb" name="android_external_avb" remote="xpe" />
     <project path="external/bouncycastle" name="android_external_bouncycastle" remote="xpe" />
-    <project path="external/dng_sdk" name="android_external_dng_sdk" groups="pdk" remote="xpe" />
+    <project path="external/dng_sdk" name="android_external_dng_sdk" groups="pdk" remote="xpe" />-->
     <project path="external/dtc" name="LineageOS/android_external_dtc" remote="lineage" />
-    <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />-->
+<!--    <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="lineage" />-->
     <!--<project path="external/fastrpc" name="android_external_fastrpc" remote="xpe" />-->
     <project path="external/google-fonts/google-sans-flex" name="LineageOS/android_external_google-fonts_google-sans-flex" remote="lineage" revision="lineage-23.2" />
     <!--<project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />-->
@@ -84,12 +84,12 @@
     <!-- Hardware -->
     <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="lineage"/>
     <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" remote="lineage" />
-    <!--<project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
-    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="xpe" />-->
-    <project path="hardware/st/nfc" name="android_hardware_st_nfc" groups="pdk" remote="xpe" />
-    <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" groups="pdk" remote="lineage" revision="lineage-23.2" />
-    <!--<project path="hardware/xperience/compat" name="android_hardware_xperience_compat" remote="xpe" />
-    <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />-->
+    <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="xpe" />
+    <project path="hardware/libhardware" name="android_hardware_libhardware" remote="xpe" />
+    <project path="hardware/st/nfc" name="LineageOS/android_hardware_st_nfc" groups="pdk" remote="lineage" />
+    <!--<project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" groups="pdk" remote="lineage" revision="lineage-23.2" />-->
+    <project path="hardware/xperience/compat" name="android_hardware_xperience_compat" remote="xpe" />
+    <project path="hardware/xperience/interfaces" name="android_hardware_xperience_interfaces" groups="pdk" remote="xpe" />
 
     <!-- Kernel -->
     <!--<project path="kernel/configs" name="android_kernel_configs" remote="xpe" />-->
@@ -138,8 +138,9 @@
     <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="xpe" />-->
 
     <!-- tools -->
-    <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" revision="lineage-23.2" />
-    <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" revision="lineage-23.2" />
+    <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" clone-depth="1" remote="lineage" revision="lineage-24.0" />
+    <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="lineage" revision="lineage-24.0" />
+    <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="main" remote="lineage" />
 
     <!-- system -->
     <!--<project path="system/apex" name="android_system_apex" groups="pdk" remote="xpe" />-->
@@ -159,6 +160,6 @@
     <!-- Vendor xperience -->
     <!--<project path="vendor/gms" name="android_proprietary_vendor_gms" remote="gitlab" revision="xpe-20.2-qpr2" clone-depth="1" />-->
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
-    <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" revision="xpe-20.0" />
+    <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" />
 
 </manifest>
