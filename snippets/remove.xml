@@ -7,6 +7,7 @@
     <!--<remove-project name="platform/build/release" />-->
     <remove-project name="platform/build/soong" />
     <!--<remove-project name="platform/bootable/recovery" />-->
+    <remove-project name="platform/bootable/deprecated-ota" />
     <!--<remove-project name="platform/cts" />-->
 
     <!--device-->
@@ -14,19 +15,20 @@
     <remove-project name="device/generic/goldfish" />
 
     <!-- External -->
-    <!--<remove-project name="platform/external/arm-optimized-routines" />
+    <!--<remove-project name="platform/external/arm-optimized-routines" />-->
     <remove-project name="platform/external/avb" />
     <remove-project name="platform/external/chromium-webview" />
-    <remove-project name="platform/external/bouncycastle" />
+    <!--<remove-project name="platform/external/bouncycastle" />
     <remove-project name="platform/external/dng_sdk" />-->
     <remove-project name="platform/external/dtc" />
-    <!--<remove-project name="platform/external/exfatprogs" />
+    <remove-project name="platform/external/e2fsprogs" />
+    <remove-project name="platform/external/exfatprogs" />
     <remove-project name="platform/external/fastrpc" />
-    <remove-project name="platform/external/gptfdisk" />
+    <!--<remove-project name="platform/external/gptfdisk" />
     <remove-project name="platform/external/libpng" />
-    <remove-project name="platform/external/mksh" />
+    <remove-project name="platform/external/mksh" />-->
     <remove-project name="platform/external/setupcompat" />
-    <remove-project name="platform/external/sqlite" />
+    <!--<remove-project name="platform/external/sqlite" />
     <remove-project name="platform/external/tinycompress" />
     <remove-project name="platform/external/wpa_supplicant_8" />-->
     <remove-project name="platform/external/zstd" />
@@ -50,7 +52,7 @@
     <remove-project name="platform/hardware/st/nfc" />
 
     <!-- kernel -->
-    <!--<remove-project name="kernel/configs"/>-->
+    <remove-project name="kernel/configs"/>
 
     <!-- Packages -->
     <!--<remove-project name="platform/packages/apps/CertInstaller" />-->
@@ -79,17 +81,18 @@
 
     <!-- System -->
 <!--    <remove-project name="platform/system/apex" />-->
-    <!--<remove-project name="platform/system/bpf" />
+    <!--<remove-project name="platform/system/bpf" />-->
     <remove-project name="platform/system/core" />
-    <remove-project name="platform/system/chre" />
-    <remove-project name="platform/system/extras" />
-    <remove-project name="platform/system/libhidl" />-->
+    <!--<remove-project name="platform/system/chre" />
+    <remove-project name="platform/system/extras" />-->
+    <remove-project path="system/fs/fs_mgr" />
+    <!--<remove-project name="platform/system/libhidl" />-->
     <remove-project name="platform/system/logging" />
     <!--<remove-project name="platform/system/libziparchive" />
     <remove-project name="platform/system/media" />
-    <remove-project name="platform/system/security" />
+    <remove-project name="platform/system/security" />-->
     <remove-project name="platform/system/sepolicy" />
-    <remove-project name="platform/system/update_engine" />-->
+    <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
 
 </manifest>
