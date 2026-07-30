@@ -54,20 +54,20 @@
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="xpe" />
     <project path="external/exfatprogs" name="android_external_exfatprogs" remote="xpe" />
     <project path="external/fastrpc" name="android_external_fastrpc" remote="xpe" />
-    <project path="external/google-fonts/google-sans-flex" name="LineageOS/android_external_google-fonts_google-sans-flex" remote="lineage" revision="lineage-23.2" />
+    <project path="external/google-fonts/google-sans-flex" name="LineageOS/android_external_google-fonts_google-sans-flex" remote="lineage" />
     <project path="external/gptfdisk" name="android_external_gptfdisk" remote="xpe" />
     <project path="external/htop" name="yaap/external_htop"  remote="github" revision="sixteen" />
     <project path="external/json-c" name="LineageOS/android_external_json-c" remote="lineage" />
     <project path="external/libncurses" name="yaap/external_libncurses" remote="github" revision="sixteen" />
-    <!--<project path="external/libpng" name="android_external_libpng" groups="pdk" remote="xpe" />
-    <project path="external/mksh" name="android_external_mksh" remote="xpe" />-->
+    <!--<project path="external/libpng" name="android_external_libpng" groups="pdk" remote="xpe" />-->
+    <project path="external/mksh" name="LineageOS/android_external_mksh" remote="lineage" />
     <project path="external/nano" name="LineageOS/android_external_nano" remote="lineage" revision="lineage-23.2" />
     <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="lineage" revision="lineage-23.2" />
     <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk" remote="lineage" revision="lineage-23.2" />
     <project path="external/rsync" name="LineageOS/android_external_rsync" remote="lineage" revision="lineage-23.2" />
     <project path="external/setupcompat" name="android_external_setupcompat" groups="pdk" remote="xpe" />
-    <!--<project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="xpe" />
-    <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="xpe" />-->
+    <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="xpe" />
+    <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="xpe" />
     <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
     <project path="external/unrar" name="LineageOS/android_external_unrar" remote="lineage" revision="lineage-23.2" />
     <project path="external/vim" name="LineageOS/android_external_vim" remote="lineage" revision="lineage-23.2" />
@@ -109,9 +109,9 @@
     <!--<project path="packages/apps/GameBar" name="android_packages_apps_GameBar" remote="xpe" />-->
     <project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="xpe" />
     <!--<project path="packages/apps/ParanoidSense" name="android_packages_apps_ParanoidSense" remote="xpe" revision="xpe-20.0" />
-    <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="xpe" />
+    <project path="packages/apps/TouchGestures" name="android_packages_apps_TouchGestures" remote="xpe" />-->
     <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="xpe" />
-    <project path="packages/apps/RainbowUnicorn" name="android_packages_apps_RainbowUnicorn" remote="xpe" />-->
+    <!--<project path="packages/apps/RainbowUnicorn" name="android_packages_apps_RainbowUnicorn" remote="xpe" />-->
     <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" remote="lineage" revision="lineage-23.2"/>
     <!--<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="xpe" />-->
     <!--<project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="xpe" />-->
