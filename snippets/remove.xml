@@ -6,7 +6,7 @@
     <remove-project name="platform/build" />
     <!--<remove-project name="platform/build/release" />-->
     <remove-project name="platform/build/soong" />
-    <!--<remove-project name="platform/bootable/recovery" />-->
+    <remove-project name="platform/bootable/recovery" />
     <remove-project name="platform/bootable/deprecated-ota" />
     <!--<remove-project name="platform/cts" />-->
 
@@ -83,15 +83,15 @@
 <!--    <remove-project name="platform/system/apex" />-->
     <!--<remove-project name="platform/system/bpf" />-->
     <remove-project name="platform/system/core" />
-    <!--<remove-project name="platform/system/chre" />
-    <remove-project name="platform/system/extras" />-->
+    <remove-project name="platform/system/chre" />
+    <remove-project name="platform/system/extras" />
     <remove-project path="system/fs/fs_mgr" />
-    <!--<remove-project name="platform/system/libhidl" />-->
+    <remove-project name="platform/system/libhidl" />
     <remove-project name="platform/system/logging" />
-    <!--<remove-project name="platform/system/libziparchive" />-->
+    <remove-project name="platform/system/libziparchive" />
     <remove-project name="platform/system/memory/libion" />
-    <!--<remove-project name="platform/system/media" />
-    <remove-project name="platform/system/security" />-->
+    <remove-project name="platform/system/media" />
+    <remove-project name="platform/system/security" />
     <remove-project name="platform/system/sepolicy" />
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
