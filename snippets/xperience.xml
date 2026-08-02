@@ -162,7 +162,8 @@
     <project path="system/vold" name="android_system_vold" groups="pdk" remote="xpe" />
 
     <!-- Vendor xperience -->
-    <!--<project path="vendor/gms" name="android_proprietary_vendor_gms" remote="gitlab" revision="xpe-20.2-qpr2" clone-depth="1" />-->
+    <project path="vendor/gms" name="vendor_google_gms" remote="gitlab" clone-depth="1" />
+    <project path="vendor/pixel-style" name="android_vendor_pixel-style" remote="xpe" />
     <project path="vendor/xperience" name="android_vendor_xperience" remote="xpe" />
     <project path="vendor/xperience_themes" name="android_vendor_xperience_themes" remote="xpe" />
 
