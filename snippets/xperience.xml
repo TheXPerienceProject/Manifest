@@ -48,8 +48,8 @@
     <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" groups="pdk" remote="xpe" />
     <project path="external/avb" name="android_external_avb" remote="xpe" />
     <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" revision="lineage-23.2" />
-    <!--<project path="external/bouncycastle" name="android_external_bouncycastle" remote="xpe" />
-    <project path="external/dng_sdk" name="android_external_dng_sdk" groups="pdk" remote="xpe" />-->
+    <project path="external/bouncycastle" name="android_external_bouncycastle" remote="xpe" />
+    <!--<project path="external/dng_sdk" name="android_external_dng_sdk" groups="pdk" remote="xpe" />-->
     <project path="external/dtc" name="LineageOS/android_external_dtc" remote="lineage" />
     <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="xpe" />
     <project path="external/exfatprogs" name="android_external_exfatprogs" remote="xpe" />
@@ -123,7 +123,7 @@
     <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="xpe" />
     <project path="packages/libraries/preference-ktx" name="android_packages_libraries_preference-ktx" remote="xpe" />
     <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
-    <!--<project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk" remote="gitlab" />-->
+    <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk" remote="gitlab" />
     <!--<project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="xpe" />-->
     <!--<project path="packages/modules/Nfc" name="android_packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
     <project path="packages/modules/Permission" name="android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
@@ -146,7 +146,7 @@
 
     <!-- system -->
     <!--<project path="system/apex" name="android_system_apex" groups="pdk" remote="xpe" />-->
-    <!--<project path="system/bpf" name="android_system_bpf" groups="pdk" remote="xpe" />-->
+    <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="xpe" />
     <project path="system/chre" name="android_system_chre" groups="pdk" remote="xpe" />
     <project path="system/core" name="android_system_core" groups="pdk" remote="xpe" />
     <project path="system/extras" name="android_system_extras" groups="pdk" remote="xpe" />
