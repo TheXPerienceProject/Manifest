@@ -45,7 +45,7 @@
     <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" revision="lineage-22.2" />
     <project path="external/ant-wireless/hidl" name="TheXPerienceProject-staging/external_ant-wireless_hidl" groups="qcom,sdm660" remote="github" revision="xpe-19.0" />
-    <!--<project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" groups="pdk" remote="xpe" />-->
+    <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" groups="pdk" remote="xpe" />
     <project path="external/avb" name="android_external_avb" remote="xpe" />
     <project path="external/bash" name="LineageOS/android_external_bash" remote="lineage" revision="lineage-23.2" />
     <!--<project path="external/bouncycastle" name="android_external_bouncycastle" remote="xpe" />
