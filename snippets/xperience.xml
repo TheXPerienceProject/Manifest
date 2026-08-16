@@ -82,7 +82,7 @@
     <!-- <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="xpe" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="xpe" />
     <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="xpe" />-->
-    <project path="frameworks/rs" name="android_frameworks_proto_rs" groups="pdk" remote="xpe" />
+    <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="xpe" />
 
 
     <!-- Hardware -->
