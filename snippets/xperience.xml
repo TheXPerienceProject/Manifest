@@ -77,11 +77,13 @@
     <!-- Frameworks -->
     <project path="frameworks/av" name="android_frameworks_av" remote="xpe" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="xpe" />
+    <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="xpe" />
     <project path="frameworks/native" name="android_frameworks_native" remote="xpe" />
     <!-- <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="xpe" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="xpe" />
-    <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="xpe" />
-    <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="xpe" />-->
+    <project path="frameworks/proto_logging" name="android_frameworks_proto_logging" remote="xpe" />-->
+    <project path="frameworks/rs" name="android_frameworks_proto_rs" groups="pdk" remote="xpe" />
+
 
     <!-- Hardware -->
     <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" remote="lineage"/>
