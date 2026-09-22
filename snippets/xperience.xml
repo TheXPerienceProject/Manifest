@@ -26,7 +26,7 @@
     <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="lineage" />
     <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660"  remote="lineage" revision="lineage-24.0-legacy-um" />
     <project path="device/qcom/sepolicy_vndr/sm8450" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="lineage" revision="lineage-24.0-caf-sm8450" />
-    <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" remote="xpe" revision="xpe-20.2-caf-sm8650" />
+    <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" remote="xpe" revision="xpe-21.0-caf-sm8650" />
     <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" clone-depth="1" remote="xpe" />
     <project path="device/generic/common" name="android_device_generic_common" groups="pdk" clone-depth="1" remote="xpe" />
 
