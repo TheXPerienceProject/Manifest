@@ -128,6 +128,7 @@
     <project path="packages/libraries/preference-ktx" name="android_packages_libraries_preference-ktx" remote="xpe" />
     <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" groups="pdk" remote="xpe" />
     <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk" remote="gitlab" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="lineage" revision="lineage-24.0" />
     <!--<project path="packages/modules/IntentResolver" name="LineageOS/android_packages_modules_IntentResolver" groups="pdk,sysui-studio" remote="xpe" />-->
     <!--<project path="packages/modules/Nfc" name="android_packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
     <project path="packages/modules/Permission" name="android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="xpe" />
